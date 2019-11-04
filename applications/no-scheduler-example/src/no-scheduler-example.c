@@ -173,7 +173,7 @@ int main(void)
 
       if (rep_counter==4) {
         printf("going into sleepmode\r\n"); 
-      HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
+      //HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
       printf(" into sleepmode gegaan\r\n"); 
       }
 
