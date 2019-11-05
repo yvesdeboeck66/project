@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
   27:../../shields/Murata-dualstack/src/murata.c ****     },
   28:../../shields/Murata-dualstack/src/murata.c ****     .dormant_timeout = 0,
   29:../../shields/Murata-dualstack/src/murata.c ****     .addressee = {
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 2
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 2
 
 
   30:../../shields/Murata-dualstack/src/murata.c ****         .ctrl = {
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
   62              		.fpu fpv4-sp-d16
   64              	on_modem_return_file_data_callback:
   65              	.LVL3:
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 3
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 3
 
 
   66              	.LFB130:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  117              	.LVL9:
  118              	.LFB131:
   58:../../shields/Murata-dualstack/src/murata.c **** 
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 4
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 4
 
 
   59:../../shields/Murata-dualstack/src/murata.c **** void on_modem_write_file_data_callback(uint8_t file_id, uint32_t offset, uint32_t size, uint8_t *ou
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
   63:../../shields/Murata-dualstack/src/murata.c **** 
   64:../../shields/Murata-dualstack/src/murata.c **** void on_modem_interface_status_callback(alp_itf_id_t interface_type, uint8_t* data)
   65:../../shields/Murata-dualstack/src/murata.c **** {
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 5
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 5
 
 
  171              		.loc 1 65 1 is_stmt 1 view -0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  200              		.loc 1 90 1 view .LVU28
  201 0012 0EB0     		add	sp, sp, #56
  202              	.LCFI9:
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 6
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 6
 
 
  203              		.cfi_remember_state
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  247              		.loc 1 80 49 is_stmt 0 view .LVU38
  248 003c 9DF82530 		ldrb	r3, [sp, #37]	@ zero_extendqisi2
   81:../../shields/Murata-dualstack/src/murata.c ****                                 interface_status.target_rx_level,
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 7
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 7
 
 
  249              		.loc 1 81 49 view .LVU39
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
   93:../../shields/Murata-dualstack/src/murata.c **** {
  297              		.loc 1 93 1 is_stmt 1 view -0
  298              		.cfi_startproc
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 8
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 8
 
 
  299              		@ args = 0, pretend = 0, frame = 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  348              		.cfi_def_cfa_offset 112
  349 0004 CDE91401 		strd	r0, [sp, #80]
  350 0008 1746     		mov	r7, r2
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 9
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 9
 
 
  101:../../shields/Murata-dualstack/src/murata.c ****     printf("***Initializing murata dualstack modem driver***\r\n");
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  118:../../shields/Murata-dualstack/src/murata.c ****     #endif
  119:../../shields/Murata-dualstack/src/murata.c **** 
  120:../../shields/Murata-dualstack/src/murata.c ****     //copy OCTA UID into lorawan otaa DEV EUI
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 10
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 10
 
 
  121:../../shields/Murata-dualstack/src/murata.c ****     memcpy(session_config_lora.lorawan_session_config_otaa.devEUI, &octa_UID, sizeof(octa_UID));
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  133:../../shields/Murata-dualstack/src/murata.c **** 
  134:../../shields/Murata-dualstack/src/murata.c ****     printf("Murata module init OK \r\n\r\n");
  430              		.loc 1 134 5 is_stmt 1 view .LVU74
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 11
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 11
 
 
  431 0090 0F48     		ldr	r0, .L30+40
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  482              	murata_wakeup:
  483              	.LFB135:
  137:../../shields/Murata-dualstack/src/murata.c **** 
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 12
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 12
 
 
  138:../../shields/Murata-dualstack/src/murata.c **** void murata_wakeup(void)
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  532              		.loc 1 145 40 is_stmt 0 view .LVU88
  533 0002 044B     		ldr	r3, .L38
  534 0004 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 13
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 13
 
 
  535              		.loc 1 145 5 view .LVU89
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  584              		.loc 1 152 39 is_stmt 0 view .LVU97
  585 0016 2368     		ldr	r3, [r4]
  586              		.loc 1 152 5 view .LVU98
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 14
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 14
 
 
  587 0018 0122     		movs	r2, #1
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  635              		.cfi_endproc
  636              	.LFE138:
  638              		.section	.text.Murata_LoRaWAN_Join,"ax",%progbits
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 15
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 15
 
 
  639              		.align	1
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  686              	.LVL51:
  687              	.L50:
  688              		.loc 1 168 1 view .LVU114
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 16
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 16
 
 
  689 0022 00BF     		.align	2
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  740              	.LVL57:
  174:../../shields/Murata-dualstack/src/murata.c ****     printf("Sending LoRaWAN message with payload size %d\r\n", length);
  741              		.loc 1 174 5 is_stmt 1 view .LVU123
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 17
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 17
 
 
  742 0018 2146     		mov	r1, r4
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  790              		.loc 1 182 5 is_stmt 1 view .LVU129
  791              	.LVL61:
  183:../../shields/Murata-dualstack/src/murata.c ****     status = modem_send_unsolicited_response(0x40, 0, length, (uint8_t *)buffer, &session_config_d7
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 18
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 18
 
 
  792              		.loc 1 183 5 view .LVU130
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  842              		.loc 1 189 1 is_stmt 1 view -0
  843              		.cfi_startproc
  844              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 19
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 19
 
 
  845              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  201:../../shields/Murata-dualstack/src/murata.c **** }
  890              		.loc 1 201 1 view .LVU148
  891 000c 08BD     		pop	{r3, pc}
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 20
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 20
 
 
  892              	.L64:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  946              		.comm	P1_DIO5,8,4
  947              		.comm	P1_DIO4,8,4
  948              		.comm	P1_DIO3,8,4
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 21
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 21
 
 
  949              		.comm	P1_DIO2,8,4
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  1006 0013 75       		.byte	117
  1007 0014 ED       		.byte	-19
  1008 0015 2A       		.byte	42
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 22
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 22
 
 
  1009 0016 71       		.byte	113
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  1045      6F725F61 
  1045      6E74656E 
  1045      6E655F62 
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 23
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 23
 
 
  1045      7A7A7400 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  1069 0057 00       		.space	1
  1070              	.LC4:
  1071 0058 44617368 		.ascii	"Dash7 interface status: channel.header =  %d, chann"
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 24
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 24
 
 
  1071      3720696E 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  1089      69206275 
  1089      66666572 
  1089      2025700D 
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 25
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 25
 
 
  1089      0A00
@@ -1473,67 +1473,67 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 1
  1118              		.file 28 "../../shields/Murata-dualstack/inc/murata.h"
  1119              		.file 29 "<built-in>"
  1120              		.file 30 "../../core/platform/octa/inc/rtosmacros.h"
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 26
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 26
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 murata.c
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:18     .text.on_modem_command_completed_callback:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:26     .text.on_modem_command_completed_callback:00000000 on_modem_command_completed_callback
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:52     .text.on_modem_command_completed_callback:00000010 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:57     .text.on_modem_return_file_data_callback:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:64     .text.on_modem_return_file_data_callback:00000000 on_modem_return_file_data_callback
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:104    .text.on_modem_return_file_data_callback:00000018 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:109    .text.on_modem_write_file_data_callback:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:116    .text.on_modem_write_file_data_callback:00000000 on_modem_write_file_data_callback
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:156    .text.on_modem_write_file_data_callback:00000018 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:161    .text.on_modem_interface_status_callback:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:168    .text.on_modem_interface_status_callback:00000000 on_modem_interface_status_callback
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:282    .text.on_modem_interface_status_callback:0000007c $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:288    .text.on_modem_reboot_callback:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:295    .text.on_modem_reboot_callback:00000000 on_modem_reboot_callback
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:318    .text.on_modem_reboot_callback:00000010 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:323    .text.Murata_Initialize:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:330    .text.Murata_Initialize:00000000 Murata_Initialize
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:459    .text.Murata_Initialize:000000a8 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:18     .text.on_modem_command_completed_callback:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:26     .text.on_modem_command_completed_callback:00000000 on_modem_command_completed_callback
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:52     .text.on_modem_command_completed_callback:00000010 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:57     .text.on_modem_return_file_data_callback:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:64     .text.on_modem_return_file_data_callback:00000000 on_modem_return_file_data_callback
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:104    .text.on_modem_return_file_data_callback:00000018 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:109    .text.on_modem_write_file_data_callback:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:116    .text.on_modem_write_file_data_callback:00000000 on_modem_write_file_data_callback
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:156    .text.on_modem_write_file_data_callback:00000018 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:161    .text.on_modem_interface_status_callback:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:168    .text.on_modem_interface_status_callback:00000000 on_modem_interface_status_callback
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:282    .text.on_modem_interface_status_callback:0000007c $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:288    .text.on_modem_reboot_callback:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:295    .text.on_modem_reboot_callback:00000000 on_modem_reboot_callback
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:318    .text.on_modem_reboot_callback:00000010 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:323    .text.Murata_Initialize:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:330    .text.Murata_Initialize:00000000 Murata_Initialize
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:459    .text.Murata_Initialize:000000a8 $d
                             *COM*:0000002c murataHeader
                             *COM*:00000004 murata_wakeup_pin
                             *COM*:00000004 murata_reset_pin
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:475    .text.murata_wakeup:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:482    .text.murata_wakeup:00000000 murata_wakeup
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:508    .text.murata_wakeup:00000014 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:513    .text.murata_release:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:520    .text.murata_release:00000000 murata_release
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:546    .text.murata_release:00000014 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:551    .text.Murata_toggleResetPin:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:558    .text.Murata_toggleResetPin:00000000 Murata_toggleResetPin
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:601    .text.Murata_toggleResetPin:0000002c $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:606    .text.Murata_SetProcessingThread:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:613    .text.Murata_SetProcessingThread:00000000 Murata_SetProcessingThread
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:634    .text.Murata_SetProcessingThread:00000008 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:475    .text.murata_wakeup:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:482    .text.murata_wakeup:00000000 murata_wakeup
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:508    .text.murata_wakeup:00000014 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:513    .text.murata_release:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:520    .text.murata_release:00000000 murata_release
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:546    .text.murata_release:00000014 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:551    .text.Murata_toggleResetPin:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:558    .text.Murata_toggleResetPin:00000000 Murata_toggleResetPin
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:601    .text.Murata_toggleResetPin:0000002c $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:606    .text.Murata_SetProcessingThread:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:613    .text.Murata_SetProcessingThread:00000000 Murata_SetProcessingThread
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:634    .text.Murata_SetProcessingThread:00000008 $d
                             *COM*:00000004 threadToNotify
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:639    .text.Murata_LoRaWAN_Join:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:646    .text.Murata_LoRaWAN_Join:00000000 Murata_LoRaWAN_Join
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:691    .text.Murata_LoRaWAN_Join:00000024 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:697    .text.Murata_LoRaWAN_Send:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:704    .text.Murata_LoRaWAN_Send:00000000 Murata_LoRaWAN_Send
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:759    .text.Murata_LoRaWAN_Send:00000028 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:765    .text.Murata_Dash7_Send:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:772    .text.Murata_Dash7_Send:00000000 Murata_Dash7_Send
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:827    .text.Murata_Dash7_Send:00000028 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:833    .text.Murata_process_fifo:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:840    .text.Murata_process_fifo:00000000 Murata_process_fifo
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:862    .text.Murata_rxCallback:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:869    .text.Murata_rxCallback:00000000 Murata_rxCallback
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:903    .text.Murata_rxCallback:00000018 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:962    .data.modem_callbacks:00000000 modem_callbacks
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:973    .data.session_config_d7:00000000 session_config_d7
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:988    .data.session_config_lora:00000000 session_config_lora
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:955    .bss.use_scheduler:00000000 use_scheduler
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:639    .text.Murata_LoRaWAN_Join:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:646    .text.Murata_LoRaWAN_Join:00000000 Murata_LoRaWAN_Join
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:691    .text.Murata_LoRaWAN_Join:00000024 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:697    .text.Murata_LoRaWAN_Send:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:704    .text.Murata_LoRaWAN_Send:00000000 Murata_LoRaWAN_Send
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:759    .text.Murata_LoRaWAN_Send:00000028 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:765    .text.Murata_Dash7_Send:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:772    .text.Murata_Dash7_Send:00000000 Murata_Dash7_Send
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:827    .text.Murata_Dash7_Send:00000028 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:833    .text.Murata_process_fifo:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:840    .text.Murata_process_fifo:00000000 Murata_process_fifo
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:862    .text.Murata_rxCallback:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:869    .text.Murata_rxCallback:00000000 Murata_rxCallback
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:903    .text.Murata_rxCallback:00000018 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:962    .data.modem_callbacks:00000000 modem_callbacks
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:973    .data.session_config_d7:00000000 session_config_d7
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:988    .data.session_config_lora:00000000 session_config_lora
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:955    .bss.use_scheduler:00000000 use_scheduler
                             *COM*:0000002c P3_header
                             *COM*:0000002c P2_header
                             *COM*:0000002c P1_header
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 27
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 27
 
 
                             *COM*:00000064 FLASH_SPI
@@ -1568,19 +1568,19 @@ C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:955    .bss.use_scheduler:00000000
                             *COM*:00000008 P1_DIO3
                             *COM*:00000008 P1_DIO2
                             *COM*:00000008 P1_DIO1
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:956    .bss.use_scheduler:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:958    .data.modem_callbacks:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:969    .data.session_config_d7:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:984    .data.session_config_lora:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:1029   .rodata.Murata_Dash7_Send.str1.4:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:1033   .rodata.Murata_Initialize.str1.4:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:1051   .rodata.Murata_LoRaWAN_Join.str1.4:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:1055   .rodata.Murata_LoRaWAN_Send.str1.4:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:1060   .rodata.on_modem_command_completed_callback.str1.4:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:1065   .rodata.on_modem_interface_status_callback.str1.4:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:1077   .rodata.on_modem_reboot_callback.str1.4:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:1081   .rodata.on_modem_return_file_data_callback.str1.4:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s:1086   .rodata.on_modem_write_file_data_callback.str1.4:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:956    .bss.use_scheduler:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:958    .data.modem_callbacks:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:969    .data.session_config_d7:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:984    .data.session_config_lora:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:1029   .rodata.Murata_Dash7_Send.str1.4:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:1033   .rodata.Murata_Initialize.str1.4:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:1051   .rodata.Murata_LoRaWAN_Join.str1.4:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:1055   .rodata.Murata_LoRaWAN_Send.str1.4:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:1060   .rodata.on_modem_command_completed_callback.str1.4:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:1065   .rodata.on_modem_interface_status_callback.str1.4:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:1077   .rodata.on_modem_reboot_callback.str1.4:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:1081   .rodata.on_modem_return_file_data_callback.str1.4:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s:1086   .rodata.on_modem_write_file_data_callback.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 printf
@@ -1593,7 +1593,7 @@ modem_cb_init
 HAL_GPIO_WritePin
 HAL_Delay
 modem_send_unsolicited_response
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccfCGeFX.s 			page 28
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccnUl97c.s 			page 28
 
 
 modem_process_fifo
