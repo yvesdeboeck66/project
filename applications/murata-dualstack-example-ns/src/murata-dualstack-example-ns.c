@@ -216,7 +216,8 @@ int main(void)
 
       if (rep_counter==4) {
         printf("going into sleepmode\r\n"); 
-      //HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
+      //HAL_PWR_EnterStopmode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
+      HAL_PWR_EnterStopmode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
       printf(" into sleepmode gegaan\r\n"); 
       }
 
@@ -228,7 +229,10 @@ int main(void)
           temp_hum_measurement();
           //LoRaWAN_send(&payload);
         //LoRaWAN_send_self();
+        
         Dash7_send_temphum(); 
+        //LoRaWAN_send_temphum(); 
+
       }
       
         
@@ -290,6 +294,38 @@ void LoRaWAN_send(void const *argument)
     loraMessage[i++] = 0x14;
     loraMessage[i++] = LoRaWAN_Counter;
     loraMessage[i++] = LoRaWAN_Counter >> 8;
+    //osMutexWait(txMutexId, osWaitForever);
+    if(!Murata_LoRaWAN_Send((uint8_t *)loraMessage, i))
+    {
+      murata_init++;
+      if(murata_init == 10)
+        murata_init == 0;
+    }
+    else
+    {
+      murata_init = 1;
+    }
+    //BLOCK TX MUTEX FOR 3s
+    //osDelay(3000);
+    //osMutexRelease(txMutexId);
+    LoRaWAN_Counter++;
+  }
+  else{
+    printf("murata not initialized, not sending\r\n");
+  }
+}
+
+void LoRaWAN_send_temphum(void const *argument)
+{
+  if (murata_init)
+  {
+    uint8_t loraMessage[5];
+    uint8_t i = 0;
+    //uint16 counter to uint8 array (little endian)
+    //counter (large) type byte
+    loraMessage[i++] = SHTData[0];
+    loraMessage[i++] = SHTData[1];
+    loraMessage[i++] = 0x00;
     //osMutexWait(txMutexId, osWaitForever);
     if(!Murata_LoRaWAN_Send((uint8_t *)loraMessage, i))
     {

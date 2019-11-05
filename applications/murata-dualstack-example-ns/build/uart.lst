@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
   17:../../core/platform/octa/src/uart.c ****   /* USER CODE END LPUART1_Init 1 */
   18:../../core/platform/octa/src/uart.c ****   USB_UART.Instance = LPUART1;
   40              		.loc 1 18 3 is_stmt 1 view .LVU2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 2
 
 
   41              		.loc 1 18 21 is_stmt 0 view .LVU3
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
   33:../../core/platform/octa/src/uart.c ****   /* USER CODE END LPUART1_Init 2 */
   34:../../core/platform/octa/src/uart.c **** 
   35:../../core/platform/octa/src/uart.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 3
 
 
   81              		.loc 1 35 1 view .LVU24
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
   52:../../core/platform/octa/src/uart.c ****   P1_UART.Instance = UART5;
  120              		.loc 1 52 3 is_stmt 1 view .LVU29
  121              		.loc 1 52 20 is_stmt 0 view .LVU30
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 4
 
 
  122 0002 0F4B     		ldr	r3, .L11
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
   65:../../core/platform/octa/src/uart.c ****   }
   66:../../core/platform/octa/src/uart.c ****   /* USER CODE BEGIN UART5_Init 2 */
   67:../../core/platform/octa/src/uart.c ****   HAL_NVIC_SetPriority(UART5_IRQn, 7, 0);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 5
 
 
  164              		.loc 1 67 3 is_stmt 1 view .LVU53
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  206              		.loc 1 80 1 is_stmt 0 view .LVU58
  207 0000 08B5     		push	{r3, lr}
  208              	.LCFI2:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 6
 
 
  209              		.cfi_def_cfa_offset 8
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
   98:../../core/platform/octa/src/uart.c ****   if (HAL_UART_Init(&P2_UART) != HAL_OK)
  246              		.loc 1 98 3 is_stmt 1 view .LVU79
  247              		.loc 1 98 7 is_stmt 0 view .LVU80
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 7
 
 
  248 001e 1846     		mov	r0, r3
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  292              	.LVL16:
  293              	.LFB126:
  110:../../core/platform/octa/src/uart.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 8
 
 
  111:../../core/platform/octa/src/uart.c **** /**
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  326              		.loc 1 132 3 is_stmt 1 view .LVU101
  327              		.loc 1 132 26 is_stmt 0 view .LVU102
  328 0016 9A61     		str	r2, [r3, #24]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 9
 
 
  133:../../core/platform/octa/src/uart.c ****   P3_UART.Init.OverSampling = UART_OVERSAMPLING_16;
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  369 0040 00000000 		.word	P3_UART
  370 0044 00480040 		.word	1073760256
  371              	.LBE5:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 10
 
 
  372              		.cfi_endproc
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  166:../../core/platform/octa/src/uart.c ****   BLE_UART.Init.StopBits = UART_STOPBITS_1;
  408              		.loc 1 166 3 is_stmt 1 view .LVU125
  409              		.loc 1 166 26 is_stmt 0 view .LVU126
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 11
 
 
  410 000e DA60     		str	r2, [r3, #12]
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  181:../../core/platform/octa/src/uart.c ****   /* USER CODE END USART2_Init 2 */
  182:../../core/platform/octa/src/uart.c **** 
  183:../../core/platform/octa/src/uart.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 12
 
 
  450              		.loc 1 183 1 is_stmt 0 view .LVU145
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  499 000c 00000000 		.word	.LC0
  500              		.cfi_endproc
  501              	.LFE128:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 13
 
 
  503              		.section	.text.__io_putchar,"ax",%progbits
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  221:../../core/platform/octa/src/uart.c ****   HAL_UART_Transmit(&USB_UART, (uint8_t *)&ch, 1, 0xFFFF);
  527              		.loc 1 221 3 is_stmt 1 view .LVU154
  528 0006 4FF6FF73 		movw	r3, #65535
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 14
 
 
  529 000a 0122     		movs	r2, #1
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  207:../../core/platform/octa/src/uart.c ****   for (DataIdx = 0; DataIdx < len; DataIdx++)
  579              		.loc 1 207 16 is_stmt 0 view .LVU162
  580 0006 0025     		movs	r5, #0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 15
 
 
  581              	.LVL36:
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  622              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
  623              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
  624              		.file 4 "../../core/ST/CMSIS/Include/core_cm4.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 16
 
 
  625              		.file 5 "../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
@@ -910,40 +910,40 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 1
  631              		.file 11 "../../core/platform/octa/inc/uart.h"
  632              		.file 12 "<built-in>"
  633              		.file 13 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s 			page 17
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 uart.c
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:18     .text.USB_UART_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:26     .text.USB_UART_Init:00000000 USB_UART_Init
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:94     .text.USB_UART_Init:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:18     .text.USB_UART_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:26     .text.USB_UART_Init:00000000 USB_UART_Init
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:94     .text.USB_UART_Init:0000002c $d
                             *COM*:00000078 USB_UART
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:100    .text.P1_UART_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:107    .text.P1_UART_Init:00000000 P1_UART_Init
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:185    .text.P1_UART_Init:00000040 $d
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:100    .text.P1_UART_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:107    .text.P1_UART_Init:00000000 P1_UART_Init
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:185    .text.P1_UART_Init:00000040 $d
                             *COM*:00000078 P1_UART
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:192    .text.P2_UART_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:199    .text.P2_UART_Init:00000000 P2_UART_Init
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:277    .text.P2_UART_Init:00000040 $d
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:192    .text.P2_UART_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:199    .text.P2_UART_Init:00000000 P2_UART_Init
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:277    .text.P2_UART_Init:00000040 $d
                             *COM*:00000078 P2_UART
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:284    .text.P3_UART_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:291    .text.P3_UART_Init:00000000 P3_UART_Init
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:369    .text.P3_UART_Init:00000040 $d
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:284    .text.P3_UART_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:291    .text.P3_UART_Init:00000000 P3_UART_Init
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:369    .text.P3_UART_Init:00000040 $d
                             *COM*:00000078 P3_UART
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:376    .text.BLE_UART_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:383    .text.BLE_UART_Init:00000000 BLE_UART_Init
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:461    .text.BLE_UART_Init:00000040 $d
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:376    .text.BLE_UART_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:383    .text.BLE_UART_Init:00000000 BLE_UART_Init
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:461    .text.BLE_UART_Init:00000040 $d
                             *COM*:00000078 BLE_UART
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:468    .text.HAL_UART_RxCpltCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:475    .text.HAL_UART_RxCpltCallback:00000000 HAL_UART_RxCpltCallback
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:499    .text.HAL_UART_RxCpltCallback:0000000c $d
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:504    .text.__io_putchar:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:511    .text.__io_putchar:00000000 __io_putchar
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:547    .text.__io_putchar:0000001c $d
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:552    .text._write:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:559    .text._write:00000000 _write
-C:\Users\yvesk\AppData\Local\Temp\ccYxnLMo.s:616    .rodata.HAL_UART_RxCpltCallback.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:468    .text.HAL_UART_RxCpltCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:475    .text.HAL_UART_RxCpltCallback:00000000 HAL_UART_RxCpltCallback
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:499    .text.HAL_UART_RxCpltCallback:0000000c $d
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:504    .text.__io_putchar:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:511    .text.__io_putchar:00000000 __io_putchar
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:547    .text.__io_putchar:0000001c $d
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:552    .text._write:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:559    .text._write:00000000 _write
+C:\Users\yvesk\AppData\Local\Temp\cc2MdNLj.s:616    .rodata.HAL_UART_RxCpltCallback.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_UART_Init

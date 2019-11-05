@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
   19:../../core/platform/octa/src/spi.c ****   P3_SPI.Instance = SPI1;
   38              		.loc 1 19 3 view .LVU1
   39              		.loc 1 19 19 is_stmt 0 view .LVU2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 2
 
 
   40 0002 1048     		ldr	r0, .L5
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
   82              		.loc 1 31 25 is_stmt 0 view .LVU26
   83 002e 0363     		str	r3, [r0, #48]
   32:../../core/platform/octa/src/spi.c ****   P3_SPI.Init.NSSPMode = SPI_NSS_PULSE_ENABLE;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 3
 
 
   84              		.loc 1 32 3 is_stmt 1 view .LVU27
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
   49:../../core/platform/octa/src/spi.c **** {
  123              		.loc 1 49 1 is_stmt 1 view -0
  124              		.cfi_startproc
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 4
 
 
  125              		@ args = 0, pretend = 0, frame = 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
   67:../../core/platform/octa/src/spi.c ****   P2_SPI.Init.FirstBit = SPI_FIRSTBIT_MSB;
  162              		.loc 1 67 3 is_stmt 1 view .LVU52
  163              		.loc 1 67 24 is_stmt 0 view .LVU53
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 5
 
 
  164 0024 0362     		str	r3, [r0, #32]
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
  203 0048 00380040 		.word	1073756160
  204              		.cfi_endproc
  205              	.LFE124:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 6
 
 
  207              		.section	.text.P1_SPI_Init,"ax",%progbits
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
  241 0012 4FF44072 		mov	r2, #768
  242 0016 C260     		str	r2, [r0, #12]
  103:../../core/platform/octa/src/spi.c ****   P1_SPI.Init.CLKPolarity = SPI_POLARITY_LOW;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 7
 
 
  243              		.loc 1 103 3 is_stmt 1 view .LVU79
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
  118:../../core/platform/octa/src/spi.c **** 
  119:../../core/platform/octa/src/spi.c ****   /* USER CODE END SPI3_Init 2 */
  120:../../core/platform/octa/src/spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 8
 
 
  121:../../core/platform/octa/src/spi.c **** }
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
  329              		.loc 1 129 3 is_stmt 1 view .LVU110
  330              		.loc 1 129 28 is_stmt 0 view .LVU111
  331 000e 0023     		movs	r3, #0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 9
 
 
  332 0010 8360     		str	r3, [r0, #8]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
  374              		.loc 1 141 6 view .LVU136
  375 0038 00B9     		cbnz	r0, .L22
  376              	.L19:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 10
 
 
  142:../../core/platform/octa/src/spi.c ****   {
@@ -580,26 +580,26 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 1
  408              		.file 9 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h"
  409              		.file 10 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  410              		.file 11 "../../core/platform/octa/inc/spi.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 spi.c
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:18     .text.P3_SPI_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:26     .text.P3_SPI_Init:00000000 P3_SPI_Init
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:108    .text.P3_SPI_Init:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:18     .text.P3_SPI_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:26     .text.P3_SPI_Init:00000000 P3_SPI_Init
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:108    .text.P3_SPI_Init:00000044 $d
                             *COM*:00000064 P3_SPI
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:114    .text.P2_SPI_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:121    .text.P2_SPI_Init:00000000 P2_SPI_Init
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:202    .text.P2_SPI_Init:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:114    .text.P2_SPI_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:121    .text.P2_SPI_Init:00000000 P2_SPI_Init
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:202    .text.P2_SPI_Init:00000044 $d
                             *COM*:00000064 P2_SPI
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:208    .text.P1_SPI_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:215    .text.P1_SPI_Init:00000000 P1_SPI_Init
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:296    .text.P1_SPI_Init:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:208    .text.P1_SPI_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:215    .text.P1_SPI_Init:00000000 P1_SPI_Init
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:296    .text.P1_SPI_Init:00000044 $d
                             *COM*:00000064 P1_SPI
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:302    .text.FLASH_SPI_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:309    .text.FLASH_SPI_Init:00000000 FLASH_SPI_Init
-C:\Users\yvesk\AppData\Local\Temp\ccTgmSqX.s:390    .text.FLASH_SPI_Init:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:302    .text.FLASH_SPI_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:309    .text.FLASH_SPI_Init:00000000 FLASH_SPI_Init
+C:\Users\yvesk\AppData\Local\Temp\ccpA3Yjb.s:390    .text.FLASH_SPI_Init:00000044 $d
                             *COM*:00000064 FLASH_SPI
 
 UNDEFINED SYMBOLS

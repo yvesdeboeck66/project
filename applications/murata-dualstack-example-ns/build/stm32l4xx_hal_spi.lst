@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
   28:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           (##) NVIC configuration if you need to use interrupt process
   29:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****               (+++) Configure the SPIx interrupt priority
   30:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****               (+++) Enable the NVIC SPI IRQ handle
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 2
 
 
   31:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           (##) DMA Configuration if you need to use DMA process
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
   85:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           and the Callback ID.
   86:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           This function allows to reset following callbacks:
   87:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****             (+) TxCpltCallback        : SPI Tx Completed callback
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 3
 
 
   88:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****             (+) RxCpltCallback        : SPI Rx Completed callback
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  142:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****        |    R    |     Interrupt  | Fpclk/8  | Fpclk/16 | Fpclk/8   | Fpclk/8  | Fpclk/8   | Fpclk/
  143:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****        |    X    |----------------|----------|----------|-----------|----------|-----------|-------
  144:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****        |         |       DMA      | Fpclk/4  | Fpclk/2  | Fpclk/2   | Fpclk/16 | Fpclk/2   | Fpclk/
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 4
 
 
  145:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****        |=========|================|==========|==========|===========|==========|===========|=======
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  199:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *
  200:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
  201:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 5
 
 
  202:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  256:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                                        uint32_t Timeout, uint32_t Tickstart);
  257:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_TxISR_8BIT(struct __SPI_HandleTypeDef *hspi);
  258:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_TxISR_16BIT(struct __SPI_HandleTypeDef *hspi);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 6
 
 
  259:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_RxISR_8BIT(struct __SPI_HandleTypeDef *hspi);
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  313:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         (++) FIFO reception threshold
  314:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  315:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       (+) Call the function HAL_SPI_DeInit() to restore the default configuration
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 7
 
 
  316:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           of the selected SPIx peripheral.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  370:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
  371:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Init the SPI Callback settings */
  372:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->TxCpltCallback       = HAL_SPI_TxCpltCallback;       /* Legacy weak TxCpltCallback       
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 8
 
 
  373:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->RxCpltCallback       = HAL_SPI_RxCpltCallback;       /* Legacy weak RxCpltCallback       
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  427:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
  428:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
  429:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 9
 
 
  430:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /*----------------------- SPIx CR1 & CR2 Configuration ---------------------*/
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  484:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  485:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->State = HAL_SPI_STATE_BUSY;
  486:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 10
 
 
  487:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Disable the SPI Peripheral Clock */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  541:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****    */
  542:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
  543:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 11
 
 
  544:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  598:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         break;
  599:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  600:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       case HAL_SPI_ABORT_CB_ID :
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 12
 
 
  601:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->AbortCpltCallback = pCallback;
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  655:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  656:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
  657:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  Unregister an SPI Callback
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 13
 
 
  658:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *         SPI callback is redirected to the weak predefined callback
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  712:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->MspDeInitCallback = HAL_SPI_MspDeInit;               /* Legacy weak MspDeInit        
  713:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         break;
  714:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 14
 
 
  715:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       default :
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  769:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****  ===============================================================================
  770:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****  [..]
  771:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     This subsection provides a set of functions allowing to manage the SPI
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 15
 
 
  772:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     data transfers.
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  826:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  827:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if ((pData == NULL) || (Size == 0U))
  828:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 16
 
 
  829:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     errorcode = HAL_ERROR;
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  883:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->Instance->DR = *((uint16_t *)hspi->pTxBuffPtr);
  884:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->pTxBuffPtr += sizeof(uint16_t);
  885:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->TxXferCount--;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 17
 
 
  886:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  940:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
  941:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           errorcode = HAL_TIMEOUT;
  942:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           goto error;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 18
 
 
  943:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         }
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  997:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     return HAL_SPI_TransmitReceive(hspi, pData, pData, Size, Timeout);
  998:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
  999:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 19
 
 
 1000:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Process Locked */
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1054:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Configure communication direction: 1Line */
 1055:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (hspi->Init.Direction == SPI_DIRECTION_1LINE)
 1056:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 20
 
 
 1057:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     SPI_1LINE_RX(hspi);
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1111:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         }
 1112:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
 1113:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 21
 
 
 1114:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1168:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           goto error;
 1169:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         }
 1170:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         /* Read 8bit CRC again in case of 16bit CRC in 8bit Data mode */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 22
 
 
 1171:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         READ_REG(*(__IO uint8_t *)&hspi->Instance->DR);
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1225:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 1226:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Variable used to alternate Rx and Tx during transfer */
 1227:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   uint32_t             txallowed = 1U;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 23
 
 
 1228:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   HAL_StatusTypeDef    errorcode = HAL_OK;
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1282:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Reset CRC Calculation */
 1283:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (hspi->Init.CRCCalculation == SPI_CRCCALCULATION_ENABLE)
 1284:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 24
 
 
 1285:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     SPI_RESET_CRC(hspi);
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1339:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
 1340:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
 1341:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 25
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 25
 
 
 1342:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       /* Check RXNE flag */
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1396:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
 1397:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         /* Enable CRC Transmission */
 1398:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         if ((hspi->TxXferCount == 0U) && (hspi->Init.CRCCalculation == SPI_CRCCALCULATION_ENABLE))
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 26
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 26
 
 
 1399:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1453:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Read CRC */
 1454:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     if (hspi->Init.DataSize == SPI_DATASIZE_16BIT)
 1455:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 27
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 27
 
 
 1456:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       /* Read 16bit CRC */
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1510:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
 1511:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** HAL_StatusTypeDef HAL_SPI_Transmit_IT(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size)
 1512:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 28
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 28
 
 
 1513:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   HAL_StatusTypeDef errorcode = HAL_OK;
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1567:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
 1568:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
 1569:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 29
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 29
 
 
 1570:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Enable TXE and ERR interrupt */
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1624:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferSize  = Size;
 1625:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferCount = Size;
 1626:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 30
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 30
 
 
 1627:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Init field not used in handle to zero */
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1681:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     __HAL_SPI_ENABLE(hspi);
 1682:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
 1683:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 31
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 31
 
 
 1684:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** error :
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1738:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->TxXferCount = Size;
 1739:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pRxBuffPtr  = (uint8_t *)pRxData;
 1740:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferSize  = Size;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 32
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 32
 
 
 1741:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferCount = Size;
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1795:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Process Unlocked */
 1796:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __HAL_UNLOCK(hspi);
 1797:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   return errorcode;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 33
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 33
 
 
 1798:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1852:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 1853:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #if (USE_SPI_CRC != 0U)
 1854:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Reset CRC Calculation */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 34
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 34
 
 
 1855:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (hspi->Init.CRCCalculation == SPI_CRCCALCULATION_ENABLE)
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1909:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __HAL_SPI_ENABLE_IT(hspi, (SPI_IT_ERR));
 1910:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 1911:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Enable Tx DMA Request */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 35
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 35
 
 
 1912:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   SET_BIT(hspi->Instance->CR2, SPI_CR2_TXDMAEN);
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1966:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pRxBuffPtr  = (uint8_t *)pData;
 1967:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferSize  = Size;
 1968:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferCount = Size;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 36
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 36
 
 
 1969:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2023:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Set the SPI Rx DMA transfer complete callback */
 2024:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->hdmarx->XferCpltCallback = SPI_DMAReceiveCplt;
 2025:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 37
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 37
 
 
 2026:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Set the DMA error callback */
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2080:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   assert_param(IS_SPI_DMA_HANDLE(hspi->hdmarx));
 2081:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   assert_param(IS_SPI_DMA_HANDLE(hspi->hdmatx));
 2082:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 38
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 38
 
 
 2083:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Check Direction parameter */
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2137:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (hspi->Init.DataSize > SPI_DATASIZE_8BIT)
 2138:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
 2139:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Set fiforxthreshold according the reception data length: 16bit */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 39
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 39
 
 
 2140:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     CLEAR_BIT(hspi->Instance->CR2, SPI_RXFIFO_THRESHOLD);
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2194:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->hdmarx->XferErrorCallback = SPI_DMAError;
 2195:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2196:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Set the DMA AbortCpltCallback */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 40
 
 
 2197:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->hdmarx->XferAbortCallback = NULL;
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2251:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hspi SPI handle.
 2252:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @note   This procedure could be used for aborting any ongoing transfer (Tx and Rx),
 2253:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *         started in Interrupt or DMA mode.
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 41
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 41
 
 
 2254:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *         This procedure performs following operations :
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2308:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2309:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Clear ERRIE interrupts in case of DMA Mode */
 2310:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   CLEAR_BIT(hspi->Instance->CR2, SPI_CR2_ERRIE);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 42
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 42
 
 
 2311:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2365:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
 2366:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2367:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       /* Empty the FRLVL fifo */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 43
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 43
 
 
 2368:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       if (SPI_WaitFifoStateUntilTimeout(hspi, SPI_FLAG_FRLVL, SPI_FRLVL_EMPTY, SPI_DEFAULT_TIMEOUT,
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2422:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __IO uint32_t count, resetcount;
 2423:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2424:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Initialized local variable  */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 44
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 44
 
 
 2425:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   errorcode = HAL_OK;
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2479:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       hspi->hdmatx->XferAbortCallback = SPI_DMATxAbortCallback;
 2480:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
 2481:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     else
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 45
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 45
 
 
 2482:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2536:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_TXDMAEN))
 2537:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
 2538:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Abort the SPI DMA Tx Stream/Channel */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 46
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 46
 
 
 2539:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     if (hspi->hdmatx != NULL)
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2593:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2594:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Restore hspi->State to Ready */
 2595:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->State = HAL_SPI_STATE_READY;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 47
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 47
 
 
 2596:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2650:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hspi pointer to a SPI_HandleTypeDef structure that contains
 2651:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *               the configuration information for the specified SPI module.
 2652:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @retval HAL status
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 48
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 48
 
 
 2653:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2707:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* SPI in mode Transmitter -------------------------------------------------*/
 2708:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if ((SPI_CHECK_FLAG(itflag, SPI_FLAG_TXE) != RESET) && (SPI_CHECK_IT_SOURCE(itsource, SPI_IT_TXE)
 2709:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 49
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 49
 
 
 2710:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->TxISR(hspi);
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2764:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           {
 2765:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****             SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_ABORT);
 2766:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 50
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 50
 
 
 2767:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         }
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2821:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* NOTE : This function should not be modified, when the callback is needed,
 2822:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****             the HAL_SPI_RxCpltCallback should be implemented in the user file
 2823:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****    */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 51
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 51
 
 
 2824:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2878:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @retval None
 2879:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
 2880:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** __weak void HAL_SPI_TxRxHalfCpltCallback(SPI_HandleTypeDef *hspi)
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 52
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 52
 
 
 2881:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** {
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2935:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     [..]
 2936:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     This subsection provides a set of functions allowing to control the SPI.
 2937:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****      (+) HAL_SPI_GetState() API can be helpful to check in run-time the state of the SPI peripheral
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 53
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 53
 
 
 2938:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****      (+) HAL_SPI_GetError() check in run-time Errors occurring during communication
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2992:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   tickstart = HAL_GetTick();
 2993:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 2994:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* DMA Normal Mode */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 54
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 54
 
 
 2995:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if ((hdma->Instance->CCR & DMA_CCR_CIRC) != DMA_CCR_CIRC)
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3049:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   tickstart = HAL_GetTick();
 3050:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 3051:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* DMA Normal Mode */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 55
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 55
 
 
 3052:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if ((hdma->Instance->CCR & DMA_CCR_CIRC) != DMA_CCR_CIRC)
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3106:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     if (__HAL_SPI_GET_FLAG(hspi, SPI_FLAG_CRCERR))
 3107:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
 3108:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_CRC);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 56
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 56
 
 
 3109:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       __HAL_SPI_CLEAR_CRCERRFLAG(hspi);
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3163:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         }
 3164:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         /* Read CRC to Flush DR and RXNE flag */
 3165:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         READ_REG(*(__IO uint8_t *)&hspi->Instance->DR);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 57
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 57
 
 
 3166:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3220:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 3221:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
 3222:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @brief  DMA SPI half transmit process complete callback.
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 58
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 58
 
 
 3223:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3277:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
 3278:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *               the configuration information for the specified DMA module.
 3279:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @retval None
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 59
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 59
 
 
 3280:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3334:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 3335:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (SPI_EndRxTxTransaction(hspi, SPI_DEFAULT_TIMEOUT, HAL_GetTick()) != HAL_OK)
 3336:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 60
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 60
 
 
 3337:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->ErrorCode = HAL_SPI_ERROR_ABORT;
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3391:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
 3392:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_DMARxAbortCallback(DMA_HandleTypeDef *hdma)
 3393:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 61
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 61
 
 
 3394:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   SPI_HandleTypeDef *hspi = (SPI_HandleTypeDef *)(((DMA_HandleTypeDef *)hdma)->Parent); /* Derogati
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3448:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
 3449:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
 3450:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 62
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 62
 
 
 3451:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** /**
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3505:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   *               the configuration information for SPI module.
 3506:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   * @retval None
 3507:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 63
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 63
 
 
 3508:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_2linesRxISR_8BITCRC(struct __SPI_HandleTypeDef *hspi)
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3562:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       return;
 3563:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
 3564:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 64
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 64
 
 
 3565:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3619:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   READ_REG(hspi->Instance->DR);
 3620:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 3621:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Disable RXNE interrupt */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 65
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 65
 
 
 3622:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __HAL_SPI_DISABLE_IT(hspi, SPI_IT_RXNE);
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3676:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 3677:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->CRCSize--;
 3678:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 66
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 66
 
 
 3679:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if (hspi->CRCSize == 0U)
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3733:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
 3734:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   SPI_CloseRx_ISR(hspi);
 3735:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 67
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 67
 
 
 3736:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3790:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
 3791:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
 3792:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     SPI_CloseTx_ISR(hspi);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 68
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 68
 
 
 3793:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
   41              		.cfi_offset 7, -8
   42              		.cfi_offset 14, -4
   43 0002 0546     		mov	r5, r0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 69
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 69
 
 
   44 0004 0F46     		mov	r7, r1
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
   84              		.loc 1 3848 9 view .LVU14
   85              		.loc 1 3848 24 is_stmt 0 view .LVU15
   86 003c 6B68     		ldr	r3, [r5, #4]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 70
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 70
 
 
   87              		.loc 1 3848 12 view .LVU16
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3852:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         }
  120              		.loc 1 3852 11 is_stmt 1 view .LVU29
  121 006a 2A68     		ldr	r2, [r5]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 71
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 71
 
 
  122 006c 1368     		ldr	r3, [r2]
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3883:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   */
 3884:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static HAL_StatusTypeDef SPI_WaitFifoStateUntilTimeout(SPI_HandleTypeDef *hspi, uint32_t Fifo, uint
 3885:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                                        uint32_t Timeout, uint32_t Tickstart)
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 72
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 72
 
 
 3886:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** {
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  197              		.loc 1 3889 8 is_stmt 0 view .LVU47
  198 001c B4F5C06F 		cmp	r4, #1536
  199 0020 F4D1     		bne	.L16
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 73
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 73
 
 
 3889:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  233              		.loc 1 3914 9 is_stmt 1 view .LVU59
  234              		.loc 1 3914 23 is_stmt 0 view .LVU60
  235 004c BB6A     		ldr	r3, [r7, #40]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 74
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 74
 
 
  236              		.loc 1 3914 12 view .LVU61
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  274 0086 1360     		str	r3, [r2]
 3916:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         }
  275              		.loc 1 3916 11 view .LVU74
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 75
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 75
 
 
  276 0088 3A68     		ldr	r2, [r7]
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3956:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   if ((hspi->Init.Mode == SPI_MODE_MASTER) && ((hspi->Init.Direction == SPI_DIRECTION_1LINE)
 3957:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                                || (hspi->Init.Direction == SPI_DIRECTION_2LINES_RXO
 3958:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 76
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 76
 
 
 3959:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Empty the FRLVL fifo */
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3981:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_FLAG);
 3982:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     return HAL_TIMEOUT;
 3983:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 77
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 77
 
 
 3984:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  371 0052 0323     		movs	r3, #3
  372              	.L31:
 3997:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 78
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 78
 
 
 3998:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  421 0004 0446     		mov	r4, r0
  422 0006 0D46     		mov	r5, r1
  423 0008 1646     		mov	r6, r2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 79
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 79
 
 
 3942:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                                || (hspi->Init.Direction == SPI_DIRECTION_2LINES_RXO
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  466              		.cfi_restore_state
 3942:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****                                                || (hspi->Init.Direction == SPI_DIRECTION_2LINES_RXO
  467              		.loc 1 3942 59 discriminator 1 view .LVU115
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 80
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 80
 
 
  468 0032 8368     		ldr	r3, [r0, #8]
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  510 0070 2046     		mov	r0, r4
  511 0072 FFF7FEFF 		bl	SPI_WaitFifoStateUntilTimeout
  512              	.LVL21:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 81
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 81
 
 
 3960:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 4028:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->State = HAL_SPI_STATE_READY;
 4029:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_CRC);
 4030:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     __HAL_SPI_CLEAR_CRCERRFLAG(hspi);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 82
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 82
 
 
 4031:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Call user error callback */
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 4085:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_CloseRx_ISR(SPI_HandleTypeDef *hspi)
 4086:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** {
 4087:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Disable RXNE and ERR interrupt */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 83
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 83
 
 
 4088:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __HAL_SPI_DISABLE_IT(hspi, (SPI_IT_RXNE | SPI_IT_ERR));
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 4142:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** static void SPI_CloseTx_ISR(SPI_HandleTypeDef *hspi)
 4143:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** {
 4144:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   uint32_t tickstart;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 84
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 84
 
 
 4145:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  544              	.LCFI10:
  545              		.cfi_def_cfa_offset 8
  546              		.cfi_offset 4, -8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 85
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 85
 
 
  547              		.cfi_offset 14, -4
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  582              		.loc 1 4211 5 is_stmt 1 view .LVU145
  583              		.loc 1 4211 10 is_stmt 0 view .LVU146
  584 0032 039B     		ldr	r3, [sp, #12]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 86
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 86
 
 
  585 0034 013B     		subs	r3, r3, #1
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  626 006c 0022     		movs	r2, #0
  627 006e 4FF4C061 		mov	r1, #1536
  628 0072 2046     		mov	r0, r4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 87
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 87
 
 
  629 0074 FFF7FEFF 		bl	SPI_WaitFifoStateUntilTimeout
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  670              		@ args = 0, pretend = 0, frame = 8
  671              		@ frame_needed = 0, uses_anonymous_args = 0
  672              		.loc 1 4237 1 is_stmt 0 view .LVU167
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 88
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 88
 
 
  673 0000 10B5     		push	{r4, lr}
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  711 002c 0393     		str	r3, [sp, #12]
 4254:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
 4255:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   while (HAL_IS_BIT_SET(hspi->Instance->CR2, SPI_CR2_TXEIE));
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 89
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 89
 
 
  712              		.loc 1 4255 10 view .LVU180
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  753 0066 6423     		movs	r3, #100
  754 0068 0022     		movs	r2, #0
  755 006a 4FF4C061 		mov	r1, #1536
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 90
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 90
 
 
  756 006e 2046     		mov	r0, r4
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  803              		.loc 1 526 1 is_stmt 0 view .LVU202
  804 0000 7047     		bx	lr
  805              		.cfi_endproc
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 91
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 91
 
 
  806              	.LFE125:
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  352:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
  846              		.loc 1 352 5 view .LVU219
  362:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_SPI_CRC */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 92
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 92
 
 
  847              		.loc 1 362 3 view .LVU220
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  413:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
  886              		.loc 1 413 31 is_stmt 0 view .LVU236
  887 003a 0021     		movs	r1, #0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 93
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 93
 
 
  888 003c A162     		str	r1, [r4, #40]
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  933 0086 1343     		orrs	r3, r3, r2
  934 0088 4B60     		str	r3, [r1, #4]
  462:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->State     = HAL_SPI_STATE_READY;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 94
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 94
 
 
  935              		.loc 1 462 3 view .LVU246
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  466:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  976              		.loc 1 466 1 view .LVU260
  977 00ae 7047     		bx	lr
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 95
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 95
 
 
  978              		.cfi_endproc
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1028              		.loc 1 483 3 is_stmt 1 view .LVU268
  485:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  1029              		.loc 1 485 3 view .LVU269
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 96
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 96
 
 
  485:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1072              		.thumb
  1073              		.thumb_func
  1074              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 97
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 97
 
 
  1076              	HAL_SPI_Transmit:
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1118 001e FFF7FEFF 		bl	HAL_GetTick
  1119              	.LVL51:
  818:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   initial_TxXferCount = Size;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 98
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 98
 
 
  1120              		.loc 1 818 15 discriminator 2 view .LVU295
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  841:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferSize  = 0U;
  1156              		.loc 1 841 21 is_stmt 0 view .LVU314
  1157 0056 2364     		str	r3, [r4, #64]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 99
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 99
 
 
  842:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferCount = 0U;
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1193              		.loc 1 869 6 view .LVU333
  1194 0080 B3F5E06F 		cmp	r3, #1792
  1195 0084 36D9     		bls	.L94
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 100
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 100
 
 
  871:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1235              	.L98:
  890:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
  1236              		.loc 1 890 9 view .LVU349
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 101
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 101
 
 
  890:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         {
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1275 00e4 A36B     		ldr	r3, [r4, #56]
  1276 00e6 0233     		adds	r3, r3, #2
  1277 00e8 A363     		str	r3, [r4, #56]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 102
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 102
 
 
  885:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1315 010e A36B     		ldr	r3, [r4, #56]
  1316 0110 0233     		adds	r3, r3, #2
  1317 0112 A363     		str	r3, [r4, #56]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 103
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 103
 
 
  908:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  931:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           hspi->pTxBuffPtr++;
  1356              		.loc 1 931 50 view .LVU399
  1357 013a 1373     		strb	r3, [r2, #12]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 104
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 104
 
 
  932:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           hspi->TxXferCount--;
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1396              		.loc 1 920 11 is_stmt 0 view .LVU415
  1397 0166 2268     		ldr	r2, [r4]
  1398 0168 9368     		ldr	r3, [r2, #8]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 105
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 105
 
 
  920:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  958:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
  1438              		.loc 1 958 5 is_stmt 1 view .LVU431
  958:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 106
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 106
 
 
  1439              		.loc 1 958 21 is_stmt 0 view .LVU432
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1478              		.loc 1 973 15 is_stmt 0 view .LVU447
  1479 01ba 0123     		movs	r3, #1
  1480 01bc 84F85D30 		strb	r3, [r4, #93]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 107
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 107
 
 
  975:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   return errorcode;
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1530              	.LVL64:
  1531              	.LFB129:
 1215:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   uint16_t             initial_TxXferCount;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 108
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 108
 
 
  1532              		.loc 1 1215 1 is_stmt 1 view -0
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1572              		.loc 1 1237 3 is_stmt 1 discriminator 2 view .LVU469
 1237:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  1573              		.loc 1 1237 15 is_stmt 0 discriminator 2 view .LVU470
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 109
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 109
 
 
  1574 001e FFF7FEFF 		bl	HAL_GetTick
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1612 004a 00F03281 		beq	.L153
 1256:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  1613              		.loc 1 1256 25 discriminator 1 view .LVU487
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 110
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 110
 
 
  1614 004e B9F1000F 		cmp	r9, #0
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1275:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  1650              		.loc 1 1275 3 is_stmt 1 view .LVU506
 1275:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 111
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 111
 
 
  1651              		.loc 1 1275 21 is_stmt 0 view .LVU507
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1309:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  1690              		.loc 1 1309 17 is_stmt 0 view .LVU523
  1691 00b0 E368     		ldr	r3, [r4, #12]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 112
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 112
 
 
 1309:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1729              		.loc 1 1349 19 view .LVU540
  1730 00d8 24E0     		b	.L134
  1731              	.LVL75:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 113
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 113
 
 
  1732              	.L128:
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1770              		.loc 1 1347 26 view .LVU556
  1771 0108 013A     		subs	r2, r2, #1
  1772 010a 92B2     		uxth	r2, r2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 114
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 114
 
 
  1773 010c A4F84620 		strh	r2, [r4, #70]	@ movhi
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1320:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
  1813              		.loc 1 1320 60 discriminator 1 view .LVU571
  1814 0140 E28F     		ldrh	r2, [r4, #62]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 115
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 115
 
 
  1815 0142 92B2     		uxth	r2, r2
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1361:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  1853              		.loc 1 1361 45 discriminator 1 view .LVU588
  1854 0168 012F     		cmp	r7, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 116
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 116
 
 
  1855 016a 0ED1     		bne	.L140
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1893              		.loc 1 1371 54 is_stmt 0 view .LVU604
  1894 018e A26B     		ldr	r2, [r4, #56]
 1371:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->pTxBuffPtr++;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 117
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 117
 
 
  1895              		.loc 1 1371 31 view .LVU605
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1932              		.loc 1 1384 28 is_stmt 0 view .LVU622
  1933 01b4 A36B     		ldr	r3, [r4, #56]
  1934 01b6 0233     		adds	r3, r3, #2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 118
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 118
 
 
  1935 01b8 A363     		str	r3, [r4, #56]
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  1973 01dc 2EE0     		b	.L142
  1974              	.LVL90:
  1975              	.L163:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 119
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 119
 
 
 1421:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           }
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2014 0206 FFF7FEFF 		bl	HAL_GetTick
  2015              	.LVL94:
 1433:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 120
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 120
 
 
  2016              		.loc 1 1433 28 view .LVU655
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2057              	.L142:
 1411:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
  2058              		.loc 1 1411 7 is_stmt 1 view .LVU669
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 121
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 121
 
 
 1411:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1418:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           {
  2097              		.loc 1 1418 19 is_stmt 0 view .LVU686
  2098 0272 B4F84620 		ldrh	r2, [r4, #70]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 122
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 122
 
 
  2099 0276 92B2     		uxth	r2, r2
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2139              		.loc 1 1499 3 is_stmt 1 view .LVU700
 1499:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   return errorcode;
  2140              		.loc 1 1499 3 view .LVU701
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 123
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 123
 
 
  2141 029e 0022     		movs	r2, #0
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2187              	.LFE129:
  2189              		.section	.text.HAL_SPI_Receive,"ax",%progbits
  2190              		.align	1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 124
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 124
 
 
  2191              		.global	HAL_SPI_Receive
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2237 001c 00F0B780 		beq	.L184
 1001:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  2238              		.loc 1 1001 3 discriminator 2 view .LVU719
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 125
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 125
 
 
  2239 0020 0123     		movs	r3, #1
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1023:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  2276              		.loc 1 1023 3 is_stmt 1 view .LVU737
 1023:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 126
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 126
 
 
  2277              		.loc 1 1023 21 is_stmt 0 view .LVU738
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2313              		.loc 1 1061 3 is_stmt 1 view .LVU756
 1061:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  2314              		.loc 1 1061 12 is_stmt 0 view .LVU757
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 127
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 127
 
 
  2315 0082 2368     		ldr	r3, [r4]
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2355 00b6 5EE0     		b	.L166
  2356              	.LVL116:
  2357              	.L168:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 128
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 128
 
 
 1051:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1074:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
  2400              		.loc 1 1074 10 view .LVU784
  2401 00f2 12F0010F 		tst	r2, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 129
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 129
 
 
  2402 00f6 EBD0     		beq	.L174
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2440              		.loc 1 1095 16 view .LVU800
  2441 0124 B4F84630 		ldrh	r3, [r4, #70]
  2442 0128 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 130
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 130
 
 
 1095:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2481 015a 08B1     		cbz	r0, .L183
 1180:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
  2482              		.loc 1 1180 5 is_stmt 1 view .LVU817
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 131
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 131
 
 
 1180:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2524              		.loc 1 1086 21 view .LVU830
  2525 017e 0325     		movs	r5, #3
  2526 0180 F3E7     		b	.L167
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 132
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 132
 
 
  2527              	.L187:
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2573              		.loc 1 1519 3 is_stmt 1 discriminator 2 view .LVU840
  2574 000a 0120     		movs	r0, #1
  2575 000c 83F85C00 		strb	r0, [r3, #92]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 133
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 133
 
 
 1521:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1542:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxXferCount = 0U;
  2611              		.loc 1 1542 21 is_stmt 0 view .LVU860
  2612 0034 A3F84400 		strh	r0, [r3, #68]	@ movhi
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 134
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 134
 
 
 1543:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->RxISR       = NULL;
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2650 0060 11F0400F 		tst	r1, #64
  2651 0064 17D1     		bne	.L203
 1578:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 135
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 135
 
 
  2652              		.loc 1 1578 5 is_stmt 1 view .LVU878
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1529:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     goto error;
  2695              		.loc 1 1529 15 view .LVU890
  2696 0092 0220     		movs	r0, #2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 136
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 136
 
 
  2697 0094 F9E7     		b	.L195
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1709:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  2744              		.loc 1 1709 3 view .LVU900
 1709:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 137
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 137
 
 
  2745              		.loc 1 1709 3 view .LVU901
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1722:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  2785              		.loc 1 1722 46 discriminator 2 view .LVU916
  2786 0034 002B     		cmp	r3, #0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 138
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 138
 
 
  2787 0036 4DD0     		beq	.L223
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1741:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  2822              		.loc 1 1741 21 is_stmt 0 view .LVU936
  2823 0058 A0F84630 		strh	r3, [r0, #70]	@ movhi
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 139
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 139
 
 
 1744:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1788:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  2864              		.loc 1 1788 3 view .LVU951
 1788:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 140
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 140
 
 
  2865              		.loc 1 1788 12 is_stmt 0 view .LVU952
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  2906 00b6 0223     		movs	r3, #2
  2907              	.LVL154:
  2908              	.L210:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 141
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 141
 
 
 1796:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   return errorcode;
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1724:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     goto error;
  2952              		.loc 1 1724 15 view .LVU977
  2953 00d0 0123     		movs	r3, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 142
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 142
 
 
  2954              	.LVL164:
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3002 0000 10B5     		push	{r4, lr}
  3003              	.LCFI32:
  3004              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 143
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 143
 
 
  3005              		.cfi_offset 4, -8
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1621:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->ErrorCode   = HAL_SPI_ERROR_NONE;
  3044              		.loc 1 1621 3 is_stmt 1 view .LVU1001
 1621:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->ErrorCode   = HAL_SPI_ERROR_NONE;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 144
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 144
 
 
  3045              		.loc 1 1621 21 is_stmt 0 view .LVU1002
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3079              		.loc 1 1637 5 is_stmt 1 view .LVU1022
  3080 0054 2268     		ldr	r2, [r4]
  3081              	.LVL173:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 145
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 145
 
 
 1637:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     hspi->RxISR = SPI_RxISR_16BIT;
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3122 008a 1346     		mov	r3, r2
  3123 008c 2046     		mov	r0, r4
 1600:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     /* Call transmit-receive function to send Dummy data on Tx line and generate clock on CLK line 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 146
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 146
 
 
  3124              		.loc 1 1600 5 is_stmt 1 view .LVU1037
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1686:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   return errorcode;
  3166              		.loc 1 1686 3 view .LVU1050
  3167 00ba 0023     		movs	r3, #0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 147
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 147
 
 
  3168 00bc 84F85C30 		strb	r3, [r4, #92]
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1813:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  3217              		.loc 1 1813 3 view .LVU1058
 1816:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 148
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 148
 
 
  3218              		.loc 1 1816 3 view .LVU1059
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3255 0032 8287     		strh	r2, [r0, #60]	@ movhi
 1838:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  3256              		.loc 1 1838 3 is_stmt 1 view .LVU1077
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 149
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 149
 
 
 1838:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3291              		.loc 1 1865 34 view .LVU1097
  3292 0054 314A     		ldr	r2, .L257+4
  3293 0056 DA62     		str	r2, [r3, #44]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 150
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 150
 
 
 1868:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3331 0084 0C32     		adds	r2, r2, #12
  3332 0086 A16B     		ldr	r1, [r4, #56]
  3333              	.LVL189:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 151
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 151
 
 
 1891:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3375              		.loc 1 1850 5 is_stmt 0 view .LVU1127
  3376 00c0 1368     		ldr	r3, [r2]
  3377 00c2 43F48043 		orr	r3, r3, #16384
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 152
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 152
 
 
  3378 00c6 1360     		str	r3, [r2]
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3418              		.loc 1 1894 5 is_stmt 1 view .LVU1141
  3419 00f8 236E     		ldr	r3, [r4, #96]
  3420 00fa 43F01003 		orr	r3, r3, #16
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 153
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 153
 
 
  3421 00fe 2366     		str	r3, [r4, #96]
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3466              		.fpu fpv4-sp-d16
  3468              	HAL_SPI_TransmitReceive_DMA:
  3469              	.LVL201:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 154
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 154
 
 
  3470              	.LFB135:
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3508 001a 6568     		ldr	r5, [r4, #4]
  3509              	.LVL205:
 2093:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         ((tmp_mode == SPI_MODE_MASTER) && (hspi->Init.Direction == SPI_DIRECTION_2LINES) && (tmp_st
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 155
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 155
 
 
  3510              		.loc 1 2093 3 is_stmt 1 discriminator 2 view .LVU1168
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3549 0054 84F85D00 		strb	r0, [r4, #93]
  3550              	.L263:
 2113:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pTxBuffPtr  = (uint8_t *)pTxData;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 156
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 156
 
 
  3551              		.loc 1 2113 3 is_stmt 1 view .LVU1184
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3585              		.loc 1 2134 3 view .LVU1204
  3586 0074 23F4C043 		bic	r3, r3, #24576
  3587 0078 5360     		str	r3, [r2, #4]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 157
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 157
 
 
  3588              	.LVL210:
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3626 00a6 5A63     		str	r2, [r3, #52]
 2197:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  3627              		.loc 1 2197 3 is_stmt 1 view .LVU1221
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 158
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 158
 
 
 2197:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2147:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  3668              		.loc 1 2147 13 is_stmt 0 view .LVU1236
  3669 00dc 636D     		ldr	r3, [r4, #84]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 159
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 159
 
 
 2147:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2149:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
  3709              		.loc 1 2149 16 is_stmt 0 view .LVU1252
  3710 011a A38F     		ldrh	r3, [r4, #60]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 160
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 160
 
 
 2149:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3751 0156 5B08     		lsrs	r3, r3, #1
  3752 0158 0133     		adds	r3, r3, #1
 2174:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 161
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 161
 
 
  3753              		.loc 1 2174 27 view .LVU1267
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3791              		.loc 1 2217 38 view .LVU1283
  3792 0184 5363     		str	r3, [r2, #52]
 2218:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 162
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 162
 
 
  3793              		.loc 1 2218 3 is_stmt 1 view .LVU1284
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3833 01bc 42F00202 		orr	r2, r2, #2
  3834 01c0 4A60     		str	r2, [r1, #4]
  3835 01c2 08E0     		b	.L262
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 163
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 163
 
 
  3836              	.L284:
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2096:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     goto error;
  3877              		.loc 1 2096 15 view .LVU1312
  3878 01e6 F6E7     		b	.L262
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 164
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 164
 
 
  3879              	.LVL225:
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3927              	.LVL233:
  3928              	.LFB134:
 1931:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   HAL_StatusTypeDef errorcode = HAL_OK;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 165
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 165
 
 
  3929              		.loc 1 1931 1 is_stmt 1 view -0
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  3969              		.loc 1 1951 6 discriminator 2 view .LVU1335
  3970 0026 9D42     		cmp	r5, r3
  3971 0028 40F09480 		bne	.L298
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 166
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 166
 
 
 1957:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 1974:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4006              		.loc 1 1974 21 is_stmt 0 view .LVU1356
  4007 0052 E387     		strh	r3, [r4, #62]	@ movhi
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 167
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 167
 
 
 1977:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4046              		.loc 1 2027 35 view .LVU1372
  4047 0084 394A     		ldr	r2, .L303+8
  4048 0086 5A63     		str	r2, [r3, #52]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 168
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 168
 
 
 2030:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2054:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4089              		.loc 1 2054 3 view .LVU1387
  4090 00c0 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 169
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 169
 
 
  4091 00c2 5368     		ldr	r3, [r2, #4]
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4133 00f6 5360     		str	r3, [r2, #4]
 2002:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  4134              		.loc 1 2002 5 view .LVU1400
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 170
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 170
 
 
 2002:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4174              		.loc 1 2015 55 view .LVU1415
  4175 013a 5B08     		lsrs	r3, r3, #1
  4176 013c 0133     		adds	r3, r3, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 171
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 171
 
 
 2015:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4219 0168 00000000 		.word	SPI_DMAReceiveCplt
  4220 016c 00000000 		.word	SPI_DMAError
  4221              		.cfi_endproc
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 172
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 172
 
 
  4222              	.LFE134:
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4267 001a 049B     		ldr	r3, [sp, #16]
  4268 001c 0593     		str	r3, [sp, #20]
 2273:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 173
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 173
 
 
  4269              		.loc 1 2273 3 is_stmt 1 view .LVU1439
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4307              		.loc 1 2288 11 is_stmt 0 view .LVU1455
  4308 004a 049B     		ldr	r3, [sp, #16]
  4309 004c 0593     		str	r3, [sp, #20]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 174
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 174
 
 
  4310              	.L306:
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4348              		.loc 1 2306 5 view .LVU1471
 2306:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
  4349              		.loc 1 2306 11 is_stmt 0 view .LVU1472
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 175
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 175
 
 
  4350 007a 049B     		ldr	r3, [sp, #16]
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4389              		.loc 1 2394 3 view .LVU1487
  4390 00a6 0022     		movs	r2, #0
  4391 00a8 0292     		str	r2, [sp, #8]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 176
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 176
 
 
 2394:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __HAL_SPI_CLEAR_FREFLAG(hspi);
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4432 00ca 43B3     		cbz	r3, .L315
 2320:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4433              		.loc 1 2320 7 is_stmt 1 view .LVU1502
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 177
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 177
 
 
 2320:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4474 00fc 1368     		ldr	r3, [r2]
  4475 00fe 23F04003 		bic	r3, r3, #64
  4476 0102 1360     		str	r3, [r2]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 178
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 178
 
 
 2340:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4516              	.L318:
 2359:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4517              		.loc 1 2359 7 is_stmt 1 view .LVU1532
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 179
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 179
 
 
  4518 0134 2268     		ldr	r2, [r4]
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4561 0174 23F00103 		bic	r3, r3, #1
  4562 0178 5360     		str	r3, [r2, #4]
  4563 017a 8BE7     		b	.L314
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 180
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 180
 
 
  4564              	.L322:
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4611              		.loc 1 2625 3 discriminator 2 view .LVU1552
 2625:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
  4612              		.loc 1 2625 10 is_stmt 0 discriminator 2 view .LVU1553
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 181
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 181
 
 
  4613 001e 1846     		mov	r0, r3
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4659 001a 80F85C30 		strb	r3, [r0, #92]
 2645:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
  4660              		.loc 1 2645 3 discriminator 2 view .LVU1564
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 182
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 182
 
 
 2645:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4707 0006 48B1     		cbz	r0, .L338
 2666:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  4708              		.loc 1 2666 5 is_stmt 1 view .LVU1575
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 183
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 183
 
 
 2666:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4748 0030 0125     		movs	r5, #1
  4749              	.LVL284:
  4750              	.L337:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 184
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 184
 
 
 2683:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->State = HAL_SPI_STATE_READY;
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4800              	.LFB143:
 2817:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Prevent unused argument(s) compilation warning */
  4801              		.loc 1 2817 1 is_stmt 1 view -0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 185
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 185
 
 
  4802              		.cfi_startproc
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4852 0000 7047     		bx	lr
  4853              		.cfi_endproc
  4854              	.LFE145:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 186
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 186
 
 
  4856              		.section	.text.SPI_DMAHalfTransmitCplt,"ax",%progbits
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4905              		.loc 1 2867 3 view .LVU1616
 2872:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  4906              		.loc 1 2872 1 is_stmt 0 view .LVU1617
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 187
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 187
 
 
  4907 0000 7047     		bx	lr
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  4958              		@ frame_needed = 0, uses_anonymous_args = 0
  4959              		@ link register save eliminated.
 2883:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 188
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 188
 
 
  4960              		.loc 1 2883 3 view .LVU1625
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5010              		.loc 1 2897 1 is_stmt 1 view -0
  5011              		.cfi_startproc
  5012              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 189
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 189
 
 
  5013              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5059 0018 2046     		mov	r0, r4
  5060              	.LVL306:
 4153:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 190
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 190
 
 
  5061              		.loc 1 4153 7 view .LVU1644
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 4171:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** #endif /* USE_HAL_SPI_REGISTER_CALLBACKS */
  5100              		.loc 1 4171 5 is_stmt 1 view .LVU1660
  5101 0044 2046     		mov	r0, r4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 191
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 191
 
 
  5102 0046 FFF7FEFF 		bl	HAL_SPI_ErrorCallback
@@ -11458,7 +11458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3779:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pTxBuffPtr++;
  5150              		.loc 1 3779 43 view .LVU1669
  5151 0006 1278     		ldrb	r2, [r2]	@ zero_extendqisi2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 192
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 192
 
 
 3779:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pTxBuffPtr++;
@@ -11518,7 +11518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5195              	.LVL315:
  5196              	.LFB169:
 3803:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   /* Transmit data in 16 Bit mode */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 193
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 193
 
 
  5197              		.loc 1 3803 1 is_stmt 1 view -0
@@ -11578,7 +11578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5236              		.loc 1 3820 1 view .LVU1698
  5237 001e 08BD     		pop	{r3, pc}
  5238              	.LVL317:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 194
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 194
 
 
  5239              	.L366:
@@ -11638,7 +11638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 4093:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   }
  5286              		.loc 1 4093 5 is_stmt 1 view .LVU1708
  5287 001e 236E     		ldr	r3, [r4, #96]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 195
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 195
 
 
  5288 0020 43F02003 		orr	r3, r3, #32
@@ -11698,7 +11698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5333 0000 08B5     		push	{r3, lr}
  5334              	.LCFI51:
  5335              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 196
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 196
 
 
  5336              		.cfi_offset 3, -8
@@ -11758,7 +11758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5374              	.LVL328:
 3717:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  5375              		.loc 1 3717 1 is_stmt 0 view .LVU1736
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 197
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 197
 
 
  5376 002a FBE7     		b	.L372
@@ -11818,7 +11818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5420 0018 A0F84630 		strh	r3, [r0, #70]	@ movhi
 3758:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  5421              		.loc 1 3758 3 is_stmt 1 view .LVU1749
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 198
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 198
 
 
 3758:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -11878,7 +11878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5467              		.loc 1 4016 3 is_stmt 1 view .LVU1760
  5468 0008 2268     		ldr	r2, [r4]
  5469 000a 5368     		ldr	r3, [r2, #4]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 199
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 199
 
 
  5470 000c 23F02003 		bic	r3, r3, #32
@@ -11938,7 +11938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5509              		.loc 1 4077 1 is_stmt 0 view .LVU1775
  5510 0040 10BD     		pop	{r4, pc}
  5511              	.LVL338:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 200
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 200
 
 
  5512              	.L386:
@@ -11998,7 +11998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5557              		.loc 1 3538 11 is_stmt 0 view .LVU1786
  5558 0002 C38F     		ldrh	r3, [r0, #62]
  5559 0004 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 201
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 201
 
 
 3538:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
@@ -12058,7 +12058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5598 0034 9BB2     		uxth	r3, r3
 3569:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  5599              		.loc 1 3569 8 view .LVU1803
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 202
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 202
 
 
  5600 0036 63B1     		cbz	r3, .L392
@@ -12118,7 +12118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5641              		.syntax unified
  5642              		.thumb
  5643              		.thumb_func
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 203
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 203
 
 
  5644              		.fpu fpv4-sp-d16
@@ -12178,7 +12178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5685 0022 A0F84630 		strh	r3, [r0, #70]	@ movhi
 3465:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  5686              		.loc 1 3465 5 is_stmt 1 view .LVU1832
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 204
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 204
 
 
 3465:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -12238,7 +12238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5725 0056 B0F84630 		ldrh	r3, [r0, #70]
  5726 005a 9BB2     		uxth	r3, r3
 3480:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 205
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 205
 
 
  5727              		.loc 1 3480 6 view .LVU1849
@@ -12298,7 +12298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3637:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pTxBuffPtr += sizeof(uint16_t);
  5774              		.loc 1 3637 3 is_stmt 1 view .LVU1859
 3637:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   hspi->pTxBuffPtr += sizeof(uint16_t);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 206
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 206
 
 
  5775              		.loc 1 3637 42 is_stmt 0 view .LVU1860
@@ -12358,7 +12358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3663:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  5814              		.loc 1 3663 1 view .LVU1876
  5815 0030 08BD     		pop	{r3, pc}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 207
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 207
 
 
  5816              	.LVL351:
@@ -12418,7 +12418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5860              		.loc 1 3587 3 is_stmt 1 view .LVU1888
 3587:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  5861              		.loc 1 3587 7 is_stmt 0 view .LVU1889
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 208
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 208
 
 
  5862 0010 B0F84630 		ldrh	r3, [r0, #70]
@@ -12478,7 +12478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5907              	.LFB158:
 3282:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   SPI_HandleTypeDef *hspi = (SPI_HandleTypeDef *)(((DMA_HandleTypeDef *)hdma)->Parent); /* Derogati
  5908              		.loc 1 3282 1 is_stmt 1 view -0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 209
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 209
 
 
  5909              		.cfi_startproc
@@ -12538,7 +12538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5955              		@ args = 0, pretend = 0, frame = 8
  5956              		@ frame_needed = 0, uses_anonymous_args = 0
 2987:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   SPI_HandleTypeDef *hspi = (SPI_HandleTypeDef *)(((DMA_HandleTypeDef *)hdma)->Parent); /* Derogati
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 210
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 210
 
 
  5957              		.loc 1 2987 1 is_stmt 0 view .LVU1912
@@ -12598,7 +12598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  5998 002c 6421     		movs	r1, #100
  5999 002e 2046     		mov	r0, r4
  6000              	.LVL363:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 211
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 211
 
 
 3004:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -12658,7 +12658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6039              		.loc 1 3018 5 is_stmt 1 view .LVU1941
 3018:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  6040              		.loc 1 3018 13 is_stmt 0 view .LVU1942
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 212
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 212
 
 
  6041 005a 236E     		ldr	r3, [r4, #96]
@@ -12718,7 +12718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6090              		.cfi_offset 5, -8
  6091              		.cfi_offset 14, -4
  6092 0002 0546     		mov	r5, r0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 213
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 213
 
 
 3045:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   uint32_t tickstart;
@@ -12778,7 +12778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6131              		.loc 1 3098 7 is_stmt 1 view .LVU1965
 3098:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
  6132              		.loc 1 3098 23 is_stmt 0 view .LVU1966
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 214
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 214
 
 
  6133 0034 2023     		movs	r3, #32
@@ -12838,7 +12838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3139:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   SPI_HandleTypeDef *hspi = (SPI_HandleTypeDef *)(((DMA_HandleTypeDef *)hdma)->Parent); /* Derogati
  6178              		.loc 1 3139 1 view -0
  6179              		.cfi_startproc
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 215
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 215
 
 
  6180              		@ args = 0, pretend = 0, frame = 0
@@ -12898,7 +12898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6220 0024 FFF7FEFF 		bl	SPI_EndRxTxTransaction
  6221              	.LVL380:
 3181:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 216
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 216
 
 
  6222              		.loc 1 3181 8 view .LVU1993
@@ -12958,7 +12958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6262 0058 FFF7FEFF 		bl	HAL_SPI_ErrorCallback
  6263              	.LVL383:
 3210:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 217
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 217
 
 
  6264              		.loc 1 3210 7 view .LVU2008
@@ -13018,7 +13018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2700:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       (SPI_CHECK_FLAG(itflag, SPI_FLAG_RXNE) != RESET) && (SPI_CHECK_IT_SOURCE(itsource, SPI_IT_RXN
  6310              		.loc 1 2700 55 discriminator 1 view .LVU2019
  6311 0012 13F0010F 		tst	r3, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 218
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 218
 
 
  6312 0016 02D0     		beq	.L429
@@ -13078,7 +13078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6350 004a 216E     		ldr	r1, [r4, #96]
  6351 004c 41F00401 		orr	r1, r1, #4
  6352 0050 2166     		str	r1, [r4, #96]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 219
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 219
 
 
 2723:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
@@ -13138,7 +13138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6392              	.LBE8:
 2740:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  6393              		.loc 1 2740 5 is_stmt 1 view .LVU2051
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 220
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 220
 
 
 2740:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
@@ -13198,7 +13198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2753:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
  6433              		.loc 1 2753 10 is_stmt 0 view .LVU2067
  6434 00ac 10F0030F 		tst	r0, #3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 221
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 221
 
 
  6435 00b0 2ED0     		beq	.L438
@@ -13258,7 +13258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2774:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           {
  6473              		.loc 1 2774 11 is_stmt 1 view .LVU2084
 2774:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****           {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 222
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 222
 
 
  6474              		.loc 1 2774 25 is_stmt 0 view .LVU2085
@@ -13318,7 +13318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6515              	.LCFI67:
  6516              		.cfi_remember_state
  6517              		.cfi_def_cfa_offset 12
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 223
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 223
 
 
  6518              		@ sp needed
@@ -13378,7 +13378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6563              		.fpu fpv4-sp-d16
  6565              	SPI_DMAAbortOnError:
  6566              	.LVL403:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 224
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 224
 
 
  6567              	.LFB159:
@@ -13438,7 +13438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6612              		@ link register save eliminated.
 2917:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  6613              		.loc 1 2917 3 view .LVU2120
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 225
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 225
 
 
 2922:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
@@ -13498,7 +13498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6659              		.loc 1 2427 36 view .LVU2131
  6660 0012 6422     		movs	r2, #100
  6661 0014 02FB03F3 		mul	r3, r2, r3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 226
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 226
 
 
 2427:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   count = resetcount;
@@ -13558,7 +13558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6699              		.loc 1 2439 9 is_stmt 1 view .LVU2148
  6700 0042 236E     		ldr	r3, [r4, #96]
  6701 0044 43F04003 		orr	r3, r3, #64
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 227
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 227
 
 
  6702 0048 2366     		str	r3, [r4, #96]
@@ -13618,7 +13618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6740              	.L476:
 2457:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         break;
  6741              		.loc 1 2457 9 is_stmt 1 view .LVU2165
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 228
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 228
 
 
  6742 0072 236E     		ldr	r3, [r4, #96]
@@ -13678,7 +13678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 2491:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     {
  6780              		.loc 1 2491 9 is_stmt 0 view .LVU2182
  6781 009e 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 229
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 229
 
 
  6782 00a0 5268     		ldr	r2, [r2, #4]
@@ -13738,7 +13738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6820 00cc 0028     		cmp	r0, #0
  6821 00ce 3DD0     		beq	.L471
 2544:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         hspi->ErrorCode = HAL_SPI_ERROR_ABORT;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 230
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 230
 
 
  6822              		.loc 1 2544 9 is_stmt 1 view .LVU2199
@@ -13798,7 +13798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6859              		.loc 1 2563 9 is_stmt 1 view .LVU2216
 2563:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       }
  6860              		.loc 1 2563 25 is_stmt 0 view .LVU2217
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 231
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 231
 
 
  6861 00f6 4023     		movs	r3, #64
@@ -13858,7 +13858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6902              		.loc 1 2508 7 is_stmt 1 view .LVU2230
 2508:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****       {
  6903              		.loc 1 2508 11 is_stmt 0 view .LVU2231
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 232
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 232
 
 
  6904 0114 FFF7FEFF 		bl	HAL_DMA_Abort_IT
@@ -13918,7 +13918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6942 013a 9A63     		str	r2, [r3, #56]
 2525:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         abortcplt = 1U;
  6943              		.loc 1 2525 9 is_stmt 1 view .LVU2248
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 233
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 233
 
 
 2525:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****         abortcplt = 1U;
@@ -13978,7 +13978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  6983 015a 402B     		cmp	r3, #64
  6984 015c 14D0     		beq	.L473
 2587:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 234
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 234
 
 
  6985              		.loc 1 2587 7 is_stmt 1 view .LVU2264
@@ -14038,7 +14038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  7026              	.L473:
 2582:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****     }
  7027              		.loc 1 2582 17 is_stmt 0 view .LVU2278
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 235
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 235
 
 
  7028 0188 0125     		movs	r5, #1
@@ -14098,7 +14098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  7077 0010 A36D     		ldr	r3, [r4, #88]
 3399:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  7078              		.loc 1 3399 35 view .LVU2286
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 236
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 236
 
 
  7079 0012 0025     		movs	r5, #0
@@ -14158,7 +14158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  7121 0050 2366     		str	r3, [r4, #96]
  7122              	.L483:
 3417:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 237
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 237
 
 
  7123              		.loc 1 3417 3 is_stmt 1 view .LVU2299
@@ -14218,7 +14218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  7160 0074 0291     		str	r1, [sp, #8]
 3437:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   __HAL_SPI_CLEAR_FREFLAG(hspi);
  7161              		.loc 1 3437 3 view .LVU2317
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 238
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 238
 
 
  7162 0076 9968     		ldr	r1, [r3, #8]
@@ -14278,7 +14278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  7207              		.cfi_startproc
  7208              		@ args = 0, pretend = 0, frame = 8
  7209              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 239
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 239
 
 
 3327:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   SPI_HandleTypeDef *hspi = (SPI_HandleTypeDef *)(((DMA_HandleTypeDef *)hdma)->Parent); /* Derogati
@@ -14338,7 +14338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3341:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** 
  7251              		.loc 1 3341 3 is_stmt 1 view .LVU2342
  7252 002a 2268     		ldr	r2, [r4]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 240
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 240
 
 
  7253 002c 1368     		ldr	r3, [r2]
@@ -14398,7 +14398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
 3363:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
  7292              		.loc 1 3363 3 is_stmt 1 view .LVU2358
 3363:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 241
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 241
 
 
  7293              		.loc 1 3363 11 is_stmt 0 view .LVU2359
@@ -14458,7 +14458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  7332              		.loc 1 3380 3 is_stmt 1 view .LVU2374
  7333 0086 2046     		mov	r0, r4
  7334 0088 FFF7FEFF 		bl	HAL_SPI_AbortCpltCallback
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 242
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 242
 
 
  7335              	.LVL441:
@@ -14518,7 +14518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  7386              		@ frame_needed = 0, uses_anonymous_args = 0
  7387              		@ link register save eliminated.
 2964:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 243
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 243
 
 
  7388              		.loc 1 2964 3 view .LVU2382
@@ -14543,140 +14543,140 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 1
  7406              		.file 9 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h"
  7407              		.file 10 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_spi.h"
  7408              		.file 11 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 244
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 244
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l4xx_hal_spi.c
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:18     .text.SPI_WaitFlagStateUntilTimeout:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:25     .text.SPI_WaitFlagStateUntilTimeout:00000000 SPI_WaitFlagStateUntilTimeout
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:150    .text.SPI_WaitFifoStateUntilTimeout:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:156    .text.SPI_WaitFifoStateUntilTimeout:00000000 SPI_WaitFifoStateUntilTimeout
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:292    .text.SPI_EndRxTxTransaction:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:298    .text.SPI_EndRxTxTransaction:00000000 SPI_EndRxTxTransaction
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:397    .text.SPI_EndRxTransaction:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:403    .text.SPI_EndRxTransaction:00000000 SPI_EndRxTransaction
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:529    .text.SPI_AbortRx_ISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:535    .text.SPI_AbortRx_ISR:00000000 SPI_AbortRx_ISR
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:653    .text.SPI_AbortRx_ISR:00000088 $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:659    .text.SPI_AbortTx_ISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:665    .text.SPI_AbortTx_ISR:00000000 SPI_AbortTx_ISR
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:781    .text.SPI_AbortTx_ISR:00000084 $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:787    .text.HAL_SPI_MspInit:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:794    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:809    .text.HAL_SPI_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:816    .text.HAL_SPI_Init:00000000 HAL_SPI_Init
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:982    .text.HAL_SPI_MspDeInit:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:989    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:1004   .text.HAL_SPI_DeInit:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:1011   .text.HAL_SPI_DeInit:00000000 HAL_SPI_DeInit
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:1069   .text.HAL_SPI_Transmit:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:1076   .text.HAL_SPI_Transmit:00000000 HAL_SPI_Transmit
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:1522   .text.HAL_SPI_TransmitReceive:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:1529   .text.HAL_SPI_TransmitReceive:00000000 HAL_SPI_TransmitReceive
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:2190   .text.HAL_SPI_Receive:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:2197   .text.HAL_SPI_Receive:00000000 HAL_SPI_Receive
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:2546   .text.HAL_SPI_Transmit_IT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:2553   .text.HAL_SPI_Transmit_IT:00000000 HAL_SPI_Transmit_IT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:2712   .text.HAL_SPI_Transmit_IT:000000a0 $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5194   .text.SPI_TxISR_16BIT:00000000 SPI_TxISR_16BIT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5132   .text.SPI_TxISR_8BIT:00000000 SPI_TxISR_8BIT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:2718   .text.HAL_SPI_TransmitReceive_IT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:2725   .text.HAL_SPI_TransmitReceive_IT:00000000 HAL_SPI_TransmitReceive_IT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:2979   .text.HAL_SPI_TransmitReceive_IT:000000e0 $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5833   .text.SPI_2linesRxISR_16BIT:00000000 SPI_2linesRxISR_16BIT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5761   .text.SPI_2linesTxISR_16BIT:00000000 SPI_2linesTxISR_16BIT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5646   .text.SPI_2linesRxISR_8BIT:00000000 SPI_2linesRxISR_8BIT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5543   .text.SPI_2linesTxISR_8BIT:00000000 SPI_2linesTxISR_8BIT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:2987   .text.HAL_SPI_Receive_IT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:2994   .text.HAL_SPI_Receive_IT:00000000 HAL_SPI_Receive_IT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:3187   .text.HAL_SPI_Receive_IT:000000cc $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5387   .text.SPI_RxISR_16BIT:00000000 SPI_RxISR_16BIT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5325   .text.SPI_RxISR_8BIT:00000000 SPI_RxISR_8BIT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:3193   .text.HAL_SPI_Transmit_DMA:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:3200   .text.HAL_SPI_Transmit_DMA:00000000 HAL_SPI_Transmit_DMA
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:3454   .text.HAL_SPI_Transmit_DMA:00000118 $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4863   .text.SPI_DMAHalfTransmitCplt:00000000 SPI_DMAHalfTransmitCplt
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5950   .text.SPI_DMATransmitCplt:00000000 SPI_DMATransmitCplt
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5905   .text.SPI_DMAError:00000000 SPI_DMAError
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:3461   .text.HAL_SPI_TransmitReceive_DMA:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:3468   .text.HAL_SPI_TransmitReceive_DMA:00000000 HAL_SPI_TransmitReceive_DMA
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:3910   .text.HAL_SPI_TransmitReceive_DMA:000001f8 $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4973   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 SPI_DMAHalfTransmitReceiveCplt
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 245
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:18     .text.SPI_WaitFlagStateUntilTimeout:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:25     .text.SPI_WaitFlagStateUntilTimeout:00000000 SPI_WaitFlagStateUntilTimeout
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:150    .text.SPI_WaitFifoStateUntilTimeout:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:156    .text.SPI_WaitFifoStateUntilTimeout:00000000 SPI_WaitFifoStateUntilTimeout
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:292    .text.SPI_EndRxTxTransaction:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:298    .text.SPI_EndRxTxTransaction:00000000 SPI_EndRxTxTransaction
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:397    .text.SPI_EndRxTransaction:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:403    .text.SPI_EndRxTransaction:00000000 SPI_EndRxTransaction
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:529    .text.SPI_AbortRx_ISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:535    .text.SPI_AbortRx_ISR:00000000 SPI_AbortRx_ISR
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:653    .text.SPI_AbortRx_ISR:00000088 $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:659    .text.SPI_AbortTx_ISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:665    .text.SPI_AbortTx_ISR:00000000 SPI_AbortTx_ISR
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:781    .text.SPI_AbortTx_ISR:00000084 $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:787    .text.HAL_SPI_MspInit:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:794    .text.HAL_SPI_MspInit:00000000 HAL_SPI_MspInit
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:809    .text.HAL_SPI_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:816    .text.HAL_SPI_Init:00000000 HAL_SPI_Init
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:982    .text.HAL_SPI_MspDeInit:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:989    .text.HAL_SPI_MspDeInit:00000000 HAL_SPI_MspDeInit
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:1004   .text.HAL_SPI_DeInit:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:1011   .text.HAL_SPI_DeInit:00000000 HAL_SPI_DeInit
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:1069   .text.HAL_SPI_Transmit:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:1076   .text.HAL_SPI_Transmit:00000000 HAL_SPI_Transmit
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:1522   .text.HAL_SPI_TransmitReceive:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:1529   .text.HAL_SPI_TransmitReceive:00000000 HAL_SPI_TransmitReceive
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:2190   .text.HAL_SPI_Receive:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:2197   .text.HAL_SPI_Receive:00000000 HAL_SPI_Receive
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:2546   .text.HAL_SPI_Transmit_IT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:2553   .text.HAL_SPI_Transmit_IT:00000000 HAL_SPI_Transmit_IT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:2712   .text.HAL_SPI_Transmit_IT:000000a0 $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5194   .text.SPI_TxISR_16BIT:00000000 SPI_TxISR_16BIT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5132   .text.SPI_TxISR_8BIT:00000000 SPI_TxISR_8BIT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:2718   .text.HAL_SPI_TransmitReceive_IT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:2725   .text.HAL_SPI_TransmitReceive_IT:00000000 HAL_SPI_TransmitReceive_IT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:2979   .text.HAL_SPI_TransmitReceive_IT:000000e0 $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5833   .text.SPI_2linesRxISR_16BIT:00000000 SPI_2linesRxISR_16BIT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5761   .text.SPI_2linesTxISR_16BIT:00000000 SPI_2linesTxISR_16BIT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5646   .text.SPI_2linesRxISR_8BIT:00000000 SPI_2linesRxISR_8BIT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5543   .text.SPI_2linesTxISR_8BIT:00000000 SPI_2linesTxISR_8BIT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:2987   .text.HAL_SPI_Receive_IT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:2994   .text.HAL_SPI_Receive_IT:00000000 HAL_SPI_Receive_IT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:3187   .text.HAL_SPI_Receive_IT:000000cc $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5387   .text.SPI_RxISR_16BIT:00000000 SPI_RxISR_16BIT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5325   .text.SPI_RxISR_8BIT:00000000 SPI_RxISR_8BIT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:3193   .text.HAL_SPI_Transmit_DMA:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:3200   .text.HAL_SPI_Transmit_DMA:00000000 HAL_SPI_Transmit_DMA
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:3454   .text.HAL_SPI_Transmit_DMA:00000118 $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4863   .text.SPI_DMAHalfTransmitCplt:00000000 SPI_DMAHalfTransmitCplt
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5950   .text.SPI_DMATransmitCplt:00000000 SPI_DMATransmitCplt
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5905   .text.SPI_DMAError:00000000 SPI_DMAError
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:3461   .text.HAL_SPI_TransmitReceive_DMA:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:3468   .text.HAL_SPI_TransmitReceive_DMA:00000000 HAL_SPI_TransmitReceive_DMA
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:3910   .text.HAL_SPI_TransmitReceive_DMA:000001f8 $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4973   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 SPI_DMAHalfTransmitReceiveCplt
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 245
 
 
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6175   .text.SPI_DMATransmitReceiveCplt:00000000 SPI_DMATransmitReceiveCplt
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4918   .text.SPI_DMAHalfReceiveCplt:00000000 SPI_DMAHalfReceiveCplt
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6077   .text.SPI_DMAReceiveCplt:00000000 SPI_DMAReceiveCplt
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:3919   .text.HAL_SPI_Receive_DMA:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:3926   .text.HAL_SPI_Receive_DMA:00000000 HAL_SPI_Receive_DMA
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4218   .text.HAL_SPI_Receive_DMA:00000164 $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4225   .text.HAL_SPI_Abort:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4232   .text.HAL_SPI_Abort:00000000 HAL_SPI_Abort
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4571   .text.HAL_SPI_Abort:00000180 $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4579   .text.HAL_SPI_DMAPause:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4586   .text.HAL_SPI_DMAPause:00000000 HAL_SPI_DMAPause
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4628   .text.HAL_SPI_DMAResume:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4635   .text.HAL_SPI_DMAResume:00000000 HAL_SPI_DMAResume
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4677   .text.HAL_SPI_DMAStop:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4684   .text.HAL_SPI_DMAStop:00000000 HAL_SPI_DMAStop
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4769   .text.HAL_SPI_TxCpltCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4776   .text.HAL_SPI_TxCpltCallback:00000000 HAL_SPI_TxCpltCallback
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4791   .text.HAL_SPI_RxCpltCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4798   .text.HAL_SPI_RxCpltCallback:00000000 HAL_SPI_RxCpltCallback
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4813   .text.HAL_SPI_TxRxCpltCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4820   .text.HAL_SPI_TxRxCpltCallback:00000000 HAL_SPI_TxRxCpltCallback
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4835   .text.HAL_SPI_TxHalfCpltCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4842   .text.HAL_SPI_TxHalfCpltCallback:00000000 HAL_SPI_TxHalfCpltCallback
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4857   .text.SPI_DMAHalfTransmitCplt:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4890   .text.HAL_SPI_RxHalfCpltCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4897   .text.HAL_SPI_RxHalfCpltCallback:00000000 HAL_SPI_RxHalfCpltCallback
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4912   .text.SPI_DMAHalfReceiveCplt:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4945   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4952   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 HAL_SPI_TxRxHalfCpltCallback
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:4967   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5000   .text.HAL_SPI_ErrorCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5007   .text.HAL_SPI_ErrorCallback:00000000 HAL_SPI_ErrorCallback
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5022   .text.SPI_CloseTx_ISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5028   .text.SPI_CloseTx_ISR:00000000 SPI_CloseTx_ISR
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5126   .text.SPI_TxISR_8BIT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5188   .text.SPI_TxISR_16BIT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5249   .text.SPI_CloseRx_ISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5255   .text.SPI_CloseRx_ISR:00000000 SPI_CloseRx_ISR
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5319   .text.SPI_RxISR_8BIT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5381   .text.SPI_RxISR_16BIT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5442   .text.SPI_CloseRxTx_ISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5448   .text.SPI_CloseRxTx_ISR:00000000 SPI_CloseRxTx_ISR
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5537   .text.SPI_2linesTxISR_8BIT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5640   .text.SPI_2linesRxISR_8BIT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5755   .text.SPI_2linesTxISR_16BIT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5827   .text.SPI_2linesRxISR_16BIT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5899   .text.SPI_DMAError:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:5944   .text.SPI_DMATransmitCplt:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6071   .text.SPI_DMAReceiveCplt:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6169   .text.SPI_DMATransmitReceiveCplt:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6270   .text.HAL_SPI_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6277   .text.HAL_SPI_IRQHandler:00000000 HAL_SPI_IRQHandler
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6554   .text.HAL_SPI_IRQHandler:00000118 $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6565   .text.SPI_DMAAbortOnError:00000000 SPI_DMAAbortOnError
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6559   .text.SPI_DMAAbortOnError:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6598   .text.HAL_SPI_AbortCpltCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6605   .text.HAL_SPI_AbortCpltCallback:00000000 HAL_SPI_AbortCpltCallback
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s 			page 246
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6175   .text.SPI_DMATransmitReceiveCplt:00000000 SPI_DMATransmitReceiveCplt
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4918   .text.SPI_DMAHalfReceiveCplt:00000000 SPI_DMAHalfReceiveCplt
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6077   .text.SPI_DMAReceiveCplt:00000000 SPI_DMAReceiveCplt
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:3919   .text.HAL_SPI_Receive_DMA:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:3926   .text.HAL_SPI_Receive_DMA:00000000 HAL_SPI_Receive_DMA
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4218   .text.HAL_SPI_Receive_DMA:00000164 $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4225   .text.HAL_SPI_Abort:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4232   .text.HAL_SPI_Abort:00000000 HAL_SPI_Abort
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4571   .text.HAL_SPI_Abort:00000180 $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4579   .text.HAL_SPI_DMAPause:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4586   .text.HAL_SPI_DMAPause:00000000 HAL_SPI_DMAPause
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4628   .text.HAL_SPI_DMAResume:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4635   .text.HAL_SPI_DMAResume:00000000 HAL_SPI_DMAResume
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4677   .text.HAL_SPI_DMAStop:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4684   .text.HAL_SPI_DMAStop:00000000 HAL_SPI_DMAStop
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4769   .text.HAL_SPI_TxCpltCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4776   .text.HAL_SPI_TxCpltCallback:00000000 HAL_SPI_TxCpltCallback
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4791   .text.HAL_SPI_RxCpltCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4798   .text.HAL_SPI_RxCpltCallback:00000000 HAL_SPI_RxCpltCallback
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4813   .text.HAL_SPI_TxRxCpltCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4820   .text.HAL_SPI_TxRxCpltCallback:00000000 HAL_SPI_TxRxCpltCallback
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4835   .text.HAL_SPI_TxHalfCpltCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4842   .text.HAL_SPI_TxHalfCpltCallback:00000000 HAL_SPI_TxHalfCpltCallback
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4857   .text.SPI_DMAHalfTransmitCplt:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4890   .text.HAL_SPI_RxHalfCpltCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4897   .text.HAL_SPI_RxHalfCpltCallback:00000000 HAL_SPI_RxHalfCpltCallback
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4912   .text.SPI_DMAHalfReceiveCplt:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4945   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4952   .text.HAL_SPI_TxRxHalfCpltCallback:00000000 HAL_SPI_TxRxHalfCpltCallback
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:4967   .text.SPI_DMAHalfTransmitReceiveCplt:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5000   .text.HAL_SPI_ErrorCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5007   .text.HAL_SPI_ErrorCallback:00000000 HAL_SPI_ErrorCallback
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5022   .text.SPI_CloseTx_ISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5028   .text.SPI_CloseTx_ISR:00000000 SPI_CloseTx_ISR
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5126   .text.SPI_TxISR_8BIT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5188   .text.SPI_TxISR_16BIT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5249   .text.SPI_CloseRx_ISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5255   .text.SPI_CloseRx_ISR:00000000 SPI_CloseRx_ISR
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5319   .text.SPI_RxISR_8BIT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5381   .text.SPI_RxISR_16BIT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5442   .text.SPI_CloseRxTx_ISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5448   .text.SPI_CloseRxTx_ISR:00000000 SPI_CloseRxTx_ISR
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5537   .text.SPI_2linesTxISR_8BIT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5640   .text.SPI_2linesRxISR_8BIT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5755   .text.SPI_2linesTxISR_16BIT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5827   .text.SPI_2linesRxISR_16BIT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5899   .text.SPI_DMAError:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:5944   .text.SPI_DMATransmitCplt:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6071   .text.SPI_DMAReceiveCplt:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6169   .text.SPI_DMATransmitReceiveCplt:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6270   .text.HAL_SPI_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6277   .text.HAL_SPI_IRQHandler:00000000 HAL_SPI_IRQHandler
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6554   .text.HAL_SPI_IRQHandler:00000118 $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6565   .text.SPI_DMAAbortOnError:00000000 SPI_DMAAbortOnError
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6559   .text.SPI_DMAAbortOnError:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6598   .text.HAL_SPI_AbortCpltCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6605   .text.HAL_SPI_AbortCpltCallback:00000000 HAL_SPI_AbortCpltCallback
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s 			page 246
 
 
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6620   .text.HAL_SPI_Abort_IT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:6627   .text.HAL_SPI_Abort_IT:00000000 HAL_SPI_Abort_IT
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:7033   .text.HAL_SPI_Abort_IT:0000018c $d
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:7203   .text.SPI_DMATxAbortCallback:00000000 SPI_DMATxAbortCallback
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:7049   .text.SPI_DMARxAbortCallback:00000000 SPI_DMARxAbortCallback
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:7043   .text.SPI_DMARxAbortCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:7197   .text.SPI_DMATxAbortCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:7348   .text.HAL_SPI_GetState:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:7355   .text.HAL_SPI_GetState:00000000 HAL_SPI_GetState
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:7373   .text.HAL_SPI_GetError:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccAhdNiH.s:7380   .text.HAL_SPI_GetError:00000000 HAL_SPI_GetError
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6620   .text.HAL_SPI_Abort_IT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:6627   .text.HAL_SPI_Abort_IT:00000000 HAL_SPI_Abort_IT
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:7033   .text.HAL_SPI_Abort_IT:0000018c $d
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:7203   .text.SPI_DMATxAbortCallback:00000000 SPI_DMATxAbortCallback
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:7049   .text.SPI_DMARxAbortCallback:00000000 SPI_DMARxAbortCallback
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:7043   .text.SPI_DMARxAbortCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:7197   .text.SPI_DMATxAbortCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:7348   .text.HAL_SPI_GetState:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:7355   .text.HAL_SPI_GetState:00000000 HAL_SPI_GetState
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:7373   .text.HAL_SPI_GetError:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb9w5Ph.s:7380   .text.HAL_SPI_GetError:00000000 HAL_SPI_GetError
 
 UNDEFINED SYMBOLS
 HAL_GetTick
