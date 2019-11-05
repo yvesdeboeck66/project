@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
   28:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** /* Standard includes. */
   29:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** #include <stdint.h>
   30:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** #include <string.h>
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 2
 
 
   31:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
   85:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 				( pxStreamBuffer )->xTaskWaitingToSend = NULL;							\
   86:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			}																			\
   87:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		}																				\
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 3
 
 
   88:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		portCLEAR_INTERRUPT_MASK_FROM_ISR( uxSavedInterruptStatus );					\
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  142:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** {
  143:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	volatile size_t xTail;				/* Index to the next item to read within the buffer. */
  144:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	volatile size_t xHead;				/* Index to the next item to write within the buffer. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 4
 
 
  145:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	size_t xLength;						/* The length of the buffer pointed to by pucBuffer. */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  199:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c ****  */
  200:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** static size_t prvReadBytesFromBuffer( StreamBuffer_t *pxStreamBuffer,
  201:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 									  uint8_t *pucData,
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 5
 
 
  202:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 									  size_t xMaxCount,
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  256:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			traceSTREAM_BUFFER_CREATE( ( ( StreamBuffer_t * ) pucAllocatedMemory ), xIsMessageBuffer );
  257:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		}
  258:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		else
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 6
 
 
  259:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		{
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  313:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 										  xIsMessageBuffer );
  314:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  315:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			/* Remember this was statically allocated in case it is ever deleted
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 7
 
 
  316:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			again. */
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  370:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** StreamBuffer_t * const pxStreamBuffer = ( StreamBuffer_t * ) xStreamBuffer; /*lint !e9087 !e9079 Sa
  371:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** BaseType_t xReturn = pdFAIL, xIsMessageBuffer;
  372:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 8
 
 
  373:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** #if( configUSE_TRACE_FACILITY == 1 )
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  427:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	configASSERT( pxStreamBuffer );
  428:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  429:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	/* It is not valid for the trigger level to be 0. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 9
 
 
  430:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	if( xTriggerLevel == ( size_t ) 0 )
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  484:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** }
  485:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** /*-----------------------------------------------------------*/
  486:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 10
 
 
  487:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** size_t xStreamBufferSend( StreamBufferHandle_t xStreamBuffer,
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  541:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  542:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			traceBLOCKING_ON_STREAM_BUFFER_SEND( xStreamBuffer );
  543:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			( void ) xTaskNotifyWait( ( uint32_t ) 0, UINT32_MAX, NULL, xTicksToWait );
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 11
 
 
  544:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			pxStreamBuffer->xTaskWaitingToSend = NULL;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  598:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	configASSERT( pxStreamBuffer );
  599:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  600:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	/* This send function is used to write to both message buffers and stream
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 12
 
 
  601:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	buffers.  If this is a message buffer then the space needed must be
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  655:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
  656:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		/* This is a stream buffer, as opposed to a message buffer, so writing a
  657:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		stream of bytes rather than discrete messages.  Write as many bytes as
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 13
 
 
  658:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		possible. */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  712:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
  713:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		xBytesToStoreMessageLength = 0;
  714:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 14
 
 
  715:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  769:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	read bytes from the buffer. */
  770:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	if( xBytesAvailable > xBytesToStoreMessageLength )
  771:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 15
 
 
  772:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		xReceivedLength = prvReadMessageFromBuffer( pxStreamBuffer, pvRxData, xBufferLengthBytes, xBytesA
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  826:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	read bytes from the buffer. */
  827:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	if( xBytesAvailable > xBytesToStoreMessageLength )
  828:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 16
 
 
  829:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		xReceivedLength = prvReadMessageFromBuffer( pxStreamBuffer, pvRxData, xBufferLengthBytes, xBytesA
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  883:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		else
  884:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		{
  885:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			mtCOVERAGE_TEST_MARKER();
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 17
 
 
  886:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		}
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  940:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
  941:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	else
  942:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 18
 
 
  943:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		xBytesToStoreMessageLength = 0;
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  997:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  998:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	uxSavedInterruptStatus = ( UBaseType_t ) portSET_INTERRUPT_MASK_FROM_ISR();
  999:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 19
 
 
 1000:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		if( ( pxStreamBuffer )->xTaskWaitingToSend != NULL )
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
 1054:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
 1055:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	else
 1056:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 20
 
 
 1057:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		mtCOVERAGE_TEST_MARKER();
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
 1111:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
 1112:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	else
 1113:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 21
 
 
 1114:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		mtCOVERAGE_TEST_MARKER();
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
   59              		.loc 1 1137 2 view .LVU14
   60              	.L1:
 1138:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 22
 
 
   61              		.loc 1 1138 1 is_stmt 0 view .LVU15
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
   99              	.LVL7:
  100              		.loc 1 1156 3 is_stmt 0 view .LVU20
  101 000c 2846     		mov	r0, r5
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 23
 
 
  102              	.LVL8:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
   44:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h ****  */
   45:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
   46:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** /* Type definitions. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 24
 
 
   47:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #define portCHAR		char
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  101:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #define portDISABLE_INTERRUPTS()				vPortRaiseBASEPRI()
  102:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #define portENABLE_INTERRUPTS()					vPortSetBASEPRI(0)
  103:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #define portENTER_CRITICAL()					vPortEnterCritical()
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 25
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 25
 
 
  104:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #define portEXIT_CRITICAL()						vPortExitCritical()
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  158:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #endif
  159:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
  160:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** /* portNOP() is not required by this port. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 26
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 26
 
 
  161:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #define portNOP()
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  132              		.loc 1 1156 3 is_stmt 1 discriminator 1 view .LVU28
  133              		.loc 1 1156 3 discriminator 1 view .LVU29
  134 0026 FEE7     		b	.L5
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 27
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 27
 
 
  135              	.L4:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  178              	.LFB21:
 1021:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** size_t xNextHead, xFirstLength;
  179              		.loc 1 1021 1 is_stmt 1 view -0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 28
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 28
 
 
  180              		.cfi_startproc
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  224              		.loc 1 1026 2 discriminator 2 view .LVU56
 1026:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  225              		.loc 1 1026 12 is_stmt 0 discriminator 2 view .LVU57
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 29
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 29
 
 
  226 001a 4668     		ldr	r6, [r0, #4]
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  269              		.loc 1 1034 2 is_stmt 0 discriminator 2 view .LVU70
  270 0042 0D46     		mov	r5, r1
  271 0044 0446     		mov	r4, r0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 30
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 30
 
 
 1034:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	memcpy( ( void* ) ( &( pxStreamBuffer->pucBuffer[ xNextHead ] ) ), ( const void * ) pucData, xFirs
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  314              		.loc 1 1042 3 discriminator 3 view .LVU84
  315 006e FEE7     		b	.L15
  316              	.L14:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 31
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 31
 
 
 1042:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		memcpy( ( void * ) pxStreamBuffer->pucBuffer, ( const void * ) &( pucData[ xFirstLength ] ), xCou
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  356              		.thumb_func
  357              		.fpu fpv4-sp-d16
  359              	prvWriteMessageToBuffer:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 32
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 32
 
 
  360              	.LVL24:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  401              	.LVL28:
  660:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
  402              		.loc 1 660 20 view .LVU114
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 33
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 33
 
 
  403 001c 0190     		str	r0, [sp, #4]
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  444              		.loc 1 669 12 view .LVU127
  445 0038 0DEB0201 		add	r1, sp, r2
  446              	.LVL35:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 34
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 34
 
 
  669:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  493              		.loc 1 1073 4 is_stmt 0 view .LVU137
  494 000c B8F1000F 		cmp	r8, #0
  495 0010 3ED0     		beq	.L26
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 35
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 35
 
 
 1075:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  538 0032 FEE7     		b	.L29
  539              	.L28:
 1084:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		configASSERT( ( xNextTail + xFirstLength ) <= pxStreamBuffer->xLength );
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 36
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 36
 
 
  540              		.loc 1 1084 44 discriminator 2 view .LVU152
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
 1086:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  583              		.loc 1 1086 3 discriminator 2 view .LVU166
  584 0056 2144     		add	r1, r1, r4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 37
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 37
 
 
  585 0058 3046     		mov	r0, r6
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  628 0080 FFF7FEFF 		bl	memcpy
  629              	.LVL50:
  630              	.L32:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 38
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 38
 
 
 1098:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		}
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  672              		.cfi_startproc
  673              		@ args = 4, pretend = 0, frame = 8
  674              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 39
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 39
 
 
  857:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** size_t xOriginalTail, xReceivedLength, xNextMessageLength;
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  719              	.LVL57:
  720              	.L41:
  721              	.LCFI10:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 40
 
 
  722              		.cfi_restore_state
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  762              		.thumb
  763              		.thumb_func
  764              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 41
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 41
 
 
  766              	xStreamBufferGenericCreate:
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  811              		.cfi_offset 14, -4
  812 0018 83B0     		sub	sp, sp, #12
  813              	.LCFI12:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 42
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 42
 
 
  814              		.cfi_def_cfa_offset 32
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  245:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		pucAllocatedMemory = ( uint8_t * ) pvPortMalloc( xBufferSizeBytes + sizeof( StreamBuffer_t ) ); /
  856              		.loc 1 245 19 is_stmt 0 view .LVU245
  857 0038 461C     		adds	r6, r0, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 43
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 43
 
 
  858              	.LVL67:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  903              		@ args = 0, pretend = 0, frame = 0
  904              		@ frame_needed = 0, uses_anonymous_args = 0
  336:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** StreamBuffer_t * pxStreamBuffer = ( StreamBuffer_t * ) xStreamBuffer; /*lint !e9087 !e9079 Safe cas
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 44
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 44
 
 
  905              		.loc 1 336 1 is_stmt 0 view .LVU257
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  947              		.thumb
  948              		.syntax unified
  949              	.L54:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 45
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 45
 
 
  950              		.loc 2 195 2 is_stmt 0 view .LVU271
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  993              		.loc 1 371 12 view .LVU284
  994 0008 0020     		movs	r0, #0
  995              	.LVL77:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 46
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 46
 
 
  371:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1037 0024 7047     		bx	lr
  1038              	.LVL81:
  1039              	.L73:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 47
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 47
 
 
  369:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** StreamBuffer_t * const pxStreamBuffer = ( StreamBuffer_t * ) xStreamBuffer; /*lint !e9087 !e9079 Sa
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1083              		.cfi_restore_state
  398:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 			}
  1084              		.loc 1 398 22 view .LVU311
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 48
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 48
 
 
  1085 004a 0022     		movs	r2, #0
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  440:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
  1128              		.loc 1 440 3 is_stmt 1 view .LVU325
  1129              	.LVL89:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 49
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 49
 
 
  440:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1175              		.syntax unified
  1176              		.thumb
  1177              		.thumb_func
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 50
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 50
 
 
  1178              		.fpu fpv4-sp-d16
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1217 0012 00D8     		bhi	.L82
  464:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
  1218              		.loc 1 464 3 is_stmt 1 view .LVU354
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 51
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 51
 
 
  464:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1266              	.LVL103:
  1267              	.LFB10:
  476:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** const StreamBuffer_t * const pxStreamBuffer = ( StreamBuffer_t * ) xStreamBuffer; /*lint !e9087 !e9
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 52
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 52
 
 
  1268              		.loc 1 476 1 view -0
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1310              		.syntax unified
  1311              	.L89:
  1312              		.loc 2 195 2 is_stmt 0 view .LVU380
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 53
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 53
 
 
  1313              	.LBE105:
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1359              		.loc 1 497 26 discriminator 2 view .LVU390
  498:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  1360              		.loc 1 498 2 discriminator 2 view .LVU391
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 54
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 54
 
 
  1361 000e 0028     		cmp	r0, #0
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1398              		.loc 1 523 14 is_stmt 0 view .LVU408
  1399 0032 2046     		mov	r0, r4
  1400 0034 FFF7FEFF 		bl	xStreamBufferSpacesAvailable
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 55
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 55
 
 
  1401              	.LVL115:
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1439 0060 0023     		movs	r3, #0
  1440 0062 6361     		str	r3, [r4, #20]
  546:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 56
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 56
 
 
  1441              		.loc 1 546 12 discriminator 2 view .LVU425
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1486              		.syntax unified
  1487              	@ 195 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h" 1
  1488 0084 4FF01003 			mov r3, #16												
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 57
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 57
 
 
  1489 0088 83F31188 		msr basepri, r3											
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1535              	.LVL129:
  1536              	.L99:
  536:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 					break;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 58
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 58
 
 
  1537              		.loc 1 536 6 view .LVU449
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1578              		.cfi_remember_state
  1579              		.cfi_def_cfa_offset 24
  1580              		@ sp needed
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 59
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 59
 
 
  1581 00d2 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1621              		.loc 1 581 50 discriminator 3 view .LVU476
  584:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** }
  1622              		.loc 1 584 2 discriminator 3 view .LVU477
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 60
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 60
 
 
  584:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** }
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1667              		.loc 1 604 22 is_stmt 0 discriminator 2 view .LVU489
  1668 000c 017F     		ldrb	r1, [r0, #28]	@ zero_extendqisi2
  1669              	.LVL144:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 61
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 61
 
 
  604:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1710              		.cfi_def_cfa_offset 24
  1711              		@ sp needed
  1712 003a BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 62
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 62
 
 
  1713              	.LVL151:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  191:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** {
  1761              		.loc 2 191 30 view .LVU512
  1762              	.LBB115:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 63
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 63
 
 
  193:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1806              	.LBI117:
  196:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	(
  197:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 		"	mov %0, %1												\n"	\
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 64
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 64
 
 
  198:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 		"	msr basepri, %0											\n" \
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1833 008e 0023     		movs	r3, #0
  1834 0090 1A46     		mov	r2, r3
  1835 0092 1946     		mov	r1, r3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 65
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 65
 
 
  1836 0094 FFF7FEFF 		bl	xTaskGenericNotifyFromISR
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1879              		@ args = 0, pretend = 0, frame = 0
  1880              		@ frame_needed = 0, uses_anonymous_args = 0
  696:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** size_t xReceivedLength = 0, xBytesAvailable, xBytesToStoreMessageLength;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 66
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 66
 
 
  1881              		.loc 1 696 1 view .LVU542
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1922              		.loc 1 720 3 is_stmt 1 view .LVU555
  1923 0020 FFF7FEFF 		bl	vPortEnterCritical
  1924              	.LVL165:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 67
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 67
 
 
  722:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  1966              	.LBE122:
  1967              	.LBE121:
  735:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 				pxStreamBuffer->xTaskWaitingToReceive = xTaskGetCurrentTaskHandle();
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 68
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 68
 
 
  1968              		.loc 1 735 5 is_stmt 1 discriminator 3 view .LVU569
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2014              		.cfi_offset 7, -16
  2015              		.cfi_offset 8, -12
  2016              		.cfi_offset 9, -8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 69
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 69
 
 
  2017              		.cfi_offset 14, -4
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2058              		.loc 1 740 29 is_stmt 1 view .LVU590
  743:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  2059              		.loc 1 743 3 view .LVU591
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 70
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 70
 
 
  2060 007a FFF7FEFF 		bl	vPortExitCritical
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2099              		.loc 1 770 4 is_stmt 0 view .LVU606
  2100 00a4 B542     		cmp	r5, r6
  2101 00a6 04D8     		bhi	.L146
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 71
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 71
 
 
  697:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2143 00cc 3BB1     		cbz	r3, .L139
  778:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		}
  2144              		.loc 1 778 4 discriminator 1 view .LVU620
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 72
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 72
 
 
  2145 00ce 6069     		ldr	r0, [r4, #20]
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2193              	.LCFI36:
  2194              		.cfi_def_cfa_offset 32
  2195 0008 0D46     		mov	r5, r1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 73
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 73
 
 
  803:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	configASSERT( pxStreamBuffer );
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2233 0028 2846     		mov	r0, r5
  2234 002a 02B0     		add	sp, sp, #8
  2235              	.LCFI37:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 74
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 74
 
 
  2236              		.cfi_def_cfa_offset 24
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2283              		.cfi_offset 14, -4
  804:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 
  2284              		.loc 1 804 2 view .LVU653
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 75
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 75
 
 
  2285              	.LBB129:
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2327              		.loc 1 832 5 is_stmt 0 view .LVU665
  2328 0064 0546     		mov	r5, r0
  2329              	.LVL206:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 76
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 76
 
 
  832:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		{
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2372 0092 0023     		movs	r3, #0
  2373 0094 6361     		str	r3, [r4, #20]
  2374              	.L154:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 77
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 77
 
 
  834:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		}
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  912:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
  2421              		.loc 1 912 2 is_stmt 1 discriminator 2 view .LVU689
  912:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 78
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 78
 
 
  2422              		.loc 1 912 20 is_stmt 0 discriminator 2 view .LVU690
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2464              	.LVL217:
  914:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
  2465              		.loc 1 914 11 view .LVU703
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 79
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 79
 
 
  2466 0022 7047     		bx	lr
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  947:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	{
  2510              		.loc 1 947 6 is_stmt 0 view .LVU716
  2511 0012 FFF7FEFF 		bl	xStreamBufferSpacesAvailable
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 80
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 80
 
 
  2512              	.LVL220:
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2556              		.cfi_offset 14, -4
  943:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 	}
  2557              		.loc 1 943 30 is_stmt 0 view .LVU727
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 81
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 81
 
 
  2558 0030 0024     		movs	r4, #0
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2603              		.loc 1 968 2 view .LVU738
  2604              	.LBB140:
  2605              	.LBI140:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 82
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 82
 
 
  207:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** {
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2646 002e 0023     		movs	r3, #0
  2647 0030 2361     		str	r3, [r4, #16]
  977:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 		}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 83
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 83
 
 
  2648              		.loc 1 977 4 is_stmt 1 view .LVU753
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2693 003c 4FF01003 			mov r3, #16												
  2694 0040 83F31188 		msr basepri, r3											
  2695 0044 BFF36F8F 		isb														
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 84
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 84
 
 
  2696 0048 BFF34F8F 		dsb														
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2742              		.loc 1 996 2 view .LVU774
  2743 0000 E0B1     		cbz	r0, .L194
  991:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** StreamBuffer_t * const pxStreamBuffer = ( StreamBuffer_t * ) xStreamBuffer; /*lint !e9087 !e9079 Sa
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 85
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 85
 
 
  2744              		.loc 1 991 1 is_stmt 0 view .LVU775
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2786 0020 4069     		ldr	r0, [r0, #20]
  2787              	.LVL239:
 1002:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c **** 										 ( uint32_t ) 0,
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 86
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 86
 
 
  2788              		.loc 1 1002 13 view .LVU788
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2833              		.cfi_def_cfa_offset 0
  2834              		.cfi_restore 4
  2835              		.cfi_restore 5
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 87
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 87
 
 
  2836              		.cfi_restore 14
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2882              		.file 6 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
  2883              		.file 7 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
  2884              		.file 8 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 88
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 88
 
 
  2885              		.file 9 "../../core/platform/octa/inc/FreeRTOSConfig.h"
@@ -5227,51 +5227,51 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 1
  2888              		.file 12 "<built-in>"
  2889              		.file 13 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\includ
  2890              		.file 14 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 89
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 89
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stream_buffer.c
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:18     .text.prvBytesInBuffer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:25     .text.prvBytesInBuffer:00000000 prvBytesInBuffer
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:67     .text.prvInitialiseNewStreamBuffer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:73     .text.prvInitialiseNewStreamBuffer:00000000 prvInitialiseNewStreamBuffer
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:170    .text.prvWriteBytesToBuffer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:176    .text.prvWriteBytesToBuffer:00000000 prvWriteBytesToBuffer
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:353    .text.prvWriteMessageToBuffer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:359    .text.prvWriteMessageToBuffer:00000000 prvWriteMessageToBuffer
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:459    .text.prvReadBytesFromBuffer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:465    .text.prvReadBytesFromBuffer:00000000 prvReadBytesFromBuffer
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:662    .text.prvReadMessageFromBuffer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:668    .text.prvReadMessageFromBuffer:00000000 prvReadMessageFromBuffer
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:759    .text.xStreamBufferGenericCreate:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:766    .text.xStreamBufferGenericCreate:00000000 xStreamBufferGenericCreate
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:891    .text.vStreamBufferDelete:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:898    .text.vStreamBufferDelete:00000000 vStreamBufferDelete
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:968    .text.xStreamBufferReset:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:975    .text.xStreamBufferReset:00000000 xStreamBufferReset
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1091   .text.xStreamBufferSetTriggerLevel:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1098   .text.xStreamBufferSetTriggerLevel:00000000 xStreamBufferSetTriggerLevel
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1173   .text.xStreamBufferSpacesAvailable:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1180   .text.xStreamBufferSpacesAvailable:00000000 xStreamBufferSpacesAvailable
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1258   .text.xStreamBufferBytesAvailable:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1265   .text.xStreamBufferBytesAvailable:00000000 xStreamBufferBytesAvailable
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1322   .text.xStreamBufferSend:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1329   .text.xStreamBufferSend:00000000 xStreamBufferSend
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1629   .text.xStreamBufferSendFromISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1636   .text.xStreamBufferSendFromISR:00000000 xStreamBufferSendFromISR
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1867   .text.xStreamBufferReceive:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:1874   .text.xStreamBufferReceive:00000000 xStreamBufferReceive
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:2164   .text.xStreamBufferReceiveFromISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:2171   .text.xStreamBufferReceiveFromISR:00000000 xStreamBufferReceiveFromISR
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:2396   .text.xStreamBufferIsEmpty:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:2403   .text.xStreamBufferIsEmpty:00000000 xStreamBufferIsEmpty
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:2471   .text.xStreamBufferIsFull:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:2478   .text.xStreamBufferIsFull:00000000 xStreamBufferIsFull
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:2572   .text.xStreamBufferSendCompletedFromISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:2579   .text.xStreamBufferSendCompletedFromISR:00000000 xStreamBufferSendCompletedFromISR
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:2725   .text.xStreamBufferReceiveCompletedFromISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s:2732   .text.xStreamBufferReceiveCompletedFromISR:00000000 xStreamBufferReceiveCompletedFromISR
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:18     .text.prvBytesInBuffer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:25     .text.prvBytesInBuffer:00000000 prvBytesInBuffer
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:67     .text.prvInitialiseNewStreamBuffer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:73     .text.prvInitialiseNewStreamBuffer:00000000 prvInitialiseNewStreamBuffer
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:170    .text.prvWriteBytesToBuffer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:176    .text.prvWriteBytesToBuffer:00000000 prvWriteBytesToBuffer
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:353    .text.prvWriteMessageToBuffer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:359    .text.prvWriteMessageToBuffer:00000000 prvWriteMessageToBuffer
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:459    .text.prvReadBytesFromBuffer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:465    .text.prvReadBytesFromBuffer:00000000 prvReadBytesFromBuffer
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:662    .text.prvReadMessageFromBuffer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:668    .text.prvReadMessageFromBuffer:00000000 prvReadMessageFromBuffer
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:759    .text.xStreamBufferGenericCreate:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:766    .text.xStreamBufferGenericCreate:00000000 xStreamBufferGenericCreate
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:891    .text.vStreamBufferDelete:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:898    .text.vStreamBufferDelete:00000000 vStreamBufferDelete
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:968    .text.xStreamBufferReset:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:975    .text.xStreamBufferReset:00000000 xStreamBufferReset
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1091   .text.xStreamBufferSetTriggerLevel:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1098   .text.xStreamBufferSetTriggerLevel:00000000 xStreamBufferSetTriggerLevel
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1173   .text.xStreamBufferSpacesAvailable:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1180   .text.xStreamBufferSpacesAvailable:00000000 xStreamBufferSpacesAvailable
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1258   .text.xStreamBufferBytesAvailable:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1265   .text.xStreamBufferBytesAvailable:00000000 xStreamBufferBytesAvailable
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1322   .text.xStreamBufferSend:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1329   .text.xStreamBufferSend:00000000 xStreamBufferSend
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1629   .text.xStreamBufferSendFromISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1636   .text.xStreamBufferSendFromISR:00000000 xStreamBufferSendFromISR
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1867   .text.xStreamBufferReceive:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:1874   .text.xStreamBufferReceive:00000000 xStreamBufferReceive
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:2164   .text.xStreamBufferReceiveFromISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:2171   .text.xStreamBufferReceiveFromISR:00000000 xStreamBufferReceiveFromISR
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:2396   .text.xStreamBufferIsEmpty:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:2403   .text.xStreamBufferIsEmpty:00000000 xStreamBufferIsEmpty
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:2471   .text.xStreamBufferIsFull:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:2478   .text.xStreamBufferIsFull:00000000 xStreamBufferIsFull
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:2572   .text.xStreamBufferSendCompletedFromISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:2579   .text.xStreamBufferSendCompletedFromISR:00000000 xStreamBufferSendCompletedFromISR
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:2725   .text.xStreamBufferReceiveCompletedFromISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s:2732   .text.xStreamBufferReceiveCompletedFromISR:00000000 xStreamBufferReceiveCompletedFromISR
 
 UNDEFINED SYMBOLS
 memset
@@ -5287,7 +5287,7 @@ xTaskNotifyWait
 xTaskCheckForTimeOut
 vTaskSuspendAll
 xTaskGenericNotify
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnJP8OK.s 			page 90
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyGDXVY.s 			page 90
 
 
 xTaskResumeAll

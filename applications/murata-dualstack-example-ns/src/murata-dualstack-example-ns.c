@@ -185,7 +185,7 @@ int main(void)
   /* Start scheduler */
 
   /* We should never get here as control is now taken by the scheduler */
-
+  HAL_Delay(10000);
   /* Infinite loop */
   uint8_t counter = 0;
   uint8_t use_lora = 1;
@@ -193,7 +193,7 @@ int main(void)
   while (1)
   { 
     IWDG_feed(NULL);
-
+    HAL_Delay(5000);
     if(murata_data_ready)
     {
       printf("processing murata fifo\r\n");
@@ -214,12 +214,7 @@ int main(void)
       printf("%d,\r\n\r\n",rep_counter);
 
 
-      if (rep_counter==4) {
-        printf("going into sleepmode\r\n"); 
-      //HAL_PWR_EnterStopmode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
-      HAL_PWR_EnterStopmode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
-      printf(" into sleepmode gegaan\r\n"); 
-      }
+      
 
       murata_init=Murata_Initialize(short_UID,0);
 
@@ -229,17 +224,27 @@ int main(void)
           temp_hum_measurement();
           //LoRaWAN_send(&payload);
         //LoRaWAN_send_self();
-        
+
         Dash7_send_temphum(); 
         //LoRaWAN_send_temphum(); 
 
       }
       
-        
+           
         //murata_process_rx_response();
           temperatureflag=0; 
     //     lora_init=Murata_Initialize(short_UID);
+
+    
+      
+      
     } 
+
+    printf("going into sleepmode\r\n"); 
+      //HAL_PWR_EnterStopmode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
+      HAL_PWR_EnterSTOPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
+
+      printf(" into sleepmode gegaan\r\n"); 
     
     // SEND 5 D7 messages, every 10 sec.
     // Afterwards, send 3 LoRaWAN messages, every minute
