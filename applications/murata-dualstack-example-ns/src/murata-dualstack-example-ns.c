@@ -54,9 +54,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 //#include "murata.h"
-#include "C:\Users\yvesk\Documents\Academiejaar 2019-2020\IOT\Practicum\octa-stack-students-master\core\drivers\LSM303AGR\inc\LSM303AGRSensor.h"
+#include <LSM303AGRSensor.h>
 #include <stdio.h>
-#include "C:\Users\yvesk\Documents\Academiejaar 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\murata.h"
+#include <murata.h>
 //#include "murata.h"
 
 /* USER CODE END Includes */
