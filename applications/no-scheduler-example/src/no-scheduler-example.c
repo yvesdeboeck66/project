@@ -177,7 +177,7 @@ int main(void)
       printf(" into sleepmode gegaan\r\n"); 
       }
 
-lora_init=Murata_Initialize(short_UID);
+  lora_init=Murata_Initialize(short_UID);
 
   if (lora_init) {
     printf("Lorawan module init ok\r\n\r\n");
@@ -186,8 +186,7 @@ lora_init=Murata_Initialize(short_UID);
       //LoRaWAN_send(&payload);
     //LoRaWAN_send_self();
   }
-    //hier zitten we vast, want wel melding dat het bericht aan het zenden is, maar dit is nooit effectief verstuurd/ aangekomen.
-    //wat doen we fout of kan er worden uitgelegd hoe wat waar?
+  
     
     //murata_process_rx_response();
       temperatureflag=0; 
