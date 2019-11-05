@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccIAyCHx.s 			page 1
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\cc6otyek.s 			page 1
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
    1              		.cpu cortex-m4
@@ -58,7 +62,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccIAyCHx.s 			page 1
   46              		.comm	P3_header,44,4
   47              		.comm	P2_header,44,4
   48              		.comm	P1_header,44,4
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccIAyCHx.s 			page 2
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\cc6otyek.s 			page 2
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   49              		.comm	FLASH_SPI,100,4
@@ -113,13 +121,22 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccIAyCHx.s 			page 1
   98              		.file 17 "../../core/platform/octa/inc/i2c.h"
   99              		.file 18 "../../core/platform/octa/inc/spi.h"
  100              		.file 19 "../../core/platform/octa/inc/octa.h"
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccIAyCHx.s 			page 3
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\cc6otyek.s 			page 3
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 platform.c
+<<<<<<< HEAD
 C:\Users\yvesk\AppData\Local\Temp\ccIAyCHx.s:18     .text.Initialize_Platform:00000000 $t
 C:\Users\yvesk\AppData\Local\Temp\ccIAyCHx.s:26     .text.Initialize_Platform:00000000 Initialize_Platform
+=======
+C:\Users\Wouter\AppData\Local\Temp\cc6otyek.s:18     .text.Initialize_Platform:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\cc6otyek.s:26     .text.Initialize_Platform:00000000 Initialize_Platform
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
                             *COM*:0000002c P3_header
                             *COM*:0000002c P2_header
                             *COM*:0000002c P1_header

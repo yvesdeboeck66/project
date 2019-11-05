@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 1
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s 			page 1
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
    1              		.cpu cortex-m4
@@ -58,7 +62,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 1
   27:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****     (+) Whenever the key value 0x0000 AAAA is written in the IWDG_KR register, 
   28:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****         the IWDG_RLR value is reloaded in the counter and the watchdog reset is
   29:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****         prevented.
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 2
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s 			page 2
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   30:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c **** 
@@ -118,7 +126,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 1
   84:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****   * Redistribution and use in source and binary forms, with or without modification,
   85:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****   * are permitted provided that the following conditions are met:
   86:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****   *   1. Redistributions of source code must retain the above copyright notice,
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 3
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s 			page 3
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   87:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****   *      this list of conditions and the following disclaimer.
@@ -178,7 +190,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 1
  141:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****   * @{
  142:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****   */
  143:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 4
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s 			page 4
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  144:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c **** /** @addtogroup IWDG_Exported_Functions_Group1
@@ -238,7 +254,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 1
  180:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****   /* Check the parameters */
  181:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****   assert_param(IS_IWDG_ALL_INSTANCE(hiwdg->Instance));
   47              		.loc 1 181 3 is_stmt 1 view .LVU5
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 5
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s 			page 5
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  182:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****   assert_param(IS_IWDG_PRESCALER(hiwdg->Init.Prescaler));
@@ -298,7 +318,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 1
   82              		.loc 1 201 15 is_stmt 0 view .LVU23
   83 0028 2368     		ldr	r3, [r4]
   84              		.loc 1 201 25 view .LVU24
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 6
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s 			page 6
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   85 002a DA68     		ldr	r2, [r3, #12]
@@ -358,7 +382,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 1
  110 0040 9142     		cmp	r1, r2
  111 0042 02D0     		beq	.L5
  216:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****   }
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 7
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s 			page 7
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  112              		.loc 1 216 5 is_stmt 1 view .LVU36
@@ -418,7 +446,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 1
  238:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****                       ##### IO operation functions #####
  239:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****  ===============================================================================
  240:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****  [..]  This section provides functions allowing to:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 8
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s 			page 8
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  241:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c ****       (+) Refresh the IWDG.
@@ -469,15 +501,26 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 1
  177              		.file 7 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
  178              		.file 8 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_iwdg.h"
  179              		.file 9 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s 			page 9
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s 			page 9
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l4xx_hal_iwdg.c
+<<<<<<< HEAD
 C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s:18     .text.HAL_IWDG_Init:00000000 $t
 C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s:26     .text.HAL_IWDG_Init:00000000 HAL_IWDG_Init
 C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s:142    .text.HAL_IWDG_Refresh:00000000 $t
 C:\Users\yvesk\AppData\Local\Temp\ccdTiwGB.s:149    .text.HAL_IWDG_Refresh:00000000 HAL_IWDG_Refresh
+=======
+C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s:18     .text.HAL_IWDG_Init:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s:26     .text.HAL_IWDG_Init:00000000 HAL_IWDG_Init
+C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s:142    .text.HAL_IWDG_Refresh:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccz9an1c.s:149    .text.HAL_IWDG_Refresh:00000000 HAL_IWDG_Refresh
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 UNDEFINED SYMBOLS
 HAL_GetTick

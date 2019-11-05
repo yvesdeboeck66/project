@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 1
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
    1              		.cpu cortex-m4
@@ -58,7 +62,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
   28:../../shields/Murata-dualstack/src/fifo.c **** void fifo_init(fifo_t *fifo, uint8_t *buffer, uint16_t max_size)
   29:../../shields/Murata-dualstack/src/fifo.c **** {
   30:../../shields/Murata-dualstack/src/fifo.c ****     fifo_init_filled(fifo, buffer, 0, max_size);
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 2
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 2
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   31:../../shields/Murata-dualstack/src/fifo.c **** }
@@ -118,7 +126,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
   85:../../shields/Murata-dualstack/src/fifo.c ****         memcpy(fifo->buffer, data + space_left_before_max_size, space_needed_after_wrap);
   86:../../shields/Murata-dualstack/src/fifo.c ****         fifo->tail_idx = space_needed_after_wrap;
   87:../../shields/Murata-dualstack/src/fifo.c ****         return oss7SUCCESS;
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 3
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 3
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   88:../../shields/Murata-dualstack/src/fifo.c ****     }
@@ -178,7 +190,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
   57 0018 7047     		bx	lr
   58              		.cfi_endproc
   59              	.LFE6:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 4
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 4
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   61              		.section	.text.fifo_init_filled,"ax",%progbits
@@ -238,7 +254,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  103              		.section	.text.fifo_init,"ax",%progbits
  104              		.align	1
  105              		.global	fifo_init
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 5
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 5
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  106              		.syntax unified
@@ -298,7 +318,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  156              		.cfi_offset 4, -8
  157              		.cfi_offset 5, -4
   46:../../shields/Murata-dualstack/src/fifo.c ****     subset_fifo->head_idx = original_fifo->head_idx + offset;
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 6
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 6
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  158              		.loc 1 46 5 is_stmt 1 view .LVU33
@@ -358,7 +382,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  194              	.L7:
   54:../../shields/Murata-dualstack/src/fifo.c ****     subset_fifo->is_subview = true;
  195              		.loc 1 54 5 is_stmt 1 view .LVU52
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 7
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 7
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   54:../../shields/Murata-dualstack/src/fifo.c ****     subset_fifo->is_subview = true;
@@ -418,7 +446,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  242              		.loc 1 60 7 view .LVU62
  243 0004 002B     		cmp	r3, #0
  244 0006 3ED1     		bne	.L13
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 8
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 8
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  245 0008 1546     		mov	r5, r2
@@ -478,7 +510,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  285 0032 6580     		strh	r5, [r4, #2]	@ movhi
   69:../../shields/Murata-dualstack/src/fifo.c ****     }
  286              		.loc 1 69 9 is_stmt 1 view .LVU77
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 9
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 9
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   69:../../shields/Murata-dualstack/src/fifo.c ****     }
@@ -538,7 +574,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  326 0056 2A46     		mov	r2, r5
  327 0058 3146     		mov	r1, r6
  328 005a 1844     		add	r0, r0, r3
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 10
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 10
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  329 005c FFF7FEFF 		bl	memcpy
@@ -598,7 +638,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
   91:../../shields/Murata-dualstack/src/fifo.c **** 
  370              		.loc 1 91 1 view .LVU106
  371 0088 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 11
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 11
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  372              		.cfi_endproc
@@ -658,7 +702,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  424              	fifo_get_size:
  425              	.LVL33:
  426              	.LFB10:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 12
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 12
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  114:../../shields/Murata-dualstack/src/fifo.c **** 
@@ -718,7 +766,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  428              		.cfi_startproc
  429              		@ args = 0, pretend = 0, frame = 0
  430              		@ frame_needed = 0, uses_anonymous_args = 0
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 13
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 13
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  431              		@ link register save eliminated.
@@ -778,7 +830,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  479 0000 39B1     		cbz	r1, .L27
   98:../../shields/Murata-dualstack/src/fifo.c ****   // quickly bail out if requested length is zero, nothing to do
  480              		.loc 1 98 54 view .LVU129
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 14
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 14
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  481 0002 10B5     		push	{r4, lr}
@@ -838,7 +894,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  528              		.fpu fpv4-sp-d16
  530              	fifo_skip:
  531              	.LVL42:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 15
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 15
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  532              	.LFB7:
@@ -898,7 +958,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  576              		.align	1
  577              		.global	fifo_peek
  578              		.syntax unified
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 16
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 16
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  579              		.thumb
@@ -958,7 +1022,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  622              		.loc 1 131 50 view .LVU160
  623 001c 92FBF3F1 		sdiv	r1, r2, r3
  624 0020 03FB1121 		mls	r1, r3, r1, r2
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 17
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 17
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  131:../../shields/Murata-dualstack/src/fifo.c ****   uint16_t end_idx   = (start_idx      + len   ) % fifo->max_size;
@@ -1018,7 +1086,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  663 0046 321B     		subs	r2, r6, r4
  664 0048 A968     		ldr	r1, [r5, #8]
  665 004a 3819     		adds	r0, r7, r4
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 18
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 18
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  666 004c FFF7FEFF 		bl	memcpy
@@ -1078,7 +1150,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  155:../../shields/Murata-dualstack/src/fifo.c ****   // use peek logic to retrieve data
  711              		.loc 1 155 63 is_stmt 0 view .LVU188
  712 0000 70B5     		push	{r4, r5, r6, lr}
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 19
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 19
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  713              	.LCFI12:
@@ -1138,7 +1214,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  758              		.thumb_func
  759              		.fpu fpv4-sp-d16
  761              	fifo_clear:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 20
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 20
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  762              	.LVL72:
@@ -1198,7 +1278,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  181:../../shields/Murata-dualstack/src/fifo.c **** }
  809              		.loc 1 181 1 view .LVU210
  810 000a 9842     		cmp	r0, r3
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 21
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 21
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  811 000c 14BF     		ite	ne
@@ -1220,11 +1304,16 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 1
  828              		.file 9 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
  829              		.file 10 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\includ
  830              		.file 11 "<built-in>"
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccWykges.s 			page 22
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s 			page 22
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 fifo.c
+<<<<<<< HEAD
 C:\Users\yvesk\AppData\Local\Temp\ccWykges.s:18     .text.skip:00000000 $t
 C:\Users\yvesk\AppData\Local\Temp\ccWykges.s:25     .text.skip:00000000 skip
 C:\Users\yvesk\AppData\Local\Temp\ccWykges.s:62     .text.fifo_init_filled:00000000 $t
@@ -1251,6 +1340,34 @@ C:\Users\yvesk\AppData\Local\Temp\ccWykges.s:754    .text.fifo_clear:00000000 $t
 C:\Users\yvesk\AppData\Local\Temp\ccWykges.s:761    .text.fifo_clear:00000000 fifo_clear
 C:\Users\yvesk\AppData\Local\Temp\ccWykges.s:782    .text.fifo_is_full:00000000 $t
 C:\Users\yvesk\AppData\Local\Temp\ccWykges.s:789    .text.fifo_is_full:00000000 fifo_is_full
+=======
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:18     .text.skip:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:25     .text.skip:00000000 skip
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:62     .text.fifo_init_filled:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:69     .text.fifo_init_filled:00000000 fifo_init_filled
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:104    .text.fifo_init:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:111    .text.fifo_init:00000000 fifo_init
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:137    .text.fifo_init_subview:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:144    .text.fifo_init_subview:00000000 fifo_init_subview
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:215    .text.fifo_put:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:222    .text.fifo_put:00000000 fifo_put
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:376    .text.fifo_put_byte:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:383    .text.fifo_put_byte:00000000 fifo_put_byte
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:417    .text.fifo_get_size:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:424    .text.fifo_get_size:00000000 fifo_get_size
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:464    .text.check_len:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:470    .text.check_len:00000000 check_len
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:523    .text.fifo_skip:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:530    .text.fifo_skip:00000000 fifo_skip
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:576    .text.fifo_peek:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:583    .text.fifo_peek:00000000 fifo_peek
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:697    .text.fifo_pop:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:704    .text.fifo_pop:00000000 fifo_pop
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:754    .text.fifo_clear:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:761    .text.fifo_clear:00000000 fifo_clear
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:782    .text.fifo_is_full:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccESEjYQ.s:789    .text.fifo_is_full:00000000 fifo_is_full
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 UNDEFINED SYMBOLS
 memcpy

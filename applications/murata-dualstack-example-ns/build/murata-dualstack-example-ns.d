@@ -65,20 +65,19 @@
  ../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/stm32l496xx.h \
  ../../core/platform/octa/inc/iwdg.h ../../core/platform/octa/inc/uart.h \
  ../../core/platform/octa/inc/i2c.h ../../core/platform/octa/inc/spi.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\octa-stack-students-master\core\drivers\LSM303AGR\inc\LSM303AGRSensor.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\murata.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\modem.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\d7ap.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\types.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\lorawan_stack.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\alp.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\d7ap_fs.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\dae.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\fs.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\fifo.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\modem_interface.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\keys.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\core\drivers\SHT31\inc\sht31.h
+ ../../core/drivers/LSM303AGR/inc/LSM303AGRSensor.h \
+ ../../shields/Murata-dualstack/inc/murata.h \
+ ../../shields/Murata-dualstack/inc/modem.h \
+ ../../shields/Murata-dualstack/inc/d7ap.h \
+ ../../shields/Murata-dualstack/inc/types.h \
+ ../../shields/Murata-dualstack/inc/lorawan_stack.h \
+ ../../shields/Murata-dualstack/inc/alp.h \
+ ../../shields/Murata-dualstack/inc/d7ap_fs.h \
+ ../../shields/Murata-dualstack/inc/dae.h \
+ ../../shields/Murata-dualstack/inc/fs.h \
+ ../../shields/Murata-dualstack/inc/fifo.h \
+ ../../shields/Murata-dualstack/inc/modem_interface.h \
+ ../../shields/Murata-dualstack/inc/keys.h
 
 ../../applications/murata-dualstack-example-ns/inc/murata-dualstack-example-ns.h:
 
@@ -214,30 +213,28 @@
 
 ../../core/platform/octa/inc/spi.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\octa-stack-students-master\core\drivers\LSM303AGR\inc\LSM303AGRSensor.h:
+../../core/drivers/LSM303AGR/inc/LSM303AGRSensor.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\murata.h:
+../../shields/Murata-dualstack/inc/murata.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\modem.h:
+../../shields/Murata-dualstack/inc/modem.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\d7ap.h:
+../../shields/Murata-dualstack/inc/d7ap.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\types.h:
+../../shields/Murata-dualstack/inc/types.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\lorawan_stack.h:
+../../shields/Murata-dualstack/inc/lorawan_stack.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\alp.h:
+../../shields/Murata-dualstack/inc/alp.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\d7ap_fs.h:
+../../shields/Murata-dualstack/inc/d7ap_fs.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\dae.h:
+../../shields/Murata-dualstack/inc/dae.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\fs.h:
+../../shields/Murata-dualstack/inc/fs.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\fifo.h:
+../../shields/Murata-dualstack/inc/fifo.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\modem_interface.h:
+../../shields/Murata-dualstack/inc/modem_interface.h:
 
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\keys.h:
-
-C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\core\drivers\SHT31\inc\sht31.h:
+../../shields/Murata-dualstack/inc/keys.h:

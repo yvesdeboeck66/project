@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 1
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
    1              		.cpu cortex-m4
@@ -58,7 +62,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
   28:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** /* Standard includes. */
   29:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** #include <stdlib.h>
   30:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 2
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 2
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   31:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** /* Defining MPU_WRAPPERS_INCLUDED_FROM_API_FILE prevents task.h from redefining
@@ -118,7 +126,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
   85:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c ****  * in uxCurrentEventBits.
   86:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c ****  */
   87:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** static BaseType_t prvTestWaitCondition( const EventBits_t uxCurrentEventBits, const EventBits_t uxB
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 3
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 3
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   88:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
@@ -178,7 +190,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  142:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 	EventGroupHandle_t xEventGroupCreate( void )
  143:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 	{
  144:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 	EventGroup_t *pxEventBits;
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 4
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 4
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  145:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
@@ -238,7 +254,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  199:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			/* All the rendezvous bits are now set - no need to block. */
  200:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			uxReturn = ( uxOriginalBitValue | uxBitsToSet );
  201:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 5
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 5
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  202:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			/* Rendezvous always clear the bits.  They will have been cleared
@@ -298,7 +318,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  256:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			taskENTER_CRITICAL();
  257:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			{
  258:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 				uxReturn = pxEventBits->uxEventBits;
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 6
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 6
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  259:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
@@ -358,7 +382,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  313:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
  314:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 	vTaskSuspendAll();
  315:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 	{
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 7
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 7
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  316:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 		const EventBits_t uxCurrentEventBits = pxEventBits->uxEventBits;
@@ -418,7 +446,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  370:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			task's event list item so the kernel knows when a match is
  371:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			found.  Then enter the blocked state. */
  372:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			vTaskPlaceOnUnorderedEventList( &( pxEventBits->xTasksWaitingForBits ), ( uxBitsToWaitFor | uxCo
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 8
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 8
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  373:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
@@ -478,7 +510,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  427:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			taskEXIT_CRITICAL();
  428:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 		}
  429:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 		else
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 9
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 9
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  430:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 		{
@@ -538,7 +574,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  484:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
  485:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** #endif
  486:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** /*-----------------------------------------------------------*/
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 10
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 10
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  487:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
@@ -598,7 +638,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  541:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			{
  542:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 				/* Just looking for single bit being set. */
  543:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 				if( ( uxBitsWaitedFor & pxEventBits->uxEventBits ) != ( EventBits_t ) 0 )
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 11
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 11
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  544:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 				{
@@ -658,7 +702,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  598:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** void vEventGroupDelete( EventGroupHandle_t xEventGroup )
  599:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** {
  600:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** EventGroup_t *pxEventBits = ( EventGroup_t * ) xEventGroup;
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 12
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 12
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  601:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** const List_t *pxTasksWaitingForBits = &( pxEventBits->xTasksWaitingForBits );
@@ -718,7 +766,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  655:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
  656:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** static BaseType_t prvTestWaitCondition( const EventBits_t uxCurrentEventBits, const EventBits_t uxB
  657:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** {
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 13
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 13
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   29              		.loc 1 657 1 view -0
@@ -778,7 +830,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
   59              	.L4:
  666:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 		}
   60              		.loc 1 666 22 view .LVU12
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 14
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 14
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   61 0014 0120     		movs	r0, #1
@@ -838,7 +894,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  101              	.LVL8:
  149:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 		{
  102              		.loc 1 149 3 is_stmt 1 view .LVU22
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 15
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 15
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  149:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 		{
@@ -898,7 +958,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  148              		.cfi_offset 8, -16
  149              		.cfi_offset 9, -12
  150              		.cfi_offset 10, -8
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 16
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 16
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  151              		.cfi_offset 14, -4
@@ -958,7 +1022,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
   29:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #ifndef PORTMACRO_H
   30:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #define PORTMACRO_H
   31:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 17
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 17
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   32:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #ifdef __cplusplus
@@ -1018,7 +1086,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
   86:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	__asm volatile( "dsb" ::: "memory" );										\
   87:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	__asm volatile( "isb" );													\
   88:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** }
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 18
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 18
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   89:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
@@ -1078,7 +1150,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  143:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	/* Store/clear the ready priorities in a bit map. */
  144:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	#define portRECORD_READY_PRIORITY( uxPriority, uxReadyPriorities ) ( uxReadyPriorities ) |= ( 1UL 
  145:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	#define portRESET_READY_PRIORITY( uxPriority, uxReadyPriorities ) ( uxReadyPriorities ) &= ~( 1UL 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 19
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 19
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  146:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
@@ -1138,7 +1214,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  173              		.syntax unified
  174              	@ 195 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h" 1
  175 0012 4FF01003 			mov r3, #16												
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 20
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 20
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  176 0016 83F31188 		msr basepri, r3											
@@ -1198,7 +1278,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  221              		.loc 1 307 2 discriminator 2 view .LVU56
  222 0036 41B9     		cbnz	r1, .L14
  307:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 	#if ( ( INCLUDE_xTaskGetSchedulerState == 1 ) || ( configUSE_TIMERS == 1 ) )
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 21
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 21
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  223              		.loc 1 307 2 view .LVU57
@@ -1258,7 +1342,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  266              		.loc 2 191 30 view .LVU70
  267              	.LBB38:
  193:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 22
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 22
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  268              		.loc 2 193 1 view .LVU71
@@ -1318,7 +1406,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  310              		.loc 1 326 4 view .LVU85
  329:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			{
  311              		.loc 1 329 4 view .LVU86
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 23
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 23
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  329:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			{
@@ -1378,7 +1470,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  399:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
  351              		.loc 1 399 3 view .LVU102
  399:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 24
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 24
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  352              		.loc 1 399 14 is_stmt 0 view .LVU103
@@ -1438,7 +1534,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  391              	.LBB41:
  357:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			}
  392              		.loc 1 357 29 is_stmt 1 view .LVU119
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 25
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 25
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  360:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 			{
@@ -1498,7 +1598,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  433 00e8 FFF7FEFF 		bl	vPortEnterCritical
  434              	.LVL40:
  406:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 26
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 26
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  435              		.loc 1 406 5 view .LVU134
@@ -1558,7 +1662,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  478              		.fpu fpv4-sp-d16
  480              	xEventGroupClearBits:
  481              	.LVL46:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 27
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 27
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  482              	.LFB8:
@@ -1618,7 +1726,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  454:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
  526              		.loc 1 454 2 is_stmt 1 discriminator 2 view .LVU159
  454:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 28
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 28
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  527              		.loc 1 454 2 discriminator 2 view .LVU160
@@ -1678,7 +1790,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  573              	.LVL49:
  458:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
  574              		.loc 1 458 60 discriminator 2 view .LVU171
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 29
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 29
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  462:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
@@ -1738,7 +1854,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  617              	.LBI46:
  196:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	(
  197:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 		"	mov %0, %1												\n"	\
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 30
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 30
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  198:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 		"	msr basepri, %0											\n" \
@@ -1798,7 +1918,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  643              	.LBB48:
  644              	.LBI48:
  224:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** }
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 31
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 31
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  225:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** /*-----------------------------------------------------------*/
@@ -1858,7 +1982,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  690              		.loc 1 507 1 view .LVU202
  508:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** EventBits_t uxBitsToClear = 0, uxBitsWaitedFor, uxControlBits;
  691              		.loc 1 508 1 view .LVU203
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 32
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 32
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  509:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** EventGroup_t *pxEventBits = ( EventGroup_t * ) xEventGroup;
@@ -1918,7 +2046,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  191:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** {
  732              		.loc 2 191 30 view .LVU218
  733              	.LBB53:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 33
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 33
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  193:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
@@ -1978,7 +2110,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  527:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
  773              		.loc 1 527 28 is_stmt 0 discriminator 2 view .LVU234
  774 003c 2368     		ldr	r3, [r4]
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 34
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 34
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  775 003e 2B43     		orrs	r3, r3, r5
@@ -2038,7 +2174,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  813 0060 0268     		ldr	r2, [r0]
  814              	.LVL69:
  534:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 35
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 35
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  815              		.loc 1 534 4 is_stmt 1 view .LVU251
@@ -2098,7 +2238,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  852              	.LVL73:
  594:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** }
  853              		.loc 1 594 2 is_stmt 1 view .LVU269
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 36
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 36
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  595:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** /*-----------------------------------------------------------*/
@@ -2158,7 +2302,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  899              		.loc 2 191 30 view .LVU280
  900              	.LBB55:
  193:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 37
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 37
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  901              		.loc 2 193 1 view .LVU281
@@ -2218,7 +2366,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  944              	
  945              	@ 0 "" 2
  946              	.LVL78:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 38
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 38
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  947              		.thumb
@@ -2278,7 +2430,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  988              		.loc 1 187 3 discriminator 3 view .LVU305
  989 0050 FEE7     		b	.L62
  990              	.L61:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 39
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 39
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  187:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 	}
@@ -2338,7 +2494,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  1027 0072 87B1     		cbz	r7, .L56
  238:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 		{
  1028              		.loc 1 238 3 is_stmt 1 view .LVU324
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 40
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 40
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  238:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 		{
@@ -2398,7 +2558,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  290:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 
  1068              		.loc 1 290 2 view .LVU340
  292:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** }
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 41
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 41
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  1069              		.loc 1 292 2 view .LVU341
@@ -2458,7 +2622,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  1109              		.loc 1 264 5 is_stmt 1 view .LVU355
  264:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** 				{
  1110              		.loc 1 264 7 is_stmt 0 view .LVU356
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 42
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 42
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  1111 00be 35EA0403 		bics	r3, r5, r4
@@ -2518,7 +2686,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  1158              		.cfi_offset 14, -4
  1159 0002 0446     		mov	r4, r0
  600:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** const List_t *pxTasksWaitingForBits = &( pxEventBits->xTasksWaitingForBits );
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 43
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 43
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  1160              		.loc 1 600 1 is_stmt 1 view .LVU366
@@ -2578,7 +2750,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  1201              		.thumb
  1202              		.syntax unified
  1203              	.L80:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 44
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 44
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  195:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	(
@@ -2638,7 +2814,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  1248 0002 FFF7FEFF 		bl	xEventGroupSetBits
  1249              	.LVL111:
  645:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c **** /*-----------------------------------------------------------*/
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 45
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 45
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  1250              		.loc 1 645 1 view .LVU392
@@ -2692,11 +2872,16 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 1
  1296              		.file 12 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h"
  1297              		.file 13 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/include/task.h"
  1298              		.file 14 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h"
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s 			page 46
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s 			page 46
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 event_groups.c
+<<<<<<< HEAD
 C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s:18     .text.prvTestWaitCondition:00000000 $t
 C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s:25     .text.prvTestWaitCondition:00000000 prvTestWaitCondition
 C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s:78     .text.xEventGroupCreate:00000000 $t
@@ -2719,6 +2904,30 @@ C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s:1226   .text.vEventGroupSetBitsCall
 C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s:1233   .text.vEventGroupSetBitsCallback:00000000 vEventGroupSetBitsCallback
 C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s:1256   .text.vEventGroupClearBitsCallback:00000000 $t
 C:\Users\yvesk\AppData\Local\Temp\ccarD3BF.s:1263   .text.vEventGroupClearBitsCallback:00000000 vEventGroupClearBitsCallback
+=======
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:18     .text.prvTestWaitCondition:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:25     .text.prvTestWaitCondition:00000000 prvTestWaitCondition
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:78     .text.xEventGroupCreate:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:85     .text.xEventGroupCreate:00000000 xEventGroupCreate
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:126    .text.xEventGroupWaitBits:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:133    .text.xEventGroupWaitBits:00000000 xEventGroupWaitBits
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:468    .text.xEventGroupWaitBits:00000108 $d
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:473    .text.xEventGroupClearBits:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:480    .text.xEventGroupClearBits:00000000 xEventGroupClearBits
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:597    .text.xEventGroupGetBitsFromISR:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:604    .text.xEventGroupGetBitsFromISR:00000000 xEventGroupGetBitsFromISR
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:665    .text.xEventGroupSetBits:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:672    .text.xEventGroupSetBits:00000000 xEventGroupSetBits
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:862    .text.xEventGroupSync:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:869    .text.xEventGroupSync:00000000 xEventGroupSync
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:1134   .text.xEventGroupSync:000000d4 $d
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:1139   .text.vEventGroupDelete:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:1146   .text.vEventGroupDelete:00000000 vEventGroupDelete
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:1226   .text.vEventGroupSetBitsCallback:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:1233   .text.vEventGroupSetBitsCallback:00000000 vEventGroupSetBitsCallback
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:1256   .text.vEventGroupClearBitsCallback:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccPTlm5h.s:1263   .text.vEventGroupClearBitsCallback:00000000 vEventGroupClearBitsCallback
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 UNDEFINED SYMBOLS
 pvPortMalloc

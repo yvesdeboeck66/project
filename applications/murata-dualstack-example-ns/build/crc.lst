@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s 			page 1
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s 			page 1
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
    1              		.cpu cortex-m4
@@ -58,7 +62,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s 			page 1
   28:../../shields/Murata-dualstack/src/crc.c **** 
   29:../../shields/Murata-dualstack/src/crc.c **** static void update_crc(uint8_t x)
   30:../../shields/Murata-dualstack/src/crc.c **** {
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s 			page 2
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s 			page 2
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   29              		.loc 1 30 1 view -0
@@ -118,7 +126,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s 			page 1
   76              	.L3:
   77              		.align	2
   78              	.L2:
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s 			page 3
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s 			page 3
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
   79 0028 00000000 		.word	.LANCHOR0
@@ -178,7 +190,11 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s 			page 1
  125 0016 FFF7FEFF 		bl	update_crc
  126              	.LVL11:
   44:../../shields/Murata-dualstack/src/crc.c ****     {
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s 			page 4
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s 			page 4
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
  127              		.loc 1 44 22 is_stmt 0 discriminator 2 view .LVU29
@@ -217,11 +233,16 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s 			page 1
  158              	.Letext0:
  159              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
  160              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
+<<<<<<< HEAD
 ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s 			page 5
+=======
+ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s 			page 5
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 crc.c
+<<<<<<< HEAD
 C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s:18     .text.update_crc:00000000 $t
 C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s:25     .text.update_crc:00000000 update_crc
 C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s:79     .text.update_crc:00000028 $d
@@ -230,5 +251,15 @@ C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s:91     .text.crc_calculate:00000000
 C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s:146    .text.crc_calculate:00000028 $d
 C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s:151    .bss.crc:00000000 $d
 C:\Users\yvesk\AppData\Local\Temp\ccn1oqze.s:155    .bss.crc:00000000 crc
+=======
+C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s:18     .text.update_crc:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s:25     .text.update_crc:00000000 update_crc
+C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s:79     .text.update_crc:00000028 $d
+C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s:84     .text.crc_calculate:00000000 $t
+C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s:91     .text.crc_calculate:00000000 crc_calculate
+C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s:146    .text.crc_calculate:00000028 $d
+C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s:151    .bss.crc:00000000 $d
+C:\Users\Wouter\AppData\Local\Temp\ccippEYe.s:155    .bss.crc:00000000 crc
+>>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
 NO UNDEFINED SYMBOLS
