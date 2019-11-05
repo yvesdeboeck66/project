@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
   28:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /* Standard includes. */
   29:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #include <stdlib.h>
   30:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #include <string.h>
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 2
 
 
   31:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
   85:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** allocated RAM, in which case a member of the TCB is used to record whether the
   86:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** stack and/or TCB were allocated statically or dynamically, so when a task is
   87:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** deleted the RAM that was allocated dynamically is freed again and no attempt is
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 3
 
 
   88:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** made to free the RAM that was allocated statically.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  142:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		if( ( uxPriority ) > uxTopReadyPriority )														\
  143:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{																								\
  144:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			uxTopReadyPriority = ( uxPriority );														\
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 4
 
 
  145:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}																								\
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  199:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	is being referenced from a ready list.  If it is referenced from a delayed
  200:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	or suspended list then it won't be in a ready list. */
  201:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	#define taskRESET_READY_PRIORITY( uxPriority )														\
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 5
 
 
  202:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{																									\
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  256:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** responsibility of whichever module is using the value to ensure it gets set back
  257:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** to its original value when it is released. */
  258:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #if( configUSE_16_BIT_TICKS == 1 )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 6
 
 
  259:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	#define taskEVENT_LIST_ITEM_VALUE_IN_USE	0x8000U
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  313:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	#if ( configUSE_NEWLIB_REENTRANT == 1 )
  314:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		/* Allocate a Newlib reent structure that is specific to this task.
  315:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		Note Newlib support has been included by popular demand, but is not
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 7
 
 
  316:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		used by the FreeRTOS maintainers themselves.  FreeRTOS is not
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  370:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  371:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /* Other file private variables. --------------------------------*/
  372:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** PRIVILEGED_DATA static volatile UBaseType_t uxCurrentNumberOfTasks 	= ( UBaseType_t ) 0U;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 8
 
 
  373:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** PRIVILEGED_DATA static volatile TickType_t xTickCount 				= ( TickType_t ) configINITIAL_TICK_COUNT
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  427:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  428:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #endif /* INCLUDE_vTaskSuspend */
  429:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 9
 
 
  430:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  484:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  485:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	static UBaseType_t prvListTasksWithinSingleList( TaskStatus_t *pxTaskStatusArray, List_t *pxList, 
  486:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 10
 
 
  487:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #endif
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  541:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*
  542:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c ****  * Called after a Task_t structure has been allocated either statically or
  543:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c ****  * dynamically to fill in the structure's members.
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 11
 
 
  544:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c ****  */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  598:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  599:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  600:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		if( ( pxTaskBuffer != NULL ) && ( puxStackBuffer != NULL ) )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 12
 
 
  601:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  655:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
  656:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  657:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			prvInitialiseNewTask(	pxTaskDefinition->pvTaskCode,
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 13
 
 
  658:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 									pxTaskDefinition->pcName,
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  712:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  713:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				prvAddNewTaskToReadyList( pxNewTCB );
  714:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				xReturn = pdPASS;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 14
 
 
  715:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			}
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  769:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
  770:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				/* Allocate space for the TCB. */
  771:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				pxNewTCB = ( TCB_t * ) pvPortMalloc( sizeof( TCB_t ) ); /*lint !e961 MISRA exception as the cas
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 15
 
 
  772:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  826:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** StackType_t *pxTopOfStack;
  827:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** UBaseType_t x;
  828:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 16
 
 
  829:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	#if( portUSING_MPU_WRAPPERS == 1 )
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  883:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  884:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	/* Store the task name in the TCB. */
  885:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	for( x = ( UBaseType_t ) 0; x < ( UBaseType_t ) configMAX_TASK_NAME_LEN; x++ )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 17
 
 
  886:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  940:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	#endif /* portCRITICAL_NESTING_IN_TCB */
  941:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  942:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	#if ( configUSE_APPLICATION_TASK_TAG == 1 )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 18
 
 
  943:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  997:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	the top of stack variable is updated. */
  998:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	#if( portUSING_MPU_WRAPPERS == 1 )
  999:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 19
 
 
 1000:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		pxNewTCB->pxTopOfStack = pxPortInitialiseStack( pxTopOfStack, pxTaskCode, pvParameters, xRunPrivi
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1054:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
 1055:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					pxCurrentTCB = pxNewTCB;
 1056:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 20
 
 
 1057:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				else
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1111:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
 1112:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			/* If null is passed in here then it is the calling task that is
 1113:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			being deleted. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 21
 
 
 1114:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			pxTCB = prvGetTCBFromHandle( xTaskToDelete );
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1168:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				/* Reset the next expected unblock time in case it referred to
 1169:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				the task that has just been deleted. */
 1170:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				prvResetNextTaskUnblockTime();
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 22
 
 
 1171:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			}
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1225:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					xShouldDelay = pdTRUE;
 1226:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
 1227:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				else
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 23
 
 
 1228:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1282:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	void vTaskDelay( const TickType_t xTicksToDelay )
 1283:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
 1284:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	BaseType_t xAlreadyYielded = pdFALSE;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 24
 
 
 1285:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1339:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
 1340:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		else
 1341:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 25
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 25
 
 
 1342:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			taskENTER_CRITICAL();
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1396:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #if ( INCLUDE_uxTaskPriorityGet == 1 )
 1397:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 1398:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	UBaseType_t uxTaskPriorityGet( TaskHandle_t xTask )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 26
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 26
 
 
 1399:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1453:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
 1454:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 1455:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #endif /* INCLUDE_uxTaskPriorityGet */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 27
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 27
 
 
 1456:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*-----------------------------------------------------------*/
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1510:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						}
 1511:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						else
 1512:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 28
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 28
 
 
 1513:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 							mtCOVERAGE_TEST_MARKER();
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1567:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
 1568:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					listSET_LIST_ITEM_VALUE( &( pxTCB->xEventListItem ), ( ( TickType_t ) configMAX_PRIORITIES - (
 1569:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 29
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 29
 
 
 1570:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				else
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1624:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	void vTaskSuspend( TaskHandle_t xTaskToSuspend )
 1625:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
 1626:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	TCB_t *pxTCB;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 30
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 30
 
 
 1627:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1681:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
 1682:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		else
 1683:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 31
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 31
 
 
 1684:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			mtCOVERAGE_TEST_MARKER();
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1731:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		section. */
 1732:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 1733:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		/* It does not make sense to check if the calling task is suspended. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 32
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 32
 
 
 1734:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		configASSERT( xTask );
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
   27:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
   28:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
   29:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #ifndef PORTMACRO_H
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 33
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 33
 
 
   30:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #define PORTMACRO_H
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
   84:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	/* Barriers are normally not required but do ensure the code is completely	\
   85:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	within the specified behaviour for the architecture. */						\
   86:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	__asm volatile( "dsb" ::: "memory" );										\
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 34
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 34
 
 
   87:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	__asm volatile( "isb" );													\
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  141:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	#endif
  142:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
  143:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	/* Store/clear the ready priorities in a bit map. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 35
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 35
 
 
  144:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	#define portRECORD_READY_PRIORITY( uxPriority, uxReadyPriorities ) ( uxReadyPriorities ) |= ( 1UL 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  195:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	__asm volatile
   60              		.loc 2 195 2 view .LVU13
   61              		.syntax unified
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 36
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 36
 
 
   62              	@ 195 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h" 1
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  103              	.L7:
 1745:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
 1746:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					xReturn = pdTRUE;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 37
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 37
 
 
  104              		.loc 1 1746 14 view .LVU26
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1779:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		currently executing task. */
 1780:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		if( ( pxTCB != NULL ) && ( pxTCB != pxCurrentTCB ) )
 1781:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 38
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 38
 
 
 1782:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			taskENTER_CRITICAL();
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1836:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		permanently enabled, even when the RTOS kernel is in a critical section,
 1837:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		but cannot make any calls to FreeRTOS API functions.  If configASSERT()
 1838:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		is defined in FreeRTOSConfig.h then
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 39
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 39
 
 
 1839:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		portASSERT_IF_INTERRUPT_PRIORITY_INVALID() will result in an assertion
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1893:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*-----------------------------------------------------------*/
 1894:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 1895:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** void vTaskStartScheduler( void )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 40
 
 
 1896:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** {
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1950:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 1951:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	if( xReturn == pdPASS )
 1952:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 41
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 41
 
 
 1953:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		/* freertos_tasks_c_additions_init() should only be called if the user
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2007:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
 2008:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 2009:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	/* Prevent compiler warnings if INCLUDE_xTaskGetIdleTaskHandle is set to 0,
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 42
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 42
 
 
 2010:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	meaning xIdleTaskHandle is not used anywhere else. */
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2064:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
 2065:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				uxHigherPriorityReadyTasks = pdTRUE;
 2066:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 43
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 43
 
 
 2067:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2121:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				/* Move any readied tasks from the pending list into the
 2122:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				appropriate ready list. */
 2123:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				while( listLIST_IS_EMPTY( &xPendingReadyList ) == pdFALSE )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 44
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 44
 
 
 2124:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2178:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					{
 2179:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						mtCOVERAGE_TEST_MARKER();
 2180:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 45
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 45
 
 
 2181:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2235:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	failure if a FreeRTOS API function is called from an interrupt that has been
 2236:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	assigned a priority above the configured maximum system call priority.
 2237:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	Only FreeRTOS functions that end in FromISR can be called from interrupts
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 46
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 46
 
 
 2238:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	that have been assigned a priority at or (logically) below the maximum
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2292:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 2293:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				/* Check each character in the name looking for a match or
 2294:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				mismatch. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 47
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 47
 
 
 2295:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				for( x = ( UBaseType_t ) 0; x < ( UBaseType_t ) configMAX_TASK_NAME_LEN; x++ )
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2349:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			do
 2350:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
 2351:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				uxQueue--;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 48
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 48
 
 
 2352:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				pxTCB = prvSearchForNameWithinSingleList( ( List_t * ) &( pxReadyTasksLists[ uxQueue ] ), pcNam
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2406:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 2407:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		vTaskSuspendAll();
 2408:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 49
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 49
 
 
 2409:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			/* Is there a space in the array for each task in the system? */
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2463:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
 2464:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				mtCOVERAGE_TEST_MARKER();
 2465:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 50
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 50
 
 
 2466:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2520:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			if( eTaskGetState( xTask ) == eBlocked )
 2521:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
 2522:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				xReturn = pdPASS;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 51
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 51
 
 
 2523:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2577:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		return xReturn;
 2578:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
 2579:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 52
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 52
 
 
 2580:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #endif /* INCLUDE_xTaskAbortDelay */
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2634:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					at which the task at the head of the delayed list must
 2635:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					be removed from the Blocked state. */
 2636:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					pxTCB = ( TCB_t * ) listGET_OWNER_OF_HEAD_ENTRY( pxDelayedTaskList );
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 53
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 53
 
 
 2637:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					xItemValue = listGET_LIST_ITEM_VALUE( &( pxTCB->xStateListItem ) );
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2691:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			}
 2692:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
 2693:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 54
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 54
 
 
 2694:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		/* Tasks of equal priority to the currently running task will share
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2748:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
 2749:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	#endif /* configUSE_PREEMPTION */
 2750:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 55
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 55
 
 
 2751:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	return xSwitchRequired;
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2805:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		taskEXIT_CRITICAL();
 2806:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 2807:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		return xReturn;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 56
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 56
 
 
 2808:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2862:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				#else
 2863:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					ulTotalRunTime = portGET_RUN_TIME_COUNTER_VALUE();
 2864:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				#endif
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 57
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 57
 
 
 2865:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2919:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*-----------------------------------------------------------*/
 2920:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 2921:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** void vTaskPlaceOnUnorderedEventList( List_t * pxEventList, const TickType_t xItemValue, const TickT
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 58
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 58
 
 
 2922:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** {
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2976:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*-----------------------------------------------------------*/
 2977:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 2978:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** BaseType_t xTaskRemoveFromEventList( const List_t * const pxEventList )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 59
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 59
 
 
 2979:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** {
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3033:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		normally left unchanged, because it is automatically reset to a new
 3034:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		value when the tick count equals xNextTaskUnblockTime.  However if
 3035:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		tickless idling is used it might be more important to enter sleep mode
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 60
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 60
 
 
 3036:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		at the earliest possible time - so reset xNextTaskUnblockTime here to
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3090:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*-----------------------------------------------------------*/
 3091:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 3092:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** void vTaskInternalSetTimeOutState( TimeOut_t * const pxTimeOut )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 61
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 61
 
 
 3093:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** {
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3147:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			*pxTicksToWait -= xElapsedTime;
 3148:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			vTaskInternalSetTimeOutState( pxTimeOut );
 3149:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			xReturn = pdFALSE;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 62
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 62
 
 
 3150:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3204:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 3205:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #endif /* configUSE_TRACE_FACILITY */
 3206:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 63
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 63
 
 
 3207:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3261:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			}
 3262:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			else
 3263:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 64
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 64
 
 
 3264:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				mtCOVERAGE_TEST_MARKER();
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3318:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					else
 3319:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					{
 3320:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						mtCOVERAGE_TEST_MARKER();
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 65
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 65
 
 
 3321:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					}
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3375:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #if ( configNUM_THREAD_LOCAL_STORAGE_POINTERS != 0 )
 3376:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 3377:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	void vTaskSetThreadLocalStoragePointer( TaskHandle_t xTaskToSet, BaseType_t xIndex, void *pvValue 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 66
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 66
 
 
 3378:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3432:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** UBaseType_t uxPriority;
 3433:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 3434:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	for( uxPriority = ( UBaseType_t ) 0U; uxPriority < ( UBaseType_t ) configMAX_PRIORITIES; uxPriorit
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 67
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 67
 
 
 3435:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3489:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*-----------------------------------------------------------*/
 3490:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 3491:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #if( configUSE_TRACE_FACILITY == 1 )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 68
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 68
 
 
 3492:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3546:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						vTaskSuspendAll();
 3547:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						{
 3548:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 							if( listLIST_ITEM_CONTAINER( &( pxTCB->xEventListItem ) ) != NULL )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 69
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 69
 
 
 3549:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 							{
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3603:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
 3604:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				listGET_OWNER_OF_NEXT_ENTRY( pxNextTCB, pxList );
 3605:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				vTaskGetInfo( ( TaskHandle_t ) pxNextTCB, &( pxTaskStatusArray[ uxTask ] ), pdTRUE, eState );
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 70
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 70
 
 
 3606:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				uxTask++;
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3660:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		uxReturn = ( UBaseType_t ) prvTaskCheckFreeStackSpace( pucEndOfStack );
 3661:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 3662:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		return uxReturn;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 71
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 71
 
 
 3663:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3717:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
 3718:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		#endif /* configSUPPORT_DYNAMIC_ALLOCATION */
 3719:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 72
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 72
 
 
 3720:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  158 001a 5A68     		ldr	r2, [r3, #4]
  159              		.loc 1 3743 24 view .LVU42
  160 001c 024B     		ldr	r3, .L15+4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 73
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 73
 
 
  161              	.LVL10:
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3719:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  208              		.loc 1 3719 2 view .LVU52
  209              		.cfi_endproc
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 74
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 74
 
 
  210              	.LFE39:
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  858:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  257              		.loc 1 858 3 is_stmt 1 view .LVU62
  858:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 75
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 75
 
 
  258              		.loc 1 858 81 is_stmt 0 view .LVU63
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  294              		.loc 1 908 4 is_stmt 0 view .LVU81
  295 0038 062D     		cmp	r5, #6
  296 003a 00D9     		bls	.L23
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 76
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 76
 
 
  910:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  333              		.loc 1 977 3 is_stmt 1 view .LVU99
  977:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
  334              		.loc 1 977 27 is_stmt 0 view .LVU100
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 77
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 77
 
 
  335 0066 84F850A0 		strb	r10, [r4, #80]
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  379              		.loc 1 3432 1 view .LVU112
 3434:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
  380              		.loc 1 3434 2 view .LVU113
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 78
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 78
 
 
  381              	.LVL28:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  424 0038 FFF7FEFF 		bl	vListInitialise
  425              	.LVL37:
 3457:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	pxOverflowDelayedTaskList = &xDelayedTaskList2;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 79
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 79
 
 
  426              		.loc 1 3457 2 view .LVU125
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  474              		.loc 1 1027 3 view .LVU133
 1027:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		if( pxCurrentTCB == NULL )
  475              		.loc 1 1027 25 is_stmt 0 view .LVU134
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 80
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 80
 
 
  476 0008 204A     		ldr	r2, .L41
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  514 0032 1368     		ldr	r3, [r2]
 1034:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
  515              		.loc 1 1034 6 view .LVU151
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 81
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 81
 
 
  516 0034 012B     		cmp	r3, #1
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1088:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
  556              		.loc 1 1088 19 is_stmt 0 view .LVU166
  557 0068 094B     		ldr	r3, .L41+4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 82
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 82
 
 
  558 006a 1B68     		ldr	r3, [r3]
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  604              		.section	.text.prvCheckTasksWaitingTermination,"ax",%progbits
  605              		.align	1
  606              		.syntax unified
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 83
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 83
 
 
  607              		.thumb
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  649              		.loc 1 3479 5 is_stmt 1 view .LVU188
  650 0018 0B4A     		ldr	r2, .L50+8
  651 001a 1368     		ldr	r3, [r2]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 84
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 84
 
 
  652 001c 013B     		subs	r3, r3, #1
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3219:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	/* Stop warnings. */
  701              		.loc 1 3219 1 is_stmt 1 view -0
  702              		.cfi_startproc
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 85
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 85
 
 
  703              		@ Volatile: function does not return.
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  745              	.L57:
  746              		.align	2
  747              	.L56:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 86
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 86
 
 
  748 0020 00000000 		.word	.LANCHOR4
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3787:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		return xReturn;
 3788:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
 3789:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 87
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 87
 
 
 3790:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #endif /* ( ( INCLUDE_xTaskGetSchedulerState == 1 ) || ( configUSE_TIMERS == 1 ) ) */
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3844:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 3845:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				traceTASK_PRIORITY_INHERIT( pxMutexHolderTCB, pxCurrentTCB->uxPriority );
 3846:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 88
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 88
 
 
 3847:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				/* Inheritance occurred. */
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3901:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				/* Only disinherit if no other mutexes are held. */
 3902:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				if( pxTCB->uxMutexesHeld == ( UBaseType_t ) 0 )
 3903:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 89
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 89
 
 
 3904:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					/* A task can only have an inherited priority if it holds
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3958:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*-----------------------------------------------------------*/
 3959:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 3960:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #if ( configUSE_MUTEXES == 1 )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 90
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 90
 
 
 3961:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4015:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					{
 4016:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						mtCOVERAGE_TEST_MARKER();
 4017:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 91
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 91
 
 
 4018:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4072:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			/* This is not the interrupt safe version of the enter critical
 4073:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			function so	assert() if it is being called from an interrupt
 4074:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			context.  Only API functions that end in "FromISR" can be used in an
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 92
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 92
 
 
 4075:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			interrupt.  Only assert if the critical nesting count is 1 to
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4129:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	size_t x;
 4130:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 4131:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		/* Start by copying the entire string. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 93
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 93
 
 
 4132:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		strcpy( pcBuffer, pcTaskName );
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4186:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 4187:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		/* Take a snapshot of the number of tasks in case it changes while this
 4188:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		function is executing. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 94
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 94
 
 
 4189:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		uxArraySize = uxCurrentNumberOfTasks;
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4243:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
 4244:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
 4245:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 95
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 95
 
 
 4246:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #endif /* ( ( configUSE_TRACE_FACILITY == 1 ) && ( configUSE_STATS_FORMATTING_FUNCTIONS > 0 ) && ( 
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4300:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		if( pxTaskStatusArray != NULL )
 4301:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
 4302:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			/* Generate the (binary) data. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 96
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 96
 
 
 4303:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			uxArraySize = uxTaskGetSystemState( pxTaskStatusArray, uxArraySize, &ulTotalTime );
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4357:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			}
 4358:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			else
 4359:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 97
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 97
 
 
 4360:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				mtCOVERAGE_TEST_MARKER();
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4414:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
 4415:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			/* Only block if the notification count is not already non-zero. */
 4416:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			if( pxCurrentTCB->ulNotifiedValue == 0UL )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 98
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 98
 
 
 4417:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4471:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 4472:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #endif /* configUSE_TASK_NOTIFICATIONS */
 4473:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*-----------------------------------------------------------*/
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 99
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 99
 
 
 4474:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4528:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			/* If ucNotifyValue is set then either the task never entered the
 4529:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			blocked state (because a notification was already pending) or the
 4530:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			task unblocked because of a notification.  Otherwise the task
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 100
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 100
 
 
 4531:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			unblocked because of a timeout. */
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4585:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					break;
 4586:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 4587:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				case eSetValueWithOverwrite	:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 101
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 101
 
 
 4588:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					pxTCB->ulNotifiedValue = ulValue;
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4642:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
 4643:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				else
 4644:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 102
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 102
 
 
 4645:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					mtCOVERAGE_TEST_MARKER();
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4699:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			ucOriginalNotifyState = pxTCB->ucNotifyState;
 4700:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			pxTCB->ucNotifyState = taskNOTIFICATION_RECEIVED;
 4701:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 103
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 103
 
 
 4702:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			switch( eAction )
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4756:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
 4757:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					/* The notified task has a priority above the currently
 4758:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					executing task so a yield is required. */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 104
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 104
 
 
 4759:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					if( pxHigherPriorityTaskWoken != NULL )
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4813:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		pxTCB = ( TCB_t * ) xTaskToNotify;
 4814:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 4815:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		uxSavedInterruptStatus = portSET_INTERRUPT_MASK_FROM_ISR();
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 105
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 105
 
 
 4816:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4870:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** #endif /* configUSE_TASK_NOTIFICATIONS */
 4871:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
 4872:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*-----------------------------------------------------------*/
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 106
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 106
 
 
 4873:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  780 0006 1D4B     		ldr	r3, .L65
  781 0008 1D68     		ldr	r5, [r3]
  782              	.LVL54:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 107
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 107
 
 
 4910:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4936:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
 4937:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			/* Add the task to the suspended task list instead of a delayed task
 4938:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			list to ensure it is not woken by a timing event.  It will block
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 108
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 108
 
 
 4939:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			indefinitely. */
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4970:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
 4971:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				else
 4972:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 109
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 109
 
 
 4973:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					mtCOVERAGE_TEST_MARKER();
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  842              		.loc 1 4940 56 is_stmt 0 view .LVU233
  843 0052 0B4B     		ldr	r3, .L65+4
  844 0054 1968     		ldr	r1, [r3]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 110
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 110
 
 
 4940:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  890              		.section	.text.xTaskCreate,"ax",%progbits
  891              		.align	1
  892              		.global	xTaskCreate
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 111
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 111
 
 
  893              		.syntax unified
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  771:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  938              		.loc 1 771 5 is_stmt 1 view .LVU255
  771:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 112
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 112
 
 
  939              		.loc 1 771 28 is_stmt 0 view .LVU256
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  981              	.LVL71:
  982              	.L69:
  983              	.LBB101:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 113
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 113
 
 
  782:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1031              		.cfi_startproc
  1032              		@ args = 0, pretend = 0, frame = 0
  1033              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 114
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 114
 
 
 1107:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	TCB_t *pxTCB;
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1127:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
  1077              		.loc 1 1127 4 view .LVU289
 1127:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 115
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 115
 
 
  1078              		.loc 1 1127 8 is_stmt 0 view .LVU290
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1118              	.LVL85:
 1179:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
  1119              		.loc 1 1179 3 view .LVU305
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 116
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 116
 
 
 1179:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1183:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				portYIELD_WITHIN_API();
  1162              		.loc 1 1183 5 view .LVU318
  1163              	.LBB102:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 117
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 117
 
 
  1164              	.LBI102:
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1207 00b6 DDE7     		b	.L74
  1208              	.L88:
  1209              		.align	2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 118
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 118
 
 
  1210              	.L87:
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1257              		.loc 1 1408 13 is_stmt 0 discriminator 4 view .LVU340
  1258 000a E46A     		ldr	r4, [r4, #44]
  1259              	.LVL94:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 119
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 119
 
 
 1410:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1306              		.loc 1 1441 3 view .LVU350
  1307 0004 FFF7FEFF 		bl	vPortValidateInterruptPriority
  1308              	.LVL99:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 120
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 120
 
 
 1443:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1447:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			uxReturn = pxTCB->uxPriority;
  1333              		.loc 1 1447 12 is_stmt 0 view .LVU358
  1334 001c 1CB1     		cbz	r4, .L98
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 121
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 121
 
 
  1335              	.LVL101:
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1377              		.global	vTaskPrioritySet
  1378              		.syntax unified
  1379              		.thumb
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 122
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 122
 
 
  1380              		.thumb_func
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1425              	.L103:
  195:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	(
  1426              		.loc 2 195 2 is_stmt 0 view .LVU379
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 123
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 123
 
 
  1427              	.LBE109:
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1463 002c 1268     		ldr	r2, [r2]
 1502:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					{
  1464              		.loc 1 1502 8 view .LVU398
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 124
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 124
 
 
  1465 002e A242     		cmp	r2, r4
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1546:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					{
  1505              		.loc 1 1546 8 is_stmt 0 view .LVU413
  1506 0052 BB42     		cmp	r3, r7
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 125
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 125
 
 
  1507 0054 20D0     		beq	.L117
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1545 0078 4FF08052 		mov	r2, #268435456
  1546 007c 1A60     		str	r2, [r3]
 1604:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 126
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 126
 
 
  1547              		.loc 1 1604 6 view .LVU430
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1589              		.loc 1 1584 6 is_stmt 1 view .LVU442
 1584:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					{
  1590              		.loc 1 1584 10 is_stmt 0 view .LVU443
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 127
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 127
 
 
  1591 009c 251D     		adds	r5, r4, #4
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1638              		.align	1
  1639              		.global	vTaskResume
  1640              		.syntax unified
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 128
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 128
 
 
  1641              		.thumb
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1808:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
  1684              		.loc 1 1808 30 is_stmt 1 view .LVU464
 1811:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 129
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 129
 
 
  1685              		.loc 1 1811 4 view .LVU465
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1727              	.LVL137:
 1791:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  1728              		.loc 1 1791 6 is_stmt 1 view .LVU478
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 130
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 130
 
 
 1791:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1772 0074 D1E7     		b	.L125
  1773              	.L130:
  1774 0076 00BF     		.align	2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 131
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 131
 
 
  1775              	.L129:
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  207:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** {
  1822              		.loc 2 207 34 discriminator 2 view .LVU499
  1823              	.LBB113:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 132
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 132
 
 
  209:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1862:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					{
  1864              		.loc 1 1862 8 view .LVU514
  1865 0036 9A42     		cmp	r2, r3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 133
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 133
 
 
  1866 0038 20D2     		bcs	.L137
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1909              		.loc 2 229 2 is_stmt 0 view .LVU527
  1910              		.thumb
  1911              		.syntax unified
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 134
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 134
 
 
  1912              	.LBE115:
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  1955              	.LVL151:
 1827:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	TCB_t * const pxTCB = ( TCB_t * ) xTaskToResume;
  1956              		.loc 1 1827 13 is_stmt 0 view .LVU539
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 135
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 135
 
 
  1957 008a 0025     		movs	r5, #0
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2007              	.L143:
 1946:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
  2008              		.loc 1 1946 28 is_stmt 1 view .LVU546
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 136
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 136
 
 
 1951:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	{
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2052              		.syntax unified
  2053              	.LBE119:
  2054              	.LBE118:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 137
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 137
 
 
 1977:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		xSchedulerRunning = pdTRUE;
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2095              		.thumb
  2096              		.syntax unified
  2097              	.L146:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 138
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 138
 
 
  195:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	(
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2146 000a BFF36F8F 		isb														
  2147 000e BFF34F8F 		dsb														
  2148              	
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 139
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 139
 
 
  2149              	@ 0 "" 2
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2198              	.LFE19:
  2200              		.section	.text.xTaskGetTickCount,"ax",%progbits
  2201              		.align	1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 140
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 140
 
 
  2202              		.global	xTaskGetTickCount
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2250              		.cfi_offset 3, -8
  2251              		.cfi_offset 14, -4
 2226:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** UBaseType_t uxSavedInterruptStatus;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 141
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 141
 
 
  2252              		.loc 1 2226 1 view .LVU596
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2296 0006 00BF     		.align	2
  2297              	.L168:
  2298 0008 00000000 		.word	.LANCHOR9
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 142
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 142
 
 
  2299              		.cfi_endproc
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2344              	.LBI124:
  191:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** {
  2345              		.loc 2 191 30 view .LVU620
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 143
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 143
 
 
  2346              	.LBB125:
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2396              		.cfi_offset 14, -4
 2585:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** TickType_t xItemValue;
  2397              		.loc 1 2585 1 view .LVU627
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 144
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 144
 
 
 2586:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** BaseType_t xSwitchRequired = pdFALSE;
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  193:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
  2435              		.loc 2 193 1 view .LVU645
  195:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	(
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 145
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 145
 
 
  2436              		.loc 2 195 2 view .LVU646
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2609:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
  2479              		.loc 1 2609 28 view .LVU658
 2616:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 146
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 146
 
 
  2480              		.loc 1 2616 3 view .LVU659
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2620:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
  2522              		.loc 1 2620 48 view .LVU672
  2523 0070 43B3     		cbz	r3, .L197
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 147
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 147
 
 
 2636:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					xItemValue = listGET_LIST_ITEM_VALUE( &( pxTCB->xStateListItem ) );
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2560              		.loc 1 2670 6 view .LVU690
  2561 0094 F36A     		ldr	r3, [r6, #44]
  2562 0096 0122     		movs	r2, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 148
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 148
 
 
  2563 0098 9A40     		lsls	r2, r2, r3
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2606              	.L198:
 2646:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						break;
  2607              		.loc 1 2646 7 view .LVU702
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 149
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 149
 
 
 2646:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						break;
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2650 0104 00000000 		.word	.LANCHOR10
  2651 0108 00000000 		.word	.LANCHOR4
  2652 010c 00000000 		.word	.LANCHOR13
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 150
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 150
 
 
  2653 0110 00000000 		.word	.LANCHOR19
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2701              	.LVL190:
  2702              		.thumb
  2703              		.syntax unified
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 151
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 151
 
 
  2704              	.L203:
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2742              		.loc 1 2123 12 is_stmt 0 view .LVU738
  2743 0038 284B     		ldr	r3, .L217+8
  2744 003a 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 152
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 152
 
 
 2123:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2785 0072 E26A     		ldr	r2, [r4, #44]
 2132:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					{
  2786              		.loc 1 2132 43 view .LVU753
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 153
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 153
 
 
  2787 0074 1C4B     		ldr	r3, .L217+20
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2826              		.loc 1 2187 7 is_stmt 1 view .LVU768
  2827              	.LVL200:
 2190:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 154
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 154
 
 
  2828              		.loc 1 2190 6 view .LVU769
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2868 00b8 0C4B     		ldr	r3, .L217+24
  2869 00ba 0122     		movs	r2, #1
  2870 00bc 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 155
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 155
 
 
  2871 00be F5E7     		b	.L210
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2917              		.thumb_func
  2918              		.fpu fpv4-sp-d16
  2920              	vTaskDelay:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 156
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 156
 
 
  2921              	.LVL208:
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  2964              	.LBE136:
 1289:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			vTaskSuspendAll();
  2965              		.loc 1 1289 4 is_stmt 1 discriminator 1 view .LVU804
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 157
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 157
 
 
 1289:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			vTaskSuspendAll();
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3005              		.syntax unified
  3006              	.L219:
 1320:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 158
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 158
 
 
  3007              		.loc 1 1320 2 is_stmt 0 view .LVU820
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 2890:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		traceTASK_SWITCHED_IN();
  3053              		.loc 1 2890 3 view .LVU831
 2890:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		traceTASK_SWITCHED_IN();
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 159
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 159
 
 
  3054              		.loc 1 2890 3 view .LVU832
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3096 002e 4FF01003 			mov r3, #16												
  3097 0032 83F31188 		msr basepri, r3											
  3098 0036 BFF36F8F 		isb														
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 160
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 160
 
 
  3099 003a BFF34F8F 		dsb														
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3143              		.loc 1 2890 3 discriminator 6 view .LVU854
  3144 005e 03EB8303 		add	r3, r3, r3, lsl #2
  3145              	.LVL222:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 161
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 161
 
 
 2890:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		traceTASK_SWITCHED_IN();
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3195              		.global	vTaskSuspend
  3196              		.syntax unified
  3197              		.thumb
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 162
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 162
 
 
  3198              		.thumb_func
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 1640:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			}
  3242              		.loc 1 1640 5 discriminator 1 view .LVU872
  3243 0022 0123     		movs	r3, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 163
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 163
 
 
  3244 0024 03FA02F2 		lsl	r2, r3, r2
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3283              		.loc 1 1672 5 view .LVU887
  3284 0058 5BB9     		cbnz	r3, .L253
  3285              	.L244:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 164
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 164
 
 
 1684:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3326 0080 154B     		ldr	r3, .L255+12
  3327 0082 1B68     		ldr	r3, [r3]
 1689:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 165
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 165
 
 
  3328              		.loc 1 1689 6 view .LVU902
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3370              		.loc 1 1693 5 discriminator 2 view .LVU914
  3371              	@ 1693 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" 1
  3372 00aa BFF36F8F 		isb
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 166
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 166
 
 
  3373              	@ 0 "" 2
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3418              		.global	vTaskPlaceOnEventList
  3419              		.syntax unified
  3420              		.thumb
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 167
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 167
 
 
  3421              		.thumb_func
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  191:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** {
  3466              		.loc 2 191 30 view .LVU935
  3467              	.LBB150:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 168
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 168
 
 
  193:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3515 0004 1348     		ldr	r0, .L273
  3516              	.LVL246:
 2927:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 169
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 169
 
 
  3517              		.loc 1 2927 2 is_stmt 0 discriminator 2 view .LVU945
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3560              	
  3561              	@ 0 "" 2
  3562              	.LVL249:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 170
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 170
 
 
  3563              		.thumb
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3604 0048 0121     		movs	r1, #1
  3605 004a 2046     		mov	r0, r4
  3606 004c FFF7FEFF 		bl	prvAddCurrentTaskToDelayedList
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 171
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 171
 
 
  3607              	.LVL256:
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3654              	.LVL260:
 2961:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  3655              		.loc 1 2961 3 discriminator 2 view .LVU979
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 172
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 172
 
 
  3656 000c 1831     		adds	r1, r1, #24
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3698              		.loc 1 2949 3 is_stmt 1 discriminator 1 view .LVU991
 2949:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  3699              		.loc 1 2949 3 discriminator 1 view .LVU992
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 173
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 173
 
 
  3700 0032 FEE7     		b	.L277
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3745 000c 2846     		mov	r0, r5
  3746              	.LVL268:
 2998:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 174
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 174
 
 
  3747              		.loc 1 2998 11 discriminator 2 view .LVU1004
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3788              		.loc 1 3012 4 view .LVU1017
  3789 0046 9A42     		cmp	r2, r3
  3790 0048 11D9     		bls	.L290
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 175
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 175
 
 
 3017:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3834              	.L290:
 3025:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
  3835              		.loc 1 3025 11 is_stmt 0 view .LVU1029
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 176
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 176
 
 
  3836 006e 0020     		movs	r0, #0
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3884              		.loc 1 3052 2 view .LVU1037
  3885              	.LBB159:
  3886              	.LBI159:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 177
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 177
 
 
  191:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** {
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3926              	.LVL283:
 3066:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	prvAddTaskToReadyList( pxUnblockedTCB );
  3927              		.loc 1 3066 2 is_stmt 1 discriminator 2 view .LVU1053
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 178
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 178
 
 
 3066:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	prvAddTaskToReadyList( pxUnblockedTCB );
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  3970              	.L302:
 3060:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	( void ) uxListRemove( pxEventListItem );
  3971              		.loc 1 3060 2 is_stmt 1 view .LVU1066
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 179
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 179
 
 
  3972              	.LBB161:
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4021              		@ frame_needed = 0, uses_anonymous_args = 0
 3082:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	taskENTER_CRITICAL();
  4022              		.loc 1 3082 2 view .LVU1074
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 180
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 180
 
 
  4023 0000 60B1     		cbz	r0, .L310
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4064              	@ 195 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h" 1
  4065 001c 4FF01003 			mov r3, #16												
  4066 0020 83F31188 		msr basepri, r3											
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 181
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 181
 
 
  4067 0024 BFF36F8F 		isb														
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3097:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** /*-----------------------------------------------------------*/
  4115              		.loc 1 3097 1 view .LVU1096
  4116 000c 7047     		bx	lr
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 182
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 182
 
 
  4117              	.L315:
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3110:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		const TickType_t xElapsedTime = xConstTickCount - pxTimeOut->xTimeOnEntering;
  4164              		.loc 1 3110 20 is_stmt 0 discriminator 2 view .LVU1106
  4165 000e 1B4B     		ldr	r3, .L330
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 183
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 183
 
 
  4166 0010 1968     		ldr	r1, [r3]
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4203              		.loc 1 3154 12 is_stmt 0 view .LVU1123
  4204 0034 0124     		movs	r4, #1
  4205              	.LVL299:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 184
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 184
 
 
 3154:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4247 004a 4FF01003 			mov r3, #16												
  4248 004e 83F31188 		msr basepri, r3											
  4249 0052 BFF36F8F 		isb														
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 185
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 185
 
 
  4250 0056 BFF34F8F 		dsb														
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4291              		.loc 1 3157 2 is_stmt 1 view .LVU1149
  4292 006e FFF7FEFF 		bl	vPortExitCritical
  4293              	.LVL309:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 186
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 186
 
 
 3159:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** }
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4342              	.LFE35:
  4344              		.section	.text.xTaskGetCurrentTaskHandle,"ax",%progbits
  4345              		.align	1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 187
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 187
 
 
  4346              		.global	xTaskGetCurrentTaskHandle
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4393 0000 054B     		ldr	r3, .L343
  4394 0002 1B68     		ldr	r3, [r3]
 3771:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 188
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 188
 
 
  4395              		.loc 1 3771 5 view .LVU1168
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4441              		.loc 1 3797 2 view .LVU1178
 3798:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  4442              		.loc 1 3798 2 view .LVU1179
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 189
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 189
 
 
 3803:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		{
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4483              	.LVL316:
 3824:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
  4484              		.loc 1 3824 9 view .LVU1194
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 190
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 190
 
 
  4485 0028 02EB8202 		add	r2, r2, r2, lsl #2
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3837:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
  4525              		.loc 1 3837 6 view .LVU1209
  4526 0054 0124     		movs	r4, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 191
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 191
 
 
  4527              	.LVL320:
@@ -11458,7 +11458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4572 009c DB6A     		ldr	r3, [r3, #44]
 3852:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
  4573              		.loc 1 3852 7 view .LVU1219
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 192
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 192
 
 
  4574 009e 9A42     		cmp	r2, r3
@@ -11518,7 +11518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4621              		.syntax unified
  4622              		.thumb
  4623              		.thumb_func
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 193
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 193
 
 
  4624              		.fpu fpv4-sp-d16
@@ -11578,7 +11578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4668              	.LVL330:
  4669              		.thumb
  4670              		.syntax unified
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 194
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 194
 
 
  4671              	.L364:
@@ -11638,7 +11638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 3895:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  4711              		.loc 1 3895 28 is_stmt 0 discriminator 2 view .LVU1253
  4712 0038 013A     		subs	r2, r2, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 195
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 195
 
 
  4713 003a 8264     		str	r2, [r0, #72]
@@ -11698,7 +11698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4752 0062 0123     		movs	r3, #1
  4753 0064 03FA02F2 		lsl	r2, r3, r2
  4754 0068 1149     		ldr	r1, .L376+8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 196
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 196
 
 
  4755 006a 0B68     		ldr	r3, [r1]
@@ -11758,7 +11758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4796              		.cfi_restore 3
  4797              		.cfi_restore 4
  4798              		.cfi_restore 5
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 197
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 197
 
 
  4799              		.cfi_restore 14
@@ -11818,7 +11818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4846 0002 56D0     		beq	.L388
 3963:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	TCB_t * const pxTCB = ( TCB_t * ) pxMutexHolder;
  4847              		.loc 1 3963 2 view .LVU1291
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 198
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 198
 
 
  4848 0004 38B5     		push	{r3, r4, r5, lr}
@@ -11878,7 +11878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4890 001e 626C     		ldr	r2, [r4, #68]
 3978:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
  4891              		.loc 1 3978 6 discriminator 2 view .LVU1304
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 199
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 199
 
 
  4892 0020 8A42     		cmp	r2, r1
@@ -11938,7 +11938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  4930              		.loc 1 4010 8 discriminator 2 view .LVU1320
  4931 003e 0028     		cmp	r0, #0
  4932 0040 02DB     		blt	.L385
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 200
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 200
 
 
 4012:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					}
@@ -11998,7 +11998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4033:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 						}
  4975              		.loc 1 4033 32 view .LVU1333
 4036:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 201
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 201
 
 
  4976              		.loc 1 4036 7 view .LVU1334
@@ -12058,7 +12058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5020              	.LBE178:
 3999:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  5021              		.loc 1 3999 6 is_stmt 1 discriminator 2 view .LVU1345
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 202
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 202
 
 
 3999:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -12118,7 +12118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5070 000c C3F10703 		rsb	r3, r3, #7
  5071 0010 9361     		str	r3, [r2, #24]
 4386:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 203
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 203
 
 
  5072              		.loc 1 4386 2 view .LVU1354
@@ -12178,7 +12178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5117 0014 7047     		bx	lr
  5118              	.L401:
  5119 0016 00BF     		.align	2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 204
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 204
 
 
  5120              	.L400:
@@ -12238,7 +12238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5166 0016 0122     		movs	r2, #1
  5167 0018 83F85020 		strb	r2, [r3, #80]
 4421:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 205
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 205
 
 
  5168              		.loc 1 4421 5 is_stmt 1 view .LVU1376
@@ -12298,7 +12298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5204 0038 0D4B     		ldr	r3, .L408
  5205 003a 1B68     		ldr	r3, [r3]
 4465:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 		}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 206
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 206
 
 
  5206              		.loc 1 4465 32 view .LVU1395
@@ -12358,7 +12358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5248 0068 621E     		subs	r2, r4, #1
 4457:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
  5249              		.loc 1 4457 36 view .LVU1408
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 207
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 207
 
 
  5250 006a DA64     		str	r2, [r3, #76]
@@ -12418,7 +12418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5299              		.loc 1 4484 6 view .LVU1415
  5300 0018 022B     		cmp	r3, #2
  5301 001a 0AD0     		beq	.L411
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 208
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 208
 
 
 4489:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -12478,7 +12478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4532:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
  5339              		.loc 1 4532 20 is_stmt 0 view .LVU1433
  5340 0044 124B     		ldr	r3, .L418
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 209
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 209
 
 
  5341 0046 1B68     		ldr	r3, [r3]
@@ -12538,7 +12538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5382              		.loc 1 4503 6 view .LVU1446
  5383              	@ 4503 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" 1
  5384 007a BFF36F8F 		isb
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 210
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 210
 
 
  5385              	@ 0 "" 2
@@ -12598,7 +12598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5432              	.LCFI50:
  5433              		.cfi_def_cfa_offset 24
  5434              		.cfi_offset 3, -24
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 211
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 211
 
 
  5435              		.cfi_offset 4, -20
@@ -12658,7 +12658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5473 001e 84F85020 		strb	r2, [r4, #80]
 4577:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
  5474              		.loc 1 4577 4 is_stmt 1 view .LVU1472
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 212
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 212
 
 
  5475 0022 6A1E     		subs	r2, r5, #1
@@ -12718,7 +12718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5519              		.loc 1 4580 29 view .LVU1482
  5520 0046 E664     		str	r6, [r4, #76]
 4581:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 213
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 213
 
 
  5521              		.loc 1 4581 6 is_stmt 1 view .LVU1483
@@ -12778,7 +12778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5558              		.loc 1 4589 6 is_stmt 1 view .LVU1500
 4560:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	uint8_t ucOriginalNotifyState;
  5559              		.loc 1 4560 13 is_stmt 0 view .LVU1501
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 214
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 214
 
 
  5560 0062 0125     		movs	r5, #1
@@ -12838,7 +12838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5601 0092 9A00     		lsls	r2, r3, #2
  5602 0094 3146     		mov	r1, r6
  5603 0096 1048     		ldr	r0, .L438+4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 215
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 215
 
 
  5604 0098 1044     		add	r0, r0, r2
@@ -12898,7 +12898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4637:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				{
  5645              		.loc 1 4637 7 discriminator 2 view .LVU1528
  5646 00bc 9A42     		cmp	r2, r3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 216
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 216
 
 
  5647 00be C6D9     		bls	.L430
@@ -12958,7 +12958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5697              		.cfi_offset 6, -20
  5698              		.cfi_offset 7, -16
  5699              		.cfi_offset 8, -12
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 217
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 217
 
 
  5700              		.cfi_offset 9, -8
@@ -13018,7 +13018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5740              	.LBE185:
  5741              	.LBE184:
 4694:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 218
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 218
 
 
  5742              		.loc 1 4694 4 is_stmt 1 discriminator 2 view .LVU1549
@@ -13078,7 +13078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5783 004e 4FF01003 			mov r3, #16												
  5784 0052 83F31188 		msr basepri, r3											
  5785 0056 BFF36F8F 		isb														
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 219
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 219
 
 
  5786 005a BFF34F8F 		dsb														
@@ -13138,7 +13138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5826              		.loc 2 229 2 view .LVU1577
  5827              		.syntax unified
  5828              	@ 229 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h" 1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 220
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 220
 
 
  5829 006c 88F31188 			msr basepri, r8	
@@ -13198,7 +13198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4719:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					}
  5868              		.loc 1 4719 7 is_stmt 1 view .LVU1594
 4719:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 221
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 221
 
 
  5869              		.loc 1 4719 30 is_stmt 0 view .LVU1595
@@ -13258,7 +13258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
 4741:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
  5912              		.loc 1 4741 5 discriminator 2 view .LVU1607
  5913 00ac FEE7     		b	.L452
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 222
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 222
 
 
  5914              	.L451:
@@ -13318,7 +13318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  5954              		.loc 1 4755 7 view .LVU1621
  5955 00e2 9A42     		cmp	r2, r3
  5956 00e4 C2D9     		bls	.L450
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 223
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 223
 
 
 4759:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 					{
@@ -13378,7 +13378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6005              		@ frame_needed = 0, uses_anonymous_args = 0
 4788:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	TCB_t * pxTCB;
  6006              		.loc 1 4788 2 is_stmt 0 view .LVU1630
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 224
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 224
 
 
  6007 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
@@ -13438,7 +13438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6048              		.syntax unified
  6049              	.LBE193:
  6050              	.LBE192:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 225
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 225
 
 
 4817:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 			pxTCB->ucNotifyState = taskNOTIFICATION_RECEIVED;
@@ -13498,7 +13498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6091 003a F8BD     		pop	{r3, r4, r5, r6, r7, pc}
  6092              	.LVL419:
  6093              	.L473:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 226
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 226
 
 
 4793:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 
@@ -13558,7 +13558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6135 0052 4FF01003 			mov r3, #16												
  6136 0056 83F31188 		msr basepri, r3											
  6137 005a BFF36F8F 		isb														
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 227
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 227
 
 
  6138 005e BFF34F8F 		dsb														
@@ -13618,7 +13618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6180 008c FFF7FEFF 		bl	vListInsertEnd
  6181              	.LVL425:
 4836:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 				}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 228
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 228
 
 
  6182              		.loc 1 4836 36 view .LVU1685
@@ -13678,7 +13678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6225              		.cfi_endproc
  6226              	.LFE52:
  6228              		.section	.text.xTaskNotifyStateClear,"ax",%progbits
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 229
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 229
 
 
  6229              		.align	1
@@ -13738,7 +13738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6272 0016 FFF7FEFF 		bl	vPortExitCritical
  6273              	.LVL431:
 4899:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c **** 	}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 230
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 230
 
 
  6274              		.loc 1 4899 3 view .LVU1709
@@ -13798,7 +13798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6327 0000 00000000 		.space	4
  6328              		.section	.bss.pxReadyTasksLists,"aw",%nobits
  6329              		.align	2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 231
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 231
 
 
  6330              		.set	.LANCHOR4,. + 0
@@ -13858,7 +13858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6390      00000000 
  6391              		.section	.bss.xIdleTaskHandle,"aw",%nobits
  6392              		.align	2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 232
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 232
 
 
  6393              		.set	.LANCHOR17,. + 0
@@ -13918,7 +13918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6453 0000 00000000 		.space	4
  6454              		.section	.rodata.vTaskStartScheduler.str1.4,"aMS",%progbits,1
  6455              		.align	2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 233
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 233
 
 
  6456              	.LC0:
@@ -13939,214 +13939,214 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 1
  6470              		.file 13 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/include/task.h"
  6471              		.file 14 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h"
  6472              		.file 15 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 234
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 234
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 tasks.c
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:18     .text.prvTaskIsTaskSuspended:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:25     .text.prvTaskIsTaskSuspended:00000000 prvTaskIsTaskSuspended
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:114    .text.prvTaskIsTaskSuspended:00000038 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:120    .text.prvResetNextTaskUnblockTime:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:126    .text.prvResetNextTaskUnblockTime:00000000 prvResetNextTaskUnblockTime
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:169    .text.prvResetNextTaskUnblockTime:00000024 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:175    .text.prvDeleteTCB:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:181    .text.prvDeleteTCB:00000000 prvDeleteTCB
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:213    .text.prvInitialiseNewTask:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:219    .text.prvInitialiseNewTask:00000000 prvInitialiseNewTask
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:360    .text.prvInitialiseTaskLists:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:366    .text.prvInitialiseTaskLists:00000000 prvInitialiseTaskLists
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:439    .text.prvInitialiseTaskLists:00000048 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:451    .text.prvAddNewTaskToReadyList:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:457    .text.prvAddNewTaskToReadyList:00000000 prvAddNewTaskToReadyList
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:594    .text.prvAddNewTaskToReadyList:0000008c $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:605    .text.prvCheckTasksWaitingTermination:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:611    .text.prvCheckTasksWaitingTermination:00000000 prvCheckTasksWaitingTermination
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:686    .text.prvCheckTasksWaitingTermination:00000040 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:693    .text.prvIdleTask:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:699    .text.prvIdleTask:00000000 prvIdleTask
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:748    .text.prvIdleTask:00000020 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:754    .text.prvAddCurrentTaskToDelayedList:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:760    .text.prvAddCurrentTaskToDelayedList:00000000 prvAddCurrentTaskToDelayedList
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:880    .text.prvAddCurrentTaskToDelayedList:0000007c $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:891    .text.xTaskCreate:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:898    .text.xTaskCreate:00000000 xTaskCreate
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1020   .text.vTaskDelete:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1027   .text.vTaskDelete:00000000 vTaskDelete
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1211   .text.vTaskDelete:000000b8 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1225   .text.uxTaskPriorityGet:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1232   .text.uxTaskPriorityGet:00000000 uxTaskPriorityGet
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1278   .text.uxTaskPriorityGet:0000001c $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1283   .text.uxTaskPriorityGetFromISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1290   .text.uxTaskPriorityGetFromISR:00000000 uxTaskPriorityGetFromISR
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1371   .text.uxTaskPriorityGetFromISR:0000002c $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1376   .text.vTaskPrioritySet:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1383   .text.vTaskPrioritySet:00000000 vTaskPrioritySet
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1630   .text.vTaskPrioritySet:000000d8 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1638   .text.vTaskResume:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1645   .text.vTaskResume:00000000 vTaskResume
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1776   .text.vTaskResume:00000078 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1784   .text.xTaskResumeFromISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1791   .text.xTaskResumeFromISR:00000000 xTaskResumeFromISR
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1962   .text.xTaskResumeFromISR:00000090 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1971   .text.vTaskStartScheduler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:1978   .text.vTaskStartScheduler:00000000 vTaskStartScheduler
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2107   .text.vTaskStartScheduler:0000006c $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2117   .text.vTaskEndScheduler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2124   .text.vTaskEndScheduler:00000000 vTaskEndScheduler
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2167   .text.vTaskEndScheduler:00000020 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2172   .text.vTaskSuspendAll:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2179   .text.vTaskSuspendAll:00000000 vTaskSuspendAll
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2196   .text.vTaskSuspendAll:0000000c $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2201   .text.xTaskGetTickCount:00000000 $t
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 235
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:18     .text.prvTaskIsTaskSuspended:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:25     .text.prvTaskIsTaskSuspended:00000000 prvTaskIsTaskSuspended
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:114    .text.prvTaskIsTaskSuspended:00000038 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:120    .text.prvResetNextTaskUnblockTime:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:126    .text.prvResetNextTaskUnblockTime:00000000 prvResetNextTaskUnblockTime
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:169    .text.prvResetNextTaskUnblockTime:00000024 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:175    .text.prvDeleteTCB:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:181    .text.prvDeleteTCB:00000000 prvDeleteTCB
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:213    .text.prvInitialiseNewTask:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:219    .text.prvInitialiseNewTask:00000000 prvInitialiseNewTask
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:360    .text.prvInitialiseTaskLists:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:366    .text.prvInitialiseTaskLists:00000000 prvInitialiseTaskLists
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:439    .text.prvInitialiseTaskLists:00000048 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:451    .text.prvAddNewTaskToReadyList:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:457    .text.prvAddNewTaskToReadyList:00000000 prvAddNewTaskToReadyList
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:594    .text.prvAddNewTaskToReadyList:0000008c $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:605    .text.prvCheckTasksWaitingTermination:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:611    .text.prvCheckTasksWaitingTermination:00000000 prvCheckTasksWaitingTermination
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:686    .text.prvCheckTasksWaitingTermination:00000040 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:693    .text.prvIdleTask:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:699    .text.prvIdleTask:00000000 prvIdleTask
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:748    .text.prvIdleTask:00000020 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:754    .text.prvAddCurrentTaskToDelayedList:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:760    .text.prvAddCurrentTaskToDelayedList:00000000 prvAddCurrentTaskToDelayedList
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:880    .text.prvAddCurrentTaskToDelayedList:0000007c $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:891    .text.xTaskCreate:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:898    .text.xTaskCreate:00000000 xTaskCreate
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1020   .text.vTaskDelete:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1027   .text.vTaskDelete:00000000 vTaskDelete
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1211   .text.vTaskDelete:000000b8 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1225   .text.uxTaskPriorityGet:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1232   .text.uxTaskPriorityGet:00000000 uxTaskPriorityGet
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1278   .text.uxTaskPriorityGet:0000001c $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1283   .text.uxTaskPriorityGetFromISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1290   .text.uxTaskPriorityGetFromISR:00000000 uxTaskPriorityGetFromISR
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1371   .text.uxTaskPriorityGetFromISR:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1376   .text.vTaskPrioritySet:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1383   .text.vTaskPrioritySet:00000000 vTaskPrioritySet
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1630   .text.vTaskPrioritySet:000000d8 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1638   .text.vTaskResume:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1645   .text.vTaskResume:00000000 vTaskResume
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1776   .text.vTaskResume:00000078 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1784   .text.xTaskResumeFromISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1791   .text.xTaskResumeFromISR:00000000 xTaskResumeFromISR
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1962   .text.xTaskResumeFromISR:00000090 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1971   .text.vTaskStartScheduler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:1978   .text.vTaskStartScheduler:00000000 vTaskStartScheduler
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2107   .text.vTaskStartScheduler:0000006c $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2117   .text.vTaskEndScheduler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2124   .text.vTaskEndScheduler:00000000 vTaskEndScheduler
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2167   .text.vTaskEndScheduler:00000020 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2172   .text.vTaskSuspendAll:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2179   .text.vTaskSuspendAll:00000000 vTaskSuspendAll
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2196   .text.vTaskSuspendAll:0000000c $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2201   .text.xTaskGetTickCount:00000000 $t
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 235
 
 
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2208   .text.xTaskGetTickCount:00000000 xTaskGetTickCount
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2229   .text.xTaskGetTickCount:00000008 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2234   .text.xTaskGetTickCountFromISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2241   .text.xTaskGetTickCountFromISR:00000000 xTaskGetTickCountFromISR
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2270   .text.xTaskGetTickCountFromISR:0000000c $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2275   .text.uxTaskGetNumberOfTasks:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2282   .text.uxTaskGetNumberOfTasks:00000000 uxTaskGetNumberOfTasks
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2298   .text.uxTaskGetNumberOfTasks:00000008 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2303   .text.pcTaskGetName:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2310   .text.pcTaskGetName:00000000 pcTaskGetName
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2370   .text.pcTaskGetName:00000024 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2375   .text.xTaskIncrementTick:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2382   .text.xTaskIncrementTick:00000000 xTaskIncrementTick
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2644   .text.xTaskIncrementTick:000000ec $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2659   .text.xTaskResumeAll:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2666   .text.xTaskResumeAll:00000000 xTaskResumeAll
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2900   .text.xTaskResumeAll:000000d4 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2913   .text.vTaskDelay:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:2920   .text.vTaskDelay:00000000 vTaskDelay
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3012   .text.vTaskDelay:00000044 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3018   .text.vTaskSwitchContext:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3025   .text.vTaskSwitchContext:00000000 vTaskSwitchContext
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3183   .text.vTaskSwitchContext:00000088 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3194   .text.vTaskSuspend:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3201   .text.vTaskSuspend:00000000 vTaskSuspend
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3405   .text.vTaskSuspend:000000cc $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3417   .text.vTaskPlaceOnEventList:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3424   .text.vTaskPlaceOnEventList:00000000 vTaskPlaceOnEventList
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3491   .text.vTaskPlaceOnEventList:0000002c $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3496   .text.vTaskPlaceOnUnorderedEventList:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3503   .text.vTaskPlaceOnUnorderedEventList:00000000 vTaskPlaceOnUnorderedEventList
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3615   .text.vTaskPlaceOnUnorderedEventList:00000054 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3621   .text.vTaskPlaceOnEventListRestricted:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3628   .text.vTaskPlaceOnEventListRestricted:00000000 vTaskPlaceOnEventListRestricted
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3704   .text.vTaskPlaceOnEventListRestricted:00000034 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3709   .text.xTaskRemoveFromEventList:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3716   .text.xTaskRemoveFromEventList:00000000 xTaskRemoveFromEventList
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3847   .text.xTaskRemoveFromEventList:00000074 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3857   .text.vTaskRemoveFromUnorderedEventList:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3864   .text.vTaskRemoveFromUnorderedEventList:00000000 vTaskRemoveFromUnorderedEventList
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:3999   .text.vTaskRemoveFromUnorderedEventList:00000074 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4008   .text.vTaskSetTimeOutState:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4015   .text.vTaskSetTimeOutState:00000000 vTaskSetTimeOutState
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4084   .text.vTaskSetTimeOutState:00000030 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4090   .text.vTaskInternalSetTimeOutState:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4097   .text.vTaskInternalSetTimeOutState:00000000 vTaskInternalSetTimeOutState
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4120   .text.vTaskInternalSetTimeOutState:00000010 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4126   .text.xTaskCheckForTimeOut:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4133   .text.xTaskCheckForTimeOut:00000000 xTaskCheckForTimeOut
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4309   .text.xTaskCheckForTimeOut:0000007c $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4316   .text.vTaskMissedYield:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4323   .text.vTaskMissedYield:00000000 vTaskMissedYield
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4340   .text.vTaskMissedYield:00000008 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4345   .text.xTaskGetCurrentTaskHandle:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4352   .text.xTaskGetCurrentTaskHandle:00000000 xTaskGetCurrentTaskHandle
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4371   .text.xTaskGetCurrentTaskHandle:00000008 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4376   .text.xTaskGetSchedulerState:00000000 $t
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 236
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2208   .text.xTaskGetTickCount:00000000 xTaskGetTickCount
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2229   .text.xTaskGetTickCount:00000008 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2234   .text.xTaskGetTickCountFromISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2241   .text.xTaskGetTickCountFromISR:00000000 xTaskGetTickCountFromISR
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2270   .text.xTaskGetTickCountFromISR:0000000c $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2275   .text.uxTaskGetNumberOfTasks:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2282   .text.uxTaskGetNumberOfTasks:00000000 uxTaskGetNumberOfTasks
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2298   .text.uxTaskGetNumberOfTasks:00000008 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2303   .text.pcTaskGetName:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2310   .text.pcTaskGetName:00000000 pcTaskGetName
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2370   .text.pcTaskGetName:00000024 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2375   .text.xTaskIncrementTick:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2382   .text.xTaskIncrementTick:00000000 xTaskIncrementTick
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2644   .text.xTaskIncrementTick:000000ec $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2659   .text.xTaskResumeAll:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2666   .text.xTaskResumeAll:00000000 xTaskResumeAll
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2900   .text.xTaskResumeAll:000000d4 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2913   .text.vTaskDelay:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:2920   .text.vTaskDelay:00000000 vTaskDelay
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3012   .text.vTaskDelay:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3018   .text.vTaskSwitchContext:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3025   .text.vTaskSwitchContext:00000000 vTaskSwitchContext
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3183   .text.vTaskSwitchContext:00000088 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3194   .text.vTaskSuspend:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3201   .text.vTaskSuspend:00000000 vTaskSuspend
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3405   .text.vTaskSuspend:000000cc $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3417   .text.vTaskPlaceOnEventList:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3424   .text.vTaskPlaceOnEventList:00000000 vTaskPlaceOnEventList
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3491   .text.vTaskPlaceOnEventList:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3496   .text.vTaskPlaceOnUnorderedEventList:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3503   .text.vTaskPlaceOnUnorderedEventList:00000000 vTaskPlaceOnUnorderedEventList
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3615   .text.vTaskPlaceOnUnorderedEventList:00000054 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3621   .text.vTaskPlaceOnEventListRestricted:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3628   .text.vTaskPlaceOnEventListRestricted:00000000 vTaskPlaceOnEventListRestricted
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3704   .text.vTaskPlaceOnEventListRestricted:00000034 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3709   .text.xTaskRemoveFromEventList:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3716   .text.xTaskRemoveFromEventList:00000000 xTaskRemoveFromEventList
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3847   .text.xTaskRemoveFromEventList:00000074 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3857   .text.vTaskRemoveFromUnorderedEventList:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3864   .text.vTaskRemoveFromUnorderedEventList:00000000 vTaskRemoveFromUnorderedEventList
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:3999   .text.vTaskRemoveFromUnorderedEventList:00000074 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4008   .text.vTaskSetTimeOutState:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4015   .text.vTaskSetTimeOutState:00000000 vTaskSetTimeOutState
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4084   .text.vTaskSetTimeOutState:00000030 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4090   .text.vTaskInternalSetTimeOutState:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4097   .text.vTaskInternalSetTimeOutState:00000000 vTaskInternalSetTimeOutState
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4120   .text.vTaskInternalSetTimeOutState:00000010 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4126   .text.xTaskCheckForTimeOut:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4133   .text.xTaskCheckForTimeOut:00000000 xTaskCheckForTimeOut
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4309   .text.xTaskCheckForTimeOut:0000007c $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4316   .text.vTaskMissedYield:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4323   .text.vTaskMissedYield:00000000 vTaskMissedYield
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4340   .text.vTaskMissedYield:00000008 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4345   .text.xTaskGetCurrentTaskHandle:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4352   .text.xTaskGetCurrentTaskHandle:00000000 xTaskGetCurrentTaskHandle
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4371   .text.xTaskGetCurrentTaskHandle:00000008 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4376   .text.xTaskGetSchedulerState:00000000 $t
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 236
 
 
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4383   .text.xTaskGetSchedulerState:00000000 xTaskGetSchedulerState
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4421   .text.xTaskGetSchedulerState:00000018 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4427   .text.xTaskPriorityInherit:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4434   .text.xTaskPriorityInherit:00000000 xTaskPriorityInherit
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4612   .text.xTaskPriorityInherit:000000b0 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4619   .text.xTaskPriorityDisinherit:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4626   .text.xTaskPriorityDisinherit:00000000 xTaskPriorityDisinherit
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4819   .text.xTaskPriorityDisinherit:000000a8 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4826   .text.vTaskPriorityDisinheritAfterTimeout:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:4833   .text.vTaskPriorityDisinheritAfterTimeout:00000000 vTaskPriorityDisinheritAfterTimeout
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5037   .text.vTaskPriorityDisinheritAfterTimeout:000000b4 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5044   .text.uxTaskResetEventItemValue:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5051   .text.uxTaskResetEventItemValue:00000000 uxTaskResetEventItemValue
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5078   .text.uxTaskResetEventItemValue:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5083   .text.pvTaskIncrementMutexHeldCount:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5090   .text.pvTaskIncrementMutexHeldCount:00000000 pvTaskIncrementMutexHeldCount
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5121   .text.pvTaskIncrementMutexHeldCount:00000018 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5126   .text.ulTaskNotifyTake:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5133   .text.ulTaskNotifyTake:00000000 ulTaskNotifyTake
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5255   .text.ulTaskNotifyTake:00000070 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5261   .text.xTaskNotifyWait:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5268   .text.xTaskNotifyWait:00000000 xTaskNotifyWait
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5410   .text.xTaskNotifyWait:00000090 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5416   .text.xTaskGenericNotify:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5423   .text.xTaskGenericNotify:00000000 xTaskGenericNotify
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5480   .text.xTaskGenericNotify:0000002c $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5485   .text.xTaskGenericNotify:00000030 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5668   .text.xTaskGenericNotify:000000d4 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5676   .text.xTaskGenericNotifyFromISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5683   .text.xTaskGenericNotifyFromISR:00000000 xTaskGenericNotifyFromISR
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5767   .text.xTaskGenericNotifyFromISR:0000004a $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5772   .text.xTaskGenericNotifyFromISR:0000004e $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5982   .text.xTaskGenericNotifyFromISR:00000104 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5992   .text.vTaskNotifyGiveFromISR:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:5999   .text.vTaskNotifyGiveFromISR:00000000 vTaskNotifyGiveFromISR
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6219   .text.vTaskNotifyGiveFromISR:000000b8 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6229   .text.xTaskNotifyStateClear:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6236   .text.xTaskNotifyStateClear:00000000 xTaskNotifyStateClear
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6302   .text.xTaskNotifyStateClear:00000030 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6312   .bss.pxCurrentTCB:00000000 pxCurrentTCB
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6308   .bss.pxCurrentTCB:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6315   .bss.pxDelayedTaskList:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6319   .bss.pxDelayedTaskList:00000000 pxDelayedTaskList
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6322   .bss.pxOverflowDelayedTaskList:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6326   .bss.pxOverflowDelayedTaskList:00000000 pxOverflowDelayedTaskList
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6329   .bss.pxReadyTasksLists:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6333   .bss.pxReadyTasksLists:00000000 pxReadyTasksLists
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6336   .bss.uxCurrentNumberOfTasks:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6340   .bss.uxCurrentNumberOfTasks:00000000 uxCurrentNumberOfTasks
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6343   .bss.uxDeletedTasksWaitingCleanUp:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6347   .bss.uxDeletedTasksWaitingCleanUp:00000000 uxDeletedTasksWaitingCleanUp
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6350   .bss.uxPendedTicks:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6354   .bss.uxPendedTicks:00000000 uxPendedTicks
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6357   .bss.uxSchedulerSuspended:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6361   .bss.uxSchedulerSuspended:00000000 uxSchedulerSuspended
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6364   .bss.uxTaskNumber:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6368   .bss.uxTaskNumber:00000000 uxTaskNumber
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s 			page 237
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4383   .text.xTaskGetSchedulerState:00000000 xTaskGetSchedulerState
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4421   .text.xTaskGetSchedulerState:00000018 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4427   .text.xTaskPriorityInherit:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4434   .text.xTaskPriorityInherit:00000000 xTaskPriorityInherit
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4612   .text.xTaskPriorityInherit:000000b0 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4619   .text.xTaskPriorityDisinherit:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4626   .text.xTaskPriorityDisinherit:00000000 xTaskPriorityDisinherit
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4819   .text.xTaskPriorityDisinherit:000000a8 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4826   .text.vTaskPriorityDisinheritAfterTimeout:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:4833   .text.vTaskPriorityDisinheritAfterTimeout:00000000 vTaskPriorityDisinheritAfterTimeout
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5037   .text.vTaskPriorityDisinheritAfterTimeout:000000b4 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5044   .text.uxTaskResetEventItemValue:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5051   .text.uxTaskResetEventItemValue:00000000 uxTaskResetEventItemValue
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5078   .text.uxTaskResetEventItemValue:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5083   .text.pvTaskIncrementMutexHeldCount:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5090   .text.pvTaskIncrementMutexHeldCount:00000000 pvTaskIncrementMutexHeldCount
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5121   .text.pvTaskIncrementMutexHeldCount:00000018 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5126   .text.ulTaskNotifyTake:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5133   .text.ulTaskNotifyTake:00000000 ulTaskNotifyTake
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5255   .text.ulTaskNotifyTake:00000070 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5261   .text.xTaskNotifyWait:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5268   .text.xTaskNotifyWait:00000000 xTaskNotifyWait
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5410   .text.xTaskNotifyWait:00000090 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5416   .text.xTaskGenericNotify:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5423   .text.xTaskGenericNotify:00000000 xTaskGenericNotify
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5480   .text.xTaskGenericNotify:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5485   .text.xTaskGenericNotify:00000030 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5668   .text.xTaskGenericNotify:000000d4 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5676   .text.xTaskGenericNotifyFromISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5683   .text.xTaskGenericNotifyFromISR:00000000 xTaskGenericNotifyFromISR
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5767   .text.xTaskGenericNotifyFromISR:0000004a $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5772   .text.xTaskGenericNotifyFromISR:0000004e $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5982   .text.xTaskGenericNotifyFromISR:00000104 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5992   .text.vTaskNotifyGiveFromISR:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:5999   .text.vTaskNotifyGiveFromISR:00000000 vTaskNotifyGiveFromISR
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6219   .text.vTaskNotifyGiveFromISR:000000b8 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6229   .text.xTaskNotifyStateClear:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6236   .text.xTaskNotifyStateClear:00000000 xTaskNotifyStateClear
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6302   .text.xTaskNotifyStateClear:00000030 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6312   .bss.pxCurrentTCB:00000000 pxCurrentTCB
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6308   .bss.pxCurrentTCB:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6315   .bss.pxDelayedTaskList:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6319   .bss.pxDelayedTaskList:00000000 pxDelayedTaskList
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6322   .bss.pxOverflowDelayedTaskList:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6326   .bss.pxOverflowDelayedTaskList:00000000 pxOverflowDelayedTaskList
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6329   .bss.pxReadyTasksLists:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6333   .bss.pxReadyTasksLists:00000000 pxReadyTasksLists
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6336   .bss.uxCurrentNumberOfTasks:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6340   .bss.uxCurrentNumberOfTasks:00000000 uxCurrentNumberOfTasks
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6343   .bss.uxDeletedTasksWaitingCleanUp:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6347   .bss.uxDeletedTasksWaitingCleanUp:00000000 uxDeletedTasksWaitingCleanUp
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6350   .bss.uxPendedTicks:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6354   .bss.uxPendedTicks:00000000 uxPendedTicks
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6357   .bss.uxSchedulerSuspended:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6361   .bss.uxSchedulerSuspended:00000000 uxSchedulerSuspended
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6364   .bss.uxTaskNumber:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6368   .bss.uxTaskNumber:00000000 uxTaskNumber
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s 			page 237
 
 
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6371   .bss.uxTopReadyPriority:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6375   .bss.uxTopReadyPriority:00000000 uxTopReadyPriority
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6378   .bss.xDelayedTaskList1:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6382   .bss.xDelayedTaskList1:00000000 xDelayedTaskList1
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6385   .bss.xDelayedTaskList2:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6389   .bss.xDelayedTaskList2:00000000 xDelayedTaskList2
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6392   .bss.xIdleTaskHandle:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6396   .bss.xIdleTaskHandle:00000000 xIdleTaskHandle
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6399   .bss.xNextTaskUnblockTime:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6403   .bss.xNextTaskUnblockTime:00000000 xNextTaskUnblockTime
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6406   .bss.xNumOfOverflows:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6410   .bss.xNumOfOverflows:00000000 xNumOfOverflows
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6413   .bss.xPendingReadyList:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6417   .bss.xPendingReadyList:00000000 xPendingReadyList
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6420   .bss.xSchedulerRunning:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6424   .bss.xSchedulerRunning:00000000 xSchedulerRunning
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6427   .bss.xSuspendedTaskList:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6431   .bss.xSuspendedTaskList:00000000 xSuspendedTaskList
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6434   .bss.xTasksWaitingTermination:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6438   .bss.xTasksWaitingTermination:00000000 xTasksWaitingTermination
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6441   .bss.xTickCount:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6445   .bss.xTickCount:00000000 xTickCount
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6448   .bss.xYieldPending:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6452   .bss.xYieldPending:00000000 xYieldPending
-C:\Users\yvesk\AppData\Local\Temp\ccB6z32F.s:6455   .rodata.vTaskStartScheduler.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6371   .bss.uxTopReadyPriority:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6375   .bss.uxTopReadyPriority:00000000 uxTopReadyPriority
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6378   .bss.xDelayedTaskList1:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6382   .bss.xDelayedTaskList1:00000000 xDelayedTaskList1
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6385   .bss.xDelayedTaskList2:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6389   .bss.xDelayedTaskList2:00000000 xDelayedTaskList2
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6392   .bss.xIdleTaskHandle:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6396   .bss.xIdleTaskHandle:00000000 xIdleTaskHandle
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6399   .bss.xNextTaskUnblockTime:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6403   .bss.xNextTaskUnblockTime:00000000 xNextTaskUnblockTime
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6406   .bss.xNumOfOverflows:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6410   .bss.xNumOfOverflows:00000000 xNumOfOverflows
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6413   .bss.xPendingReadyList:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6417   .bss.xPendingReadyList:00000000 xPendingReadyList
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6420   .bss.xSchedulerRunning:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6424   .bss.xSchedulerRunning:00000000 xSchedulerRunning
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6427   .bss.xSuspendedTaskList:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6431   .bss.xSuspendedTaskList:00000000 xSuspendedTaskList
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6434   .bss.xTasksWaitingTermination:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6438   .bss.xTasksWaitingTermination:00000000 xTasksWaitingTermination
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6441   .bss.xTickCount:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6445   .bss.xTickCount:00000000 xTickCount
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6448   .bss.xYieldPending:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6452   .bss.xYieldPending:00000000 xYieldPending
+C:\Users\yvesk\AppData\Local\Temp\ccH6u8kP.s:6455   .rodata.vTaskStartScheduler.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 vPortFree

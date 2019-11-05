@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
   28:../../shields/Murata-dualstack/src/modem_interface.c ****   #define DPRINT_DATA(...)
   29:../../shields/Murata-dualstack/src/modem_interface.c **** #endif
   30:../../shields/Murata-dualstack/src/modem_interface.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 2
 
 
   31:../../shields/Murata-dualstack/src/modem_interface.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
   85:../../shields/Murata-dualstack/src/modem_interface.c **** {
   86:../../shields/Murata-dualstack/src/modem_interface.c ****   modem_listen_uart_inited = true;
   87:../../shields/Murata-dualstack/src/modem_interface.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 3
 
 
   88:../../shields/Murata-dualstack/src/modem_interface.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  142:../../shields/Murata-dualstack/src/modem_interface.c ****     flush_modem_interface_tx_fifo(NULL);
  143:../../shields/Murata-dualstack/src/modem_interface.c ****   }
  144:../../shields/Murata-dualstack/src/modem_interface.c **** #endif
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 4
 
 
  145:../../shields/Murata-dualstack/src/modem_interface.c **** }
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  199:../../shields/Murata-dualstack/src/modem_interface.c ****       // TODO timeout
  200:../../shields/Murata-dualstack/src/modem_interface.c ****       sched_cancel_task(&modem_listen);
  201:../../shields/Murata-dualstack/src/modem_interface.c ****       SWITCH_STATE(STATE_REQ_WAIT);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 5
 
 
  202:../../shields/Murata-dualstack/src/modem_interface.c ****       hw_gpio_set(uart_state_pin); // wake-up receiver
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
   37              		.cfi_offset 4, -8
   38              		.cfi_offset 14, -4
   39 0002 0C46     		mov	r4, r1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 6
 
 
  248:../../shields/Murata-dualstack/src/modem_interface.c ****   static uint8_t payload[RX_BUFFER_SIZE - SERIAL_FRAME_HEADER_SIZE]; // statically allocated so thi
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
   76              	.LVL3:
  266:../../shields/Murata-dualstack/src/modem_interface.c ****  
  267:../../shields/Murata-dualstack/src/modem_interface.c ****   if(header[SERIAL_FRAME_CRC1]!=((calculated_crc >> 8) & 0x00FF) || header[SERIAL_FRAME_CRC2]!=(cal
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 7
 
 
   77              		.loc 1 267 3 is_stmt 1 view .LVU18
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  124              	flush_modem_interface_tx_fifo:
  125              	.LVL8:
  126              	.LFB126:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 8
 
 
  114:../../shields/Murata-dualstack/src/modem_interface.c ****   uint8_t len = fifo_get_size(&modem_interface_tx_fifo);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  132:../../shields/Murata-dualstack/src/modem_interface.c ****     release_receiver();
  170              		.loc 1 132 5 view .LVU40
  133:../../shields/Murata-dualstack/src/modem_interface.c **** #if PLATFORM_USE_MODEM_INTERRUPT_LINES
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 9
 
 
  171              		.loc 1 133 5 view .LVU41
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  276:../../shields/Murata-dualstack/src/modem_interface.c **** 
  277:../../shields/Murata-dualstack/src/modem_interface.c **** /** @Brief Processes received uart data
  278:../../shields/Murata-dualstack/src/modem_interface.c ****  * 1) Search for sync bytes (always)
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 10
 
 
  279:../../shields/Murata-dualstack/src/modem_interface.c ****  * 2) get header size and parse header
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  333:../../shields/Murata-dualstack/src/modem_interface.c ****         fifo_skip(&payload_fifo,1);
  334:../../shields/Murata-dualstack/src/modem_interface.c ****         modem_interface_transfer_bytes((uint8_t*) &ping_reply,1,SERIAL_MESSAGE_TYPE_PING_RESPONSE);
  335:../../shields/Murata-dualstack/src/modem_interface.c ****       }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 11
 
 
  336:../../shields/Murata-dualstack/src/modem_interface.c ****       else if(header[SERIAL_FRAME_TYPE]==SERIAL_MESSAGE_TYPE_REBOOTED)
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  242 0010 0122     		movs	r2, #1
  243 0012 2146     		mov	r1, r4
  244 0014 0348     		ldr	r0, .L17+8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 12
 
 
  245 0016 FFF7FEFF 		bl	fifo_put
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  402:../../shields/Murata-dualstack/src/modem_interface.c ****   state = STATE_IDLE;
  403:../../shields/Murata-dualstack/src/modem_interface.c ****   
  404:../../shields/Murata-dualstack/src/modem_interface.c ****   // uart_state_pin=uart_state_int_pin;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 13
 
 
  405:../../shields/Murata-dualstack/src/modem_interface.c ****   // target_uart_state_pin=target_uart_state_int_pin;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  302 0018 C022     		movs	r2, #192
  303 001a 8DF80020 		strb	r2, [sp]
  426:../../shields/Murata-dualstack/src/modem_interface.c ****   header[1] = SERIAL_FRAME_VERSION;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 14
 
 
  304              		.loc 1 426 3 is_stmt 1 view .LVU62
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  342 004c FFF7FEFF 		bl	fifo_put
  343              	.LVL24:
  443:../../shields/Murata-dualstack/src/modem_interface.c ****   //end_atomic();
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 15
 
 
  444:../../shields/Murata-dualstack/src/modem_interface.c **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  287:../../shields/Murata-dualstack/src/modem_interface.c ****   {
  390              		.loc 1 287 6 is_stmt 0 view .LVU88
  391 0004 554B     		ldr	r3, .L48
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 16
 
 
  392 0006 1C78     		ldrb	r4, [r3]	@ zero_extendqisi2
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  434              		.loc 1 293 48 discriminator 1 view .LVU100
  435 0030 6BB1     		cbz	r3, .L27
  436              	.L26:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 17
 
 
  295:../../shields/Murata-dualstack/src/modem_interface.c ****           //printf("skip\r\n");
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  477 0064 4148     		ldr	r0, .L48+16
  478 0066 FFF7FEFF 		bl	printf
  479              	.LVL34:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 18
 
 
  307:../../shields/Murata-dualstack/src/modem_interface.c ****     }
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  519 0090 344B     		ldr	r3, .L48+8
  520 0092 DB78     		ldrb	r3, [r3, #3]	@ zero_extendqisi2
  324:../../shields/Murata-dualstack/src/modem_interface.c ****         alp_handler(&payload_fifo);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 19
 
 
  521              		.loc 1 324 9 view .LVU130
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  314:../../shields/Murata-dualstack/src/modem_interface.c ****     }
  563              		.loc 1 314 14 is_stmt 0 view .LVU143
  564 00c0 0024     		movs	r4, #0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 20
 
 
  565 00c2 A7E7     		b	.L23
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  355:../../shields/Murata-dualstack/src/modem_interface.c ****       return false;  
  607              		.loc 1 355 7 view .LVU156
  608 00f4 0728     		cmp	r0, #7
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 21
 
 
  609 00f6 8DD9     		bls	.L23
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  652              	.LVL50:
  653              	.LBE6:
  654 012e CFE7     		b	.L33
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 22
 
 
  655              	.L47:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  701 0180 00000000 		.word	.LANCHOR8
  702 0184 38000000 		.word	.LC2
  703 0188 00000000 		.word	.LANCHOR9
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 23
 
 
  704 018c 78000000 		.word	.LC4
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  751              	.LVL59:
  402:../../shields/Murata-dualstack/src/modem_interface.c ****   
  752              		.loc 1 402 3 view .LVU185
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 24
 
 
  407:../../shields/Murata-dualstack/src/modem_interface.c ****   HAL_UART_Receive_IT(uart, rxData, 1);
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  803              		.cfi_def_cfa_offset 8
  804              		.cfi_offset 4, -8
  805              		.cfi_offset 14, -4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 25
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 25
 
 
  806 0002 0446     		mov	r4, r0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  851 000a 06D0     		beq	.L62
  852              	.L56:
  464:../../shields/Murata-dualstack/src/modem_interface.c ****     logging_handler=cmd_handler;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 26
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 26
 
 
  465:../../shields/Murata-dualstack/src/modem_interface.c ****   else
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  897              		@ frame_needed = 0, uses_anonymous_args = 0
  898              		@ link register save eliminated.
  471:../../shields/Murata-dualstack/src/modem_interface.c ****   target_rebooted_cb = cb;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 27
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 27
 
 
  899              		.loc 1 471 3 view .LVU213
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  956              		.set	.LANCHOR3,. + 0
  959              	packet_up_counter:
  960 0000 00       		.space	1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 28
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 28
 
 
  961              		.section	.bss.parsed_header,"aw",%nobits
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  1010      65742072 
  1010      65626F6F 
  1010      7465642C 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 29
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 29
 
 
  1010      20726561 
@@ -1719,74 +1719,74 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 1
  1037              		.file 20 "<built-in>"
  1038              		.file 21 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\includ
  1039              		.file 22 "../../shields/Murata-dualstack/inc/crc.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 30
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 30
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 modem_interface.c
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:18     .text.verify_payload:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:25     .text.verify_payload:00000000 verify_payload
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:112    .text.verify_payload:00000048 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:118    .text.flush_modem_interface_tx_fifo:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:124    .text.flush_modem_interface_tx_fifo:00000000 flush_modem_interface_tx_fifo
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:207    .text.flush_modem_interface_tx_fifo:00000054 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:18     .text.verify_payload:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:25     .text.verify_payload:00000000 verify_payload
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:112    .text.verify_payload:00000048 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:118    .text.flush_modem_interface_tx_fifo:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:124    .text.flush_modem_interface_tx_fifo:00000000 flush_modem_interface_tx_fifo
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:207    .text.flush_modem_interface_tx_fifo:00000054 $d
                             *COM*:00000004 uart
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:213    .text.uart_rx_cb:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:220    .text.uart_rx_cb:00000000 uart_rx_cb
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:252    .text.uart_rx_cb:0000001c $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:213    .text.uart_rx_cb:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:220    .text.uart_rx_cb:00000000 uart_rx_cb
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:252    .text.uart_rx_cb:0000001c $d
                             *COM*:00000001 rxData
                             *COM*:00000010 rx_fifo
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:259    .text.modem_interface_transfer_bytes:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:266    .text.modem_interface_transfer_bytes:00000000 modem_interface_transfer_bytes
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:359    .text.modem_interface_transfer_bytes:0000005c $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:365    .text.process_rx_fifo:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:372    .text.process_rx_fifo:00000000 process_rx_fifo
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:692    .text.process_rx_fifo:0000015c $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:259    .text.modem_interface_transfer_bytes:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:266    .text.modem_interface_transfer_bytes:00000000 modem_interface_transfer_bytes
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:359    .text.modem_interface_transfer_bytes:0000005c $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:365    .text.process_rx_fifo:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:372    .text.process_rx_fifo:00000000 process_rx_fifo
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:692    .text.process_rx_fifo:0000015c $d
                             *COM*:00000007 header
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:711    .text.modem_interface_init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:718    .text.modem_interface_init:00000000 modem_interface_init
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:776    .text.modem_interface_init:00000040 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:786    .text.modem_interface_transfer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:793    .text.modem_interface_transfer:00000000 modem_interface_transfer
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:825    .text.modem_interface_register_handler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:832    .text.modem_interface_register_handler:00000000 modem_interface_register_handler
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:877    .text.modem_interface_register_handler:00000020 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:884    .text.modem_interface_set_target_rebooted_callback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:891    .text.modem_interface_set_target_rebooted_callback:00000000 modem_interface_set_target_rebooted_callback
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:908    .text.modem_interface_set_target_rebooted_callback:00000008 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:711    .text.modem_interface_init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:718    .text.modem_interface_init:00000000 modem_interface_init
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:776    .text.modem_interface_init:00000040 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:786    .text.modem_interface_transfer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:793    .text.modem_interface_transfer:00000000 modem_interface_transfer
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:825    .text.modem_interface_register_handler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:832    .text.modem_interface_register_handler:00000000 modem_interface_register_handler
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:877    .text.modem_interface_register_handler:00000020 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:884    .text.modem_interface_set_target_rebooted_callback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:891    .text.modem_interface_set_target_rebooted_callback:00000000 modem_interface_set_target_rebooted_callback
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:908    .text.modem_interface_set_target_rebooted_callback:00000008 $d
                             *COM*:00000078 P3_UART
                             *COM*:00000078 P2_UART
                             *COM*:00000078 P1_UART
                             *COM*:00000078 BLE_UART
                             *COM*:00000078 USB_UART
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:922    .bss.alp_handler:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:926    .bss.alp_handler:00000000 alp_handler
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:929    .bss.logging_handler:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:933    .bss.logging_handler:00000000 logging_handler
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:936    .bss.modem_interface_tx_buffer:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:940    .bss.modem_interface_tx_buffer:00000000 modem_interface_tx_buffer
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:943    .bss.modem_interface_tx_fifo:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:947    .bss.modem_interface_tx_fifo:00000000 modem_interface_tx_fifo
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:953    .bss.packet_down_counter:00000000 packet_down_counter
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:954    .bss.packet_down_counter:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:959    .bss.packet_up_counter:00000000 packet_up_counter
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:960    .bss.packet_up_counter:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:965    .bss.parsed_header:00000000 parsed_header
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:966    .bss.parsed_header:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:968    .bss.payload.9606:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:972    .bss.payload.9606:00000000 payload.9606
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:978    .bss.payload_len:00000000 payload_len
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:979    .bss.payload_len:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:981    .bss.ping_response_handler:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:985    .bss.ping_response_handler:00000000 ping_response_handler
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s 			page 31
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:922    .bss.alp_handler:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:926    .bss.alp_handler:00000000 alp_handler
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:929    .bss.logging_handler:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:933    .bss.logging_handler:00000000 logging_handler
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:936    .bss.modem_interface_tx_buffer:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:940    .bss.modem_interface_tx_buffer:00000000 modem_interface_tx_buffer
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:943    .bss.modem_interface_tx_fifo:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:947    .bss.modem_interface_tx_fifo:00000000 modem_interface_tx_fifo
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:953    .bss.packet_down_counter:00000000 packet_down_counter
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:954    .bss.packet_down_counter:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:959    .bss.packet_up_counter:00000000 packet_up_counter
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:960    .bss.packet_up_counter:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:965    .bss.parsed_header:00000000 parsed_header
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:966    .bss.parsed_header:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:968    .bss.payload.9606:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:972    .bss.payload.9606:00000000 payload.9606
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:978    .bss.payload_len:00000000 payload_len
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:979    .bss.payload_len:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:981    .bss.ping_response_handler:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:985    .bss.ping_response_handler:00000000 ping_response_handler
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s 			page 31
 
 
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:988    .bss.rx_buffer:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:992    .bss.rx_buffer:00000000 rx_buffer
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:995    .bss.target_rebooted_cb:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:999    .bss.target_rebooted_cb:00000000 target_rebooted_cb
-C:\Users\yvesk\AppData\Local\Temp\cc78LcrZ.s:1002   .rodata.process_rx_fifo.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:988    .bss.rx_buffer:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:992    .bss.rx_buffer:00000000 rx_buffer
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:995    .bss.target_rebooted_cb:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:999    .bss.target_rebooted_cb:00000000 target_rebooted_cb
+C:\Users\yvesk\AppData\Local\Temp\cc6LdZav.s:1002   .rodata.process_rx_fifo.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 fifo_peek

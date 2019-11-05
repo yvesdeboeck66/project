@@ -77,7 +77,8 @@
  C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\fs.h \
  C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\fifo.h \
  C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\modem_interface.h \
- C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\keys.h
+ C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\keys.h \
+ C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\core\drivers\SHT31\inc\sht31.h
 
 ../../applications/murata-dualstack-example-ns/inc/murata-dualstack-example-ns.h:
 
@@ -238,3 +239,5 @@ C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shie
 C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\modem_interface.h:
 
 C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\keys.h:
+
+C:\Users\yvesk\Documents\Academiejaar\ 2019-2020\IOT\Practicum\Project_code\core\drivers\SHT31\inc\sht31.h:

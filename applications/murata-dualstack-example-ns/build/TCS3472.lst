@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
   27:../../core/drivers/TCS3472/src/TCS3472.c **** {
   28:../../core/drivers/TCS3472/src/TCS3472.c **** 	hi2cLib=hi2c;
   29:../../core/drivers/TCS3472/src/TCS3472.c ****     enablePowerAndRGBC();
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 2
 
 
   30:../../core/drivers/TCS3472/src/TCS3472.c **** 	setIntegrationTime(100);
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
   79              	READ_REGISTER_TC3472:
   80              	.LVL4:
   81              	.LFB133:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 3
 
 
   37:../../core/drivers/TCS3472/src/TCS3472.c **** uint8_t READ_REGISTER_TC3472(uint8_t buf[],uint8_t reg,uint8_t length)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  132              		.thumb_func
  133              		.fpu fpv4-sp-d16
  135              	writeSingleRegister:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 4
 
 
  136              	.LVL9:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  184              	.LVL13:
  185              	.LFB135:
   50:../../core/drivers/TCS3472/src/TCS3472.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 5
 
 
   51:../../core/drivers/TCS3472/src/TCS3472.c **** int writeMultipleRegisters( uint8_t address, uint8_t* data, int quantity ){
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  234              	.LVL19:
   54:../../core/drivers/TCS3472/src/TCS3472.c ****     for ( int i = 1; i <= quantity; i++ ){
  235              		.loc 1 54 38 discriminator 3 view .LVU42
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 6
 
 
  236 002a F7E7     		b	.L12
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  284              		.cfi_def_cfa_offset 16
   63:../../core/drivers/TCS3472/src/TCS3472.c ****     //uint8_t output = 255;
   64:../../core/drivers/TCS3472/src/TCS3472.c ****     uint8_t hwID[1];
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 7
 
 
  285              		.loc 1 64 5 is_stmt 1 view .LVU53
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  331              		.loc 1 74 5 view .LVU62
  332              		.loc 1 74 13 is_stmt 0 view .LVU63
  333 0004 D2B2     		uxtb	r2, r2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 8
 
 
  334              	.LVL29:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  381 000c 0822     		movs	r2, #8
  382 000e 6946     		mov	r1, sp
  383 0010 1420     		movs	r0, #20
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 9
 
 
  384              	.LVL34:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  432              	.LFE138:
  434              		.section	.text.getClearData,"ax",%progbits
  435              		.align	1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 10
 
 
  436              		.global	getClearData
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  485              		.align	1
  486              		.global	getRedData
  487              		.syntax unified
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 11
 
 
  488              		.thumb
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  537              		.syntax unified
  538              		.thumb
  539              		.thumb_func
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 12
 
 
  540              		.fpu fpv4-sp-d16
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  589              		.thumb_func
  590              		.fpu fpv4-sp-d16
  592              	getBlueData:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 13
 
 
  593              	.LFB142:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  642              	enablePower:
  643              	.LFB143:
  118:../../core/drivers/TCS3472/src/TCS3472.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 14
 
 
  119:../../core/drivers/TCS3472/src/TCS3472.c **** int  enablePower(){
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  692              	.LCFI32:
  693              		.cfi_def_cfa_offset 8
  694              		.cfi_offset 3, -8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 15
 
 
  695              		.cfi_offset 14, -4
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  742 0008 C001     		lsls	r0, r0, #7
  743              	.LVL56:
  744              		.loc 1 135 13 view .LVU162
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 16
 
 
  745 000a C0B2     		uxtb	r0, r0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  793              	.LVL62:
  144:../../core/drivers/TCS3472/src/TCS3472.c ****     return ack;
  794              		.loc 1 144 5 is_stmt 1 view .LVU176
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 17
 
 
  145:../../core/drivers/TCS3472/src/TCS3472.c **** }
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  844              		.thumb_func
  845              		.fpu fpv4-sp-d16
  847              	isRGBCEnabled:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 18
 
 
  848              	.LFB148:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  894              		.loc 1 162 26 is_stmt 0 view .LVU197
  895 0002 0020     		movs	r0, #0
  896 0004 FFF7FEFF 		bl	readSingleRegister
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 19
 
 
  897              	.LVL68:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  944 0008 00F0FC01 		and	r1, r0, #252
  945 000c 0020     		movs	r0, #0
  946              	.LVL73:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 20
 
 
  947              		.loc 1 171 15 view .LVU212
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  994              		.loc 1 180 1 is_stmt 0 view .LVU225
  995 0014 08BD     		pop	{r3, pc}
  996              		.cfi_endproc
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 21
 
 
  997              	.LFE151:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  188:../../core/drivers/TCS3472/src/TCS3472.c **** 
  189:../../core/drivers/TCS3472/src/TCS3472.c **** uint8_t  isWaitEnabled(){
  1048              		.loc 1 189 25 is_stmt 1 view -0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 22
 
 
  1049              		.cfi_startproc
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  198:../../core/drivers/TCS3472/src/TCS3472.c ****     uint8_t enable_new = enable_old | 16; // sets AIEN (bit 4) to 1
  1097              		.loc 1 198 5 is_stmt 1 view .LVU246
  1098              		.loc 1 198 13 is_stmt 0 view .LVU247
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 23
 
 
  1099 0008 40F01001 		orr	r1, r0, #16
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1147 000e FFF7FEFF 		bl	writeSingleRegister
  1148              	.LVL90:
  207:../../core/drivers/TCS3472/src/TCS3472.c ****     return ack;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 24
 
 
  1149              		.loc 1 207 5 is_stmt 1 view .LVU261
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1198              		.thumb_func
  1199              		.fpu fpv4-sp-d16
  1201              	readIntegrationTime:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 25
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 25
 
 
  1202              	.LFB158:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1243              	.LFE158:
  1245              		.section	.text.readWaitTime,"ax",%progbits
  1246              		.align	1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 26
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 26
 
 
  1247              		.global	readWaitTime
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1281              	.LVL103:
  250:../../core/drivers/TCS3472/src/TCS3472.c ****     if ( wlong == 0 ){
  1282              		.loc 1 250 5 is_stmt 1 view .LVU289
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 27
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 27
 
 
  1283              		.loc 1 250 8 is_stmt 0 view .LVU290
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1322              	.LVL111:
  1323 0044 04A3     		adr	r3, .L68
  1324 0046 D3E90023 		ldrd	r2, [r3]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 28
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 28
 
 
  1325 004a FFF7FEFF 		bl	__aeabi_dmul
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1376              		.global	readLowInterruptThreshold
  1377              		.syntax unified
  1378              		.thumb
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 29
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 29
 
 
  1379              		.thumb_func
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1428              		.thumb
  1429              		.thumb_func
  1430              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 30
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 30
 
 
  1432              	readHighInterruptThreshold:
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1480              		.fpu fpv4-sp-d16
  1482              	setLowInterruptThreshold:
  1483              	.LVL122:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 31
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 31
 
 
  1484              	.LFB164:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1532              	setHighInterruptThreshold:
  1533              	.LVL125:
  1534              	.LFB165:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 32
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 32
 
 
  284:../../core/drivers/TCS3472/src/TCS3472.c **** 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1583              	.LFB166:
  292:../../core/drivers/TCS3472/src/TCS3472.c **** 
  293:../../core/drivers/TCS3472/src/TCS3472.c **** int  readInterruptPersistence(){
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 33
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 33
 
 
  1584              		.loc 1 293 32 is_stmt 1 view -0
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1632              	.L94:
  298:../../core/drivers/TCS3472/src/TCS3472.c ****         case 0:
  299:../../core/drivers/TCS3472/src/TCS3472.c ****             persistence = 0;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 34
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 34
 
 
  300:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  347:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
  348:../../core/drivers/TCS3472/src/TCS3472.c ****     }
  349:../../core/drivers/TCS3472/src/TCS3472.c ****     return persistence;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 35
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 35
 
 
  350:../../core/drivers/TCS3472/src/TCS3472.c **** }
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1676 003a F6E7     		b	.L80
  1677              	.LVL141:
  1678              	.L89:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 36
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 36
 
 
  326:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  339:../../core/drivers/TCS3472/src/TCS3472.c ****         case 14:
  1716              		.loc 1 339 13 view .LVU400
  338:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 37
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 37
 
 
  1717              		.loc 1 338 25 is_stmt 0 view .LVU401
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1761              	.LCFI61:
  1762              		.cfi_def_cfa_offset 8
  1763              		.cfi_offset 3, -8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 38
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 38
 
 
  1764              		.cfi_offset 14, -4
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1815 0034 42       		.byte	(.L116-.L100)/2
  1816 0035 42       		.byte	(.L116-.L100)/2
  1817 0036 42       		.byte	(.L116-.L100)/2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 39
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 39
 
 
  1818 0037 25       		.byte	(.L103-.L100)/2
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  388:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
  389:../../core/drivers/TCS3472/src/TCS3472.c ****         case 40:
  390:../../core/drivers/TCS3472/src/TCS3472.c ****             pers_byte = 11;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 40
 
 
  391:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1867              		.loc 1 408 5 view .LVU432
  390:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
  1868              		.loc 1 390 23 is_stmt 0 view .LVU433
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 41
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 41
 
 
  1869 0058 0B21     		movs	r1, #11
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1908              		.loc 1 375 23 is_stmt 0 view .LVU453
  1909 006c 0621     		movs	r1, #6
  1910 006e 0AE0     		b	.L99
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 42
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 42
 
 
  1911              	.LVL166:
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1950 0082 00E0     		b	.L99
  1951              	.LVL171:
  1952              	.L117:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 43
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 43
 
 
  402:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  1998              		.loc 1 415 5 view .LVU483
  416:../../core/drivers/TCS3472/src/TCS3472.c ****     tx[0]= 230;
  1999              		.loc 1 416 5 view .LVU484
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 44
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 44
 
 
  2000              		.loc 1 416 10 is_stmt 0 view .LVU485
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2046 0008 C0B2     		uxtb	r0, r0
  2047              	.LVL178:
  2048              		.loc 1 426 5 is_stmt 0 view .LVU496
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 45
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 45
 
 
  2049 000a 0328     		cmp	r0, #3
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  440:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
  2086              		.loc 1 440 18 is_stmt 0 view .LVU509
  2087 0022 0020     		movs	r0, #0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 46
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 46
 
 
  2088              	.LVL185:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  457:../../core/drivers/TCS3472/src/TCS3472.c ****             control = 2;
  458:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
  459:../../core/drivers/TCS3472/src/TCS3472.c ****         case 60:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 47
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 47
 
 
  460:../../core/drivers/TCS3472/src/TCS3472.c ****             control = 3;
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  454:../../core/drivers/TCS3472/src/TCS3472.c ****             break;
  2166              		.loc 1 454 21 view .LVU528
  2167 0026 0121     		movs	r1, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 48
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 48
 
 
  2168 0028 F2E7     		b	.L131
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2218              		.fpu fpv4-sp-d16
  2220              	readStatusRegister:
  2221              	.LFB172:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 49
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 49
 
 
  475:../../core/drivers/TCS3472/src/TCS3472.c **** 
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2270              		.loc 1 482 36 discriminator 1 view .LVU546
  2271 000c FDEEC07A 		vcvt.s32.f32	s15, s0
  2272              		.loc 1 482 34 discriminator 1 view .LVU547
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 50
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 50
 
 
  2273 0010 F8EEE77A 		vcvt.f32.s32	s15, s15
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2321              		.global	setIntegrationTime
  2322              		.syntax unified
  2323              		.thumb
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 51
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 51
 
 
  2324              		.thumb_func
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2369 0038 FFF7FEFF 		bl	writeSingleRegister
  2370              	.LVL212:
  220:../../core/drivers/TCS3472/src/TCS3472.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 52
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 52
 
 
  2371              		.loc 1 220 5 is_stmt 1 view .LVU570
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2418 000a 9FED030A 		vldr.32	s0, .L161+4
  2419 000e FFF7FEFF 		bl	setIntegrationTime
  2420              	.LVL216:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 53
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 53
 
 
   31:../../core/drivers/TCS3472/src/TCS3472.c **** uint8_t WRITE_REGISTER_TC3472(uint8_t pData[],uint8_t length)
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2469 000c 0446     		mov	r4, r0
  2470 000e 0D46     		mov	r5, r1
  233:../../core/drivers/TCS3472/src/TCS3472.c ****         ack = writeSingleRegister( CONFIG, 0 ); // sets WLONG to 0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 54
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 54
 
 
  2471              		.loc 1 233 8 view .LVU587
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  235:../../core/drivers/TCS3472/src/TCS3472.c ****     }
  2517              		.loc 1 235 46 is_stmt 0 view .LVU596
  2518 005c 29A3     		adr	r3, .L185+36
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 55
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 55
 
 
  2519 005e D3E90023 		ldrd	r2, [r3]
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2562              	.LVL234:
  239:../../core/drivers/TCS3472/src/TCS3472.c ****     }
  2563              		.loc 1 239 46 view .LVU608
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 56
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 56
 
 
  2564 00a2 2946     		mov	r1, r5
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2607              		.cfi_def_cfa_offset 16
  2608              		@ sp needed
  2609 00de 70BD     		pop	{r4, r5, r6, pc}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 57
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 57
 
 
  2610              	.L186:
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2663              		.global	turnOffLED
  2664              		.syntax unified
  2665              		.thumb
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 58
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 58
 
 
  2666              		.thumb_func
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2718              		.comm	P2_DIO6,8,4
  2719              		.comm	P2_DIO5,8,4
  2720              		.comm	P2_DIO4,8,4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 59
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 59
 
 
  2721              		.comm	P2_DIO3,8,4
@@ -3519,119 +3519,119 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 1
  2756              		.file 25 "../../core/platform/octa/inc/spi.h"
  2757              		.file 26 "../../core/platform/octa/inc/octa.h"
  2758              		.file 27 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 60
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 60
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 TCS3472.c
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:18     .text.WRITE_REGISTER_TC3472:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:26     .text.WRITE_REGISTER_TC3472:00000000 WRITE_REGISTER_TC3472
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:67     .text.WRITE_REGISTER_TC3472:00000020 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:18     .text.WRITE_REGISTER_TC3472:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:26     .text.WRITE_REGISTER_TC3472:00000000 WRITE_REGISTER_TC3472
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:67     .text.WRITE_REGISTER_TC3472:00000020 $d
                             *COM*:00000004 hi2cLib
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:72     .text.READ_REGISTER_TC3472:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:79     .text.READ_REGISTER_TC3472:00000000 READ_REGISTER_TC3472
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:123    .text.READ_REGISTER_TC3472:00000024 $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:128    .text.writeSingleRegister:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:135    .text.writeSingleRegister:00000000 writeSingleRegister
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:176    .text.writeMultipleRegisters:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:183    .text.writeMultipleRegisters:00000000 writeMultipleRegisters
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:263    .text.readSingleRegister:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:270    .text.readSingleRegister:00000000 readSingleRegister
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:308    .text.readMultipleRegisters:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:315    .text.readMultipleRegisters:00000000 readMultipleRegisters
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:351    .text.getAllColors:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:358    .text.getAllColors:00000000 getAllColors
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:435    .text.getClearData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:442    .text.getClearData:00000000 getClearData
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:485    .text.getRedData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:492    .text.getRedData:00000000 getRedData
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:535    .text.getGreenData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:542    .text.getGreenData:00000000 getGreenData
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:585    .text.getBlueData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:592    .text.getBlueData:00000000 getBlueData
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:635    .text.enablePower:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:642    .text.enablePower:00000000 enablePower
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:678    .text.disablePower:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:685    .text.disablePower:00000000 disablePower
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:717    .text.isPowerEnabled:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:724    .text.isPowerEnabled:00000000 isPowerEnabled
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:758    .text.enableRGBC:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:765    .text.enableRGBC:00000000 enableRGBC
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:801    .text.disableRGBC:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:808    .text.disableRGBC:00000000 disableRGBC
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:840    .text.isRGBCEnabled:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:847    .text.isRGBCEnabled:00000000 isRGBCEnabled
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:875    .text.enablePowerAndRGBC:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:882    .text.enablePowerAndRGBC:00000000 enablePowerAndRGBC
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:918    .text.disablePowerAndRGBC:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:925    .text.disablePowerAndRGBC:00000000 disablePowerAndRGBC
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:957    .text.enableWait:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:964    .text.enableWait:00000000 enableWait
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1000   .text.disableWait:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1007   .text.disableWait:00000000 disableWait
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1039   .text.isWaitEnabled:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1046   .text.isWaitEnabled:00000000 isWaitEnabled
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1074   .text.enableInterrupt:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1081   .text.enableInterrupt:00000000 enableInterrupt
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1117   .text.disableInterrupt:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1124   .text.disableInterrupt:00000000 disableInterrupt
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1156   .text.isInterruptEnabled:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1163   .text.isInterruptEnabled:00000000 isInterruptEnabled
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1194   .text.readIntegrationTime:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1201   .text.readIntegrationTime:00000000 readIntegrationTime
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 61
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:72     .text.READ_REGISTER_TC3472:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:79     .text.READ_REGISTER_TC3472:00000000 READ_REGISTER_TC3472
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:123    .text.READ_REGISTER_TC3472:00000024 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:128    .text.writeSingleRegister:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:135    .text.writeSingleRegister:00000000 writeSingleRegister
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:176    .text.writeMultipleRegisters:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:183    .text.writeMultipleRegisters:00000000 writeMultipleRegisters
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:263    .text.readSingleRegister:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:270    .text.readSingleRegister:00000000 readSingleRegister
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:308    .text.readMultipleRegisters:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:315    .text.readMultipleRegisters:00000000 readMultipleRegisters
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:351    .text.getAllColors:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:358    .text.getAllColors:00000000 getAllColors
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:435    .text.getClearData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:442    .text.getClearData:00000000 getClearData
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:485    .text.getRedData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:492    .text.getRedData:00000000 getRedData
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:535    .text.getGreenData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:542    .text.getGreenData:00000000 getGreenData
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:585    .text.getBlueData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:592    .text.getBlueData:00000000 getBlueData
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:635    .text.enablePower:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:642    .text.enablePower:00000000 enablePower
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:678    .text.disablePower:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:685    .text.disablePower:00000000 disablePower
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:717    .text.isPowerEnabled:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:724    .text.isPowerEnabled:00000000 isPowerEnabled
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:758    .text.enableRGBC:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:765    .text.enableRGBC:00000000 enableRGBC
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:801    .text.disableRGBC:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:808    .text.disableRGBC:00000000 disableRGBC
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:840    .text.isRGBCEnabled:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:847    .text.isRGBCEnabled:00000000 isRGBCEnabled
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:875    .text.enablePowerAndRGBC:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:882    .text.enablePowerAndRGBC:00000000 enablePowerAndRGBC
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:918    .text.disablePowerAndRGBC:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:925    .text.disablePowerAndRGBC:00000000 disablePowerAndRGBC
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:957    .text.enableWait:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:964    .text.enableWait:00000000 enableWait
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1000   .text.disableWait:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1007   .text.disableWait:00000000 disableWait
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1039   .text.isWaitEnabled:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1046   .text.isWaitEnabled:00000000 isWaitEnabled
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1074   .text.enableInterrupt:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1081   .text.enableInterrupt:00000000 enableInterrupt
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1117   .text.disableInterrupt:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1124   .text.disableInterrupt:00000000 disableInterrupt
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1156   .text.isInterruptEnabled:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1163   .text.isInterruptEnabled:00000000 isInterruptEnabled
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1194   .text.readIntegrationTime:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1201   .text.readIntegrationTime:00000000 readIntegrationTime
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 61
 
 
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1240   .text.readIntegrationTime:00000028 $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1246   .text.readWaitTime:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1253   .text.readWaitTime:00000000 readWaitTime
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1337   .text.readWaitTime:00000058 $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1346   .text.readEnableRegister:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1353   .text.readEnableRegister:00000000 readEnableRegister
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1375   .text.readLowInterruptThreshold:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1382   .text.readLowInterruptThreshold:00000000 readLowInterruptThreshold
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1425   .text.readHighInterruptThreshold:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1432   .text.readHighInterruptThreshold:00000000 readHighInterruptThreshold
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1475   .text.setLowInterruptThreshold:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1482   .text.setLowInterruptThreshold:00000000 setLowInterruptThreshold
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1525   .text.setHighInterruptThreshold:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1532   .text.setHighInterruptThreshold:00000000 setHighInterruptThreshold
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1575   .text.readInterruptPersistence:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1582   .text.readInterruptPersistence:00000000 readInterruptPersistence
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1608   .text.readInterruptPersistence:00000012 $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1624   .text.readInterruptPersistence:00000022 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1745   .text.setInterruptPersistence:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1752   .text.setInterruptPersistence:00000000 setInterruptPersistence
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1773   .text.setInterruptPersistence:0000000a $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1978   .text.clearInterrupt:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1985   .text.clearInterrupt:00000000 clearInterrupt
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2020   .text.readRGBCGain:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2027   .text.readRGBCGain:00000000 readRGBCGain
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2053   .text.readRGBCGain:00000012 $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2057   .text.readRGBCGain:00000016 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2104   .text.setRGBCGain:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2111   .text.setRGBCGain:00000000 setRGBCGain
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2184   .text.getDeviceID:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2191   .text.getDeviceID:00000000 getDeviceID
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2213   .text.readStatusRegister:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2220   .text.readStatusRegister:00000000 readStatusRegister
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2243   .text.roundTowardsZero:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2250   .text.roundTowardsZero:00000000 roundTowardsZero
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2320   .text.setIntegrationTime:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2327   .text.setIntegrationTime:00000000 setIntegrationTime
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2383   .text.setIntegrationTime:00000048 $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2390   .text.TC3472_init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2397   .text.TC3472_init:00000000 TC3472_init
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2426   .text.TC3472_init:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2435   .text.setWaitTime:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2442   .text.setWaitTime:00000000 setWaitTime
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2613   .text.setWaitTime:000000e0 $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2628   .text.turnOnLED:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2635   .text.turnOnLED:00000000 turnOnLED
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2657   .text.turnOnLED:00000010 $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2662   .text.turnOffLED:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2669   .text.turnOffLED:00000000 turnOffLED
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2691   .text.turnOffLED:00000010 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1240   .text.readIntegrationTime:00000028 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1246   .text.readWaitTime:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1253   .text.readWaitTime:00000000 readWaitTime
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1337   .text.readWaitTime:00000058 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1346   .text.readEnableRegister:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1353   .text.readEnableRegister:00000000 readEnableRegister
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1375   .text.readLowInterruptThreshold:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1382   .text.readLowInterruptThreshold:00000000 readLowInterruptThreshold
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1425   .text.readHighInterruptThreshold:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1432   .text.readHighInterruptThreshold:00000000 readHighInterruptThreshold
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1475   .text.setLowInterruptThreshold:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1482   .text.setLowInterruptThreshold:00000000 setLowInterruptThreshold
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1525   .text.setHighInterruptThreshold:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1532   .text.setHighInterruptThreshold:00000000 setHighInterruptThreshold
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1575   .text.readInterruptPersistence:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1582   .text.readInterruptPersistence:00000000 readInterruptPersistence
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1608   .text.readInterruptPersistence:00000012 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1624   .text.readInterruptPersistence:00000022 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1745   .text.setInterruptPersistence:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1752   .text.setInterruptPersistence:00000000 setInterruptPersistence
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1773   .text.setInterruptPersistence:0000000a $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1978   .text.clearInterrupt:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1985   .text.clearInterrupt:00000000 clearInterrupt
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2020   .text.readRGBCGain:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2027   .text.readRGBCGain:00000000 readRGBCGain
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2053   .text.readRGBCGain:00000012 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2057   .text.readRGBCGain:00000016 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2104   .text.setRGBCGain:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2111   .text.setRGBCGain:00000000 setRGBCGain
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2184   .text.getDeviceID:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2191   .text.getDeviceID:00000000 getDeviceID
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2213   .text.readStatusRegister:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2220   .text.readStatusRegister:00000000 readStatusRegister
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2243   .text.roundTowardsZero:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2250   .text.roundTowardsZero:00000000 roundTowardsZero
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2320   .text.setIntegrationTime:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2327   .text.setIntegrationTime:00000000 setIntegrationTime
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2383   .text.setIntegrationTime:00000048 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2390   .text.TC3472_init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2397   .text.TC3472_init:00000000 TC3472_init
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2426   .text.TC3472_init:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2435   .text.setWaitTime:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2442   .text.setWaitTime:00000000 setWaitTime
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2613   .text.setWaitTime:000000e0 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2628   .text.turnOnLED:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2635   .text.turnOnLED:00000000 turnOnLED
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2657   .text.turnOnLED:00000010 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2662   .text.turnOffLED:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2669   .text.turnOffLED:00000000 turnOffLED
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:2691   .text.turnOffLED:00000010 $d
                             *COM*:0000002c P3_header
                             *COM*:0000002c P2_header
                             *COM*:0000002c P1_header
@@ -3639,7 +3639,7 @@ C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2691   .text.turnOffLED:00000010 $d
                             *COM*:00000064 P3_SPI
                             *COM*:00000064 P2_SPI
                             *COM*:00000064 P1_SPI
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s 			page 62
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s 			page 62
 
 
                             *COM*:0000004c P3_I2C
@@ -3670,8 +3670,8 @@ C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:2691   .text.turnOffLED:00000010 $d
                             *COM*:00000008 P1_DIO3
                             *COM*:00000008 P1_DIO2
                             *COM*:00000008 P1_DIO1
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1834   .text.setInterruptPersistence:00000047 $d
-C:\Users\yvesk\AppData\Local\Temp\cczHdatQ.s:1834   .text.setInterruptPersistence:00000048 $t
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1834   .text.setInterruptPersistence:00000047 $d
+C:\Users\yvesk\AppData\Local\Temp\cctUosfh.s:1834   .text.setInterruptPersistence:00000048 $t
 
 UNDEFINED SYMBOLS
 HAL_I2C_Master_Transmit

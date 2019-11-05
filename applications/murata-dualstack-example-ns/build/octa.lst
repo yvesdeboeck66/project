@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
   39 0002 FFF7FEFF 		bl	OCTA_GPIO_Init
   40              	.LVL0:
   18:../../core/platform/octa/src/octa.c ****     OCTA_IWDG_Init();
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 2
 
 
   41              		.loc 1 18 5 view .LVU2
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
   33:../../core/platform/octa/src/octa.c ****     P1_header.i2cHandle = &P1_I2C;
   83              		.loc 1 33 5 is_stmt 1 view .LVU12
   84              		.loc 1 33 25 is_stmt 0 view .LVU13
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 3
 
 
   85 000a 0A4A     		ldr	r2, .L4+8
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  131              	.LFE130:
  133              		.section	.text.OCTA_Initialize_P2_Peripherals,"ax",%progbits
  134              		.align	1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 4
 
 
  135              		.global	OCTA_Initialize_P2_Peripherals
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  175 001a 0A4A     		ldr	r2, .L7+24
  176 001c 9A61     		str	r2, [r3, #24]
   57:../../core/platform/octa/src/octa.c ****     P2_header.DIO4 = &P2_DIO4;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 5
 
 
  177              		.loc 1 57 5 is_stmt 1 view .LVU44
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  226 0004 1A70     		strb	r2, [r3]
   65:../../core/platform/octa/src/octa.c ****     P3_header.uartHandle = &P3_UART;
  227              		.loc 1 65 5 is_stmt 1 view .LVU54
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 6
 
 
  228              		.loc 1 65 26 is_stmt 0 view .LVU55
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  273 0040 00000000 		.word	P3_DIO2
  274 0044 00000000 		.word	P3_DIO3
  275 0048 00000000 		.word	P3_DIO4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 7
 
 
  276 004c 00000000 		.word	P3_DIO5
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
   76:../../core/platform/octa/src/octa.c **** uint64_t get_UID(void)
   77:../../core/platform/octa/src/octa.c **** {
  327              		.loc 1 77 1 is_stmt 1 view -0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 8
 
 
  328              		.cfi_startproc
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  373              		.cfi_startproc
  374              		@ args = 48, pretend = 16, frame = 0
  375              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 9
 
 
  376              		.loc 1 88 1 is_stmt 0 view .LVU85
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  414 0026 FFF7FEFF 		bl	P1_UART_Init
  415              	.LVL10:
   93:../../core/platform/octa/src/octa.c ****         case 2:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 10
 
 
  416              		.loc 1 93 13 view .LVU91
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  464 0010 022B     		cmp	r3, #2
  465 0012 0AD0     		beq	.L25
  466 0014 032B     		cmp	r3, #3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 11
 
 
  467 0016 0BD0     		beq	.L26
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  501              		.loc 1 121 1 is_stmt 0 view .LVU108
  502 0034 F2E7     		b	.L24
  503              		.cfi_endproc
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 12
 
 
  504              	.LFE135:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  542 001c BDE80840 		pop	{r3, lr}
  543              	.LCFI16:
  544              		.cfi_remember_state
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 13
 
 
  545              		.cfi_restore 14
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  592 0000 70B5     		push	{r4, r5, r6, lr}
  593              	.LCFI19:
  594              		.cfi_def_cfa_offset 16
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 14
 
 
  595              		.cfi_offset 4, -16
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  632 0032 0CE0     		b	.L36
  633              	.LVL22:
  634              	.L42:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 15
 
 
  146:../../core/platform/octa/src/octa.c ****         return P1_header;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  150:../../core/platform/octa/src/octa.c ****         return P2_header;
  677              		.loc 1 150 16 view .LVU142
  678 0060 0FC6     		stmia	r6!, {r0, r1, r2, r3}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 16
 
 
  679 0062 0FCC     		ldmia	r4!, {r0, r1, r2, r3}
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  729              		.comm	USB_UART,120,4
  730              		.comm	hiwdg,16,4
  731              		.comm	P3_DIO6,8,4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 17
 
 
  732              		.comm	P3_DIO5,8,4
@@ -1007,16 +1007,16 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 1
  771              		.file 18 "../../core/platform/octa/inc/spi.h"
  772              		.file 19 "../../core/platform/octa/inc/octa.h"
  773              		.file 20 "<built-in>"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 18
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 octa.c
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:18     .text.OCTA_Initialize_Common_Peripherals:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:26     .text.OCTA_Initialize_Common_Peripherals:00000000 OCTA_Initialize_Common_Peripherals
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:60     .text.OCTA_Initialize_P1_Peripherals:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:67     .text.OCTA_Initialize_P1_Peripherals:00000000 OCTA_Initialize_P1_Peripherals
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:120    .text.OCTA_Initialize_P1_Peripherals:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:18     .text.OCTA_Initialize_Common_Peripherals:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:26     .text.OCTA_Initialize_Common_Peripherals:00000000 OCTA_Initialize_Common_Peripherals
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:60     .text.OCTA_Initialize_P1_Peripherals:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:67     .text.OCTA_Initialize_P1_Peripherals:00000000 OCTA_Initialize_P1_Peripherals
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:120    .text.OCTA_Initialize_P1_Peripherals:0000002c $d
                             *COM*:0000002c P1_header
                             *COM*:00000078 P1_UART
                             *COM*:0000004c P1_I2C
@@ -1027,9 +1027,9 @@ C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:120    .text.OCTA_Initialize_P1_Per
                             *COM*:00000008 P1_DIO4
                             *COM*:00000008 P1_DIO5
                             *COM*:00000008 P1_DIO6
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:134    .text.OCTA_Initialize_P2_Peripherals:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:141    .text.OCTA_Initialize_P2_Peripherals:00000000 OCTA_Initialize_P2_Peripherals
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:194    .text.OCTA_Initialize_P2_Peripherals:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:134    .text.OCTA_Initialize_P2_Peripherals:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:141    .text.OCTA_Initialize_P2_Peripherals:00000000 OCTA_Initialize_P2_Peripherals
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:194    .text.OCTA_Initialize_P2_Peripherals:0000002c $d
                             *COM*:0000002c P2_header
                             *COM*:00000078 P2_UART
                             *COM*:0000004c P2_I2C
@@ -1040,9 +1040,9 @@ C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:194    .text.OCTA_Initialize_P2_Per
                             *COM*:00000008 P2_DIO4
                             *COM*:00000008 P2_DIO5
                             *COM*:00000008 P2_DIO6
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:208    .text.OCTA_Initialize_P3_Peripherals:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:215    .text.OCTA_Initialize_P3_Peripherals:00000000 OCTA_Initialize_P3_Peripherals
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:268    .text.OCTA_Initialize_P3_Peripherals:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:208    .text.OCTA_Initialize_P3_Peripherals:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:215    .text.OCTA_Initialize_P3_Peripherals:00000000 OCTA_Initialize_P3_Peripherals
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:268    .text.OCTA_Initialize_P3_Peripherals:0000002c $d
                             *COM*:0000002c P3_header
                             *COM*:00000078 P3_UART
                             *COM*:0000004c P3_I2C
@@ -1053,21 +1053,21 @@ C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:268    .text.OCTA_Initialize_P3_Per
                             *COM*:00000008 P3_DIO4
                             *COM*:00000008 P3_DIO5
                             *COM*:00000008 P3_DIO6
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:282    .text.OCTA_Initialize_Platform:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:289    .text.OCTA_Initialize_Platform:00000000 OCTA_Initialize_Platform
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:318    .text.get_UID:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:325    .text.get_UID:00000000 get_UID
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:356    .text.get_UID:0000001c $d
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:362    .text.platform_initialize_UART:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:369    .text.platform_initialize_UART:00000000 platform_initialize_UART
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:437    .text.platform_initialize_I2C:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:444    .text.platform_initialize_I2C:00000000 platform_initialize_I2C
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:507    .text.platform_initialize_SPI:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:514    .text.platform_initialize_SPI:00000000 platform_initialize_SPI
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:577    .text.platform_getHeader:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:584    .text.platform_getHeader:00000000 platform_getHeader
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:706    .text.platform_getHeader:0000008c $d
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s 			page 19
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:282    .text.OCTA_Initialize_Platform:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:289    .text.OCTA_Initialize_Platform:00000000 OCTA_Initialize_Platform
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:318    .text.get_UID:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:325    .text.get_UID:00000000 get_UID
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:356    .text.get_UID:0000001c $d
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:362    .text.platform_initialize_UART:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:369    .text.platform_initialize_UART:00000000 platform_initialize_UART
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:437    .text.platform_initialize_I2C:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:444    .text.platform_initialize_I2C:00000000 platform_initialize_I2C
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:507    .text.platform_initialize_SPI:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:514    .text.platform_initialize_SPI:00000000 platform_initialize_SPI
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:577    .text.platform_getHeader:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:584    .text.platform_getHeader:00000000 platform_getHeader
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:706    .text.platform_getHeader:0000008c $d
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s 			page 19
 
 
                             *COM*:00000064 FLASH_SPI
@@ -1075,7 +1075,7 @@ C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:706    .text.platform_getHeader:000
                             *COM*:00000078 BLE_UART
                             *COM*:00000078 USB_UART
                             *COM*:00000010 hiwdg
-C:\Users\yvesk\AppData\Local\Temp\ccDGZ5Bg.s:750    .rodata.platform_getHeader.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc65HHAc.s:750    .rodata.platform_getHeader.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 OCTA_GPIO_Init

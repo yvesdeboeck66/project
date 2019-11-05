@@ -57,6 +57,7 @@
 #include "C:\Users\yvesk\Documents\Academiejaar 2019-2020\IOT\Practicum\octa-stack-students-master\core\drivers\LSM303AGR\inc\LSM303AGRSensor.h"
 #include <stdio.h>
 #include "C:\Users\yvesk\Documents\Academiejaar 2019-2020\IOT\Practicum\Project_code\shields\Murata-dualstack\inc\murata.h"
+#include "C:\Users\yvesk\Documents\Academiejaar 2019-2020\IOT\Practicum\Project_code\core\drivers\SHT31\inc\sht31.h"
 //#include "murata.h"
 
 /* USER CODE END Includes */
@@ -227,6 +228,7 @@ int main(void)
           temp_hum_measurement();
           //LoRaWAN_send(&payload);
         //LoRaWAN_send_self();
+        Dash7_send_temphum(); 
       }
       
         
@@ -237,7 +239,7 @@ int main(void)
     
     // SEND 5 D7 messages, every 10 sec.
     // Afterwards, send 3 LoRaWAN messages, every minute
-    if(DASH7_Counter<5)
+    /* if(DASH7_Counter<5)
     {
       if(counter==DASH7_INTERVAL)
       {
@@ -265,7 +267,7 @@ int main(void)
       }
     }
    
-    counter++;
+    counter++; */
     HAL_Delay(1000);
     
 
@@ -320,6 +322,39 @@ void Dash7_send(void const *argument)
     dash7Message[i++] = 0x14;
     dash7Message[i++] = DASH7_Counter;
     dash7Message[i++] = DASH7_Counter >> 8;
+    //osMutexWait(txMutexId, osWaitForever);
+    if(!Murata_Dash7_Send((uint8_t *)dash7Message, i))
+    {
+      murata_init++;
+      if(murata_init == 10)
+        murata_init == 0;
+    }
+    else
+    {
+      murata_init = 1;
+    }
+    //BLOCK TX MUTEX FOR 3s
+    //osDelay(3000);
+    //osMutexRelease(txMutexId);
+    DASH7_Counter++;
+  }
+  else{
+    printf("murata not initialized, not sending\r\n");
+  }
+}
+
+
+void Dash7_send_temphum(void const *argument)
+{
+  if (murata_init)
+  {
+    uint8_t dash7Message[5];
+    uint8_t i = 0;
+    //uint16 counter to uint8 array (little endian)
+    //counter (large) type byte
+    dash7Message[i++] = SHTData[0];
+    dash7Message[i++] = SHTData[1];
+    dash7Message[i++] = 0x00;
     //osMutexWait(txMutexId, osWaitForever);
     if(!Murata_Dash7_Send((uint8_t *)dash7Message, i))
     {
