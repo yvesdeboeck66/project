@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
   27:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     (+) All GPIO pins have weak internal pull-up and pull-down resistors, which can be
   28:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         activated or not.
   29:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 2
 
 
   30:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     (+) In Output or Alternate mode, each IO can be configured on open-drain or push-pull
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
   84:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         priority over the GPIO function.
   85:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
   86:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     (#) The HSE oscillator pins OSC_IN/OSC_OUT can be used as
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 3
 
 
   87:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         general purpose PH0 and PH1, respectively, when the HSE oscillator is off.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  141:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** /* Private typedef -----------------------------------------------------------*/
  142:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** /* Private defines -----------------------------------------------------------*/
  143:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** /** @defgroup GPIO_Private_Defines GPIO Private Defines
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 4
 
 
  144:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   * @{
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
   38              		.cfi_def_cfa_offset 16
   39              		.cfi_offset 4, -16
   40              		.cfi_offset 5, -12
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 5
 
 
   41              		.cfi_offset 6, -8
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  223:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       /* Configure IO Direction mode (Input, Output, Alternate or Analog) */
  224:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       temp = GPIOx->MODER;
  225:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       temp &= ~(GPIO_MODER_MODE0 << (position * 2u));
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 6
 
 
  226:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       temp |= ((GPIO_Init->Mode & GPIO_MODE) << (position * 2u));
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
   63 000a 00E0     		b	.L8
   64              	.L14:
   65 000c 0024     		movs	r4, #0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 7
 
 
   66              	.L8:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  108              	.LVL8:
  290:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         temp &= ~(iocurrent);
  109              		.loc 1 290 9 is_stmt 1 view .LVU32
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 8
 
 
  110              		.loc 1 290 14 is_stmt 0 view .LVU33
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  150 005e AE60     		str	r6, [r5, #8]
  305:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  306:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         temp = EXTI->FTSR1;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 9
 
 
  151              		.loc 1 306 9 is_stmt 1 view .LVU52
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  191 0082 9C40     		lsls	r4, r4, r3
  192              	.LVL20:
  206:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 10
 
 
  193              		.loc 1 206 5 is_stmt 1 view .LVU70
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  219:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         GPIOx->AFR[position >> 3u] = temp;
  230              		.loc 1 219 28 is_stmt 0 view .LVU88
  231 00a8 0D69     		ldr	r5, [r1, #16]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 11
 
 
  219:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         GPIOx->AFR[position >> 3u] = temp;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  268              		.loc 1 227 20 is_stmt 0 view .LVU106
  269 00ce 0660     		str	r6, [r0]
  230:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****          (GPIO_Init->Mode == GPIO_MODE_OUTPUT_OD) || (GPIO_Init->Mode == GPIO_MODE_AF_OD))
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 12
 
 
  270              		.loc 1 230 7 is_stmt 1 view .LVU107
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  242:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         temp &= ~(GPIO_OTYPER_OT0 << position) ;
  307              		.loc 1 242 14 is_stmt 0 view .LVU125
  308 00f4 4668     		ldr	r6, [r0, #4]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 13
 
 
  309              	.LVL33:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  345              		.loc 1 266 7 is_stmt 1 view .LVU143
  266:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  346              		.loc 1 266 20 is_stmt 0 view .LVU144
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 14
 
 
  347 0110 C460     		str	r4, [r0, #12]
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  386 0140 B440     		lsls	r4, r4, r6
  276:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         temp |= (GPIO_GET_INDEX(GPIOx) << (4u * (position & 0x03u)));
  387              		.loc 1 276 14 view .LVU160
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 15
 
 
  388 0142 27EA0407 		bic	r7, r7, r4
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  432 0192 0324     		movs	r4, #3
  433 0194 3BE7     		b	.L8
  434              	.L18:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 16
 
 
  435 0196 0424     		movs	r4, #4
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  479              		.loc 1 328 1 is_stmt 1 view -0
  480              		.cfi_startproc
  481              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 17
 
 
  482              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  362:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       /* Deactivate the Control bit of Analog mode for the current IO */
  363:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       GPIOx->ASCR &= ~(GPIO_ASCR_ASC0<< position);
  364:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** #endif /* STM32L471xx || STM32L475xx || STM32L476xx || STM32L485xx || STM32L486xx */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 18
 
 
  365:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  529 001e 12EA010C 		ands	ip, r2, r1
  530              	.LVL50:
  343:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****     {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 19
 
 
  531              		.loc 1 343 8 view .LVU191
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  356:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  569              		.loc 1 356 22 is_stmt 0 view .LVU208
  570 0058 4568     		ldr	r5, [r0, #4]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 20
 
 
  571 005a 25EA0202 		bic	r2, r5, r2
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  610 0092 A842     		cmp	r0, r5
  611 0094 15D0     		beq	.L35
  371:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****       {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 21
 
 
  612              		.loc 1 371 19 discriminator 7 view .LVU224
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  374:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
  659              		.loc 1 374 40 view .LVU232
  660 00de 45F82260 		str	r6, [r5, r2, lsl #2]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 22
 
 
  377:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****         EXTI->EMR1 &= ~(iocurrent);
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  701              		.loc 1 386 13 is_stmt 0 view .LVU245
  702 010c 0133     		adds	r3, r3, #1
  703              	.LVL58:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 23
 
 
  704              	.L41:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  751              		.global	HAL_GPIO_ReadPin
  752              		.syntax unified
  753              		.thumb
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 24
 
 
  754              		.thumb_func
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  775              	.LVL63:
  776              		.loc 1 422 15 view .LVU261
  777 0008 7047     		bx	lr
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 25
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 25
 
 
  778              	.LVL64:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  451:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   assert_param(IS_GPIO_PIN_ACTION(PinState));
  806              		.loc 1 451 3 view .LVU267
  452:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 26
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 26
 
 
  453:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   if(PinState != GPIO_PIN_RESET)
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  841              		.loc 1 474 14 is_stmt 0 view .LVU278
  842 0000 4369     		ldr	r3, [r0, #20]
  843 0002 5940     		eors	r1, r1, r3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 27
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 27
 
 
  844              	.LVL68:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  497:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****   tmp |= GPIO_Pin;
  878              		.loc 1 497 3 view .LVU287
  879              		.loc 1 497 7 is_stmt 0 view .LVU288
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 28
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 28
 
 
  880 0008 019B     		ldr	r3, [sp, #4]
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  916              	.LVL71:
  917              	.L62:
  918              	.LCFI10:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 29
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 29
 
 
  919              		.cfi_restore_state
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  544:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c ****    */
  545:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c **** }
  945              		.loc 1 545 1 is_stmt 0 view .LVU307
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 30
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 30
 
 
  946 0000 7047     		bx	lr
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  993 0016 00BF     		.align	2
  994              	.L69:
  995 0018 00040140 		.word	1073808384
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 31
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 31
 
 
  996              		.cfi_endproc
@@ -1813,29 +1813,29 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 1
  1006              		.file 7 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
  1007              		.file 8 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
  1008              		.file 9 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s 			page 32
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s 			page 32
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l4xx_hal_gpio.c
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:18     .text.HAL_GPIO_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:26     .text.HAL_GPIO_Init:00000000 HAL_GPIO_Init
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:461    .text.HAL_GPIO_Init:000001a8 $d
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:469    .text.HAL_GPIO_DeInit:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:476    .text.HAL_GPIO_DeInit:00000000 HAL_GPIO_DeInit
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:743    .text.HAL_GPIO_DeInit:00000124 $d
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:750    .text.HAL_GPIO_ReadPin:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:757    .text.HAL_GPIO_ReadPin:00000000 HAL_GPIO_ReadPin
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:790    .text.HAL_GPIO_WritePin:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:797    .text.HAL_GPIO_WritePin:00000000 HAL_GPIO_WritePin
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:824    .text.HAL_GPIO_TogglePin:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:831    .text.HAL_GPIO_TogglePin:00000000 HAL_GPIO_TogglePin
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:853    .text.HAL_GPIO_LockPin:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:860    .text.HAL_GPIO_LockPin:00000000 HAL_GPIO_LockPin
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:929    .text.HAL_GPIO_EXTI_Callback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:936    .text.HAL_GPIO_EXTI_Callback:00000000 HAL_GPIO_EXTI_Callback
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:951    .text.HAL_GPIO_EXTI_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:958    .text.HAL_GPIO_EXTI_IRQHandler:00000000 HAL_GPIO_EXTI_IRQHandler
-C:\Users\yvesk\AppData\Local\Temp\cckwL58t.s:995    .text.HAL_GPIO_EXTI_IRQHandler:00000018 $d
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:18     .text.HAL_GPIO_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:26     .text.HAL_GPIO_Init:00000000 HAL_GPIO_Init
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:461    .text.HAL_GPIO_Init:000001a8 $d
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:469    .text.HAL_GPIO_DeInit:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:476    .text.HAL_GPIO_DeInit:00000000 HAL_GPIO_DeInit
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:743    .text.HAL_GPIO_DeInit:00000124 $d
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:750    .text.HAL_GPIO_ReadPin:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:757    .text.HAL_GPIO_ReadPin:00000000 HAL_GPIO_ReadPin
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:790    .text.HAL_GPIO_WritePin:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:797    .text.HAL_GPIO_WritePin:00000000 HAL_GPIO_WritePin
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:824    .text.HAL_GPIO_TogglePin:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:831    .text.HAL_GPIO_TogglePin:00000000 HAL_GPIO_TogglePin
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:853    .text.HAL_GPIO_LockPin:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:860    .text.HAL_GPIO_LockPin:00000000 HAL_GPIO_LockPin
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:929    .text.HAL_GPIO_EXTI_Callback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:936    .text.HAL_GPIO_EXTI_Callback:00000000 HAL_GPIO_EXTI_Callback
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:951    .text.HAL_GPIO_EXTI_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:958    .text.HAL_GPIO_EXTI_IRQHandler:00000000 HAL_GPIO_EXTI_IRQHandler
+C:\Users\yvesk\AppData\Local\Temp\ccKgUwox.s:995    .text.HAL_GPIO_EXTI_IRQHandler:00000018 $d
 
 NO UNDEFINED SYMBOLS
