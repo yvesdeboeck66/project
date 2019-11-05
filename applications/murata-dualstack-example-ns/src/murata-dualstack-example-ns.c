@@ -213,15 +213,7 @@ int main(void)
       printf("%d,\r\n\r\n",rep_counter);
 
 
-<<<<<<< HEAD
       
-=======
-      if (rep_counter==4) {
-        printf("going into sleepmode\r\n"); 
-      //HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
-      printf(" into sleepmode gegaan\r\n"); 
-      }
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
 
       murata_init=Murata_Initialize(short_UID,0);
 
@@ -231,13 +223,10 @@ int main(void)
           temp_hum_measurement();
           //LoRaWAN_send(&payload);
         //LoRaWAN_send_self();
-<<<<<<< HEAD
 
         Dash7_send_temphum(); 
         //LoRaWAN_send_temphum(); 
 
-=======
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
       }
       
            
@@ -330,6 +319,39 @@ void LoRaWAN_send(void const *argument)
   }
 }
 
+void LoRaWAN_send_temphum(void const *argument)
+{
+  if (murata_init)
+  {
+    uint8_t loraMessage[5];
+    uint8_t i = 0;
+    //uint16 counter to uint8 array (little endian)
+    //counter (large) type byte
+    loraMessage[i++] = SHTData[0];
+    loraMessage[i++] = SHTData[1];
+    loraMessage[i++] = 0x00;
+    //osMutexWait(txMutexId, osWaitForever);
+    if(!Murata_LoRaWAN_Send((uint8_t *)loraMessage, i))
+    {
+      murata_init++;
+      if(murata_init == 10)
+        murata_init == 0;
+    }
+    else
+    {
+      murata_init = 1;
+    }
+    //BLOCK TX MUTEX FOR 3s
+    //osDelay(3000);
+    //osMutexRelease(txMutexId);
+    LoRaWAN_Counter++;
+  }
+  else{
+    printf("murata not initialized, not sending\r\n");
+  }
+}
+
+
 void Dash7_send(void const *argument)
 {
   if (murata_init)
@@ -361,6 +383,40 @@ void Dash7_send(void const *argument)
     printf("murata not initialized, not sending\r\n");
   }
 }
+
+void Dash7_send_temphum(void const *argument)
+{
+  if (murata_init)
+  {
+    uint8_t dash7Message[5];
+    uint8_t i = 0;
+    //uint16 counter to uint8 array (little endian)
+    //counter (large) type byte
+    dash7Message[i++] = SHTData[0];
+    dash7Message[i++] = SHTData[1];
+    dash7Message[i++] = 0x00;
+    //osMutexWait(txMutexId, osWaitForever);
+    if(!Murata_Dash7_Send((uint8_t *)dash7Message, i))
+    {
+      murata_init++;
+      if(murata_init == 10)
+        murata_init == 0;
+    }
+    else
+    {
+      murata_init = 1;
+    }
+    //BLOCK TX MUTEX FOR 3s
+    //osDelay(3000);
+    //osMutexRelease(txMutexId);
+    DASH7_Counter++;
+  }
+  else{
+    printf("murata not initialized, not sending\r\n");
+  }
+}
+
+
 
 void print_temp_hum(void){
   printf("\r\n");
