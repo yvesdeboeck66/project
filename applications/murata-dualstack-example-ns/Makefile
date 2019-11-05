@@ -4,6 +4,7 @@ APPLICATION = murata-dualstack-example-ns
 # platform for which the application will be built
 PLATFORM ?= octa
 
+PRINT_FLOATS = 1
 # Add shields used in application
 # Murata
 SHIELDS += Murata-dualstack

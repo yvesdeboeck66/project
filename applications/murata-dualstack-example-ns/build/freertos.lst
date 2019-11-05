@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYEbijF.s 			page 1
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccgOc70V.s 			page 1
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccg3Az1G.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -25,11 +21,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccgOc70V.s 			page 1
   18              		.file 1 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
   19              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
   20              		.file 3 "../../core/platform/octa/inc/FreeRTOSConfig.h"
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccYEbijF.s 			page 2
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccgOc70V.s 			page 2
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccg3Az1G.s 			page 2
 
 
 DEFINED SYMBOLS

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 1
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -62,11 +58,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
   28:../../shields/Murata-dualstack/src/modem.c **** #include <stdio.h>
   29:../../shields/Murata-dualstack/src/modem.c **** #include <stdlib.h>
   30:../../shields/Murata-dualstack/src/modem.c **** //#include "platform.h"
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 2
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 2
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 2
 
 
   31:../../shields/Murata-dualstack/src/modem.c **** #include "modem_interface.h"
@@ -126,11 +118,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
   49              		.loc 1 64 3 view .LVU4
   63:../../shields/Murata-dualstack/src/modem.c ****   bool completed_with_error = false;
   50              		.loc 1 63 8 is_stmt 0 view .LVU5
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 3
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 3
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 3
 
 
   51 0006 0026     		movs	r6, #0
@@ -190,11 +178,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
   89 002e DD68     		ldr	r5, [r3, #12]
   90              		.loc 1 79 11 view .LVU20
   91 0030 002D     		cmp	r5, #0
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 4
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 4
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 4
 
 
   92 0032 31D0     		beq	.L2
@@ -254,11 +238,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  125              		.loc 1 100 9 is_stmt 1 view .LVU29
  126              		.loc 1 100 21 is_stmt 0 view .LVU30
  127 0060 3F4B     		ldr	r3, .L19+8
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 5
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 5
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 5
 
 
  128 0062 1B68     		ldr	r3, [r3]
@@ -318,11 +298,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
   23:../../shields/Murata-dualstack/inc/d7ap.h **** /**
   24:../../shields/Murata-dualstack/inc/d7ap.h ****  * @file d7ap.h
   25:../../shields/Murata-dualstack/inc/d7ap.h ****  * @addtogroup d7ap
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 6
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 6
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 6
 
 
   26:../../shields/Murata-dualstack/inc/d7ap.h ****  * @ingroup framework
@@ -382,11 +358,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
   80:../../shields/Murata-dualstack/inc/d7ap.h **** } d7ap_addressee_id_type_t;
   81:../../shields/Murata-dualstack/inc/d7ap.h **** 
   82:../../shields/Murata-dualstack/inc/d7ap.h **** typedef enum
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 7
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 7
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 7
 
 
   83:../../shields/Murata-dualstack/inc/d7ap.h **** {
@@ -446,11 +418,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  137:../../shields/Murata-dualstack/inc/d7ap.h ****     d7ap_channel_t channel;
  138:../../shields/Murata-dualstack/inc/d7ap.h ****     uint8_t rx_level;
  139:../../shields/Murata-dualstack/inc/d7ap.h ****     uint8_t link_budget;
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 8
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 8
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 8
 
 
  140:../../shields/Murata-dualstack/inc/d7ap.h ****     uint8_t link_quality;
@@ -510,11 +478,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  194:../../shields/Murata-dualstack/inc/d7ap.h ****                                                           if NULL, the associated packet will be re
  195:../../shields/Murata-dualstack/inc/d7ap.h ****     d7ap_receive_unsolicited_callback unsolicited_cb; /*< unsolicited data callback,
  196:../../shields/Murata-dualstack/inc/d7ap.h ****                                                           if NULL, the associated packet will be re
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 9
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 9
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 9
 
 
  197:../../shields/Murata-dualstack/inc/d7ap.h **** } d7ap_resource_desc_t;
@@ -574,11 +538,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  251:../../shields/Murata-dualstack/inc/d7ap.h **** 
  252:../../shields/Murata-dualstack/inc/d7ap.h **** 
  253:../../shields/Murata-dualstack/inc/d7ap.h **** /**
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 10
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 10
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 10
 
 
  254:../../shields/Murata-dualstack/inc/d7ap.h ****  * @brief   Sets the channels TX power index
@@ -638,11 +598,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  169              	.L2:
  170              		.loc 1 104 9 is_stmt 0 view .LVU40
  171              	.LBE6:
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 11
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 11
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 11
 
 
   64:../../shields/Murata-dualstack/src/modem.c ****     alp_action_t action;
@@ -702,11 +658,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  219 0114 93000000 		.word	.L3+1
  220 0118 93000000 		.word	.L3+1
  221 011c 93000000 		.word	.L3+1
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 12
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 12
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 12
 
 
  222 0120 93000000 		.word	.L3+1
@@ -766,11 +718,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  262              	.LVL14:
  263              	.L20:
  264              		.loc 1 118 1 view .LVU58
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 13
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 13
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 13
 
 
  265              		.align	2
@@ -830,11 +778,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  314 0016 2069     		ldr	r0, [r4, #16]
  315              		.loc 1 125 7 view .LVU69
  316 0018 08B1     		cbz	r0, .L21
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 14
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 14
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 14
 
 
  126:../../shields/Murata-dualstack/src/modem.c ****       modem_interface_set_target_rebooted_callback(cbs->modem_rebooted_callback);
@@ -894,11 +838,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  363              	.LVL21:
  364              	.L27:
  365              		.loc 1 133 9 view .LVU79
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 15
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 15
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 15
 
 
  366 0006 0948     		ldr	r0, .L31
@@ -958,11 +898,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  414              		.global	modem_reinit
  415              		.syntax unified
  416              		.thumb
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 16
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 16
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 16
 
 
  417              		.thumb_func
@@ -1022,11 +958,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  466              		.loc 1 148 3 is_stmt 1 view .LVU101
  467 000a 0222     		movs	r2, #2
  468 000c 01A8     		add	r0, sp, #4
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 17
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 17
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 17
 
 
  469 000e FFF7FEFF 		bl	modem_interface_transfer_bytes
@@ -1086,11 +1018,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  520              		.loc 1 155 22 is_stmt 1 view -0
  521              		.cfi_startproc
  522              		@ args = 0, pretend = 0, frame = 0
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 18
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 18
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 18
 
 
  523              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1150,11 +1078,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  565 0030 2046     		mov	r0, r4
  566              	.L42:
  168:../../shields/Murata-dualstack/src/modem.c **** }
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 19
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 19
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 19
 
 
  567              		.loc 1 168 1 view .LVU121
@@ -1214,11 +1138,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  618 0008 0E46     		mov	r6, r1
  619 000a 1746     		mov	r7, r2
  171:../../shields/Murata-dualstack/src/modem.c ****   if(!alloc_command())
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 20
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 20
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 20
 
 
  620              		.loc 1 171 3 is_stmt 1 view .LVU127
@@ -1278,11 +1198,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  662 004a FFF7FEFF 		bl	modem_interface_transfer_bytes
  663              	.LVL40:
  178:../../shields/Murata-dualstack/src/modem.c **** }
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 21
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 21
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 21
 
 
  664              		.loc 1 178 3 is_stmt 1 view .LVU135
@@ -1342,11 +1258,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  716              	.L54:
  183:../../shields/Murata-dualstack/src/modem.c ****     return false;
  184:../../shields/Murata-dualstack/src/modem.c **** 
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 22
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 22
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 22
 
 
  185:../../shields/Murata-dualstack/src/modem.c ****   alp_append_write_file_data_action(&command.fifo, file_id, offset, size, data, true, false);
@@ -1406,11 +1318,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  759              	.L57:
  760 0058 00000000 		.word	.LANCHOR0
  761              		.cfi_endproc
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 23
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 23
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 23
 
 
  762              	.LFE135:
@@ -1470,11 +1378,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  198:../../shields/Murata-dualstack/src/modem.c ****     alp_append_forward_action(&command.fifo, ALP_ITF_ID_D7ASP, (uint8_t *) &session_config->d7ap_se
  199:../../shields/Murata-dualstack/src/modem.c ****   else if(session_config->interface_type==LORAWAN_OTAA)
  811              		.loc 1 199 8 is_stmt 1 view .LVU157
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 24
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 24
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 24
 
 
  812              		.loc 1 199 10 is_stmt 0 view .LVU158
@@ -1534,11 +1438,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  856 0054 0C23     		movs	r3, #12
  857 0056 221D     		adds	r2, r4, #4
  858 0058 D721     		movs	r1, #215
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 25
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 25
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 25
 
 
  859 005a 0A48     		ldr	r0, .L68+4
@@ -1598,11 +1498,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  910              		.cfi_offset 6, -16
  911              		.cfi_offset 7, -12
  912              		.cfi_offset 8, -8
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 26
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 26
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 26
 
 
  913              		.cfi_offset 14, -4
@@ -1662,11 +1558,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  954 0034 0122     		movs	r2, #1
  955 0036 C1B2     		uxtb	r1, r0
  956 0038 04F11400 		add	r0, r4, #20
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 27
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 27
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 27
 
 
  957 003c FFF7FEFF 		bl	modem_interface_transfer_bytes
@@ -1726,11 +1618,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  1008              	modem_get_active_tag_id:
  1009              	.LFB138:
  227:../../shields/Murata-dualstack/src/modem.c **** 
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 28
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 28
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 28
 
 
  228:../../shields/Murata-dualstack/src/modem.c **** uint8_t modem_get_active_tag_id()
@@ -1790,11 +1678,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  1057      6C6C2061 
  1058              		.section	.rodata.process_serial_frame.str1.4,"aMS",%progbits,1
  1059              		.align	2
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 29
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 29
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 29
 
 
  1060              	.LC0:
@@ -1840,110 +1724,57 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 1
  1087              		.file 18 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\includ
  1088              		.file 19 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\includ
  1089              		.file 20 "<built-in>"
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 30
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 30
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 30
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 modem.c
-<<<<<<< HEAD
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:18     .text.process_serial_frame:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:25     .text.process_serial_frame:00000000 process_serial_frame
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:197    .text.process_serial_frame:000000bc $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:229    .text.process_serial_frame:0000013c $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:267    .text.process_serial_frame:00000158 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:275    .text.modem_cb_init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:282    .text.modem_cb_init:00000000 modem_cb_init
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:328    .text.modem_cb_init:00000020 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:335    .text.modem_process_fifo:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:342    .text.modem_process_fifo:00000000 modem_process_fifo
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:408    .text.modem_process_fifo:0000002c $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:413    .text.modem_reinit:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:420    .text.modem_reinit:00000000 modem_reinit
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:437    .text.modem_reinit:00000008 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:442    .text.modem_send_ping:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:449    .text.modem_send_ping:00000000 modem_send_ping
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:481    .text.modem_execute_raw_alp:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:488    .text.modem_execute_raw_alp:00000000 modem_execute_raw_alp
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:511    .text.alloc_command:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:518    .text.alloc_command:00000000 alloc_command
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:581    .text.alloc_command:00000040 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:588    .text.modem_read_file:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:595    .text.modem_read_file:00000000 modem_read_file
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:670    .text.modem_read_file:00000050 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:675    .text.modem_write_file:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:682    .text.modem_write_file:00000000 modem_write_file
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:760    .text.modem_write_file:00000058 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:765    .text.modem_send_unsolicited_response:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:772    .text.modem_send_unsolicited_response:00000000 modem_send_unsolicited_response
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:884    .text.modem_send_unsolicited_response:00000080 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:890    .text.modem_send_raw_unsolicited_response:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:897    .text.modem_send_raw_unsolicited_response:00000000 modem_send_raw_unsolicited_response
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:995    .text.modem_send_raw_unsolicited_response:00000070 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1001   .text.modem_get_active_tag_id:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1008   .text.modem_get_active_tag_id:00000000 modem_get_active_tag_id
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1023   .text.modem_get_active_tag_id:00000008 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1028   .bss.callbacks:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1032   .bss.callbacks:00000000 callbacks
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1035   .bss.command:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1039   .bss.command:00000000 command
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1045   .bss.next_tag_id:00000000 next_tag_id
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1046   .bss.next_tag_id:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1048   .rodata.__func__.5707:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1052   .rodata.__func__.5707:00000000 __func__.5707
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1055   .rodata.alloc_command.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s:1059   .rodata.process_serial_frame.str1.4:00000000 $d
-=======
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:18     .text.process_serial_frame:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:25     .text.process_serial_frame:00000000 process_serial_frame
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:197    .text.process_serial_frame:000000bc $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:229    .text.process_serial_frame:0000013c $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:267    .text.process_serial_frame:00000158 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:275    .text.modem_cb_init:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:282    .text.modem_cb_init:00000000 modem_cb_init
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:328    .text.modem_cb_init:00000020 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:335    .text.modem_process_fifo:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:342    .text.modem_process_fifo:00000000 modem_process_fifo
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:408    .text.modem_process_fifo:0000002c $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:413    .text.modem_reinit:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:420    .text.modem_reinit:00000000 modem_reinit
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:437    .text.modem_reinit:00000008 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:442    .text.modem_send_ping:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:449    .text.modem_send_ping:00000000 modem_send_ping
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:481    .text.modem_execute_raw_alp:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:488    .text.modem_execute_raw_alp:00000000 modem_execute_raw_alp
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:511    .text.alloc_command:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:518    .text.alloc_command:00000000 alloc_command
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:581    .text.alloc_command:00000040 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:588    .text.modem_read_file:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:595    .text.modem_read_file:00000000 modem_read_file
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:670    .text.modem_read_file:00000050 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:675    .text.modem_write_file:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:682    .text.modem_write_file:00000000 modem_write_file
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:760    .text.modem_write_file:00000058 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:765    .text.modem_send_unsolicited_response:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:772    .text.modem_send_unsolicited_response:00000000 modem_send_unsolicited_response
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:884    .text.modem_send_unsolicited_response:00000080 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:890    .text.modem_send_raw_unsolicited_response:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:897    .text.modem_send_raw_unsolicited_response:00000000 modem_send_raw_unsolicited_response
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:995    .text.modem_send_raw_unsolicited_response:00000070 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1001   .text.modem_get_active_tag_id:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1008   .text.modem_get_active_tag_id:00000000 modem_get_active_tag_id
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1023   .text.modem_get_active_tag_id:00000008 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1028   .bss.callbacks:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1032   .bss.callbacks:00000000 callbacks
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1035   .bss.command:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1039   .bss.command:00000000 command
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1045   .bss.next_tag_id:00000000 next_tag_id
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1046   .bss.next_tag_id:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1048   .rodata.__func__.5707:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1052   .rodata.__func__.5707:00000000 __func__.5707
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1055   .rodata.alloc_command.str1.4:00000000 $d
-C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s:1059   .rodata.process_serial_frame.str1.4:00000000 $d
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:18     .text.process_serial_frame:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:25     .text.process_serial_frame:00000000 process_serial_frame
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:197    .text.process_serial_frame:000000bc $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:229    .text.process_serial_frame:0000013c $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:267    .text.process_serial_frame:00000158 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:275    .text.modem_cb_init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:282    .text.modem_cb_init:00000000 modem_cb_init
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:328    .text.modem_cb_init:00000020 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:335    .text.modem_process_fifo:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:342    .text.modem_process_fifo:00000000 modem_process_fifo
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:408    .text.modem_process_fifo:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:413    .text.modem_reinit:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:420    .text.modem_reinit:00000000 modem_reinit
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:437    .text.modem_reinit:00000008 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:442    .text.modem_send_ping:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:449    .text.modem_send_ping:00000000 modem_send_ping
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:481    .text.modem_execute_raw_alp:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:488    .text.modem_execute_raw_alp:00000000 modem_execute_raw_alp
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:511    .text.alloc_command:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:518    .text.alloc_command:00000000 alloc_command
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:581    .text.alloc_command:00000040 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:588    .text.modem_read_file:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:595    .text.modem_read_file:00000000 modem_read_file
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:670    .text.modem_read_file:00000050 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:675    .text.modem_write_file:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:682    .text.modem_write_file:00000000 modem_write_file
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:760    .text.modem_write_file:00000058 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:765    .text.modem_send_unsolicited_response:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:772    .text.modem_send_unsolicited_response:00000000 modem_send_unsolicited_response
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:884    .text.modem_send_unsolicited_response:00000080 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:890    .text.modem_send_raw_unsolicited_response:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:897    .text.modem_send_raw_unsolicited_response:00000000 modem_send_raw_unsolicited_response
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:995    .text.modem_send_raw_unsolicited_response:00000070 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1001   .text.modem_get_active_tag_id:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1008   .text.modem_get_active_tag_id:00000000 modem_get_active_tag_id
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1023   .text.modem_get_active_tag_id:00000008 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1028   .bss.callbacks:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1032   .bss.callbacks:00000000 callbacks
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1035   .bss.command:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1039   .bss.command:00000000 command
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1045   .bss.next_tag_id:00000000 next_tag_id
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1046   .bss.next_tag_id:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1048   .rodata.__func__.5707:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1052   .rodata.__func__.5707:00000000 __func__.5707
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1055   .rodata.alloc_command.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s:1059   .rodata.process_serial_frame.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 printf
@@ -1953,11 +1784,7 @@ alp_parse_action
 modem_interface_register_handler
 modem_interface_set_target_rebooted_callback
 process_rx_fifo
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cckvqCDS.s 			page 31
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\ccTXlLxx.s 			page 31
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccomtKC5.s 			page 31
 
 
 HAL_Delay

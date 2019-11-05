@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnfP4wF.s 			page 1
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s 			page 1
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccIoN7qi.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -62,11 +58,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s 			page 1
   38              		.loc 1 18 3 view .LVU1
   39              		.loc 1 18 18 is_stmt 0 view .LVU2
   40 0002 0848     		ldr	r0, .L5
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnfP4wF.s 			page 2
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s 			page 2
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccIoN7qi.s 			page 2
 
 
   41 0004 084B     		ldr	r3, .L5+4
@@ -126,11 +118,7 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s 			page 1
   83              		.thumb
   84              		.thumb_func
   85              		.fpu fpv4-sp-d16
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnfP4wF.s 			page 3
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s 			page 3
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccIoN7qi.s 			page 3
 
 
   87              	IWDG_feed:
@@ -170,32 +158,18 @@ ARM GAS  C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s 			page 1
  117              		.file 8 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  118              		.file 9 "../../core/platform/octa/inc/iwdg.h"
  119              		.file 10 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
-<<<<<<< HEAD
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccnfP4wF.s 			page 4
-=======
-ARM GAS  C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s 			page 4
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccIoN7qi.s 			page 4
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 iwdg.c
-<<<<<<< HEAD
-C:\Users\yvesk\AppData\Local\Temp\ccnfP4wF.s:18     .text.OCTA_IWDG_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnfP4wF.s:26     .text.OCTA_IWDG_Init:00000000 OCTA_IWDG_Init
-C:\Users\yvesk\AppData\Local\Temp\ccnfP4wF.s:74     .text.OCTA_IWDG_Init:00000024 $d
+C:\Users\yvesk\AppData\Local\Temp\ccIoN7qi.s:18     .text.OCTA_IWDG_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccIoN7qi.s:26     .text.OCTA_IWDG_Init:00000000 OCTA_IWDG_Init
+C:\Users\yvesk\AppData\Local\Temp\ccIoN7qi.s:74     .text.OCTA_IWDG_Init:00000024 $d
                             *COM*:00000010 hiwdg
-C:\Users\yvesk\AppData\Local\Temp\ccnfP4wF.s:80     .text.IWDG_feed:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccnfP4wF.s:87     .text.IWDG_feed:00000000 IWDG_feed
-C:\Users\yvesk\AppData\Local\Temp\ccnfP4wF.s:104    .text.IWDG_feed:0000000c $d
-=======
-C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s:18     .text.OCTA_IWDG_Init:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s:26     .text.OCTA_IWDG_Init:00000000 OCTA_IWDG_Init
-C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s:74     .text.OCTA_IWDG_Init:00000024 $d
-                            *COM*:00000010 hiwdg
-C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s:80     .text.IWDG_feed:00000000 $t
-C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s:87     .text.IWDG_feed:00000000 IWDG_feed
-C:\Users\Wouter\AppData\Local\Temp\cco3m1YY.s:104    .text.IWDG_feed:0000000c $d
->>>>>>> 992f4d87b076945d2657026802705ee631aa9a40
+C:\Users\yvesk\AppData\Local\Temp\ccIoN7qi.s:80     .text.IWDG_feed:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccIoN7qi.s:87     .text.IWDG_feed:00000000 IWDG_feed
+C:\Users\yvesk\AppData\Local\Temp\ccIoN7qi.s:104    .text.IWDG_feed:0000000c $d
 
 UNDEFINED SYMBOLS
 HAL_IWDG_Init

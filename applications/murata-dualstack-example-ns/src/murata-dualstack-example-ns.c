@@ -247,7 +247,7 @@ int main(void)
     
     // SEND 5 D7 messages, every 10 sec.
     // Afterwards, send 3 LoRaWAN messages, every minute
-    if(DASH7_Counter<5)
+   /*  if(DASH7_Counter<5)
     {
       if(counter==DASH7_INTERVAL)
       {
@@ -275,7 +275,7 @@ int main(void)
       }
     }
    
-    counter++;
+    counter++; */
     HAL_Delay(1000);
     
 
