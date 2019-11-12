@@ -32,12 +32,13 @@ def on_message(client, userdata, message):
     tbMessage = "{\"Temperature\":"+str(payload_data[0])+",\"humidity\":"+str(payload_data[1])+"}"
     print("tbMessage: "+tbMessage)
 
-    publish.single("information", tbMessage, hostname="http://student-03.idlab.uantwerpen.be", port=5432, auth={'username':'customer@thingsboard.org','password':'customer'})
+    publish.single("information", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': 'group3@lopow.iot.com', 'password': 'lopowiot3'})
     print("Published!")
 
 
-publish.single("information", "{\"Temperature\":10}", hostname="http://localhost", port=1884,
-               auth={'username': 'customer@thingsboard.org', 'password': 'customer'})
+
+publish.single("information", "{\"Temperature\":10}", hostname="thingsboard.idlab.uantwerpen.be", port=1883,
+               auth={'username': 'group3@lopow.iot.com', 'password': 'lopowiot3'})
 
 
 subscribe.callback(on_message, "#", hostname="student-04.idlab.uantwerpen.be")
