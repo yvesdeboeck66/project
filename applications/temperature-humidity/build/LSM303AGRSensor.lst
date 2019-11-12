@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 1
   45              		.cfi_endproc
   46              	.LFE123:
   48              		.section	.text.LSM303AGR_readRegister,"ax",%progbits
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 2
 
 
   49              		.align	1
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 1
   88 001e 0B48     		ldr	r0, .L8
   89              	.LVL4:
   90              		.loc 1 27 3 view .LVU11
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 3
 
 
   91 0020 0068     		ldr	r0, [r0]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 1
  130              		.align	2
  131              	.L8:
  132 004c 00000000 		.word	LSM303AGR_hi2c
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 4
 
 
  133              		.cfi_endproc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 1
  173 001c 3221     		movs	r1, #50
  174              	.LVL13:
  175              		.loc 1 53 3 view .LVU25
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 5
 
 
  176 001e 0B48     		ldr	r0, .L14
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 1
   57:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 				LSM303AGR_reg, I2C_MEMADD_SIZE_8BIT, &LSM303AGR_data,
  215              		.loc 1 57 3 view .LVU33
  216 004a ECE7     		b	.L12
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 6
 
 
  217              	.L15:
@@ -337,1002 +337,1073 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 1
  235              		.cfi_startproc
  236              		@ args = 0, pretend = 0, frame = 0
  237              		@ frame_needed = 0, uses_anonymous_args = 0
- 238 0000 10B5     		push	{r4, lr}
+ 238 0000 08B5     		push	{r3, lr}
  239              	.LCFI8:
  240              		.cfi_def_cfa_offset 8
- 241              		.cfi_offset 4, -8
+ 241              		.cfi_offset 3, -8
  242              		.cfi_offset 14, -4
   82:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
-  83:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_ACC_ODR_100Hz | LSM303AGR_ACC_X_EN
- 243              		.loc 1 83 2 view .LVU35
- 244              		.loc 1 83 20 is_stmt 0 view .LVU36
- 245 0002 104C     		ldr	r4, .L18
- 246 0004 5721     		movs	r1, #87
- 247 0006 2170     		strb	r1, [r4]
-  84:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| LSM303AGR_ACC_Y_EN | LSM303AGR_ACC_Z_EN;
-  85:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG1, LSM303AGR_setting, 0);
- 248              		.loc 1 85 2 is_stmt 1 view .LVU37
- 249 0008 0022     		movs	r2, #0
- 250 000a 2020     		movs	r0, #32
- 251 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
- 252              	.LVL21:
+  83:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//ga naar de application node op de site en daar staat alle registers die je moet instellen voor i
+  84:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+  85:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//normal interrupt
   86:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
-  87:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_ACC_BDU_EN;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 7
-
-
- 253              		.loc 1 87 2 view .LVU38
- 254              		.loc 1 87 20 is_stmt 0 view .LVU39
- 255 0010 8021     		movs	r1, #128
- 256 0012 2170     		strb	r1, [r4]
-  88:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG4, LSM303AGR_setting, 0);
- 257              		.loc 1 88 2 is_stmt 1 view .LVU40
- 258 0014 0022     		movs	r2, #0
- 259 0016 2320     		movs	r0, #35
- 260 0018 FFF7FEFF 		bl	LSM303AGR_writeRegister
- 261              	.LVL22:
-  89:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
-  90:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_MAG_COMP_TEMP_EN | LSM303AGR_MAG_LP_EN
- 262              		.loc 1 90 2 view .LVU41
- 263              		.loc 1 90 20 is_stmt 0 view .LVU42
- 264 001c 9021     		movs	r1, #144
- 265 001e 2170     		strb	r1, [r4]
-  91:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| LSM303AGR_MAG_ODR_10HZ;
-  92:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_MAG_CFG_REG_A, LSM303AGR_setting, 1);
- 266              		.loc 1 92 2 is_stmt 1 view .LVU43
- 267 0020 0122     		movs	r2, #1
- 268 0022 6020     		movs	r0, #96
- 269 0024 FFF7FEFF 		bl	LSM303AGR_writeRegister
- 270              	.LVL23:
-  93:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
-  94:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_MAG_OFF_CANC | LSM303AGR_MAG_LPF;
- 271              		.loc 1 94 2 view .LVU44
- 272              		.loc 1 94 20 is_stmt 0 view .LVU45
- 273 0028 0321     		movs	r1, #3
- 274 002a 2170     		strb	r1, [r4]
-  95:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_MAG_CFG_REG_B, LSM303AGR_setting, 1);
- 275              		.loc 1 95 2 is_stmt 1 view .LVU46
- 276 002c 0122     		movs	r2, #1
- 277 002e 6120     		movs	r0, #97
- 278 0030 FFF7FEFF 		bl	LSM303AGR_writeRegister
- 279              	.LVL24:
+  87:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	/* LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG1, 0xA7, 0);  //enable/turn on xyz, ODR = 100Hz (
+  88:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+  89:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG2, 0x00 , 0); //highpass filter disable (got undesir
+  90:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+  91:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG3, 0x40 , 0); //gewone interrupt op int lijn 1 zette
+  92:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+  93:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG4, 0x00 , 0); //FS=2G, wil zeggen laagste treshold, 
+  94:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+  95:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG5, 0x00 , 0); //no latching, alles disablen
   96:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
-  97:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_MAG_BDU;
- 280              		.loc 1 97 2 view .LVU47
- 281              		.loc 1 97 20 is_stmt 0 view .LVU48
- 282 0034 1021     		movs	r1, #16
- 283 0036 2170     		strb	r1, [r4]
-  98:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_MAG_CFG_REG_C, LSM303AGR_setting, 1);
- 284              		.loc 1 98 2 is_stmt 1 view .LVU49
- 285 0038 0122     		movs	r2, #1
- 286 003a 6220     		movs	r0, #98
- 287 003c FFF7FEFF 		bl	LSM303AGR_writeRegister
- 288              	.LVL25:
-  99:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 100:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 289              		.loc 1 100 1 is_stmt 0 view .LVU50
- 290 0040 10BD     		pop	{r4, pc}
- 291              	.L19:
- 292 0042 00BF     		.align	2
- 293              	.L18:
- 294 0044 00000000 		.word	LSM303AGR_setting
- 295              		.cfi_endproc
- 296              	.LFE126:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 8
+  97:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_INT1_THS, 0x10 , 0);	//set treshold, maximum threshold en de
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 7
 
 
- 298              		.section	.text.LSM303AGR_ACC_reset,"ax",%progbits
- 299              		.align	1
- 300              		.global	LSM303AGR_ACC_reset
- 301              		.syntax unified
- 302              		.thumb
- 303              		.thumb_func
- 304              		.fpu fpv4-sp-d16
- 306              	LSM303AGR_ACC_reset:
- 307              	.LFB127:
- 101:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 102:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
- 103:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Resets the LSM303AGR accelerometer
- 104:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
- 105:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_ACC_reset() {
- 308              		.loc 1 105 28 is_stmt 1 view -0
- 309              		.cfi_startproc
- 310              		@ args = 0, pretend = 0, frame = 0
- 311              		@ frame_needed = 0, uses_anonymous_args = 0
- 312 0000 08B5     		push	{r3, lr}
- 313              	.LCFI9:
- 314              		.cfi_def_cfa_offset 8
- 315              		.cfi_offset 3, -8
- 316              		.cfi_offset 14, -4
- 106:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_ACC_BOOT;
- 317              		.loc 1 106 2 view .LVU52
- 318              		.loc 1 106 20 is_stmt 0 view .LVU53
- 319 0002 8021     		movs	r1, #128
- 320 0004 034B     		ldr	r3, .L22
- 321 0006 1970     		strb	r1, [r3]
- 107:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG5, LSM303AGR_setting, 0);
- 322              		.loc 1 107 2 is_stmt 1 view .LVU54
- 323 0008 0022     		movs	r2, #0
- 324 000a 2420     		movs	r0, #36
- 325 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
- 326              	.LVL26:
- 108:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 327              		.loc 1 108 1 is_stmt 0 view .LVU55
- 328 0010 08BD     		pop	{r3, pc}
- 329              	.L23:
- 330 0012 00BF     		.align	2
- 331              	.L22:
- 332 0014 00000000 		.word	LSM303AGR_setting
- 333              		.cfi_endproc
- 334              	.LFE127:
- 336              		.section	.text.LSM303AGR_MAG_reset,"ax",%progbits
- 337              		.align	1
- 338              		.global	LSM303AGR_MAG_reset
- 339              		.syntax unified
- 340              		.thumb
- 341              		.thumb_func
- 342              		.fpu fpv4-sp-d16
- 344              	LSM303AGR_MAG_reset:
- 345              	.LFB128:
+  98:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+  99:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_INT1_DUR, 0x7F , 0);  //duration van de interrupt. Ook weer 
+ 100:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 101:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_INT1_CFG, 0x0A , 0);  //INT1_CFG_A enable xh & yH interrupt 
+ 102:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 103:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 104:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	/* //click single interrupt
+ 105:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 106:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG1, 0x2F, 0);  //enable/turn on xyz, ODR = 10Hz (norm
+ 107:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 108:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG2, 0x00 , 0); //highpass filter disable (got undesir
  109:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 110:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
- 111:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Resets the LSM303AGR magnetometer
- 112:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 9
-
-
- 113:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_MAG_reset() {
- 346              		.loc 1 113 28 is_stmt 1 view -0
- 347              		.cfi_startproc
- 348              		@ args = 0, pretend = 0, frame = 0
- 349              		@ frame_needed = 0, uses_anonymous_args = 0
- 350 0000 08B5     		push	{r3, lr}
- 351              	.LCFI10:
- 352              		.cfi_def_cfa_offset 8
- 353              		.cfi_offset 3, -8
- 354              		.cfi_offset 14, -4
- 114:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 115:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_MAG_SOFT_RST;
- 355              		.loc 1 115 2 view .LVU57
- 356              		.loc 1 115 20 is_stmt 0 view .LVU58
- 357 0002 2021     		movs	r1, #32
- 358 0004 034B     		ldr	r3, .L26
- 359 0006 1970     		strb	r1, [r3]
- 116:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_MAG_CFG_REG_A, LSM303AGR_setting, 1);
- 360              		.loc 1 116 2 is_stmt 1 view .LVU59
- 361 0008 0122     		movs	r2, #1
- 362 000a 6020     		movs	r0, #96
- 363 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
- 364              	.LVL27:
+ 110:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG3, 0x80 , 0); //put de click interrupt on int line 1
+ 111:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 112:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG4, 0x00 , 0); //FS=2G, wil zeggen laagste treshold, 
+ 113:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 114:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG5, 0x00 , 0); //no latching, alles disablen
+ 115:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 116:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_CFG, 0x01 , 0); //enablen single click on x-axis
  117:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 118:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 365              		.loc 1 118 1 is_stmt 0 view .LVU60
- 366 0010 08BD     		pop	{r3, pc}
- 367              	.L27:
- 368 0012 00BF     		.align	2
- 369              	.L26:
- 370 0014 00000000 		.word	LSM303AGR_setting
- 371              		.cfi_endproc
- 372              	.LFE128:
- 374              		.section	.text.LSM303AGR_powerDownAccelerometer,"ax",%progbits
- 375              		.align	1
- 376              		.global	LSM303AGR_powerDownAccelerometer
- 377              		.syntax unified
- 378              		.thumb
- 379              		.thumb_func
- 380              		.fpu fpv4-sp-d16
- 382              	LSM303AGR_powerDownAccelerometer:
- 383              	.LFB129:
+ 118:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_SRC, 0x10 , 0); //single click enable
  119:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 120:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
- 121:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Put the accelerometer in power-down mode
- 122:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
- 123:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_powerDownAccelerometer() {
- 384              		.loc 1 123 41 is_stmt 1 view -0
- 385              		.cfi_startproc
- 386              		@ args = 0, pretend = 0, frame = 0
- 387              		@ frame_needed = 0, uses_anonymous_args = 0
- 388 0000 08B5     		push	{r3, lr}
- 389              	.LCFI11:
- 390              		.cfi_def_cfa_offset 8
- 391              		.cfi_offset 3, -8
- 392              		.cfi_offset 14, -4
- 124:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 10
-
-
- 125:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_ACC_ODR_POWERDOWN | LSM303AGR_ACC_X_EN
- 393              		.loc 1 125 2 view .LVU62
- 394              		.loc 1 125 20 is_stmt 0 view .LVU63
- 395 0002 0721     		movs	r1, #7
- 396 0004 034B     		ldr	r3, .L30
- 397 0006 1970     		strb	r1, [r3]
- 126:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| LSM303AGR_ACC_Y_EN | LSM303AGR_ACC_Z_EN;
- 127:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG1, LSM303AGR_setting, 0);
- 398              		.loc 1 127 2 is_stmt 1 view .LVU64
- 399 0008 0022     		movs	r2, #0
- 400 000a 2020     		movs	r0, #32
- 401 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
- 402              	.LVL28:
- 128:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 129:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 403              		.loc 1 129 1 is_stmt 0 view .LVU65
- 404 0010 08BD     		pop	{r3, pc}
- 405              	.L31:
- 406 0012 00BF     		.align	2
- 407              	.L30:
- 408 0014 00000000 		.word	LSM303AGR_setting
- 409              		.cfi_endproc
- 410              	.LFE129:
- 412              		.section	.text.LSM303AGR_powerDownMagnetometer,"ax",%progbits
- 413              		.align	1
- 414              		.global	LSM303AGR_powerDownMagnetometer
- 415              		.syntax unified
- 416              		.thumb
- 417              		.thumb_func
- 418              		.fpu fpv4-sp-d16
- 420              	LSM303AGR_powerDownMagnetometer:
- 421              	.LFB130:
- 130:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 131:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
- 132:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Put the magnetometer in idle mode
- 133:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
- 134:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_powerDownMagnetometer() {
- 422              		.loc 1 134 40 is_stmt 1 view -0
- 423              		.cfi_startproc
- 424              		@ args = 0, pretend = 0, frame = 0
- 425              		@ frame_needed = 0, uses_anonymous_args = 0
- 426 0000 08B5     		push	{r3, lr}
- 427              	.LCFI12:
- 428              		.cfi_def_cfa_offset 8
- 429              		.cfi_offset 3, -8
- 430              		.cfi_offset 14, -4
+ 120:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_THS, 0x20 , 0);	//set treshold  
+ 121:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 122:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_LATENCY, 0x00 , 0);  //set how long the interrupt last
+ 123:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 124:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_TIME, 0x7F , 0);  	 //time limiit = value * 1/ODR so m
+ 125:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 126:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 127:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 128:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//click double interrupt
+ 129:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 130:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG1, 0x2F, 0);  //enable/turn on xyz, ODR = 10Hz (norm
+ 243              		.loc 1 130 2 view .LVU35
+ 244 0002 0022     		movs	r2, #0
+ 245 0004 2F21     		movs	r1, #47
+ 246 0006 2020     		movs	r0, #32
+ 247 0008 FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 248              	.LVL21:
+ 131:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 132:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG2, 0x00 , 0); //highpass filter disable (got undesir
+ 249              		.loc 1 132 2 view .LVU36
+ 250 000c 0022     		movs	r2, #0
+ 251 000e 1146     		mov	r1, r2
+ 252 0010 2120     		movs	r0, #33
+ 253 0012 FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 254              	.LVL22:
+ 133:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 134:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG3, 0x80 , 0); //put de click interrupt on int line 1
+ 255              		.loc 1 134 2 view .LVU37
+ 256 0016 0022     		movs	r2, #0
+ 257 0018 8021     		movs	r1, #128
+ 258 001a 2220     		movs	r0, #34
+ 259 001c FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 260              	.LVL23:
  135:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 136:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_MAG_COMP_TEMP_EN | LSM303AGR_MAG_LP_EN
- 431              		.loc 1 136 2 view .LVU67
- 432              		.loc 1 136 20 is_stmt 0 view .LVU68
- 433 0002 9221     		movs	r1, #146
- 434 0004 034B     		ldr	r3, .L34
- 435 0006 1970     		strb	r1, [r3]
- 137:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| LSM303AGR_MAG_ODR_10HZ | LSM303AGR_MAG_MD_IDLE;
- 138:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_MAG_CFG_REG_A, LSM303AGR_setting, 1);
- 436              		.loc 1 138 2 is_stmt 1 view .LVU69
- 437 0008 0122     		movs	r2, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 11
+ 136:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG4, 0x00 , 0); //FS=2G, wil zeggen laagste treshold, 
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 8
 
 
- 438 000a 6020     		movs	r0, #96
- 439 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
- 440              	.LVL29:
- 139:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 441              		.loc 1 139 1 is_stmt 0 view .LVU70
- 442 0010 08BD     		pop	{r3, pc}
- 443              	.L35:
- 444 0012 00BF     		.align	2
- 445              	.L34:
- 446 0014 00000000 		.word	LSM303AGR_setting
- 447              		.cfi_endproc
- 448              	.LFE130:
- 450              		.section	.text.LSM303AGR_wakeUpAccelerometer,"ax",%progbits
- 451              		.align	1
- 452              		.global	LSM303AGR_wakeUpAccelerometer
- 453              		.syntax unified
- 454              		.thumb
- 455              		.thumb_func
- 456              		.fpu fpv4-sp-d16
- 458              	LSM303AGR_wakeUpAccelerometer:
- 459              	.LFB131:
- 140:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 141:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
- 142:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Wake up the accelerometer from powerdown mode
- 143:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
- 144:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_wakeUpAccelerometer() {
- 460              		.loc 1 144 38 is_stmt 1 view -0
- 461              		.cfi_startproc
- 462              		@ args = 0, pretend = 0, frame = 0
- 463              		@ frame_needed = 0, uses_anonymous_args = 0
- 464 0000 08B5     		push	{r3, lr}
- 465              	.LCFI13:
- 466              		.cfi_def_cfa_offset 8
- 467              		.cfi_offset 3, -8
- 468              		.cfi_offset 14, -4
+ 261              		.loc 1 136 2 view .LVU38
+ 262 0020 0022     		movs	r2, #0
+ 263 0022 1146     		mov	r1, r2
+ 264 0024 2320     		movs	r0, #35
+ 265 0026 FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 266              	.LVL24:
+ 137:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 138:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG5, 0x00 , 0); //no latching, alles disablen
+ 267              		.loc 1 138 2 view .LVU39
+ 268 002a 0022     		movs	r2, #0
+ 269 002c 1146     		mov	r1, r2
+ 270 002e 2420     		movs	r0, #36
+ 271 0030 FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 272              	.LVL25:
+ 139:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 140:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_CFG, 0x02 , 0); //enablen double click on x-axis
+ 273              		.loc 1 140 2 view .LVU40
+ 274 0034 0022     		movs	r2, #0
+ 275 0036 0221     		movs	r1, #2
+ 276 0038 3820     		movs	r0, #56
+ 277 003a FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 278              	.LVL26:
+ 141:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 142:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_SRC, 0x20 , 0); //double click enable
+ 279              		.loc 1 142 2 view .LVU41
+ 280 003e 0022     		movs	r2, #0
+ 281 0040 2021     		movs	r1, #32
+ 282 0042 3920     		movs	r0, #57
+ 283 0044 FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 284              	.LVL27:
+ 143:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 144:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_THS, 0x20 , 0);	//set treshold  
+ 285              		.loc 1 144 2 view .LVU42
+ 286 0048 0022     		movs	r2, #0
+ 287 004a 2021     		movs	r1, #32
+ 288 004c 3A20     		movs	r0, #58
+ 289 004e FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 290              	.LVL28:
  145:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 146:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_ACC_ODR_10HZ | LSM303AGR_ACC_X_EN
- 469              		.loc 1 146 2 view .LVU72
- 470              		.loc 1 146 20 is_stmt 0 view .LVU73
- 471 0002 2721     		movs	r1, #39
- 472 0004 034B     		ldr	r3, .L38
- 473 0006 1970     		strb	r1, [r3]
- 147:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| LSM303AGR_ACC_Y_EN | LSM303AGR_ACC_Z_EN;
- 148:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG1, LSM303AGR_setting, 0);
- 474              		.loc 1 148 2 is_stmt 1 view .LVU74
- 475 0008 0022     		movs	r2, #0
- 476 000a 2020     		movs	r0, #32
- 477 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
- 478              	.LVL30:
+ 146:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_LATENCY, 0x00 , 0);  //set how long the interrupt last
+ 291              		.loc 1 146 2 view .LVU43
+ 292 0052 0022     		movs	r2, #0
+ 293 0054 1146     		mov	r1, r2
+ 294 0056 3C20     		movs	r0, #60
+ 295 0058 FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 296              	.LVL29:
+ 147:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 148:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_TIME, 0x7F , 0);  	 //time limiit = value * 1/ODR so m
+ 297              		.loc 1 148 2 view .LVU44
+ 298 005c 0022     		movs	r2, #0
+ 299 005e 7F21     		movs	r1, #127
+ 300 0060 3B20     		movs	r0, #59
+ 301 0062 FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 302              	.LVL30:
  149:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 150:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 479              		.loc 1 150 1 is_stmt 0 view .LVU75
- 480 0010 08BD     		pop	{r3, pc}
- 481              	.L39:
- 482 0012 00BF     		.align	2
- 483              	.L38:
- 484 0014 00000000 		.word	LSM303AGR_setting
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 12
+ 150:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_WINDOW, 0x0A , 0);  	 //max time in between 2 clicks. 
+ 303              		.loc 1 150 2 view .LVU45
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 9
 
 
- 485              		.cfi_endproc
- 486              	.LFE131:
- 488              		.section	.text.LSM303AGR_wakeUpMagnetometer,"ax",%progbits
- 489              		.align	1
- 490              		.global	LSM303AGR_wakeUpMagnetometer
- 491              		.syntax unified
- 492              		.thumb
- 493              		.thumb_func
- 494              		.fpu fpv4-sp-d16
- 496              	LSM303AGR_wakeUpMagnetometer:
- 497              	.LFB132:
+ 304 0066 0022     		movs	r2, #0
+ 305 0068 0A21     		movs	r1, #10
+ 306 006a 3D20     		movs	r0, #61
+ 307 006c FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 308              	.LVL31:
  151:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 152:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
- 153:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Wake up the magnetometer from idle mode
- 154:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
- 155:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_wakeUpMagnetometer() {
- 498              		.loc 1 155 37 is_stmt 1 view -0
- 499              		.cfi_startproc
- 500              		@ args = 0, pretend = 0, frame = 0
- 501              		@ frame_needed = 0, uses_anonymous_args = 0
- 502 0000 08B5     		push	{r3, lr}
- 503              	.LCFI14:
- 504              		.cfi_def_cfa_offset 8
- 505              		.cfi_offset 3, -8
- 506              		.cfi_offset 14, -4
- 156:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 157:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_MAG_COMP_TEMP_EN | LSM303AGR_MAG_LP_EN
- 507              		.loc 1 157 2 view .LVU77
- 508              		.loc 1 157 20 is_stmt 0 view .LVU78
- 509 0002 9021     		movs	r1, #144
- 510 0004 034B     		ldr	r3, .L42
- 511 0006 1970     		strb	r1, [r3]
- 158:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| LSM303AGR_MAG_ODR_10HZ | LSM303AGR_MAG_MD_CONT;
- 159:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_MAG_CFG_REG_A, LSM303AGR_setting, 1);
- 512              		.loc 1 159 2 is_stmt 1 view .LVU79
- 513 0008 0122     		movs	r2, #1
- 514 000a 6020     		movs	r0, #96
- 515 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
- 516              	.LVL31:
- 160:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 152:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 153:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
+ 309              		.loc 1 153 1 is_stmt 0 view .LVU46
+ 310 0070 08BD     		pop	{r3, pc}
+ 311              		.cfi_endproc
+ 312              	.LFE126:
+ 314              		.section	.text.LSM303AGR_ACC_reset,"ax",%progbits
+ 315              		.align	1
+ 316              		.global	LSM303AGR_ACC_reset
+ 317              		.syntax unified
+ 318              		.thumb
+ 319              		.thumb_func
+ 320              		.fpu fpv4-sp-d16
+ 322              	LSM303AGR_ACC_reset:
+ 323              	.LFB127:
+ 154:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 155:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
+ 156:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Resets the LSM303AGR accelerometer
+ 157:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
+ 158:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_ACC_reset() {
+ 324              		.loc 1 158 28 is_stmt 1 view -0
+ 325              		.cfi_startproc
+ 326              		@ args = 0, pretend = 0, frame = 0
+ 327              		@ frame_needed = 0, uses_anonymous_args = 0
+ 328 0000 08B5     		push	{r3, lr}
+ 329              	.LCFI9:
+ 330              		.cfi_def_cfa_offset 8
+ 331              		.cfi_offset 3, -8
+ 332              		.cfi_offset 14, -4
+ 159:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_ACC_BOOT;
+ 333              		.loc 1 159 2 view .LVU48
+ 334              		.loc 1 159 20 is_stmt 0 view .LVU49
+ 335 0002 8021     		movs	r1, #128
+ 336 0004 034B     		ldr	r3, .L20
+ 337 0006 1970     		strb	r1, [r3]
+ 160:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG5, LSM303AGR_setting, 0);
+ 338              		.loc 1 160 2 is_stmt 1 view .LVU50
+ 339 0008 0022     		movs	r2, #0
+ 340 000a 2420     		movs	r0, #36
+ 341 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 342              	.LVL32:
  161:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 517              		.loc 1 161 1 is_stmt 0 view .LVU80
- 518 0010 08BD     		pop	{r3, pc}
- 519              	.L43:
- 520 0012 00BF     		.align	2
- 521              	.L42:
- 522 0014 00000000 		.word	LSM303AGR_setting
- 523              		.cfi_endproc
- 524              	.LFE132:
- 526              		.section	.text.LSM303AGR_ACC_readAccelerationData,"ax",%progbits
- 527              		.align	1
- 528              		.global	LSM303AGR_ACC_readAccelerationData
- 529              		.syntax unified
- 530              		.thumb
- 531              		.thumb_func
- 532              		.fpu fpv4-sp-d16
- 534              	LSM303AGR_ACC_readAccelerationData:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 13
+ 343              		.loc 1 161 1 is_stmt 0 view .LVU51
+ 344 0010 08BD     		pop	{r3, pc}
+ 345              	.L21:
+ 346 0012 00BF     		.align	2
+ 347              	.L20:
+ 348 0014 00000000 		.word	LSM303AGR_setting
+ 349              		.cfi_endproc
+ 350              	.LFE127:
+ 352              		.section	.text.LSM303AGR_MAG_reset,"ax",%progbits
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 10
 
 
- 535              	.LVL32:
- 536              	.LFB133:
+ 353              		.align	1
+ 354              		.global	LSM303AGR_MAG_reset
+ 355              		.syntax unified
+ 356              		.thumb
+ 357              		.thumb_func
+ 358              		.fpu fpv4-sp-d16
+ 360              	LSM303AGR_MAG_reset:
+ 361              	.LFB128:
  162:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
  163:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
- 164:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Reads the output registers of the accelerometer
- 165:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * @param pData: a pointer to where the data needs to be stored
- 166:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
- 167:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_ACC_readAccelerationData(int32_t *pData) {
- 537              		.loc 1 167 57 is_stmt 1 view -0
- 538              		.cfi_startproc
- 539              		@ args = 0, pretend = 0, frame = 0
- 540              		@ frame_needed = 0, uses_anonymous_args = 0
- 541              		.loc 1 167 57 is_stmt 0 view .LVU82
- 542 0000 30B5     		push	{r4, r5, lr}
- 543              	.LCFI15:
- 544              		.cfi_def_cfa_offset 12
- 545              		.cfi_offset 4, -12
- 546              		.cfi_offset 5, -8
- 547              		.cfi_offset 14, -4
- 548 0002 85B0     		sub	sp, sp, #20
- 549              	.LCFI16:
- 550              		.cfi_def_cfa_offset 32
- 551 0004 0446     		mov	r4, r0
- 168:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//accRegisterData[6];
- 169:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//accRawData[3];
+ 164:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Resets the LSM303AGR magnetometer
+ 165:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
+ 166:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_MAG_reset() {
+ 362              		.loc 1 166 28 is_stmt 1 view -0
+ 363              		.cfi_startproc
+ 364              		@ args = 0, pretend = 0, frame = 0
+ 365              		@ frame_needed = 0, uses_anonymous_args = 0
+ 366 0000 08B5     		push	{r3, lr}
+ 367              	.LCFI10:
+ 368              		.cfi_def_cfa_offset 8
+ 369              		.cfi_offset 3, -8
+ 370              		.cfi_offset 14, -4
+ 167:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 168:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_MAG_SOFT_RST;
+ 371              		.loc 1 168 2 view .LVU53
+ 372              		.loc 1 168 20 is_stmt 0 view .LVU54
+ 373 0002 2021     		movs	r1, #32
+ 374 0004 034B     		ldr	r3, .L24
+ 375 0006 1970     		strb	r1, [r3]
+ 169:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_MAG_CFG_REG_A, LSM303AGR_setting, 1);
+ 376              		.loc 1 169 2 is_stmt 1 view .LVU55
+ 377 0008 0122     		movs	r2, #1
+ 378 000a 6020     		movs	r0, #96
+ 379 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 380              	.LVL33:
  170:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 171:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRegisterData[6];
- 172:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRawData[3];
- 173:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//LSM303AGR_ACC_TEMP_DATA rawData;
- 174:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 175:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	HAL_I2C_Mem_Read(LSM303AGR_hi2c, LSM303AGR_ACC_I2C_ADDRESS,	LSM303AGR_ACC_MULTI_READ, I2C_MEMADD_S
- 552              		.loc 1 175 2 is_stmt 1 view .LVU83
- 553 0006 4FF0FF33 		mov	r3, #-1
- 554 000a 0293     		str	r3, [sp, #8]
- 555 000c 0623     		movs	r3, #6
- 556 000e 0193     		str	r3, [sp, #4]
- 557 0010 214D     		ldr	r5, .L46
- 558 0012 0095     		str	r5, [sp]
- 559 0014 0123     		movs	r3, #1
- 560 0016 A822     		movs	r2, #168
- 561 0018 3221     		movs	r1, #50
- 562 001a 2048     		ldr	r0, .L46+4
- 563              	.LVL33:
- 564              		.loc 1 175 2 is_stmt 0 view .LVU84
- 565 001c 0068     		ldr	r0, [r0]
- 566 001e FFF7FEFF 		bl	HAL_I2C_Mem_Read
- 567              	.LVL34:
- 176:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 177:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	accRawData[0] = (accRegisterData[1] << 8)	| accRegisterData[0];
- 568              		.loc 1 177 2 is_stmt 1 view .LVU85
- 569              		.loc 1 177 34 is_stmt 0 view .LVU86
- 570 0022 6A78     		ldrb	r2, [r5, #1]	@ zero_extendqisi2
- 571              		.loc 1 177 61 view .LVU87
- 572 0024 2B78     		ldrb	r3, [r5]	@ zero_extendqisi2
- 573              		.loc 1 177 44 view .LVU88
- 574 0026 43EA0223 		orr	r3, r3, r2, lsl #8
- 575 002a 1BB2     		sxth	r3, r3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 14
+ 171:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
+ 381              		.loc 1 171 1 is_stmt 0 view .LVU56
+ 382 0010 08BD     		pop	{r3, pc}
+ 383              	.L25:
+ 384 0012 00BF     		.align	2
+ 385              	.L24:
+ 386 0014 00000000 		.word	LSM303AGR_setting
+ 387              		.cfi_endproc
+ 388              	.LFE128:
+ 390              		.section	.text.LSM303AGR_powerDownAccelerometer,"ax",%progbits
+ 391              		.align	1
+ 392              		.global	LSM303AGR_powerDownAccelerometer
+ 393              		.syntax unified
+ 394              		.thumb
+ 395              		.thumb_func
+ 396              		.fpu fpv4-sp-d16
+ 398              	LSM303AGR_powerDownAccelerometer:
+ 399              	.LFB129:
+ 172:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 173:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
+ 174:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Put the accelerometer in power-down mode
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 11
 
 
- 576              		.loc 1 177 16 view .LVU89
- 577 002c 1C49     		ldr	r1, .L46+8
- 578 002e 0B80     		strh	r3, [r1]	@ movhi
- 178:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	accRawData[1] = (accRegisterData[3] << 8)| accRegisterData[2];
- 579              		.loc 1 178 2 is_stmt 1 view .LVU90
- 580              		.loc 1 178 34 is_stmt 0 view .LVU91
- 581 0030 E878     		ldrb	r0, [r5, #3]	@ zero_extendqisi2
- 582              		.loc 1 178 60 view .LVU92
- 583 0032 AA78     		ldrb	r2, [r5, #2]	@ zero_extendqisi2
- 584              		.loc 1 178 43 view .LVU93
- 585 0034 42EA0022 		orr	r2, r2, r0, lsl #8
- 586              		.loc 1 178 16 view .LVU94
- 587 0038 4A80     		strh	r2, [r1, #2]	@ movhi
- 179:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	accRawData[2] = (accRegisterData[5] << 8)| accRegisterData[4];
- 588              		.loc 1 179 2 is_stmt 1 view .LVU95
- 589              		.loc 1 179 34 is_stmt 0 view .LVU96
- 590 003a 6879     		ldrb	r0, [r5, #5]	@ zero_extendqisi2
- 591              		.loc 1 179 60 view .LVU97
- 592 003c 2A79     		ldrb	r2, [r5, #4]	@ zero_extendqisi2
- 593              		.loc 1 179 43 view .LVU98
- 594 003e 42EA0022 		orr	r2, r2, r0, lsl #8
- 595              		.loc 1 179 16 view .LVU99
- 596 0042 8A80     		strh	r2, [r1, #4]	@ movhi
- 180:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 181:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	/* Apply proper shift and sensitivity */
- 182:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	// Normal mode 10-bit, shift = 6 and FS = 2
- 183:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[0] = (int32_t) (((accRawData[0] >> 6) * 3900 + 500) / 1000);
- 597              		.loc 1 183 2 is_stmt 1 view .LVU100
- 598              		.loc 1 183 40 is_stmt 0 view .LVU101
- 599 0044 9B11     		asrs	r3, r3, #6
- 600              		.loc 1 183 46 view .LVU102
- 601 0046 40F63C72 		movw	r2, #3900
- 602 004a 02FB03F3 		mul	r3, r2, r3
- 603              		.loc 1 183 53 view .LVU103
- 604 004e 03F5FA73 		add	r3, r3, #500
- 605              		.loc 1 183 60 view .LVU104
- 606 0052 1448     		ldr	r0, .L46+12
- 607 0054 80FB03C5 		smull	ip, r5, r0, r3
- 608 0058 DB17     		asrs	r3, r3, #31
- 609 005a C3EBA513 		rsb	r3, r3, r5, asr #6
- 610              		.loc 1 183 11 view .LVU105
- 611 005e 2360     		str	r3, [r4]
- 184:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[1] = (int32_t) (((accRawData[1] >> 6) * 3900 + 500) / 1000);
- 612              		.loc 1 184 2 is_stmt 1 view .LVU106
- 613              		.loc 1 184 36 is_stmt 0 view .LVU107
- 614 0060 B1F90230 		ldrsh	r3, [r1, #2]
- 615              		.loc 1 184 40 view .LVU108
- 616 0064 9B11     		asrs	r3, r3, #6
- 617              		.loc 1 184 46 view .LVU109
- 618 0066 02FB03F3 		mul	r3, r2, r3
- 619              		.loc 1 184 53 view .LVU110
- 620 006a 03F5FA73 		add	r3, r3, #500
- 621              		.loc 1 184 60 view .LVU111
- 622 006e 80FB03C5 		smull	ip, r5, r0, r3
- 623 0072 DB17     		asrs	r3, r3, #31
- 624 0074 C3EBA513 		rsb	r3, r3, r5, asr #6
- 625              		.loc 1 184 11 view .LVU112
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 15
+ 175:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
+ 176:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_powerDownAccelerometer() {
+ 400              		.loc 1 176 41 is_stmt 1 view -0
+ 401              		.cfi_startproc
+ 402              		@ args = 0, pretend = 0, frame = 0
+ 403              		@ frame_needed = 0, uses_anonymous_args = 0
+ 404 0000 08B5     		push	{r3, lr}
+ 405              	.LCFI11:
+ 406              		.cfi_def_cfa_offset 8
+ 407              		.cfi_offset 3, -8
+ 408              		.cfi_offset 14, -4
+ 177:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 178:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_ACC_ODR_POWERDOWN | LSM303AGR_ACC_X_EN
+ 409              		.loc 1 178 2 view .LVU58
+ 410              		.loc 1 178 20 is_stmt 0 view .LVU59
+ 411 0002 0721     		movs	r1, #7
+ 412 0004 034B     		ldr	r3, .L28
+ 413 0006 1970     		strb	r1, [r3]
+ 179:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| LSM303AGR_ACC_Y_EN | LSM303AGR_ACC_Z_EN;
+ 180:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG1, LSM303AGR_setting, 0);
+ 414              		.loc 1 180 2 is_stmt 1 view .LVU60
+ 415 0008 0022     		movs	r2, #0
+ 416 000a 2020     		movs	r0, #32
+ 417 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 418              	.LVL34:
+ 181:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 182:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
+ 419              		.loc 1 182 1 is_stmt 0 view .LVU61
+ 420 0010 08BD     		pop	{r3, pc}
+ 421              	.L29:
+ 422 0012 00BF     		.align	2
+ 423              	.L28:
+ 424 0014 00000000 		.word	LSM303AGR_setting
+ 425              		.cfi_endproc
+ 426              	.LFE129:
+ 428              		.section	.text.LSM303AGR_powerDownMagnetometer,"ax",%progbits
+ 429              		.align	1
+ 430              		.global	LSM303AGR_powerDownMagnetometer
+ 431              		.syntax unified
+ 432              		.thumb
+ 433              		.thumb_func
+ 434              		.fpu fpv4-sp-d16
+ 436              	LSM303AGR_powerDownMagnetometer:
+ 437              	.LFB130:
+ 183:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 184:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
+ 185:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Put the magnetometer in idle mode
+ 186:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
+ 187:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_powerDownMagnetometer() {
+ 438              		.loc 1 187 40 is_stmt 1 view -0
+ 439              		.cfi_startproc
+ 440              		@ args = 0, pretend = 0, frame = 0
+ 441              		@ frame_needed = 0, uses_anonymous_args = 0
+ 442 0000 08B5     		push	{r3, lr}
+ 443              	.LCFI12:
+ 444              		.cfi_def_cfa_offset 8
+ 445              		.cfi_offset 3, -8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 12
 
 
- 626 0078 6360     		str	r3, [r4, #4]
- 185:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[2] = (int32_t) (((accRawData[2] >> 6) * 3900 + 500) / 1000);
- 627              		.loc 1 185 2 is_stmt 1 view .LVU113
- 628              		.loc 1 185 36 is_stmt 0 view .LVU114
- 629 007a B1F90430 		ldrsh	r3, [r1, #4]
- 630              		.loc 1 185 40 view .LVU115
- 631 007e 9B11     		asrs	r3, r3, #6
- 632              		.loc 1 185 46 view .LVU116
- 633 0080 02FB03F2 		mul	r2, r2, r3
- 634              		.loc 1 185 53 view .LVU117
- 635 0084 02F5FA72 		add	r2, r2, #500
- 636              		.loc 1 185 60 view .LVU118
- 637 0088 80FB0230 		smull	r3, r0, r0, r2
- 638 008c D217     		asrs	r2, r2, #31
- 639 008e C2EBA012 		rsb	r2, r2, r0, asr #6
- 640              		.loc 1 185 11 view .LVU119
- 641 0092 A260     		str	r2, [r4, #8]
- 186:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 187:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 642              		.loc 1 187 1 view .LVU120
- 643 0094 05B0     		add	sp, sp, #20
- 644              	.LCFI17:
- 645              		.cfi_def_cfa_offset 12
- 646              		@ sp needed
- 647 0096 30BD     		pop	{r4, r5, pc}
- 648              	.LVL35:
- 649              	.L47:
- 650              		.loc 1 187 1 view .LVU121
- 651              		.align	2
- 652              	.L46:
- 653 0098 00000000 		.word	accRegisterData
- 654 009c 00000000 		.word	LSM303AGR_hi2c
- 655 00a0 00000000 		.word	accRawData
- 656 00a4 D34D6210 		.word	274877907
- 657              		.cfi_endproc
- 658              	.LFE133:
- 660              		.section	.text.LSM303AGR_MAG_readMagneticData,"ax",%progbits
- 661              		.align	1
- 662              		.global	LSM303AGR_MAG_readMagneticData
- 663              		.syntax unified
- 664              		.thumb
- 665              		.thumb_func
- 666              		.fpu fpv4-sp-d16
- 668              	LSM303AGR_MAG_readMagneticData:
- 669              	.LVL36:
- 670              	.LFB134:
+ 446              		.cfi_offset 14, -4
  188:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 189:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
- 190:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Reads the output registers of the magnetometer and applies the sensitivity
- 191:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * @param pData: a pointer to where the data needs to be stored
- 192:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
- 193:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_MAG_readMagneticData(int32_t *pData) {
- 671              		.loc 1 193 53 is_stmt 1 view -0
- 672              		.cfi_startproc
- 673              		@ args = 0, pretend = 0, frame = 0
- 674              		@ frame_needed = 0, uses_anonymous_args = 0
- 675              		.loc 1 193 53 is_stmt 0 view .LVU123
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 16
+ 189:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_MAG_COMP_TEMP_EN | LSM303AGR_MAG_LP_EN
+ 447              		.loc 1 189 2 view .LVU63
+ 448              		.loc 1 189 20 is_stmt 0 view .LVU64
+ 449 0002 9221     		movs	r1, #146
+ 450 0004 034B     		ldr	r3, .L32
+ 451 0006 1970     		strb	r1, [r3]
+ 190:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| LSM303AGR_MAG_ODR_10HZ | LSM303AGR_MAG_MD_IDLE;
+ 191:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_MAG_CFG_REG_A, LSM303AGR_setting, 1);
+ 452              		.loc 1 191 2 is_stmt 1 view .LVU65
+ 453 0008 0122     		movs	r2, #1
+ 454 000a 6020     		movs	r0, #96
+ 455 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 456              	.LVL35:
+ 192:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
+ 457              		.loc 1 192 1 is_stmt 0 view .LVU66
+ 458 0010 08BD     		pop	{r3, pc}
+ 459              	.L33:
+ 460 0012 00BF     		.align	2
+ 461              	.L32:
+ 462 0014 00000000 		.word	LSM303AGR_setting
+ 463              		.cfi_endproc
+ 464              	.LFE130:
+ 466              		.section	.text.LSM303AGR_wakeUpAccelerometer,"ax",%progbits
+ 467              		.align	1
+ 468              		.global	LSM303AGR_wakeUpAccelerometer
+ 469              		.syntax unified
+ 470              		.thumb
+ 471              		.thumb_func
+ 472              		.fpu fpv4-sp-d16
+ 474              	LSM303AGR_wakeUpAccelerometer:
+ 475              	.LFB131:
+ 193:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 194:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
+ 195:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Wake up the accelerometer from powerdown mode
+ 196:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
+ 197:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_wakeUpAccelerometer() {
+ 476              		.loc 1 197 38 is_stmt 1 view -0
+ 477              		.cfi_startproc
+ 478              		@ args = 0, pretend = 0, frame = 0
+ 479              		@ frame_needed = 0, uses_anonymous_args = 0
+ 480 0000 08B5     		push	{r3, lr}
+ 481              	.LCFI13:
+ 482              		.cfi_def_cfa_offset 8
+ 483              		.cfi_offset 3, -8
+ 484              		.cfi_offset 14, -4
+ 198:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 199:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_ACC_ODR_10HZ | LSM303AGR_ACC_X_EN
+ 485              		.loc 1 199 2 view .LVU68
+ 486              		.loc 1 199 20 is_stmt 0 view .LVU69
+ 487 0002 2721     		movs	r1, #39
+ 488 0004 034B     		ldr	r3, .L36
+ 489 0006 1970     		strb	r1, [r3]
+ 200:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| LSM303AGR_ACC_Y_EN | LSM303AGR_ACC_Z_EN;
+ 201:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG1, LSM303AGR_setting, 0);
+ 490              		.loc 1 201 2 is_stmt 1 view .LVU70
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 13
 
 
- 676 0000 30B5     		push	{r4, r5, lr}
- 677              	.LCFI18:
- 678              		.cfi_def_cfa_offset 12
- 679              		.cfi_offset 4, -12
- 680              		.cfi_offset 5, -8
- 681              		.cfi_offset 14, -4
- 682 0002 85B0     		sub	sp, sp, #20
- 683              	.LCFI19:
- 684              		.cfi_def_cfa_offset 32
- 685 0004 0446     		mov	r4, r0
- 194:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRegisterData[6];
- 195:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 		//magRawData[3];
- 196:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 		//LSM303AGR_ACC_TEMP_DATA rawData;
- 197:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 198:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//LSM303AGR_MAG_TEMP_DATA rawData;
- 199:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 200:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	HAL_I2C_Mem_Read(LSM303AGR_hi2c, LSM303AGR_MAG_I2C_ADDRESS,
- 686              		.loc 1 200 2 is_stmt 1 view .LVU124
- 687 0006 4FF0FF33 		mov	r3, #-1
- 688 000a 0293     		str	r3, [sp, #8]
- 689 000c 0623     		movs	r3, #6
- 690 000e 0193     		str	r3, [sp, #4]
- 691 0010 1F4D     		ldr	r5, .L50
- 692 0012 0095     		str	r5, [sp]
- 693 0014 0123     		movs	r3, #1
- 694 0016 E822     		movs	r2, #232
- 695 0018 3C21     		movs	r1, #60
- 696 001a 1E48     		ldr	r0, .L50+4
- 697              	.LVL37:
- 698              		.loc 1 200 2 is_stmt 0 view .LVU125
- 699 001c 0068     		ldr	r0, [r0]
- 700 001e FFF7FEFF 		bl	HAL_I2C_Mem_Read
- 701              	.LVL38:
- 201:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_MAG_MULTI_READ, I2C_MEMADD_SIZE_8BIT, magRegisterData,
- 202:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			sizeof(magRegisterData), HAL_MAX_DELAY);
- 203:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 204:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	magRawData[0] = (magRegisterData[1] << 8)
- 702              		.loc 1 204 2 is_stmt 1 view .LVU126
- 703              		.loc 1 204 34 is_stmt 0 view .LVU127
- 704 0022 6A78     		ldrb	r2, [r5, #1]	@ zero_extendqisi2
- 205:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[0];
- 705              		.loc 1 205 21 view .LVU128
- 706 0024 2B78     		ldrb	r3, [r5]	@ zero_extendqisi2
- 707              		.loc 1 205 4 view .LVU129
- 708 0026 43EA0223 		orr	r3, r3, r2, lsl #8
- 709 002a 1BB2     		sxth	r3, r3
- 204:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[0];
- 710              		.loc 1 204 16 view .LVU130
- 711 002c 1A4A     		ldr	r2, .L50+8
- 712 002e 1380     		strh	r3, [r2]	@ movhi
- 206:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	magRawData[1] = (magRegisterData[3] << 8)
- 713              		.loc 1 206 2 is_stmt 1 view .LVU131
- 714              		.loc 1 206 34 is_stmt 0 view .LVU132
- 715 0030 E878     		ldrb	r0, [r5, #3]	@ zero_extendqisi2
- 207:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[2];
- 716              		.loc 1 207 21 view .LVU133
- 717 0032 A978     		ldrb	r1, [r5, #2]	@ zero_extendqisi2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 17
+ 491 0008 0022     		movs	r2, #0
+ 492 000a 2020     		movs	r0, #32
+ 493 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 494              	.LVL36:
+ 202:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 203:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
+ 495              		.loc 1 203 1 is_stmt 0 view .LVU71
+ 496 0010 08BD     		pop	{r3, pc}
+ 497              	.L37:
+ 498 0012 00BF     		.align	2
+ 499              	.L36:
+ 500 0014 00000000 		.word	LSM303AGR_setting
+ 501              		.cfi_endproc
+ 502              	.LFE131:
+ 504              		.section	.text.LSM303AGR_wakeUpMagnetometer,"ax",%progbits
+ 505              		.align	1
+ 506              		.global	LSM303AGR_wakeUpMagnetometer
+ 507              		.syntax unified
+ 508              		.thumb
+ 509              		.thumb_func
+ 510              		.fpu fpv4-sp-d16
+ 512              	LSM303AGR_wakeUpMagnetometer:
+ 513              	.LFB132:
+ 204:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 205:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
+ 206:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Wake up the magnetometer from idle mode
+ 207:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
+ 208:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_wakeUpMagnetometer() {
+ 514              		.loc 1 208 37 is_stmt 1 view -0
+ 515              		.cfi_startproc
+ 516              		@ args = 0, pretend = 0, frame = 0
+ 517              		@ frame_needed = 0, uses_anonymous_args = 0
+ 518 0000 08B5     		push	{r3, lr}
+ 519              	.LCFI14:
+ 520              		.cfi_def_cfa_offset 8
+ 521              		.cfi_offset 3, -8
+ 522              		.cfi_offset 14, -4
+ 209:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 210:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_MAG_COMP_TEMP_EN | LSM303AGR_MAG_LP_EN
+ 523              		.loc 1 210 2 view .LVU73
+ 524              		.loc 1 210 20 is_stmt 0 view .LVU74
+ 525 0002 9021     		movs	r1, #144
+ 526 0004 034B     		ldr	r3, .L40
+ 527 0006 1970     		strb	r1, [r3]
+ 211:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| LSM303AGR_MAG_ODR_10HZ | LSM303AGR_MAG_MD_CONT;
+ 212:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_MAG_CFG_REG_A, LSM303AGR_setting, 1);
+ 528              		.loc 1 212 2 is_stmt 1 view .LVU75
+ 529 0008 0122     		movs	r2, #1
+ 530 000a 6020     		movs	r0, #96
+ 531 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
+ 532              	.LVL37:
+ 213:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 214:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
+ 533              		.loc 1 214 1 is_stmt 0 view .LVU76
+ 534 0010 08BD     		pop	{r3, pc}
+ 535              	.L41:
+ 536 0012 00BF     		.align	2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 14
 
 
- 718              		.loc 1 207 4 view .LVU134
- 719 0034 41EA0021 		orr	r1, r1, r0, lsl #8
- 206:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	magRawData[1] = (magRegisterData[3] << 8)
- 720              		.loc 1 206 16 view .LVU135
- 721 0038 5180     		strh	r1, [r2, #2]	@ movhi
- 208:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	magRawData[2] = (magRegisterData[5] << 8)
- 722              		.loc 1 208 2 is_stmt 1 view .LVU136
- 723              		.loc 1 208 34 is_stmt 0 view .LVU137
- 724 003a 6879     		ldrb	r0, [r5, #5]	@ zero_extendqisi2
- 209:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[4];
- 725              		.loc 1 209 21 view .LVU138
- 726 003c 2979     		ldrb	r1, [r5, #4]	@ zero_extendqisi2
- 727              		.loc 1 209 4 view .LVU139
- 728 003e 41EA0021 		orr	r1, r1, r0, lsl #8
- 208:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	magRawData[2] = (magRegisterData[5] << 8)
- 729              		.loc 1 208 16 view .LVU140
- 730 0042 9180     		strh	r1, [r2, #4]	@ movhi
- 210:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 211:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	/* Calculate the data. */
- 212:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[0] = (int32_t) (magRawData[0] * 1.5f);
- 731              		.loc 1 212 2 is_stmt 1 view .LVU141
- 732              		.loc 1 212 38 is_stmt 0 view .LVU142
- 733 0044 07EE903A 		vmov	s15, r3	@ int
- 734 0048 F8EEE77A 		vcvt.f32.s32	s15, s15
- 735 004c F7EE086A 		vmov.f32	s13, #1.5e+0
- 736 0050 67EEA67A 		vmul.f32	s15, s15, s13
- 737              		.loc 1 212 13 view .LVU143
- 738 0054 FDEEE77A 		vcvt.s32.f32	s15, s15
- 739              		.loc 1 212 11 view .LVU144
- 740 0058 C4ED007A 		vstr.32	s15, [r4]	@ int
- 213:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[1] = (int32_t) (magRawData[1] * 1.5f);
- 741              		.loc 1 213 2 is_stmt 1 view .LVU145
- 742              		.loc 1 213 34 is_stmt 0 view .LVU146
- 743 005c B2F90230 		ldrsh	r3, [r2, #2]
- 744 0060 07EE103A 		vmov	s14, r3	@ int
- 745              		.loc 1 213 38 view .LVU147
- 746 0064 B8EEC77A 		vcvt.f32.s32	s14, s14
- 747 0068 27EE267A 		vmul.f32	s14, s14, s13
- 748              		.loc 1 213 13 view .LVU148
- 749 006c BDEEC77A 		vcvt.s32.f32	s14, s14
- 750              		.loc 1 213 11 view .LVU149
- 751 0070 84ED017A 		vstr.32	s14, [r4, #4]	@ int
- 214:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[2] = (int32_t) (magRawData[2] * 1.5f);
- 752              		.loc 1 214 2 is_stmt 1 view .LVU150
- 753              		.loc 1 214 34 is_stmt 0 view .LVU151
- 754 0074 B2F90430 		ldrsh	r3, [r2, #4]
- 755 0078 07EE903A 		vmov	s15, r3	@ int
- 756              		.loc 1 214 38 view .LVU152
- 757 007c F8EEE77A 		vcvt.f32.s32	s15, s15
- 758 0080 67EEA67A 		vmul.f32	s15, s15, s13
- 759              		.loc 1 214 13 view .LVU153
- 760 0084 FDEEE77A 		vcvt.s32.f32	s15, s15
- 761              		.loc 1 214 11 view .LVU154
- 762 0088 C4ED027A 		vstr.32	s15, [r4, #8]	@ int
+ 537              	.L40:
+ 538 0014 00000000 		.word	LSM303AGR_setting
+ 539              		.cfi_endproc
+ 540              	.LFE132:
+ 542              		.section	.text.LSM303AGR_ACC_readAccelerationData,"ax",%progbits
+ 543              		.align	1
+ 544              		.global	LSM303AGR_ACC_readAccelerationData
+ 545              		.syntax unified
+ 546              		.thumb
+ 547              		.thumb_func
+ 548              		.fpu fpv4-sp-d16
+ 550              	LSM303AGR_ACC_readAccelerationData:
+ 551              	.LVL38:
+ 552              	.LFB133:
  215:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 216:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 763              		.loc 1 216 1 view .LVU155
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 18
+ 216:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
+ 217:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Reads the output registers of the accelerometer
+ 218:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * @param pData: a pointer to where the data needs to be stored
+ 219:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
+ 220:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_ACC_readAccelerationData(int32_t *pData) {
+ 553              		.loc 1 220 57 is_stmt 1 view -0
+ 554              		.cfi_startproc
+ 555              		@ args = 0, pretend = 0, frame = 0
+ 556              		@ frame_needed = 0, uses_anonymous_args = 0
+ 557              		.loc 1 220 57 is_stmt 0 view .LVU78
+ 558 0000 30B5     		push	{r4, r5, lr}
+ 559              	.LCFI15:
+ 560              		.cfi_def_cfa_offset 12
+ 561              		.cfi_offset 4, -12
+ 562              		.cfi_offset 5, -8
+ 563              		.cfi_offset 14, -4
+ 564 0002 85B0     		sub	sp, sp, #20
+ 565              	.LCFI16:
+ 566              		.cfi_def_cfa_offset 32
+ 567 0004 0446     		mov	r4, r0
+ 221:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//accRegisterData[6];
+ 222:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//accRawData[3];
+ 223:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 224:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRegisterData[6];
+ 225:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRawData[3];
+ 226:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//LSM303AGR_ACC_TEMP_DATA rawData;
+ 227:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 228:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	HAL_I2C_Mem_Read(LSM303AGR_hi2c, LSM303AGR_ACC_I2C_ADDRESS,	LSM303AGR_ACC_MULTI_READ, I2C_MEMADD_S
+ 568              		.loc 1 228 2 is_stmt 1 view .LVU79
+ 569 0006 4FF0FF33 		mov	r3, #-1
+ 570 000a 0293     		str	r3, [sp, #8]
+ 571 000c 0623     		movs	r3, #6
+ 572 000e 0193     		str	r3, [sp, #4]
+ 573 0010 214D     		ldr	r5, .L44
+ 574 0012 0095     		str	r5, [sp]
+ 575 0014 0123     		movs	r3, #1
+ 576 0016 A822     		movs	r2, #168
+ 577 0018 3221     		movs	r1, #50
+ 578 001a 2048     		ldr	r0, .L44+4
+ 579              	.LVL39:
+ 580              		.loc 1 228 2 is_stmt 0 view .LVU80
+ 581 001c 0068     		ldr	r0, [r0]
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 15
 
 
- 764 008c 05B0     		add	sp, sp, #20
- 765              	.LCFI20:
- 766              		.cfi_def_cfa_offset 12
- 767              		@ sp needed
- 768 008e 30BD     		pop	{r4, r5, pc}
- 769              	.LVL39:
- 770              	.L51:
- 771              		.loc 1 216 1 view .LVU156
- 772              		.align	2
- 773              	.L50:
- 774 0090 00000000 		.word	magRegisterData
- 775 0094 00000000 		.word	LSM303AGR_hi2c
- 776 0098 00000000 		.word	magRawData
- 777              		.cfi_endproc
- 778              	.LFE134:
- 780              		.section	.text.LSM303AGR_MAG_readMagneticRawData,"ax",%progbits
- 781              		.align	1
- 782              		.global	LSM303AGR_MAG_readMagneticRawData
- 783              		.syntax unified
- 784              		.thumb
- 785              		.thumb_func
- 786              		.fpu fpv4-sp-d16
- 788              	LSM303AGR_MAG_readMagneticRawData:
- 789              	.LVL40:
- 790              	.LFB135:
- 217:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 218:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
- 219:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Read the output registers of the magnetometer
- 220:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * @param pData: a pointer to where the data needs to be stored
- 221:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
- 222:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_MAG_readMagneticRawData(uint16_t *pData) {
- 791              		.loc 1 222 57 is_stmt 1 view -0
- 792              		.cfi_startproc
- 793              		@ args = 0, pretend = 0, frame = 0
- 794              		@ frame_needed = 0, uses_anonymous_args = 0
- 795              		.loc 1 222 57 is_stmt 0 view .LVU158
- 796 0000 30B5     		push	{r4, r5, lr}
- 797              	.LCFI21:
- 798              		.cfi_def_cfa_offset 12
- 799              		.cfi_offset 4, -12
- 800              		.cfi_offset 5, -8
- 801              		.cfi_offset 14, -4
- 802 0002 85B0     		sub	sp, sp, #20
- 803              	.LCFI22:
- 804              		.cfi_def_cfa_offset 32
- 805 0004 0546     		mov	r5, r0
- 223:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRegisterData[6];
- 224:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			//magRawData[3];
- 225:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//LSM303AGR_MAG_TEMP_DATA rawData;
- 226:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 227:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	HAL_I2C_Mem_Read(LSM303AGR_hi2c, LSM303AGR_MAG_I2C_ADDRESS,
- 806              		.loc 1 227 2 is_stmt 1 view .LVU159
- 807 0006 4FF0FF33 		mov	r3, #-1
- 808 000a 0293     		str	r3, [sp, #8]
- 809 000c 0623     		movs	r3, #6
- 810 000e 0193     		str	r3, [sp, #4]
- 811 0010 0C4C     		ldr	r4, .L54
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 19
+ 582 001e FFF7FEFF 		bl	HAL_I2C_Mem_Read
+ 583              	.LVL40:
+ 229:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 230:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	accRawData[0] = (accRegisterData[1] << 8)	| accRegisterData[0];
+ 584              		.loc 1 230 2 is_stmt 1 view .LVU81
+ 585              		.loc 1 230 34 is_stmt 0 view .LVU82
+ 586 0022 6A78     		ldrb	r2, [r5, #1]	@ zero_extendqisi2
+ 587              		.loc 1 230 61 view .LVU83
+ 588 0024 2B78     		ldrb	r3, [r5]	@ zero_extendqisi2
+ 589              		.loc 1 230 44 view .LVU84
+ 590 0026 43EA0223 		orr	r3, r3, r2, lsl #8
+ 591 002a 1BB2     		sxth	r3, r3
+ 592              		.loc 1 230 16 view .LVU85
+ 593 002c 1C49     		ldr	r1, .L44+8
+ 594 002e 0B80     		strh	r3, [r1]	@ movhi
+ 231:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	accRawData[1] = (accRegisterData[3] << 8)| accRegisterData[2];
+ 595              		.loc 1 231 2 is_stmt 1 view .LVU86
+ 596              		.loc 1 231 34 is_stmt 0 view .LVU87
+ 597 0030 E878     		ldrb	r0, [r5, #3]	@ zero_extendqisi2
+ 598              		.loc 1 231 60 view .LVU88
+ 599 0032 AA78     		ldrb	r2, [r5, #2]	@ zero_extendqisi2
+ 600              		.loc 1 231 43 view .LVU89
+ 601 0034 42EA0022 		orr	r2, r2, r0, lsl #8
+ 602              		.loc 1 231 16 view .LVU90
+ 603 0038 4A80     		strh	r2, [r1, #2]	@ movhi
+ 232:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	accRawData[2] = (accRegisterData[5] << 8)| accRegisterData[4];
+ 604              		.loc 1 232 2 is_stmt 1 view .LVU91
+ 605              		.loc 1 232 34 is_stmt 0 view .LVU92
+ 606 003a 6879     		ldrb	r0, [r5, #5]	@ zero_extendqisi2
+ 607              		.loc 1 232 60 view .LVU93
+ 608 003c 2A79     		ldrb	r2, [r5, #4]	@ zero_extendqisi2
+ 609              		.loc 1 232 43 view .LVU94
+ 610 003e 42EA0022 		orr	r2, r2, r0, lsl #8
+ 611              		.loc 1 232 16 view .LVU95
+ 612 0042 8A80     		strh	r2, [r1, #4]	@ movhi
+ 233:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 234:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	/* Apply proper shift and sensitivity */
+ 235:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	// Normal mode 10-bit, shift = 6 and FS = 2
+ 236:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[0] = (int32_t) (((accRawData[0] >> 6) * 3900 + 500) / 1000);
+ 613              		.loc 1 236 2 is_stmt 1 view .LVU96
+ 614              		.loc 1 236 40 is_stmt 0 view .LVU97
+ 615 0044 9B11     		asrs	r3, r3, #6
+ 616              		.loc 1 236 46 view .LVU98
+ 617 0046 40F63C72 		movw	r2, #3900
+ 618 004a 02FB03F3 		mul	r3, r2, r3
+ 619              		.loc 1 236 53 view .LVU99
+ 620 004e 03F5FA73 		add	r3, r3, #500
+ 621              		.loc 1 236 60 view .LVU100
+ 622 0052 1448     		ldr	r0, .L44+12
+ 623 0054 80FB03C5 		smull	ip, r5, r0, r3
+ 624 0058 DB17     		asrs	r3, r3, #31
+ 625 005a C3EBA513 		rsb	r3, r3, r5, asr #6
+ 626              		.loc 1 236 11 view .LVU101
+ 627 005e 2360     		str	r3, [r4]
+ 237:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[1] = (int32_t) (((accRawData[1] >> 6) * 3900 + 500) / 1000);
+ 628              		.loc 1 237 2 is_stmt 1 view .LVU102
+ 629              		.loc 1 237 36 is_stmt 0 view .LVU103
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 16
 
 
- 812 0012 0094     		str	r4, [sp]
- 813 0014 0123     		movs	r3, #1
- 814 0016 E822     		movs	r2, #232
- 815 0018 3C21     		movs	r1, #60
- 816 001a 0B48     		ldr	r0, .L54+4
- 817              	.LVL41:
- 818              		.loc 1 227 2 is_stmt 0 view .LVU160
- 819 001c 0068     		ldr	r0, [r0]
- 820 001e FFF7FEFF 		bl	HAL_I2C_Mem_Read
- 821              	.LVL42:
- 228:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_MAG_MULTI_READ, I2C_MEMADD_SIZE_8BIT, magRegisterData,
- 229:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			sizeof(magRegisterData), HAL_MAX_DELAY);
- 230:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 231:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[0] = (magRegisterData[1] << 8)
- 822              		.loc 1 231 2 is_stmt 1 view .LVU161
- 823              		.loc 1 231 29 is_stmt 0 view .LVU162
- 824 0022 6278     		ldrb	r2, [r4, #1]	@ zero_extendqisi2
- 232:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[0];
- 825              		.loc 1 232 21 view .LVU163
- 826 0024 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
- 827              		.loc 1 232 4 view .LVU164
- 828 0026 43EA0223 		orr	r3, r3, r2, lsl #8
- 231:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[0];
- 829              		.loc 1 231 11 view .LVU165
- 830 002a 2B80     		strh	r3, [r5]	@ movhi
- 233:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[1] = (magRegisterData[3] << 8)
- 831              		.loc 1 233 2 is_stmt 1 view .LVU166
- 832              		.loc 1 233 29 is_stmt 0 view .LVU167
- 833 002c E278     		ldrb	r2, [r4, #3]	@ zero_extendqisi2
- 234:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[2];
- 834              		.loc 1 234 21 view .LVU168
- 835 002e A378     		ldrb	r3, [r4, #2]	@ zero_extendqisi2
- 836              		.loc 1 234 4 view .LVU169
- 837 0030 43EA0223 		orr	r3, r3, r2, lsl #8
- 233:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[1] = (magRegisterData[3] << 8)
- 838              		.loc 1 233 11 view .LVU170
- 839 0034 6B80     		strh	r3, [r5, #2]	@ movhi
- 235:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[2] = (magRegisterData[5] << 8)
- 840              		.loc 1 235 2 is_stmt 1 view .LVU171
- 841              		.loc 1 235 29 is_stmt 0 view .LVU172
- 842 0036 6279     		ldrb	r2, [r4, #5]	@ zero_extendqisi2
- 236:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[4];
- 843              		.loc 1 236 21 view .LVU173
- 844 0038 2379     		ldrb	r3, [r4, #4]	@ zero_extendqisi2
- 845              		.loc 1 236 4 view .LVU174
- 846 003a 43EA0223 		orr	r3, r3, r2, lsl #8
- 235:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[2] = (magRegisterData[5] << 8)
- 847              		.loc 1 235 11 view .LVU175
- 848 003e AB80     		strh	r3, [r5, #4]	@ movhi
- 237:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 238:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 239:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 849              		.loc 1 239 1 view .LVU176
- 850 0040 05B0     		add	sp, sp, #20
- 851              	.LCFI23:
- 852              		.cfi_def_cfa_offset 12
- 853              		@ sp needed
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 20
+ 630 0060 B1F90230 		ldrsh	r3, [r1, #2]
+ 631              		.loc 1 237 40 view .LVU104
+ 632 0064 9B11     		asrs	r3, r3, #6
+ 633              		.loc 1 237 46 view .LVU105
+ 634 0066 02FB03F3 		mul	r3, r2, r3
+ 635              		.loc 1 237 53 view .LVU106
+ 636 006a 03F5FA73 		add	r3, r3, #500
+ 637              		.loc 1 237 60 view .LVU107
+ 638 006e 80FB03C5 		smull	ip, r5, r0, r3
+ 639 0072 DB17     		asrs	r3, r3, #31
+ 640 0074 C3EBA513 		rsb	r3, r3, r5, asr #6
+ 641              		.loc 1 237 11 view .LVU108
+ 642 0078 6360     		str	r3, [r4, #4]
+ 238:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[2] = (int32_t) (((accRawData[2] >> 6) * 3900 + 500) / 1000);
+ 643              		.loc 1 238 2 is_stmt 1 view .LVU109
+ 644              		.loc 1 238 36 is_stmt 0 view .LVU110
+ 645 007a B1F90430 		ldrsh	r3, [r1, #4]
+ 646              		.loc 1 238 40 view .LVU111
+ 647 007e 9B11     		asrs	r3, r3, #6
+ 648              		.loc 1 238 46 view .LVU112
+ 649 0080 02FB03F2 		mul	r2, r2, r3
+ 650              		.loc 1 238 53 view .LVU113
+ 651 0084 02F5FA72 		add	r2, r2, #500
+ 652              		.loc 1 238 60 view .LVU114
+ 653 0088 80FB0230 		smull	r3, r0, r0, r2
+ 654 008c D217     		asrs	r2, r2, #31
+ 655 008e C2EBA012 		rsb	r2, r2, r0, asr #6
+ 656              		.loc 1 238 11 view .LVU115
+ 657 0092 A260     		str	r2, [r4, #8]
+ 239:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 240:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
+ 658              		.loc 1 240 1 view .LVU116
+ 659 0094 05B0     		add	sp, sp, #20
+ 660              	.LCFI17:
+ 661              		.cfi_def_cfa_offset 12
+ 662              		@ sp needed
+ 663 0096 30BD     		pop	{r4, r5, pc}
+ 664              	.LVL41:
+ 665              	.L45:
+ 666              		.loc 1 240 1 view .LVU117
+ 667              		.align	2
+ 668              	.L44:
+ 669 0098 00000000 		.word	accRegisterData
+ 670 009c 00000000 		.word	LSM303AGR_hi2c
+ 671 00a0 00000000 		.word	accRawData
+ 672 00a4 D34D6210 		.word	274877907
+ 673              		.cfi_endproc
+ 674              	.LFE133:
+ 676              		.section	.text.LSM303AGR_MAG_readMagneticData,"ax",%progbits
+ 677              		.align	1
+ 678              		.global	LSM303AGR_MAG_readMagneticData
+ 679              		.syntax unified
+ 680              		.thumb
+ 681              		.thumb_func
+ 682              		.fpu fpv4-sp-d16
+ 684              	LSM303AGR_MAG_readMagneticData:
+ 685              	.LVL42:
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 17
 
 
- 854 0042 30BD     		pop	{r4, r5, pc}
- 855              	.LVL43:
- 856              	.L55:
- 857              		.loc 1 239 1 view .LVU177
- 858              		.align	2
- 859              	.L54:
- 860 0044 00000000 		.word	magRegisterData
- 861 0048 00000000 		.word	LSM303AGR_hi2c
- 862              		.cfi_endproc
- 863              	.LFE135:
- 865              		.section	.text.LSM303AGR_ACC_readAccelerationRawData,"ax",%progbits
- 866              		.align	1
- 867              		.global	LSM303AGR_ACC_readAccelerationRawData
- 868              		.syntax unified
- 869              		.thumb
- 870              		.thumb_func
- 871              		.fpu fpv4-sp-d16
- 873              	LSM303AGR_ACC_readAccelerationRawData:
- 874              	.LVL44:
- 875              	.LFB136:
- 240:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 241:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_ACC_readAccelerationRawData(uint16_t *pData) {
- 876              		.loc 1 241 61 is_stmt 1 view -0
- 877              		.cfi_startproc
- 878              		@ args = 0, pretend = 0, frame = 0
- 879              		@ frame_needed = 0, uses_anonymous_args = 0
- 880              		.loc 1 241 61 is_stmt 0 view .LVU179
- 881 0000 30B5     		push	{r4, r5, lr}
- 882              	.LCFI24:
- 883              		.cfi_def_cfa_offset 12
- 884              		.cfi_offset 4, -12
- 885              		.cfi_offset 5, -8
- 886              		.cfi_offset 14, -4
- 887 0002 85B0     		sub	sp, sp, #20
- 888              	.LCFI25:
- 889              		.cfi_def_cfa_offset 32
- 890 0004 0546     		mov	r5, r0
- 242:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//accRegisterData[6];
- 243:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//accRawData[3];
- 244:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 245:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRegisterData[6];
- 246:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRawData[3];
- 247:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//LSM303AGR_ACC_TEMP_DATA rawData;
- 248:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 249:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	HAL_I2C_Mem_Read(LSM303AGR_hi2c, LSM303AGR_ACC_I2C_ADDRESS,	LSM303AGR_ACC_MULTI_READ, I2C_MEMADD_S
- 891              		.loc 1 249 2 is_stmt 1 view .LVU180
- 892 0006 4FF0FF33 		mov	r3, #-1
- 893 000a 0293     		str	r3, [sp, #8]
- 894 000c 0623     		movs	r3, #6
- 895 000e 0193     		str	r3, [sp, #4]
- 896 0010 0C4C     		ldr	r4, .L58
- 897 0012 0094     		str	r4, [sp]
- 898 0014 0123     		movs	r3, #1
- 899 0016 A822     		movs	r2, #168
- 900 0018 3221     		movs	r1, #50
- 901 001a 0B48     		ldr	r0, .L58+4
- 902              	.LVL45:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 21
-
-
- 903              		.loc 1 249 2 is_stmt 0 view .LVU181
- 904 001c 0068     		ldr	r0, [r0]
- 905 001e FFF7FEFF 		bl	HAL_I2C_Mem_Read
- 906              	.LVL46:
+ 686              	.LFB134:
+ 241:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 242:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
+ 243:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Reads the output registers of the magnetometer and applies the sensitivity
+ 244:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * @param pData: a pointer to where the data needs to be stored
+ 245:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
+ 246:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_MAG_readMagneticData(int32_t *pData) {
+ 687              		.loc 1 246 53 is_stmt 1 view -0
+ 688              		.cfi_startproc
+ 689              		@ args = 0, pretend = 0, frame = 0
+ 690              		@ frame_needed = 0, uses_anonymous_args = 0
+ 691              		.loc 1 246 53 is_stmt 0 view .LVU119
+ 692 0000 30B5     		push	{r4, r5, lr}
+ 693              	.LCFI18:
+ 694              		.cfi_def_cfa_offset 12
+ 695              		.cfi_offset 4, -12
+ 696              		.cfi_offset 5, -8
+ 697              		.cfi_offset 14, -4
+ 698 0002 85B0     		sub	sp, sp, #20
+ 699              	.LCFI19:
+ 700              		.cfi_def_cfa_offset 32
+ 701 0004 0446     		mov	r4, r0
+ 247:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRegisterData[6];
+ 248:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 		//magRawData[3];
+ 249:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 		//LSM303AGR_ACC_TEMP_DATA rawData;
  250:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 251:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[0] = (accRegisterData[1] << 8)	| accRegisterData[0];
- 907              		.loc 1 251 2 is_stmt 1 view .LVU182
- 908              		.loc 1 251 29 is_stmt 0 view .LVU183
- 909 0022 6278     		ldrb	r2, [r4, #1]	@ zero_extendqisi2
- 910              		.loc 1 251 56 view .LVU184
- 911 0024 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
- 912              		.loc 1 251 39 view .LVU185
- 913 0026 43EA0223 		orr	r3, r3, r2, lsl #8
- 914              		.loc 1 251 11 view .LVU186
- 915 002a 2B80     		strh	r3, [r5]	@ movhi
- 252:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[1] = (accRegisterData[3] << 8)| accRegisterData[2];
- 916              		.loc 1 252 2 is_stmt 1 view .LVU187
- 917              		.loc 1 252 29 is_stmt 0 view .LVU188
- 918 002c E278     		ldrb	r2, [r4, #3]	@ zero_extendqisi2
- 919              		.loc 1 252 55 view .LVU189
- 920 002e A378     		ldrb	r3, [r4, #2]	@ zero_extendqisi2
- 921              		.loc 1 252 38 view .LVU190
- 922 0030 43EA0223 		orr	r3, r3, r2, lsl #8
- 923              		.loc 1 252 11 view .LVU191
- 924 0034 6B80     		strh	r3, [r5, #2]	@ movhi
- 253:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[2] = (accRegisterData[5] << 8)| accRegisterData[4];
- 925              		.loc 1 253 2 is_stmt 1 view .LVU192
- 926              		.loc 1 253 29 is_stmt 0 view .LVU193
- 927 0036 6279     		ldrb	r2, [r4, #5]	@ zero_extendqisi2
- 928              		.loc 1 253 55 view .LVU194
- 929 0038 2379     		ldrb	r3, [r4, #4]	@ zero_extendqisi2
- 930              		.loc 1 253 38 view .LVU195
- 931 003a 43EA0223 		orr	r3, r3, r2, lsl #8
- 932              		.loc 1 253 11 view .LVU196
- 933 003e AB80     		strh	r3, [r5, #4]	@ movhi
- 254:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 255:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	/* Apply proper shift and sensitivity */
- 256:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	// Normal mode 10-bit, shift = 6 and FS = 2
- 257:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//pData[0] = (int32_t) (((accRawData[0] >> 6) * 3900 + 500) / 1000);
- 258:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//pData[1] = (int32_t) (((accRawData[1] >> 6) * 3900 + 500) / 1000);
- 259:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//pData[2] = (int32_t) (((accRawData[2] >> 6) * 3900 + 500) / 1000);
- 260:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
- 261:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
- 934              		.loc 1 261 1 view .LVU197
- 935 0040 05B0     		add	sp, sp, #20
- 936              	.LCFI26:
- 937              		.cfi_def_cfa_offset 12
- 938              		@ sp needed
- 939 0042 30BD     		pop	{r4, r5, pc}
- 940              	.LVL47:
- 941              	.L59:
- 942              		.loc 1 261 1 view .LVU198
- 943              		.align	2
- 944              	.L58:
- 945 0044 00000000 		.word	accRegisterData
- 946 0048 00000000 		.word	LSM303AGR_hi2c
- 947              		.cfi_endproc
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 22
+ 251:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//LSM303AGR_MAG_TEMP_DATA rawData;
+ 252:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 253:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	HAL_I2C_Mem_Read(LSM303AGR_hi2c, LSM303AGR_MAG_I2C_ADDRESS,
+ 702              		.loc 1 253 2 is_stmt 1 view .LVU120
+ 703 0006 4FF0FF33 		mov	r3, #-1
+ 704 000a 0293     		str	r3, [sp, #8]
+ 705 000c 0623     		movs	r3, #6
+ 706 000e 0193     		str	r3, [sp, #4]
+ 707 0010 1F4D     		ldr	r5, .L48
+ 708 0012 0095     		str	r5, [sp]
+ 709 0014 0123     		movs	r3, #1
+ 710 0016 E822     		movs	r2, #232
+ 711 0018 3C21     		movs	r1, #60
+ 712 001a 1E48     		ldr	r0, .L48+4
+ 713              	.LVL43:
+ 714              		.loc 1 253 2 is_stmt 0 view .LVU121
+ 715 001c 0068     		ldr	r0, [r0]
+ 716 001e FFF7FEFF 		bl	HAL_I2C_Mem_Read
+ 717              	.LVL44:
+ 254:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_MAG_MULTI_READ, I2C_MEMADD_SIZE_8BIT, magRegisterData,
+ 255:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			sizeof(magRegisterData), HAL_MAX_DELAY);
+ 256:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 257:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	magRawData[0] = (magRegisterData[1] << 8)
+ 718              		.loc 1 257 2 is_stmt 1 view .LVU122
+ 719              		.loc 1 257 34 is_stmt 0 view .LVU123
+ 720 0022 6A78     		ldrb	r2, [r5, #1]	@ zero_extendqisi2
+ 258:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[0];
+ 721              		.loc 1 258 21 view .LVU124
+ 722 0024 2B78     		ldrb	r3, [r5]	@ zero_extendqisi2
+ 723              		.loc 1 258 4 view .LVU125
+ 724 0026 43EA0223 		orr	r3, r3, r2, lsl #8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 18
 
 
- 948              	.LFE136:
- 950              		.comm	magRawData,6,4
- 951              		.comm	magRegisterData,6,4
- 952              		.comm	accRawData,6,4
- 953              		.comm	accRegisterData,6,4
- 954              		.comm	LSM303AGR_hi2c,4,4
- 955              		.comm	LSM303AGR_setting,1,1
- 956              		.text
- 957              	.Letext0:
- 958              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
- 959              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
- 960              		.file 4 "../../core/ST/CMSIS/Include/core_cm4.h"
- 961              		.file 5 "../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
- 962              		.file 6 "../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/stm32l496xx.h"
- 963              		.file 7 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
- 964              		.file 8 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h"
- 965              		.file 9 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h"
- 966              		.file 10 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
- 967              		.file 11 "../../core/drivers/LSM303AGR/inc/LSM303AGRSensor.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s 			page 23
+ 725 002a 1BB2     		sxth	r3, r3
+ 257:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[0];
+ 726              		.loc 1 257 16 view .LVU126
+ 727 002c 1A4A     		ldr	r2, .L48+8
+ 728 002e 1380     		strh	r3, [r2]	@ movhi
+ 259:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	magRawData[1] = (magRegisterData[3] << 8)
+ 729              		.loc 1 259 2 is_stmt 1 view .LVU127
+ 730              		.loc 1 259 34 is_stmt 0 view .LVU128
+ 731 0030 E878     		ldrb	r0, [r5, #3]	@ zero_extendqisi2
+ 260:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[2];
+ 732              		.loc 1 260 21 view .LVU129
+ 733 0032 A978     		ldrb	r1, [r5, #2]	@ zero_extendqisi2
+ 734              		.loc 1 260 4 view .LVU130
+ 735 0034 41EA0021 		orr	r1, r1, r0, lsl #8
+ 259:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	magRawData[1] = (magRegisterData[3] << 8)
+ 736              		.loc 1 259 16 view .LVU131
+ 737 0038 5180     		strh	r1, [r2, #2]	@ movhi
+ 261:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	magRawData[2] = (magRegisterData[5] << 8)
+ 738              		.loc 1 261 2 is_stmt 1 view .LVU132
+ 739              		.loc 1 261 34 is_stmt 0 view .LVU133
+ 740 003a 6879     		ldrb	r0, [r5, #5]	@ zero_extendqisi2
+ 262:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[4];
+ 741              		.loc 1 262 21 view .LVU134
+ 742 003c 2979     		ldrb	r1, [r5, #4]	@ zero_extendqisi2
+ 743              		.loc 1 262 4 view .LVU135
+ 744 003e 41EA0021 		orr	r1, r1, r0, lsl #8
+ 261:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	magRawData[2] = (magRegisterData[5] << 8)
+ 745              		.loc 1 261 16 view .LVU136
+ 746 0042 9180     		strh	r1, [r2, #4]	@ movhi
+ 263:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 264:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	/* Calculate the data. */
+ 265:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[0] = (int32_t) (magRawData[0] * 1.5f);
+ 747              		.loc 1 265 2 is_stmt 1 view .LVU137
+ 748              		.loc 1 265 38 is_stmt 0 view .LVU138
+ 749 0044 07EE903A 		vmov	s15, r3	@ int
+ 750 0048 F8EEE77A 		vcvt.f32.s32	s15, s15
+ 751 004c F7EE086A 		vmov.f32	s13, #1.5e+0
+ 752 0050 67EEA67A 		vmul.f32	s15, s15, s13
+ 753              		.loc 1 265 13 view .LVU139
+ 754 0054 FDEEE77A 		vcvt.s32.f32	s15, s15
+ 755              		.loc 1 265 11 view .LVU140
+ 756 0058 C4ED007A 		vstr.32	s15, [r4]	@ int
+ 266:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[1] = (int32_t) (magRawData[1] * 1.5f);
+ 757              		.loc 1 266 2 is_stmt 1 view .LVU141
+ 758              		.loc 1 266 34 is_stmt 0 view .LVU142
+ 759 005c B2F90230 		ldrsh	r3, [r2, #2]
+ 760 0060 07EE103A 		vmov	s14, r3	@ int
+ 761              		.loc 1 266 38 view .LVU143
+ 762 0064 B8EEC77A 		vcvt.f32.s32	s14, s14
+ 763 0068 27EE267A 		vmul.f32	s14, s14, s13
+ 764              		.loc 1 266 13 view .LVU144
+ 765 006c BDEEC77A 		vcvt.s32.f32	s14, s14
+ 766              		.loc 1 266 11 view .LVU145
+ 767 0070 84ED017A 		vstr.32	s14, [r4, #4]	@ int
+ 267:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[2] = (int32_t) (magRawData[2] * 1.5f);
+ 768              		.loc 1 267 2 is_stmt 1 view .LVU146
+ 769              		.loc 1 267 34 is_stmt 0 view .LVU147
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 19
+
+
+ 770 0074 B2F90430 		ldrsh	r3, [r2, #4]
+ 771 0078 07EE903A 		vmov	s15, r3	@ int
+ 772              		.loc 1 267 38 view .LVU148
+ 773 007c F8EEE77A 		vcvt.f32.s32	s15, s15
+ 774 0080 67EEA67A 		vmul.f32	s15, s15, s13
+ 775              		.loc 1 267 13 view .LVU149
+ 776 0084 FDEEE77A 		vcvt.s32.f32	s15, s15
+ 777              		.loc 1 267 11 view .LVU150
+ 778 0088 C4ED027A 		vstr.32	s15, [r4, #8]	@ int
+ 268:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 269:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
+ 779              		.loc 1 269 1 view .LVU151
+ 780 008c 05B0     		add	sp, sp, #20
+ 781              	.LCFI20:
+ 782              		.cfi_def_cfa_offset 12
+ 783              		@ sp needed
+ 784 008e 30BD     		pop	{r4, r5, pc}
+ 785              	.LVL45:
+ 786              	.L49:
+ 787              		.loc 1 269 1 view .LVU152
+ 788              		.align	2
+ 789              	.L48:
+ 790 0090 00000000 		.word	magRegisterData
+ 791 0094 00000000 		.word	LSM303AGR_hi2c
+ 792 0098 00000000 		.word	magRawData
+ 793              		.cfi_endproc
+ 794              	.LFE134:
+ 796              		.section	.text.LSM303AGR_MAG_readMagneticRawData,"ax",%progbits
+ 797              		.align	1
+ 798              		.global	LSM303AGR_MAG_readMagneticRawData
+ 799              		.syntax unified
+ 800              		.thumb
+ 801              		.thumb_func
+ 802              		.fpu fpv4-sp-d16
+ 804              	LSM303AGR_MAG_readMagneticRawData:
+ 805              	.LVL46:
+ 806              	.LFB135:
+ 270:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 271:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
+ 272:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Read the output registers of the magnetometer
+ 273:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * @param pData: a pointer to where the data needs to be stored
+ 274:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  */
+ 275:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_MAG_readMagneticRawData(uint16_t *pData) {
+ 807              		.loc 1 275 57 is_stmt 1 view -0
+ 808              		.cfi_startproc
+ 809              		@ args = 0, pretend = 0, frame = 0
+ 810              		@ frame_needed = 0, uses_anonymous_args = 0
+ 811              		.loc 1 275 57 is_stmt 0 view .LVU154
+ 812 0000 30B5     		push	{r4, r5, lr}
+ 813              	.LCFI21:
+ 814              		.cfi_def_cfa_offset 12
+ 815              		.cfi_offset 4, -12
+ 816              		.cfi_offset 5, -8
+ 817              		.cfi_offset 14, -4
+ 818 0002 85B0     		sub	sp, sp, #20
+ 819              	.LCFI22:
+ 820              		.cfi_def_cfa_offset 32
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 20
+
+
+ 821 0004 0546     		mov	r5, r0
+ 276:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRegisterData[6];
+ 277:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			//magRawData[3];
+ 278:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//LSM303AGR_MAG_TEMP_DATA rawData;
+ 279:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 280:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	HAL_I2C_Mem_Read(LSM303AGR_hi2c, LSM303AGR_MAG_I2C_ADDRESS,
+ 822              		.loc 1 280 2 is_stmt 1 view .LVU155
+ 823 0006 4FF0FF33 		mov	r3, #-1
+ 824 000a 0293     		str	r3, [sp, #8]
+ 825 000c 0623     		movs	r3, #6
+ 826 000e 0193     		str	r3, [sp, #4]
+ 827 0010 0C4C     		ldr	r4, .L52
+ 828 0012 0094     		str	r4, [sp]
+ 829 0014 0123     		movs	r3, #1
+ 830 0016 E822     		movs	r2, #232
+ 831 0018 3C21     		movs	r1, #60
+ 832 001a 0B48     		ldr	r0, .L52+4
+ 833              	.LVL47:
+ 834              		.loc 1 280 2 is_stmt 0 view .LVU156
+ 835 001c 0068     		ldr	r0, [r0]
+ 836 001e FFF7FEFF 		bl	HAL_I2C_Mem_Read
+ 837              	.LVL48:
+ 281:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_MAG_MULTI_READ, I2C_MEMADD_SIZE_8BIT, magRegisterData,
+ 282:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			sizeof(magRegisterData), HAL_MAX_DELAY);
+ 283:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 284:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[0] = (magRegisterData[1] << 8)
+ 838              		.loc 1 284 2 is_stmt 1 view .LVU157
+ 839              		.loc 1 284 29 is_stmt 0 view .LVU158
+ 840 0022 6278     		ldrb	r2, [r4, #1]	@ zero_extendqisi2
+ 285:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[0];
+ 841              		.loc 1 285 21 view .LVU159
+ 842 0024 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
+ 843              		.loc 1 285 4 view .LVU160
+ 844 0026 43EA0223 		orr	r3, r3, r2, lsl #8
+ 284:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[0];
+ 845              		.loc 1 284 11 view .LVU161
+ 846 002a 2B80     		strh	r3, [r5]	@ movhi
+ 286:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[1] = (magRegisterData[3] << 8)
+ 847              		.loc 1 286 2 is_stmt 1 view .LVU162
+ 848              		.loc 1 286 29 is_stmt 0 view .LVU163
+ 849 002c E278     		ldrb	r2, [r4, #3]	@ zero_extendqisi2
+ 287:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[2];
+ 850              		.loc 1 287 21 view .LVU164
+ 851 002e A378     		ldrb	r3, [r4, #2]	@ zero_extendqisi2
+ 852              		.loc 1 287 4 view .LVU165
+ 853 0030 43EA0223 		orr	r3, r3, r2, lsl #8
+ 286:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[1] = (magRegisterData[3] << 8)
+ 854              		.loc 1 286 11 view .LVU166
+ 855 0034 6B80     		strh	r3, [r5, #2]	@ movhi
+ 288:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[2] = (magRegisterData[5] << 8)
+ 856              		.loc 1 288 2 is_stmt 1 view .LVU167
+ 857              		.loc 1 288 29 is_stmt 0 view .LVU168
+ 858 0036 6279     		ldrb	r2, [r4, #5]	@ zero_extendqisi2
+ 289:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[4];
+ 859              		.loc 1 289 21 view .LVU169
+ 860 0038 2379     		ldrb	r3, [r4, #4]	@ zero_extendqisi2
+ 861              		.loc 1 289 4 view .LVU170
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 21
+
+
+ 862 003a 43EA0223 		orr	r3, r3, r2, lsl #8
+ 288:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[2] = (magRegisterData[5] << 8)
+ 863              		.loc 1 288 11 view .LVU171
+ 864 003e AB80     		strh	r3, [r5, #4]	@ movhi
+ 290:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 291:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 292:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
+ 865              		.loc 1 292 1 view .LVU172
+ 866 0040 05B0     		add	sp, sp, #20
+ 867              	.LCFI23:
+ 868              		.cfi_def_cfa_offset 12
+ 869              		@ sp needed
+ 870 0042 30BD     		pop	{r4, r5, pc}
+ 871              	.LVL49:
+ 872              	.L53:
+ 873              		.loc 1 292 1 view .LVU173
+ 874              		.align	2
+ 875              	.L52:
+ 876 0044 00000000 		.word	magRegisterData
+ 877 0048 00000000 		.word	LSM303AGR_hi2c
+ 878              		.cfi_endproc
+ 879              	.LFE135:
+ 881              		.section	.text.LSM303AGR_ACC_readAccelerationRawData,"ax",%progbits
+ 882              		.align	1
+ 883              		.global	LSM303AGR_ACC_readAccelerationRawData
+ 884              		.syntax unified
+ 885              		.thumb
+ 886              		.thumb_func
+ 887              		.fpu fpv4-sp-d16
+ 889              	LSM303AGR_ACC_readAccelerationRawData:
+ 890              	.LVL50:
+ 891              	.LFB136:
+ 293:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 294:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** void LSM303AGR_ACC_readAccelerationRawData(uint16_t *pData) {
+ 892              		.loc 1 294 61 is_stmt 1 view -0
+ 893              		.cfi_startproc
+ 894              		@ args = 0, pretend = 0, frame = 0
+ 895              		@ frame_needed = 0, uses_anonymous_args = 0
+ 896              		.loc 1 294 61 is_stmt 0 view .LVU175
+ 897 0000 30B5     		push	{r4, r5, lr}
+ 898              	.LCFI24:
+ 899              		.cfi_def_cfa_offset 12
+ 900              		.cfi_offset 4, -12
+ 901              		.cfi_offset 5, -8
+ 902              		.cfi_offset 14, -4
+ 903 0002 85B0     		sub	sp, sp, #20
+ 904              	.LCFI25:
+ 905              		.cfi_def_cfa_offset 32
+ 906 0004 0546     		mov	r5, r0
+ 295:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//accRegisterData[6];
+ 296:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//accRawData[3];
+ 297:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 298:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRegisterData[6];
+ 299:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRawData[3];
+ 300:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//LSM303AGR_ACC_TEMP_DATA rawData;
+ 301:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 302:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	HAL_I2C_Mem_Read(LSM303AGR_hi2c, LSM303AGR_ACC_I2C_ADDRESS,	LSM303AGR_ACC_MULTI_READ, I2C_MEMADD_S
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 22
+
+
+ 907              		.loc 1 302 2 is_stmt 1 view .LVU176
+ 908 0006 4FF0FF33 		mov	r3, #-1
+ 909 000a 0293     		str	r3, [sp, #8]
+ 910 000c 0623     		movs	r3, #6
+ 911 000e 0193     		str	r3, [sp, #4]
+ 912 0010 0C4C     		ldr	r4, .L56
+ 913 0012 0094     		str	r4, [sp]
+ 914 0014 0123     		movs	r3, #1
+ 915 0016 A822     		movs	r2, #168
+ 916 0018 3221     		movs	r1, #50
+ 917 001a 0B48     		ldr	r0, .L56+4
+ 918              	.LVL51:
+ 919              		.loc 1 302 2 is_stmt 0 view .LVU177
+ 920 001c 0068     		ldr	r0, [r0]
+ 921 001e FFF7FEFF 		bl	HAL_I2C_Mem_Read
+ 922              	.LVL52:
+ 303:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 304:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[0] = (accRegisterData[1] << 8)	| accRegisterData[0];
+ 923              		.loc 1 304 2 is_stmt 1 view .LVU178
+ 924              		.loc 1 304 29 is_stmt 0 view .LVU179
+ 925 0022 6278     		ldrb	r2, [r4, #1]	@ zero_extendqisi2
+ 926              		.loc 1 304 56 view .LVU180
+ 927 0024 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
+ 928              		.loc 1 304 39 view .LVU181
+ 929 0026 43EA0223 		orr	r3, r3, r2, lsl #8
+ 930              		.loc 1 304 11 view .LVU182
+ 931 002a 2B80     		strh	r3, [r5]	@ movhi
+ 305:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[1] = (accRegisterData[3] << 8)| accRegisterData[2];
+ 932              		.loc 1 305 2 is_stmt 1 view .LVU183
+ 933              		.loc 1 305 29 is_stmt 0 view .LVU184
+ 934 002c E278     		ldrb	r2, [r4, #3]	@ zero_extendqisi2
+ 935              		.loc 1 305 55 view .LVU185
+ 936 002e A378     		ldrb	r3, [r4, #2]	@ zero_extendqisi2
+ 937              		.loc 1 305 38 view .LVU186
+ 938 0030 43EA0223 		orr	r3, r3, r2, lsl #8
+ 939              		.loc 1 305 11 view .LVU187
+ 940 0034 6B80     		strh	r3, [r5, #2]	@ movhi
+ 306:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	pData[2] = (accRegisterData[5] << 8)| accRegisterData[4];
+ 941              		.loc 1 306 2 is_stmt 1 view .LVU188
+ 942              		.loc 1 306 29 is_stmt 0 view .LVU189
+ 943 0036 6279     		ldrb	r2, [r4, #5]	@ zero_extendqisi2
+ 944              		.loc 1 306 55 view .LVU190
+ 945 0038 2379     		ldrb	r3, [r4, #4]	@ zero_extendqisi2
+ 946              		.loc 1 306 38 view .LVU191
+ 947 003a 43EA0223 		orr	r3, r3, r2, lsl #8
+ 948              		.loc 1 306 11 view .LVU192
+ 949 003e AB80     		strh	r3, [r5, #4]	@ movhi
+ 307:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 308:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	/* Apply proper shift and sensitivity */
+ 309:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	// Normal mode 10-bit, shift = 6 and FS = 2
+ 310:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//pData[0] = (int32_t) (((accRawData[0] >> 6) * 3900 + 500) / 1000);
+ 311:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//pData[1] = (int32_t) (((accRawData[1] >> 6) * 3900 + 500) / 1000);
+ 312:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//pData[2] = (int32_t) (((accRawData[2] >> 6) * 3900 + 500) / 1000);
+ 313:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
+ 314:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** }
+ 950              		.loc 1 314 1 view .LVU193
+ 951 0040 05B0     		add	sp, sp, #20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 23
+
+
+ 952              	.LCFI26:
+ 953              		.cfi_def_cfa_offset 12
+ 954              		@ sp needed
+ 955 0042 30BD     		pop	{r4, r5, pc}
+ 956              	.LVL53:
+ 957              	.L57:
+ 958              		.loc 1 314 1 view .LVU194
+ 959              		.align	2
+ 960              	.L56:
+ 961 0044 00000000 		.word	accRegisterData
+ 962 0048 00000000 		.word	LSM303AGR_hi2c
+ 963              		.cfi_endproc
+ 964              	.LFE136:
+ 966              		.comm	magRawData,6,4
+ 967              		.comm	magRegisterData,6,4
+ 968              		.comm	accRawData,6,4
+ 969              		.comm	accRegisterData,6,4
+ 970              		.comm	LSM303AGR_hi2c,4,4
+ 971              		.comm	LSM303AGR_setting,1,1
+ 972              		.text
+ 973              	.Letext0:
+ 974              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
+ 975              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
+ 976              		.file 4 "../../core/ST/CMSIS/Include/core_cm4.h"
+ 977              		.file 5 "../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
+ 978              		.file 6 "../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/stm32l496xx.h"
+ 979              		.file 7 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
+ 980              		.file 8 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h"
+ 981              		.file 9 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h"
+ 982              		.file 10 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
+ 983              		.file 11 "../../core/drivers/LSM303AGR/inc/LSM303AGRSensor.h"
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 LSM303AGRSensor.c
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:18     .text.LSM303AGR_setI2CInterface:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:26     .text.LSM303AGR_setI2CInterface:00000000 LSM303AGR_setI2CInterface
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:44     .text.LSM303AGR_setI2CInterface:00000008 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:18     .text.LSM303AGR_setI2CInterface:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:26     .text.LSM303AGR_setI2CInterface:00000000 LSM303AGR_setI2CInterface
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:44     .text.LSM303AGR_setI2CInterface:00000008 $d
                             *COM*:00000004 LSM303AGR_hi2c
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:49     .text.LSM303AGR_readRegister:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:56     .text.LSM303AGR_readRegister:00000000 LSM303AGR_readRegister
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:132    .text.LSM303AGR_readRegister:0000004c $d
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:137    .text.LSM303AGR_writeRegister:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:144    .text.LSM303AGR_writeRegister:00000000 LSM303AGR_writeRegister
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:220    .text.LSM303AGR_writeRegister:0000004c $d
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:225    .text.LSM303AGR_init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:232    .text.LSM303AGR_init:00000000 LSM303AGR_init
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:294    .text.LSM303AGR_init:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:49     .text.LSM303AGR_readRegister:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:56     .text.LSM303AGR_readRegister:00000000 LSM303AGR_readRegister
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:132    .text.LSM303AGR_readRegister:0000004c $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:137    .text.LSM303AGR_writeRegister:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:144    .text.LSM303AGR_writeRegister:00000000 LSM303AGR_writeRegister
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:220    .text.LSM303AGR_writeRegister:0000004c $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:225    .text.LSM303AGR_init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:232    .text.LSM303AGR_init:00000000 LSM303AGR_init
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:315    .text.LSM303AGR_ACC_reset:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:322    .text.LSM303AGR_ACC_reset:00000000 LSM303AGR_ACC_reset
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:348    .text.LSM303AGR_ACC_reset:00000014 $d
                             *COM*:00000001 LSM303AGR_setting
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:299    .text.LSM303AGR_ACC_reset:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:306    .text.LSM303AGR_ACC_reset:00000000 LSM303AGR_ACC_reset
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:332    .text.LSM303AGR_ACC_reset:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:337    .text.LSM303AGR_MAG_reset:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:344    .text.LSM303AGR_MAG_reset:00000000 LSM303AGR_MAG_reset
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:370    .text.LSM303AGR_MAG_reset:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:375    .text.LSM303AGR_powerDownAccelerometer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:382    .text.LSM303AGR_powerDownAccelerometer:00000000 LSM303AGR_powerDownAccelerometer
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:408    .text.LSM303AGR_powerDownAccelerometer:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:413    .text.LSM303AGR_powerDownMagnetometer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:420    .text.LSM303AGR_powerDownMagnetometer:00000000 LSM303AGR_powerDownMagnetometer
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:446    .text.LSM303AGR_powerDownMagnetometer:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:451    .text.LSM303AGR_wakeUpAccelerometer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:458    .text.LSM303AGR_wakeUpAccelerometer:00000000 LSM303AGR_wakeUpAccelerometer
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:484    .text.LSM303AGR_wakeUpAccelerometer:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:489    .text.LSM303AGR_wakeUpMagnetometer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:496    .text.LSM303AGR_wakeUpMagnetometer:00000000 LSM303AGR_wakeUpMagnetometer
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:522    .text.LSM303AGR_wakeUpMagnetometer:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:527    .text.LSM303AGR_ACC_readAccelerationData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:534    .text.LSM303AGR_ACC_readAccelerationData:00000000 LSM303AGR_ACC_readAccelerationData
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:653    .text.LSM303AGR_ACC_readAccelerationData:00000098 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:353    .text.LSM303AGR_MAG_reset:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:360    .text.LSM303AGR_MAG_reset:00000000 LSM303AGR_MAG_reset
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:386    .text.LSM303AGR_MAG_reset:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:391    .text.LSM303AGR_powerDownAccelerometer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:398    .text.LSM303AGR_powerDownAccelerometer:00000000 LSM303AGR_powerDownAccelerometer
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:424    .text.LSM303AGR_powerDownAccelerometer:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:429    .text.LSM303AGR_powerDownMagnetometer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:436    .text.LSM303AGR_powerDownMagnetometer:00000000 LSM303AGR_powerDownMagnetometer
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:462    .text.LSM303AGR_powerDownMagnetometer:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:467    .text.LSM303AGR_wakeUpAccelerometer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:474    .text.LSM303AGR_wakeUpAccelerometer:00000000 LSM303AGR_wakeUpAccelerometer
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:500    .text.LSM303AGR_wakeUpAccelerometer:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:505    .text.LSM303AGR_wakeUpMagnetometer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:512    .text.LSM303AGR_wakeUpMagnetometer:00000000 LSM303AGR_wakeUpMagnetometer
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:538    .text.LSM303AGR_wakeUpMagnetometer:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:543    .text.LSM303AGR_ACC_readAccelerationData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:550    .text.LSM303AGR_ACC_readAccelerationData:00000000 LSM303AGR_ACC_readAccelerationData
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:669    .text.LSM303AGR_ACC_readAccelerationData:00000098 $d
                             *COM*:00000006 accRegisterData
                             *COM*:00000006 accRawData
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:661    .text.LSM303AGR_MAG_readMagneticData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:668    .text.LSM303AGR_MAG_readMagneticData:00000000 LSM303AGR_MAG_readMagneticData
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:774    .text.LSM303AGR_MAG_readMagneticData:00000090 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:677    .text.LSM303AGR_MAG_readMagneticData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:684    .text.LSM303AGR_MAG_readMagneticData:00000000 LSM303AGR_MAG_readMagneticData
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:790    .text.LSM303AGR_MAG_readMagneticData:00000090 $d
                             *COM*:00000006 magRegisterData
                             *COM*:00000006 magRawData
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:781    .text.LSM303AGR_MAG_readMagneticRawData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:788    .text.LSM303AGR_MAG_readMagneticRawData:00000000 LSM303AGR_MAG_readMagneticRawData
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:860    .text.LSM303AGR_MAG_readMagneticRawData:00000044 $d
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:866    .text.LSM303AGR_ACC_readAccelerationRawData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:873    .text.LSM303AGR_ACC_readAccelerationRawData:00000000 LSM303AGR_ACC_readAccelerationRawData
-C:\Users\yvesk\AppData\Local\Temp\ccdu3E1X.s:945    .text.LSM303AGR_ACC_readAccelerationRawData:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:797    .text.LSM303AGR_MAG_readMagneticRawData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:804    .text.LSM303AGR_MAG_readMagneticRawData:00000000 LSM303AGR_MAG_readMagneticRawData
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:876    .text.LSM303AGR_MAG_readMagneticRawData:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:882    .text.LSM303AGR_ACC_readAccelerationRawData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:889    .text.LSM303AGR_ACC_readAccelerationRawData:00000000 LSM303AGR_ACC_readAccelerationRawData
+C:\Users\yvesk\AppData\Local\Temp\ccEdRFGi.s:961    .text.LSM303AGR_ACC_readAccelerationRawData:00000044 $d
 
 UNDEFINED SYMBOLS
 HAL_I2C_Mem_Read

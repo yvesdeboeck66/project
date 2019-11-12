@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
   28:../../shields/Murata-dualstack/src/alp.c **** #include "dae.h"
   29:../../shields/Murata-dualstack/src/alp.c **** #include "fifo.h"
   30:../../shields/Murata-dualstack/src/alp.c **** #include "d7ap.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 2
 
 
   31:../../shields/Murata-dualstack/src/alp.c **** //#include "log.h"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
   85:../../shields/Murata-dualstack/src/alp.c ****   error_t err = fifo_pop(cmd_fifo, &operand.file_id, 1); assert(err == oss7SUCCESS);
   86:../../shields/Murata-dualstack/src/alp.c ****   operand.offset = alp_parse_length_operand(cmd_fifo);
   87:../../shields/Murata-dualstack/src/alp.c ****   return operand;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 3
 
 
   88:../../shields/Murata-dualstack/src/alp.c **** }
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  142:../../shields/Murata-dualstack/src/alp.c ****     uint32_t network_id = __builtin_bswap32(((lorawan_session_config_abp_t*)config)->network_id);
  143:../../shields/Murata-dualstack/src/alp.c **** 
  144:../../shields/Murata-dualstack/src/alp.c ****     assert(fifo_put(fifo, (uint8_t*)&network_id, 4) == oss7SUCCESS);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 4
 
 
  145:../../shields/Murata-dualstack/src/alp.c ****   }
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  199:../../shields/Murata-dualstack/src/alp.c ****     fifo_put_byte(alp_response_fifo, ((d7ap_session_result_t*)status)->addressee.access_class);
  200:../../shields/Murata-dualstack/src/alp.c ****     uint8_t address_len = d7ap_addressee_id_length(((d7ap_session_result_t*)status)->addressee.ctrl
  201:../../shields/Murata-dualstack/src/alp.c ****     fifo_put(alp_response_fifo, ((d7ap_session_result_t*)status)->addressee.id, address_len);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 5
 
 
  202:../../shields/Murata-dualstack/src/alp.c ****   }
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  229:../../shields/Murata-dualstack/src/alp.c **** }
   56              		.loc 1 229 1 view .LVU10
   57 0010 08BD     		pop	{r3, pc}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 6
 
 
   58              	.L4:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  108 000c 0122     		movs	r2, #1
  109              	.LVL6:
  110              		.loc 1 234 3 is_stmt 0 view .LVU18
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 7
 
 
  111 000e 0DF10701 		add	r1, sp, #7
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  266:../../shields/Murata-dualstack/src/alp.c **** 
  267:../../shields/Murata-dualstack/src/alp.c ****   DPRINT("parsed interface status");
  268:../../shields/Murata-dualstack/src/alp.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 8
 
 
  134              		.loc 1 268 1 view .LVU28
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  179              	.LVL17:
  243:../../shields/Murata-dualstack/src/alp.c ****     interface_status->channel.center_freq_index = __builtin_bswap16(interface_status->channel.cente
  180              		.loc 1 243 5 is_stmt 1 view .LVU38
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 9
 
 
  181 0054 0222     		movs	r2, #2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  226 00a8 FFF7FEFF 		bl	fifo_pop
  227              	.LVL24:
  251:../../shields/Murata-dualstack/src/alp.c ****     fifo_pop(fifo, &interface_status->addressee.ctrl.raw, 1);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 10
 
 
  228              		.loc 1 251 5 view .LVU48
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
   25:../../shields/Murata-dualstack/inc/d7ap.h ****  * @addtogroup d7ap
   26:../../shields/Murata-dualstack/inc/d7ap.h ****  * @ingroup framework
   27:../../shields/Murata-dualstack/inc/d7ap.h ****  * @{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 11
 
 
   28:../../shields/Murata-dualstack/inc/d7ap.h ****  * @brief D7AP public types (used for modem and/or D7AP stack itself)
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
   82:../../shields/Murata-dualstack/inc/d7ap.h **** typedef enum
   83:../../shields/Murata-dualstack/inc/d7ap.h **** {
   84:../../shields/Murata-dualstack/inc/d7ap.h ****     AES_NONE = 0, /* No security */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 12
 
 
   85:../../shields/Murata-dualstack/inc/d7ap.h ****     AES_CTR = 0x01, /* data confidentiality */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  139:../../shields/Murata-dualstack/inc/d7ap.h ****     uint8_t link_budget;
  140:../../shields/Murata-dualstack/inc/d7ap.h ****     uint8_t link_quality;
  141:../../shields/Murata-dualstack/inc/d7ap.h ****     uint8_t target_rx_level;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 13
 
 
  142:../../shields/Murata-dualstack/inc/d7ap.h ****     d7ap_sp_state_t status;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  196:../../shields/Murata-dualstack/inc/d7ap.h ****                                                           if NULL, the associated packet will be re
  197:../../shields/Murata-dualstack/inc/d7ap.h **** } d7ap_resource_desc_t;
  198:../../shields/Murata-dualstack/inc/d7ap.h **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 14
 
 
  199:../../shields/Murata-dualstack/inc/d7ap.h **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  253:../../shields/Murata-dualstack/inc/d7ap.h **** /**
  254:../../shields/Murata-dualstack/inc/d7ap.h ****  * @brief   Sets the channels TX power index
  255:../../shields/Murata-dualstack/inc/d7ap.h ****  *
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 15
 
 
  256:../../shields/Murata-dualstack/inc/d7ap.h ****  * @param[in] power  The TX power index (from 1 to 16)
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  297:../../shields/Murata-dualstack/inc/d7ap.h ****       case ID_TYPE_UID:
  298:../../shields/Murata-dualstack/inc/d7ap.h ****         return ID_TYPE_UID_ID_LENGTH;
  267              		.loc 2 298 9 view .LVU55
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 16
 
 
  268              		.loc 2 298 16 is_stmt 0 view .LVU56
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  255:../../shields/Murata-dualstack/src/alp.c ****   }
  312              		.loc 1 255 5 discriminator 1 view .LVU66
  313              	.LBE6:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 17
 
 
  314              	.LBB9:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  358 0158 38000000 		.word	.LC4
  359 015c 00000000 		.word	.LANCHOR2
  360 0160 40000000 		.word	.LC5
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 18
 
 
  361 0164 6C000000 		.word	.LC6
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  411              		.cfi_def_cfa_offset 8
  412              		.cfi_offset 4, -8
  413              		.cfi_offset 14, -4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 19
 
 
  414 0002 82B0     		sub	sp, sp, #8
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
   55:../../shields/Murata-dualstack/src/alp.c ****   fifo_pop(cmd_fifo, (uint8_t*)&full_length, field_len);
  456              		.loc 1 55 12 view .LVU98
  457 002a 0090     		str	r0, [sp]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 20
 
 
   56:../../shields/Murata-dualstack/src/alp.c ****   return full_length;
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  504              		.loc 1 68 5 is_stmt 0 view .LVU108
  505 000c B1F5804F 		cmp	r1, #16384
  506 0010 2FD2     		bcs	.L40
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 21
 
 
   67:../../shields/Murata-dualstack/src/alp.c ****   if(length > 0x3FFF)
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  546              	.L38:
   77:../../shields/Murata-dualstack/src/alp.c ****     size--;
  547              		.loc 1 77 3 is_stmt 1 view .LVU124
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 22
 
 
   78:../../shields/Murata-dualstack/src/alp.c ****     assert(fifo_put(fifo, (uint8_t*)&length + size, 1) == oss7SUCCESS);
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  592 006a 3F21     		movs	r1, #63
  593 006c 0A48     		ldr	r0, .L46+8
  594 006e FFF7FEFF 		bl	__assert_func
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 23
 
 
  595              	.LVL61:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  646              		.cfi_def_cfa_offset 12
  647              		.cfi_offset 4, -12
  648              		.cfi_offset 5, -8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 24
 
 
  649              		.cfi_offset 14, -4
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  690 002a 30BD     		pop	{r4, r5, pc}
  691              	.LVL71:
  692              	.L51:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 25
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 25
 
 
  693              	.LCFI16:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  743 000a 0146     		mov	r1, r0
  744              	.LVL75:
  207:../../shields/Murata-dualstack/src/alp.c ****   action->file_data_operand.provided_data_length = alp_parse_length_operand(fifo);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 26
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 26
 
 
  745              		.loc 1 207 43 view .LVU159
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  790              		.align	2
  791              	.L58:
  792 0044 00000000 		.word	.LC11
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 27
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 27
 
 
  793 0048 00000000 		.word	.LANCHOR5
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  844              		.cfi_def_cfa_offset 8
  845              		.cfi_offset 3, -8
  846              		.cfi_offset 14, -4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 28
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 28
 
 
  220:../../shields/Murata-dualstack/src/alp.c ****   DPRINT("parsed return file data file %i, len %i", action->file_data_operand.file_offset.file_id, 
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  893 000e FFF7FEFF 		bl	fifo_pop
  894              	.LVL89:
   92:../../shields/Murata-dualstack/src/alp.c ****   err = fifo_pop(cmd_fifo, (uint8_t*)&operand.file_header, sizeof(d7ap_fs_file_header_t)); assert(e
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 29
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 29
 
 
  895              		.loc 1 92 58 is_stmt 1 view .LVU186
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  935              		.cfi_remember_state
  936              		.cfi_def_cfa_offset 12
  937              		@ sp needed
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 30
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 30
 
 
  938 0048 30BD     		pop	{r4, r5, pc}
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  988              	.LCFI27:
  989              		.cfi_def_cfa_offset 16
  990              		.cfi_offset 3, -16
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 31
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 31
 
 
  991              		.cfi_offset 4, -12
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  106:../../shields/Murata-dualstack/src/alp.c ****   assert(fifo_put_byte(fifo, ALP_OP_INDIRECT_FORWARD | (overload << 7)) == oss7SUCCESS);
  1041              		.loc 1 106 142 is_stmt 0 view .LVU213
  1042 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 32
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 32
 
 
  1043              	.LCFI28:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1088 0034 0C4B     		ldr	r3, .L86+12
  1089 0036 0A4A     		ldr	r2, .L86+4
  1090 0038 6C21     		movs	r1, #108
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 33
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 33
 
 
  1091 003a 0A48     		ldr	r0, .L86+8
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1143              		.cfi_offset 7, -8
  1144              		.cfi_offset 14, -4
  1145 0002 83B0     		sub	sp, sp, #12
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 34
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 34
 
 
  1146              	.LCFI30:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1188              	.L88:
  163:../../shields/Murata-dualstack/src/alp.c **** 
  1189              		.loc 1 163 1 is_stmt 0 view .LVU239
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 35
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 35
 
 
  1190 003e 03B0     		add	sp, sp, #12
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1236 006a FFF7FEFF 		bl	fifo_put_byte
  1237              	.LVL125:
  1238 006e 90B9     		cbnz	r0, .L127
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 36
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 36
 
 
  125:../../shields/Murata-dualstack/src/alp.c ****     assert(fifo_put_byte(fifo, ((d7ap_session_config_t*)config)->addressee.ctrl.raw) == oss7SUCCESS
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1284 00a2 814B     		ldr	r3, .L142+24
  1285 00a4 7B4A     		ldr	r2, .L142+4
  1286 00a6 7D21     		movs	r1, #125
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 37
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 37
 
 
  1287 00a8 7B48     		ldr	r0, .L142+8
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1332 00d8 2046     		mov	r0, r4
  1333 00da FFF7FEFF 		bl	fifo_put_byte
  1334              	.LVL135:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 38
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 38
 
 
  1335 00de 60B9     		cbnz	r0, .L130
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1378              	.LVL140:
  135:../../shields/Murata-dualstack/src/alp.c ****     assert(fifo_put_byte(fifo, ((lorawan_session_config_abp_t*)config)->application_port) == oss7SU
  1379              		.loc 1 135 5 is_stmt 1 view .LVU278
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 39
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 39
 
 
  1380 0118 01F0FE01 		and	r1, r1, #254
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  141:../../shields/Murata-dualstack/src/alp.c ****     uint32_t network_id = __builtin_bswap32(((lorawan_session_config_abp_t*)config)->network_id);
  1425              		.loc 1 141 5 is_stmt 1 view .LVU288
  1426 0164 0422     		movs	r2, #4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 40
 
 
  1427 0166 6946     		mov	r1, sp
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1473 01b0 384A     		ldr	r2, .L142+4
  1474 01b2 8921     		movs	r1, #137
  1475 01b4 3848     		ldr	r0, .L142+8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 41
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 41
 
 
  1476 01b6 FFF7FEFF 		bl	__assert_func
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1519              		.loc 1 149 18 view .LVU307
  1520 01ee 1944     		add	r1, r1, r3
  1521              	.LVL157:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 42
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 42
 
 
  150:../../shields/Murata-dualstack/src/alp.c ****     assert(fifo_put_byte(fifo, ((lorawan_session_config_otaa_t*)config)->application_port) == oss7S
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1567 023e 154A     		ldr	r2, .L142+4
  1568 0240 9B21     		movs	r1, #155
  1569 0242 1548     		ldr	r0, .L142+8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 43
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 43
 
 
  1570 0244 FFF7FEFF 		bl	__assert_func
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1617 0286 034A     		ldr	r2, .L142+4
  1618 0288 9F21     		movs	r1, #159
  1619 028a 0348     		ldr	r0, .L142+8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 44
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 44
 
 
  1620 028c FFF7FEFF 		bl	__assert_func
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1674              		.cfi_offset 4, -20
  1675              		.cfi_offset 5, -16
  1676              		.cfi_offset 6, -12
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 45
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 45
 
 
  1677              		.cfi_offset 7, -8
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1722 0040 0948     		ldr	r0, .L152+8
  1723 0042 FFF7FEFF 		bl	__assert_func
  1724              	.LVL180:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 46
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 46
 
 
  1725              	.L150:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1777 0004 0546     		mov	r5, r0
  1778 0006 0C46     		mov	r4, r1
  271:../../shields/Murata-dualstack/src/alp.c ****   uint8_t op;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 47
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 47
 
 
  1779              		.loc 1 271 3 is_stmt 1 view .LVU339
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1827 0041 2C       		.byte	(.L156-.L158)/2
  1828 0042 2C       		.byte	(.L156-.L158)/2
  1829 0043 2C       		.byte	(.L156-.L158)/2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 48
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 48
 
 
  1830 0044 2C       		.byte	(.L156-.L158)/2
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1864              	.LCFI36:
  1865              		.cfi_remember_state
  1866              		.cfi_def_cfa_offset 12
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 49
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 49
 
 
  1867              		@ sp needed
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  1911              	.LVL200:
  1912              	.L166:
  1913              		.align	2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 50
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 50
 
 
  1914              	.L165:
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  334:../../shields/Murata-dualstack/src/alp.c ****         // other ITFs have no configuration
  335:../../shields/Murata-dualstack/src/alp.c ****         break;
  336:../../shields/Murata-dualstack/src/alp.c ****       case ALP_OP_WRITE_FILE_PROPERTIES:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 51
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 51
 
 
  337:../../shields/Murata-dualstack/src/alp.c ****         fifo_skip(&fifo, 1 + sizeof(d7ap_fs_file_header_t)); // skip file ID & header
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  355:../../shields/Murata-dualstack/src/alp.c **** }
  1969              		.loc 1 355 1 is_stmt 0 view .LVU377
  1970 0020 38BD     		pop	{r3, r4, r5, pc}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 52
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 52
 
 
  1971              	.LVL207:
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2023 0002 0446     		mov	r4, r0
  2024 0004 0E46     		mov	r6, r1
  2025 0006 1746     		mov	r7, r2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 53
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 53
 
 
  2026 0008 1D46     		mov	r5, r3
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2074              	.L179:
  2075 004c 00000000 		.word	.LC39
  2076 0050 00000000 		.word	.LANCHOR13
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 54
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 54
 
 
  2077 0054 40000000 		.word	.LC1
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2129 0022 FFF7FEFF 		bl	fifo_put_byte
  2130              	.LVL225:
  2131              		.loc 1 366 3 view .LVU405
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 55
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 55
 
 
  2132 0026 78B9     		cbnz	r0, .L185
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2181              		.align	1
  2182              		.global	alp_append_create_new_file_data_action
  2183              		.syntax unified
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 56
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 56
 
 
  2184              		.thumb
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2234              		.loc 1 375 3 is_stmt 1 view .LVU423
  2235              		.loc 1 375 29 is_stmt 0 view .LVU424
  2236 002a 0023     		movs	r3, #0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 57
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 57
 
 
  2237 002c 0093     		str	r3, [sp]
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2277 006a 40F28111 		movw	r1, #385
  2278 006e 0348     		ldr	r0, .L195+8
  2279 0070 FFF7FEFF 		bl	__assert_func
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 58
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 58
 
 
  2280              	.LVL242:
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  395:../../shields/Murata-dualstack/src/alp.c **** 
  396:../../shields/Murata-dualstack/src/alp.c ****   if(length > 0x3FFFFF)
  2327              		.loc 1 396 3 is_stmt 1 view .LVU440
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 59
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 59
 
 
  2328              		.loc 1 396 5 is_stmt 0 view .LVU441
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2374              		.cfi_offset 14, -4
  2375 0002 87B0     		sub	sp, sp, #28
  2376              	.LCFI46:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 60
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 60
 
 
  2377              		.cfi_def_cfa_offset 40
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2417              		.loc 1 310 37 view .LVU463
  2418 0026 FFF7FEFF 		bl	alp_parse_length_operand
  2419              	.LVL262:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 61
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 61
 
 
  310:../../shields/Murata-dualstack/src/alp.c ****         expected_response_length += alp_length_operand_coded_length(expected_response_length); // t
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2459              	.LBE28:
  2460              	.LBE27:
  303:../../shields/Murata-dualstack/src/alp.c ****     alp_control_t control;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 62
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 62
 
 
  2461              		.loc 1 303 9 view .LVU479
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2509 00c8 D9010000 		.word	.L207+1
  2510 00cc D9010000 		.word	.L207+1
  2511 00d0 D9010000 		.word	.L207+1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 63
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 63
 
 
  2512 00d4 D9010000 		.word	.L207+1
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  322:../../shields/Murata-dualstack/src/alp.c ****         break;
  2561              		.loc 1 322 26 is_stmt 0 view .LVU491
  2562 015c 02A8     		add	r0, sp, #8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 64
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 64
 
 
  2563 015e FFF7FEFF 		bl	alp_parse_length_operand
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2604              	.LVL283:
  2605              	.LBB30:
  2606              	.LBI30:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 65
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 65
 
 
  290:../../shields/Murata-dualstack/inc/d7ap.h ****   switch(id_type)
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2651 01c6 02A8     		add	r0, sp, #8
  2652 01c8 FFF7FEFF 		bl	fifo_skip
  2653              	.LVL286:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 66
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 66
 
 
  2654 01cc 3CE7     		b	.L206
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2700              		.align	2
  2701              		.set	.LANCHOR2,. + 0
  2704              	__func__.6325:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 67
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 67
 
 
  2705 0000 64376170 		.ascii	"d7ap_addressee_id_length\000"
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2747 0000 616C705F 		.ascii	"alp_append_forward_action\000"
  2747      61707065 
  2747      6E645F66 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 68
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 68
 
 
  2747      6F727761 
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2789      63746564 
  2789      5F726573 
  2790              		.section	.rodata.__func__.6998,"a"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 69
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 69
 
 
  2791              		.align	2
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2826      65286669 
  2826      666F2C20 
  2827              		.section	.rodata.alp_append_forward_action.str1.4,"aMS",%progbits,1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 70
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 70
 
 
  2828              		.align	2
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2848      2E637472 
  2848      6C2E7261 
  2849 0171 000000   		.space	3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 71
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 71
 
 
  2850              	.LC21:
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2868 031b 00       		.space	1
  2869              	.LC26:
  2870 031c 6669666F 		.ascii	"fifo_put(fifo, ((lorawan_session_config_abp_t*)conf"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 72
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 72
 
 
  2870      5F707574 
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2888 04c7 2A29636F 		.ascii	"*)config)->data_rate) == oss7SUCCESS\000"
  2888      6E666967 
  2888      292D3E64 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 73
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 73
 
 
  2888      6174615F 
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2906      3D3D206F 
  2906      73733753 
  2907 004e 0000     		.space	2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 74
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 74
 
 
  2908              	.LC14:
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2931 0000 6669666F 		.ascii	"fifo_put_byte(fifo, op) == oss7SUCCESS\000"
  2931      5F707574 
  2931      5F627974 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 75
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 75
 
 
  2931      65286669 
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2958      6F2C2028 
  2958      75696E74 
  2959 009f 65652E69 		.ascii	"ee.id, addressee_len) == oss7SUCCESS\000"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 76
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 76
 
 
  2959      642C2061 
@@ -4554,131 +4554,131 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 1
  2988              		.file 16 "../../shields/Murata-dualstack/inc/fifo.h"
  2989              		.file 17 "../../shields/Murata-dualstack/inc/alp.h"
  2990              		.file 18 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\includ
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 77
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 77
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 alp.c
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:18     .text.parse_op_return_tag:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:25     .text.parse_op_return_tag:00000000 parse_op_return_tag
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:69     .text.parse_op_return_tag:00000020 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:76     .text.parse_op_return_status:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:82     .text.parse_op_return_status:00000000 parse_op_return_status
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:261    .text.parse_op_return_status:000000de $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:265    .text.parse_op_return_status:000000e2 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:354    .text.parse_op_return_status:00000148 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:366    .text.alp_get_operation:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:373    .text.alp_get_operation:00000000 alp_get_operation
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:394    .text.alp_parse_length_operand:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:401    .text.alp_parse_length_operand:00000000 alp_parse_length_operand
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:471    .text.alp_append_length_operand:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:478    .text.alp_append_length_operand:00000000 alp_append_length_operand
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:620    .text.alp_append_length_operand:00000090 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:629    .text.alp_parse_file_offset_operand:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:636    .text.alp_parse_file_offset_operand:00000000 alp_parse_file_offset_operand
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:707    .text.alp_parse_file_offset_operand:00000038 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:714    .text.parse_operand_file_data:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:720    .text.parse_operand_file_data:00000000 parse_operand_file_data
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:792    .text.parse_operand_file_data:00000044 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:799    .text.parse_op_write_file_data:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:805    .text.parse_op_write_file_data:00000000 parse_op_write_file_data
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:828    .text.parse_op_return_file_data:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:834    .text.parse_op_return_file_data:00000000 parse_op_return_file_data
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:857    .text.alp_parse_file_header_operand:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:864    .text.alp_parse_file_header_operand:00000000 alp_parse_file_header_operand
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:965    .text.alp_parse_file_header_operand:00000064 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:972    .text.alp_append_file_offset_operand:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:979    .text.alp_append_file_offset_operand:00000000 alp_append_file_offset_operand
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1020   .text.alp_append_file_offset_operand:00000024 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1027   .text.alp_append_indirect_forward_action:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1034   .text.alp_append_indirect_forward_action:00000000 alp_append_indirect_forward_action
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1113   .text.alp_append_indirect_forward_action:0000005c $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1122   .text.alp_append_forward_action:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1129   .text.alp_append_forward_action:00000000 alp_append_forward_action
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1265   .text.alp_append_forward_action:00000092 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1270   .text.alp_append_forward_action:00000096 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1625   .text.alp_append_forward_action:00000290 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1655   .text.alp_append_return_file_data_action:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1662   .text.alp_append_return_file_data_action:00000000 alp_append_return_file_data_action
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1744   .text.alp_append_return_file_data_action:00000060 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1753   .text.alp_parse_action:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1760   .text.alp_parse_action:00000000 alp_parse_action
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1812   .text.alp_parse_action:00000032 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1845   .text.alp_parse_action:00000052 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1915   .text.alp_parse_action:00000098 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1923   .text.alp_append_tag_request_action:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1930   .text.alp_append_tag_request_action:00000000 alp_append_tag_request_action
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1991   .text.alp_append_tag_request_action:00000040 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:1999   .text.alp_append_read_file_data_action:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2006   .text.alp_append_read_file_data_action:00000000 alp_append_read_file_data_action
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2075   .text.alp_append_read_file_data_action:0000004c $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2082   .text.alp_append_write_file_data_action:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2089   .text.alp_append_write_file_data_action:00000000 alp_append_write_file_data_action
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 78
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:18     .text.parse_op_return_tag:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:25     .text.parse_op_return_tag:00000000 parse_op_return_tag
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:69     .text.parse_op_return_tag:00000020 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:76     .text.parse_op_return_status:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:82     .text.parse_op_return_status:00000000 parse_op_return_status
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:261    .text.parse_op_return_status:000000de $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:265    .text.parse_op_return_status:000000e2 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:354    .text.parse_op_return_status:00000148 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:366    .text.alp_get_operation:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:373    .text.alp_get_operation:00000000 alp_get_operation
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:394    .text.alp_parse_length_operand:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:401    .text.alp_parse_length_operand:00000000 alp_parse_length_operand
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:471    .text.alp_append_length_operand:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:478    .text.alp_append_length_operand:00000000 alp_append_length_operand
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:620    .text.alp_append_length_operand:00000090 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:629    .text.alp_parse_file_offset_operand:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:636    .text.alp_parse_file_offset_operand:00000000 alp_parse_file_offset_operand
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:707    .text.alp_parse_file_offset_operand:00000038 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:714    .text.parse_operand_file_data:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:720    .text.parse_operand_file_data:00000000 parse_operand_file_data
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:792    .text.parse_operand_file_data:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:799    .text.parse_op_write_file_data:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:805    .text.parse_op_write_file_data:00000000 parse_op_write_file_data
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:828    .text.parse_op_return_file_data:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:834    .text.parse_op_return_file_data:00000000 parse_op_return_file_data
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:857    .text.alp_parse_file_header_operand:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:864    .text.alp_parse_file_header_operand:00000000 alp_parse_file_header_operand
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:965    .text.alp_parse_file_header_operand:00000064 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:972    .text.alp_append_file_offset_operand:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:979    .text.alp_append_file_offset_operand:00000000 alp_append_file_offset_operand
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1020   .text.alp_append_file_offset_operand:00000024 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1027   .text.alp_append_indirect_forward_action:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1034   .text.alp_append_indirect_forward_action:00000000 alp_append_indirect_forward_action
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1113   .text.alp_append_indirect_forward_action:0000005c $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1122   .text.alp_append_forward_action:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1129   .text.alp_append_forward_action:00000000 alp_append_forward_action
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1265   .text.alp_append_forward_action:00000092 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1270   .text.alp_append_forward_action:00000096 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1625   .text.alp_append_forward_action:00000290 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1655   .text.alp_append_return_file_data_action:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1662   .text.alp_append_return_file_data_action:00000000 alp_append_return_file_data_action
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1744   .text.alp_append_return_file_data_action:00000060 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1753   .text.alp_parse_action:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1760   .text.alp_parse_action:00000000 alp_parse_action
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1812   .text.alp_parse_action:00000032 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1845   .text.alp_parse_action:00000052 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1915   .text.alp_parse_action:00000098 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1923   .text.alp_append_tag_request_action:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1930   .text.alp_append_tag_request_action:00000000 alp_append_tag_request_action
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1991   .text.alp_append_tag_request_action:00000040 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:1999   .text.alp_append_read_file_data_action:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2006   .text.alp_append_read_file_data_action:00000000 alp_append_read_file_data_action
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2075   .text.alp_append_read_file_data_action:0000004c $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2082   .text.alp_append_write_file_data_action:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2089   .text.alp_append_write_file_data_action:00000000 alp_append_write_file_data_action
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 78
 
 
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2173   .text.alp_append_write_file_data_action:00000064 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2181   .text.alp_append_create_new_file_data_action:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2188   .text.alp_append_create_new_file_data_action:00000000 alp_append_create_new_file_data_action
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2284   .text.alp_append_create_new_file_data_action:00000074 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2292   .text.alp_length_operand_coded_length:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2299   .text.alp_length_operand_coded_length:00000000 alp_length_operand_coded_length
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2354   .text.alp_get_expected_response_length:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2361   .text.alp_get_expected_response_length:00000000 alp_get_expected_response_length
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2488   .text.alp_get_expected_response_length:00000074 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2540   .text.alp_get_expected_response_length:00000144 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2614   .text.alp_get_expected_response_length:000001a4 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2618   .text.alp_get_expected_response_length:000001a8 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2691   .text.alp_get_expected_response_length:000001ec $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2700   .rodata.__func__.6325:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2704   .rodata.__func__.6325:00000000 __func__.6325
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2707   .rodata.__func__.6857:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2711   .rodata.__func__.6857:00000000 __func__.6857
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2714   .rodata.__func__.6867:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2718   .rodata.__func__.6867:00000000 __func__.6867
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2721   .rodata.__func__.6873:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2725   .rodata.__func__.6873:00000000 __func__.6873
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2728   .rodata.__func__.6879:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2732   .rodata.__func__.6879:00000000 __func__.6879
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2735   .rodata.__func__.6887:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2739   .rodata.__func__.6887:00000000 __func__.6887
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2742   .rodata.__func__.6894:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2746   .rodata.__func__.6894:00000000 __func__.6894
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2749   .rodata.__func__.6907:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2753   .rodata.__func__.6907:00000000 __func__.6907
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2756   .rodata.__func__.6929:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2760   .rodata.__func__.6929:00000000 __func__.6929
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2763   .rodata.__func__.6944:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2767   .rodata.__func__.6944:00000000 __func__.6944
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2770   .rodata.__func__.6951:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2774   .rodata.__func__.6951:00000000 __func__.6951
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2777   .rodata.__func__.6961:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2781   .rodata.__func__.6961:00000000 __func__.6961
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2784   .rodata.__func__.6988:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2788   .rodata.__func__.6988:00000000 __func__.6988
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2791   .rodata.__func__.6998:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2795   .rodata.__func__.6998:00000000 __func__.6998
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2798   .rodata.__func__.7008:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2802   .rodata.__func__.7008:00000000 __func__.7008
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2805   .rodata.__func__.7019:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2809   .rodata.__func__.7019:00000000 __func__.7019
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2812   .rodata.__func__.7029:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2816   .rodata.__func__.7029:00000000 __func__.7029
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2819   .rodata.alp_append_create_new_file_data_action.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2824   .rodata.alp_append_file_offset_operand.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2828   .rodata.alp_append_forward_action.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2903   .rodata.alp_append_indirect_forward_action.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2912   .rodata.alp_append_length_operand.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2922   .rodata.alp_append_return_file_data_action.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2929   .rodata.alp_append_tag_request_action.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2936   .rodata.alp_parse_action.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2940   .rodata.alp_parse_file_offset_operand.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2944   .rodata.parse_op_return_status.str1.4:00000000 $d
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s 			page 79
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2173   .text.alp_append_write_file_data_action:00000064 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2181   .text.alp_append_create_new_file_data_action:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2188   .text.alp_append_create_new_file_data_action:00000000 alp_append_create_new_file_data_action
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2284   .text.alp_append_create_new_file_data_action:00000074 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2292   .text.alp_length_operand_coded_length:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2299   .text.alp_length_operand_coded_length:00000000 alp_length_operand_coded_length
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2354   .text.alp_get_expected_response_length:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2361   .text.alp_get_expected_response_length:00000000 alp_get_expected_response_length
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2488   .text.alp_get_expected_response_length:00000074 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2540   .text.alp_get_expected_response_length:00000144 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2614   .text.alp_get_expected_response_length:000001a4 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2618   .text.alp_get_expected_response_length:000001a8 $t
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2691   .text.alp_get_expected_response_length:000001ec $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2700   .rodata.__func__.6325:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2704   .rodata.__func__.6325:00000000 __func__.6325
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2707   .rodata.__func__.6857:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2711   .rodata.__func__.6857:00000000 __func__.6857
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2714   .rodata.__func__.6867:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2718   .rodata.__func__.6867:00000000 __func__.6867
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2721   .rodata.__func__.6873:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2725   .rodata.__func__.6873:00000000 __func__.6873
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2728   .rodata.__func__.6879:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2732   .rodata.__func__.6879:00000000 __func__.6879
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2735   .rodata.__func__.6887:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2739   .rodata.__func__.6887:00000000 __func__.6887
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2742   .rodata.__func__.6894:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2746   .rodata.__func__.6894:00000000 __func__.6894
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2749   .rodata.__func__.6907:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2753   .rodata.__func__.6907:00000000 __func__.6907
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2756   .rodata.__func__.6929:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2760   .rodata.__func__.6929:00000000 __func__.6929
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2763   .rodata.__func__.6944:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2767   .rodata.__func__.6944:00000000 __func__.6944
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2770   .rodata.__func__.6951:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2774   .rodata.__func__.6951:00000000 __func__.6951
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2777   .rodata.__func__.6961:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2781   .rodata.__func__.6961:00000000 __func__.6961
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2784   .rodata.__func__.6988:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2788   .rodata.__func__.6988:00000000 __func__.6988
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2791   .rodata.__func__.6998:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2795   .rodata.__func__.6998:00000000 __func__.6998
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2798   .rodata.__func__.7008:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2802   .rodata.__func__.7008:00000000 __func__.7008
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2805   .rodata.__func__.7019:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2809   .rodata.__func__.7019:00000000 __func__.7019
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2812   .rodata.__func__.7029:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2816   .rodata.__func__.7029:00000000 __func__.7029
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2819   .rodata.alp_append_create_new_file_data_action.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2824   .rodata.alp_append_file_offset_operand.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2828   .rodata.alp_append_forward_action.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2903   .rodata.alp_append_indirect_forward_action.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2912   .rodata.alp_append_length_operand.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2922   .rodata.alp_append_return_file_data_action.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2929   .rodata.alp_append_tag_request_action.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2936   .rodata.alp_parse_action.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2940   .rodata.alp_parse_file_offset_operand.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2944   .rodata.parse_op_return_status.str1.4:00000000 $d
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s 			page 79
 
 
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2961   .rodata.parse_op_return_tag.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\ccyyIo9F.s:2969   .rodata.parse_operand_file_data.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2961   .rodata.parse_op_return_tag.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\ccrPM2Pc.s:2969   .rodata.parse_operand_file_data.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 fifo_pop

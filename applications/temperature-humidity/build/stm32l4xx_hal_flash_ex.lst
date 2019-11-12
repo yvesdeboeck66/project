@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
   28:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****            (++) Lock and Unlock the FLASH interface using HAL_FLASH_Unlock() and 
   29:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****                 HAL_FLASH_Lock() functions
   30:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****            (++) Erase function: Erase page, erase all sectors
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 2
 
 
   31:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****            (++) There are two modes of erase :
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
   85:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** /** @defgroup FLASHEx FLASHEx
   86:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   * @brief FLASH Extended HAL module driver
   87:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   * @{
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 3
 
 
   88:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  142:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   */
  143:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** /**
  144:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   * @brief  Perform a mass erase or erase the specified FLASH memory pages.
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 4
 
 
  145:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   * @param[in]  pEraseInit: pointer to an FLASH_EraseInitTypeDef structure that
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  199:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** 
  200:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     if (pEraseInit->TypeErase == FLASH_TYPEERASE_MASSERASE)
  201:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 5
 
 
  202:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       /* Mass erase to be done */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  256:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   * 
  257:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   * @retval HAL Status
  258:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 6
 
 
  259:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** HAL_StatusTypeDef HAL_FLASHEx_Erase_IT(FLASH_EraseInitTypeDef *pEraseInit)
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  313:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     pFlash.ProcedureOnGoing = FLASH_PROC_PAGE_ERASE;
  314:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     pFlash.NbPagesToErase = pEraseInit->NbPages;
  315:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     pFlash.Page = pEraseInit->Page;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 7
 
 
  316:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  370:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       status = HAL_ERROR;
  371:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     }
  372:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 8
 
 
  373:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  427:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     defined (STM32L496xx) || defined (STM32L4A6xx) || \
  428:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     defined (STM32L4R5xx) || defined (STM32L4R7xx) || defined (STM32L4R9xx) || defined (STM32L4S5xx
  429:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   if((pOBInit->PCROPConfig == FLASH_BANK_1) || (pOBInit->PCROPConfig == FLASH_BANK_2))
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 9
 
 
  430:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** #else
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  484:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   status = FLASH_WaitForLastOperation((uint32_t)FLASH_TIMEOUT_VALUE);
  485:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** 
  486:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   if (status == HAL_OK)
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 10
 
 
  487:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
   32              		@ frame_needed = 0, uses_anonymous_args = 0
   33              		@ link register save eliminated.
  538:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** #if defined (STM32L4R5xx) || defined (STM32L4R7xx) || defined (STM32L4R9xx) || defined (STM32L4S5xx
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 11
 
 
  539:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   if (READ_BIT(FLASH->OPTR, FLASH_OPTR_DBANK) != 0U)
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
   57 0022 5369     		ldr	r3, [r2, #20]
   58 0024 43F48033 		orr	r3, r3, #65536
   59 0028 5361     		str	r3, [r2, #20]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 12
 
 
  570:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** }
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  607:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     }
  608:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   }
  609:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** #else
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 13
 
 
  610:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   /* Prevent unused argument(s) compilation warning */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  664:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   * @param  WRPArea: specifies the area to be configured.
  665:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   *          This parameter can be one of the following values:
  666:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   *            @arg OB_WRPAREA_BANK1_AREAA: Flash Bank 1 Area A                      
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 14
 
 
  667:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   *            @arg OB_WRPAREA_BANK1_AREAB: Flash Bank 1 Area B                      
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  721:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     }
  722:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     
  723:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     /* Set OPTSTRT Bit */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 15
 
 
  724:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     SET_BIT(FLASH->CR, FLASH_CR_OPTSTRT);
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  778:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** 
  779:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   return status;            
  780:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 16
 
 
  781:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  835:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       assert_param(IS_OB_USER_STANDBY(UserConfig & FLASH_OPTR_nRST_STDBY));
  836:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     
  837:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       /* Set value and mask for nRST_STDBY option byte */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 17
 
 
  838:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       optr_reg_val |= (UserConfig & FLASH_OPTR_nRST_STDBY);
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  892:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** #if defined (STM32L471xx) || defined (STM32L475xx) || defined (STM32L476xx) || defined (STM32L485xx
  893:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     defined (STM32L496xx) || defined (STM32L4A6xx) || \
  894:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     defined (STM32L4R5xx) || defined (STM32L4R7xx) || defined (STM32L4R9xx) || defined (STM32L4S5xx
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 18
 
 
  895:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     if((UserType & OB_USER_BFB2) != 0U)
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  949:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     
  950:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       /* Set value and mask for SRAM2_RST option byte */
  951:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       optr_reg_val |= (UserConfig & FLASH_OPTR_SRAM2_RST);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 19
 
 
  952:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       optr_reg_mask |= FLASH_OPTR_SRAM2_RST;
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
 1006:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   *          with OB_PCROP_RDP_NOT_ERASE or OB_PCROP_RDP_ERASE
 1007:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   *
 1008:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   * @param  PCROPStartAddr: specifies the start address of the Proprietary code readout protection
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 20
 
 
 1009:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   *          This parameter can be an address between begin and end of the bank 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
 1063:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****         MODIFY_REG(FLASH->PCROP1SR, FLASH_PCROP1SR_PCROP1_STRT, reg_value);
 1064:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****         
 1065:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****         reg_value = ((PCROPEndAddr - FLASH_BASE) >> 4);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 21
 
 
 1066:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****         MODIFY_REG(FLASH->PCROP1ER, FLASH_PCROP1ER_PCROP1_END, reg_value);
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
 1120:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     CLEAR_BIT(FLASH->CR, FLASH_CR_OPTSTRT);
 1121:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   }
 1122:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 22
 
 
 1123:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   return status;
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  105              	.L7:
 1151:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   }
 1152:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   else if(WRPArea == OB_WRPAREA_BANK1_AREAB)
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 23
 
 
  106              		.loc 1 1152 8 is_stmt 1 view .LVU21
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
 1155:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   }
  133              		.loc 1 1155 5 is_stmt 1 view .LVU32
 1155:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 24
 
 
  134              		.loc 1 1155 23 is_stmt 0 view .LVU33
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  172              		.loc 1 1168 23 is_stmt 0 view .LVU49
  173 004e 036D     		ldr	r3, [r0, #80]
 1168:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 25
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 25
 
 
  174              		.loc 1 1168 71 view .LVU50
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  214 000a CC2B     		cmp	r3, #204
  215 000c 01D0     		beq	.L17
 1190:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 26
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 26
 
 
 1191:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     return (OB_RDP_LEVEL_1);
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  247              		@ args = 0, pretend = 0, frame = 0
  248              		@ frame_needed = 0, uses_anonymous_args = 0
  249              		@ link register save eliminated.
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 27
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 27
 
 
 1213:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   uint32_t user_config = READ_REG(FLASH->OPTR);
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  283              		@ link register save eliminated.
  284              		.loc 1 1235 1 is_stmt 0 view .LVU74
  285 0000 70B4     		push	{r4, r5, r6}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 28
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 28
 
 
  286              	.LCFI0:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
 1255:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     bank1_addr = FLASH_BASE + FLASH_BANK_SIZE;
 1256:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     bank2_addr = FLASH_BASE;
 1257:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 29
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 29
 
 
 1258:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** #else
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  331 0032 2BD0     		beq	.L34
  332              	.LVL18:
  333              	.L29:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 30
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 30
 
 
 1301:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     {
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  368 0052 174C     		ldr	r4, .L35+8
  369 0054 04EA4324 		and	r4, r4, r3, lsl #9
 1255:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     bank2_addr = FLASH_BASE;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 31
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 31
 
 
  370              		.loc 1 1255 29 discriminator 1 view .LVU104
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
 1295:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     }
  410              		.loc 1 1295 34 is_stmt 0 view .LVU119
  411 0082 03EAC103 		and	r3, r3, r1, lsl #3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 32
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 32
 
 
 1295:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     }
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  452 00b0 00FE1F00 		.word	2096640
  453 00b4 00200240 		.word	1073881088
  454 00b8 00000808 		.word	134742016
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 33
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 33
 
 
  455 00bc F8FF0700 		.word	524280
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  499              		.loc 1 694 5 is_stmt 1 view .LVU145
  694:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     {
  500              		.loc 1 694 7 is_stmt 0 view .LVU146
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 34
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 34
 
 
  501 0014 BDB9     		cbnz	r5, .L39
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  707:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     {
  543              		.loc 1 707 10 is_stmt 1 view .LVU159
  707:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 35
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 35
 
 
  544              		.loc 1 707 12 is_stmt 0 view .LVU160
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  590              	.LFE130:
  592              		.section	.text.FLASH_OB_RDPConfig,"ax",%progbits
  593              		.align	1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 36
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 36
 
 
  594              		.syntax unified
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  637 0014 094C     		ldr	r4, .L52
  638 0016 206A     		ldr	r0, [r4, #32]
  639              	.LVL52:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 37
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 37
 
 
  767:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  689 0002 0446     		mov	r4, r0
  690 0004 0D46     		mov	r5, r1
  800:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   uint32_t optr_reg_mask = 0;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 38
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 38
 
 
  691              		.loc 1 800 3 is_stmt 1 view .LVU188
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  828:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       optr_reg_mask |= FLASH_OPTR_nRST_STOP;
  727              		.loc 1 828 7 view .LVU207
  828:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       optr_reg_mask |= FLASH_OPTR_nRST_STOP;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 39
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 39
 
 
  728              		.loc 1 828 35 is_stmt 0 view .LVU208
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  849:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     }
  765              		.loc 1 849 7 is_stmt 1 view .LVU226
  849:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 40
 
 
  766              		.loc 1 849 21 is_stmt 0 view .LVU227
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  872:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     {
  803              		.loc 1 872 7 is_stmt 0 view .LVU245
  804 0076 14F0200F 		tst	r4, #32
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 41
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 41
 
 
  805 007a 04D0     		beq	.L62
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  840              		.loc 1 901 35 is_stmt 0 view .LVU264
  841 009c 05F48011 		and	r1, r5, #1048576
  901:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       optr_reg_mask |= FLASH_OPTR_BFB2;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 42
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 42
 
 
  842              		.loc 1 901 20 view .LVU265
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  878              		.loc 1 932 21 is_stmt 0 view .LVU283
  879 00c2 42F40002 		orr	r2, r2, #8388608
  880              	.LVL80:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 43
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 43
 
 
  881              	.L66:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  917 00ea 04D0     		beq	.L69
  962:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     
  918              		.loc 1 962 7 is_stmt 1 view .LVU302
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 44
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 44
 
 
  965:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       optr_reg_mask |= FLASH_OPTR_nSWBOOT0;
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  981:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     
  957              		.loc 1 981 5 view .LVU319
  958 0110 2362     		str	r3, [r4, #32]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 45
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 45
 
 
  984:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1006              		@ args = 0, pretend = 0, frame = 0
  1007              		@ frame_needed = 0, uses_anonymous_args = 0
 1017:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   HAL_StatusTypeDef status;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 46
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 46
 
 
  1008              		.loc 1 1017 1 is_stmt 0 view .LVU329
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1045              		.loc 1 1044 7 is_stmt 1 view .LVU346
  1046              	.LVL101:
 1045:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 47
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 47
 
 
  1047              		.loc 1 1045 7 view .LVU347
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1087 0052 A062     		str	r0, [r4, #40]
 1114:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     
  1088              		.loc 1 1114 5 is_stmt 1 view .LVU362
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 48
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 48
 
 
  1089 0054 6369     		ldr	r3, [r4, #20]
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
 1044:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       bank2_addr = FLASH_BASE + FLASH_BANK_SIZE;
  1131              		.loc 1 1044 18 view .LVU375
  1132 0090 4FF00062 		mov	r2, #134217728
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 49
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 49
 
 
  1133 0094 D0E7     		b	.L78
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
 1099:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****         
  1175              		.loc 1 1099 9 is_stmt 1 view .LVU388
  1176 00c0 0A49     		ldr	r1, .L86+12
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 50
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 50
 
 
  1177 00c2 4A6C     		ldr	r2, [r1, #68]
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1225              		@ args = 0, pretend = 0, frame = 0
  1226              		@ frame_needed = 0, uses_anonymous_args = 0
  332:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   HAL_StatusTypeDef status = HAL_OK;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 51
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 51
 
 
  1227              		.loc 1 332 1 is_stmt 0 view .LVU397
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1267 0022 13F0020F 		tst	r3, #2
  1268 0026 1AD1     		bne	.L102
  1269              	.LVL127:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 52
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 52
 
 
  1270              	.L91:
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  347:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     {
  1309              		.loc 1 347 8 is_stmt 0 view .LVU427
  1310 004a C268     		ldr	r2, [r0, #12]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 53
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 53
 
 
  1311 004c 8168     		ldr	r1, [r0, #8]
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  370:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     }
  1353              		.loc 1 370 14 view .LVU440
  1354 007a D9E7     		b	.L92
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 54
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 54
 
 
  1355              	.LVL140:
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1403 0002 0446     		mov	r4, r0
  404:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** 
  1404              		.loc 1 404 3 is_stmt 1 view .LVU449
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 55
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 55
 
 
  404:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** 
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1443 002e E369     		ldr	r3, [r4, #28]
  429:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c **** #else
  1444              		.loc 1 429 45 view .LVU466
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 56
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 56
 
 
  1445 0030 013B     		subs	r3, r3, #1
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1490 0000 11F0010F 		tst	r1, #1
  1491 0004 16D0     		beq	.L114
  602:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 57
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 57
 
 
  1492              		.loc 1 602 7 is_stmt 1 view .LVU478
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1542              	.LVL154:
  1543              	.LFB124:
  260:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   HAL_StatusTypeDef status = HAL_OK;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 58
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 58
 
 
  1544              		.loc 1 260 1 view -0
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1584              		.loc 1 277 8 is_stmt 0 view .LVU499
  1585 0028 1B68     		ldr	r3, [r3]
  277:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 59
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 59
 
 
  1586              		.loc 1 277 7 view .LVU500
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1625 005c 1172     		strb	r1, [r2, #8]
  314:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     pFlash.Page = pEraseInit->Page;
  1626              		.loc 1 314 5 is_stmt 1 view .LVU516
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 60
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 60
 
 
  314:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     pFlash.Page = pEraseInit->Page;
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  292:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   }
  1667              		.loc 1 292 5 view .LVU531
  292:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 61
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 61
 
 
  1668              		.loc 1 292 30 is_stmt 0 view .LVU532
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1714              		.thumb
  1715              		.thumb_func
  1716              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 62
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 62
 
 
  1718              	FLASH_FlushCaches:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1759 002a DBB2     		uxtb	r3, r3
  1760              	.LVL165:
  639:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****      (cache == FLASH_CACHE_ICACHE_DCACHE_ENABLED))
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 63
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 63
 
 
  1761              		.loc 1 639 5 view .LVU555
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1809              		@ args = 0, pretend = 0, frame = 0
  1810              		@ frame_needed = 0, uses_anonymous_args = 0
  155:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****   HAL_StatusTypeDef status;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 64
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 64
 
 
  1811              		.loc 1 155 1 is_stmt 0 view .LVU564
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1852 0026 5A60     		str	r2, [r3, #4]
  173:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     {
  1853              		.loc 1 173 5 is_stmt 1 view .LVU578
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 65
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 65
 
 
  173:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****     {
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  223:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c ****       {
  1893              		.loc 1 223 22 is_stmt 0 view .LVU594
  1894 0060 A568     		ldr	r5, [r4, #8]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 66
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 66
 
 
  1895              	.LVL169:
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1935 0092 184B     		ldr	r3, .L153
  1936 0094 0122     		movs	r2, #1
  1937 0096 1A77     		strb	r2, [r3, #28]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 67
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 67
 
 
  1938 0098 DCE7     		b	.L142
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  1979              		.loc 1 212 7 is_stmt 1 view .LVU621
  1980 00ce 0A4A     		ldr	r2, .L153+4
  1981 00d0 5369     		ldr	r3, [r2, #20]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 68
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 68
 
 
  1982 00d2 23F40043 		bic	r3, r3, #32768
@@ -4078,59 +4078,59 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 1
  2028              		.file 6 "../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/stm32l496xx.h"
  2029              		.file 7 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
  2030              		.file 8 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 69
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 69
 
 
  2031              		.file 9 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s 			page 70
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s 			page 70
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l4xx_hal_flash_ex.c
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:18     .text.FLASH_MassErase:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:25     .text.FLASH_MassErase:00000000 FLASH_MassErase
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:65     .text.FLASH_MassErase:0000002c $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:70     .text.FLASH_OB_GetWRP:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:76     .text.FLASH_OB_GetWRP:00000000 FLASH_OB_GetWRP
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:184    .text.FLASH_OB_GetWRP:00000058 $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:189    .text.FLASH_OB_GetRDP:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:195    .text.FLASH_OB_GetRDP:00000000 FLASH_OB_GetRDP
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:232    .text.FLASH_OB_GetRDP:0000001c $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:237    .text.FLASH_OB_GetUser:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:243    .text.FLASH_OB_GetUser:00000000 FLASH_OB_GetUser
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:265    .text.FLASH_OB_GetUser:0000000c $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:270    .text.FLASH_OB_GetPCROP:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:276    .text.FLASH_OB_GetPCROP:00000000 FLASH_OB_GetPCROP
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:450    .text.FLASH_OB_GetPCROP:000000a8 $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:460    .text.FLASH_OB_WRPConfig:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:466    .text.FLASH_OB_WRPConfig:00000000 FLASH_OB_WRPConfig
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:588    .text.FLASH_OB_WRPConfig:00000088 $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:593    .text.FLASH_OB_RDPConfig:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:599    .text.FLASH_OB_RDPConfig:00000000 FLASH_OB_RDPConfig
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:663    .text.FLASH_OB_RDPConfig:0000003c $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:668    .text.FLASH_OB_UserConfig:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:674    .text.FLASH_OB_UserConfig:00000000 FLASH_OB_UserConfig
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:990    .text.FLASH_OB_UserConfig:00000134 $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:995    .text.FLASH_OB_PCROPConfig:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1001   .text.FLASH_OB_PCROPConfig:00000000 FLASH_OB_PCROPConfig
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1204   .text.FLASH_OB_PCROPConfig:000000e0 $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1213   .text.HAL_FLASHEx_OBProgram:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1220   .text.HAL_FLASHEx_OBProgram:00000000 HAL_FLASHEx_OBProgram
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1378   .text.HAL_FLASHEx_OBProgram:00000090 $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1383   .text.HAL_FLASHEx_OBGetConfig:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1390   .text.HAL_FLASHEx_OBGetConfig:00000000 HAL_FLASHEx_OBGetConfig
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1471   .text.FLASH_PageErase:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1478   .text.FLASH_PageErase:00000000 FLASH_PageErase
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1529   .text.FLASH_PageErase:00000040 $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1534   .text.HAL_FLASHEx_Erase_IT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1541   .text.HAL_FLASHEx_Erase_IT:00000000 HAL_FLASHEx_Erase_IT
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1705   .text.HAL_FLASHEx_Erase_IT:000000b0 $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1711   .text.FLASH_FlushCaches:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1718   .text.FLASH_FlushCaches:00000000 FLASH_FlushCaches
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1791   .text.FLASH_FlushCaches:00000054 $d
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1797   .text.HAL_FLASHEx_Erase:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:1804   .text.HAL_FLASHEx_Erase:00000000 HAL_FLASHEx_Erase
-C:\Users\yvesk\AppData\Local\Temp\ccJXBPsm.s:2017   .text.HAL_FLASHEx_Erase:000000f4 $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:18     .text.FLASH_MassErase:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:25     .text.FLASH_MassErase:00000000 FLASH_MassErase
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:65     .text.FLASH_MassErase:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:70     .text.FLASH_OB_GetWRP:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:76     .text.FLASH_OB_GetWRP:00000000 FLASH_OB_GetWRP
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:184    .text.FLASH_OB_GetWRP:00000058 $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:189    .text.FLASH_OB_GetRDP:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:195    .text.FLASH_OB_GetRDP:00000000 FLASH_OB_GetRDP
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:232    .text.FLASH_OB_GetRDP:0000001c $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:237    .text.FLASH_OB_GetUser:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:243    .text.FLASH_OB_GetUser:00000000 FLASH_OB_GetUser
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:265    .text.FLASH_OB_GetUser:0000000c $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:270    .text.FLASH_OB_GetPCROP:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:276    .text.FLASH_OB_GetPCROP:00000000 FLASH_OB_GetPCROP
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:450    .text.FLASH_OB_GetPCROP:000000a8 $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:460    .text.FLASH_OB_WRPConfig:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:466    .text.FLASH_OB_WRPConfig:00000000 FLASH_OB_WRPConfig
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:588    .text.FLASH_OB_WRPConfig:00000088 $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:593    .text.FLASH_OB_RDPConfig:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:599    .text.FLASH_OB_RDPConfig:00000000 FLASH_OB_RDPConfig
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:663    .text.FLASH_OB_RDPConfig:0000003c $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:668    .text.FLASH_OB_UserConfig:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:674    .text.FLASH_OB_UserConfig:00000000 FLASH_OB_UserConfig
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:990    .text.FLASH_OB_UserConfig:00000134 $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:995    .text.FLASH_OB_PCROPConfig:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1001   .text.FLASH_OB_PCROPConfig:00000000 FLASH_OB_PCROPConfig
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1204   .text.FLASH_OB_PCROPConfig:000000e0 $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1213   .text.HAL_FLASHEx_OBProgram:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1220   .text.HAL_FLASHEx_OBProgram:00000000 HAL_FLASHEx_OBProgram
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1378   .text.HAL_FLASHEx_OBProgram:00000090 $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1383   .text.HAL_FLASHEx_OBGetConfig:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1390   .text.HAL_FLASHEx_OBGetConfig:00000000 HAL_FLASHEx_OBGetConfig
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1471   .text.FLASH_PageErase:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1478   .text.FLASH_PageErase:00000000 FLASH_PageErase
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1529   .text.FLASH_PageErase:00000040 $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1534   .text.HAL_FLASHEx_Erase_IT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1541   .text.HAL_FLASHEx_Erase_IT:00000000 HAL_FLASHEx_Erase_IT
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1705   .text.HAL_FLASHEx_Erase_IT:000000b0 $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1711   .text.FLASH_FlushCaches:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1718   .text.FLASH_FlushCaches:00000000 FLASH_FlushCaches
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1791   .text.FLASH_FlushCaches:00000054 $d
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1797   .text.HAL_FLASHEx_Erase:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:1804   .text.HAL_FLASHEx_Erase:00000000 HAL_FLASHEx_Erase
+C:\Users\yvesk\AppData\Local\Temp\cccs8jqc.s:2017   .text.HAL_FLASHEx_Erase:000000f4 $d
 
 UNDEFINED SYMBOLS
 FLASH_WaitForLastOperation

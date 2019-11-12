@@ -168,7 +168,7 @@ int main(void)
   /* start timers, add new ones, ... */
 
   //feed IWDG every 5 seconds
-  IWDG_feed(NULL);
+  //IWDG_feed(NULL);
 
   /* USER CODE END RTOS_TIMERS */
 
@@ -184,14 +184,14 @@ int main(void)
   /* Start scheduler */
 
   /* We should never get here as control is now taken by the scheduler */
-  HAL_Delay(10000);
+  //HAL_Delay(10000);
   /* Infinite loop */
   uint8_t counter = 0;
   uint8_t use_lora = 1;
   /* USER CODE BEGIN WHILE */
   while (1)
   { 
-    IWDG_feed(NULL);
+     IWDG_feed(NULL);
     HAL_Delay(5000);
     if(murata_data_ready)
     {
@@ -213,7 +213,7 @@ int main(void)
       printf("%d,\r\n\r\n",rep_counter);
 
 
-      
+  
 
       murata_init=Murata_Initialize(short_UID,0);
 
@@ -237,13 +237,13 @@ int main(void)
     
       
       
-    } 
+    }  
 
-    printf("going into sleepmode\r\n"); 
+      /* printf("going into sleepmode\r\n"); 
       //HAL_PWR_EnterStopmode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
       HAL_PWR_EnterSTOPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
 
-      printf(" into sleepmode gegaan\r\n"); 
+      printf(" into sleepmode gegaan\r\n");   */
     
     // SEND 5 D7 messages, every 10 sec.
     // Afterwards, send 3 LoRaWAN messages, every minute

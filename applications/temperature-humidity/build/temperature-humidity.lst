@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
   28:../../applications/temperature-humidity/src/temperature-humidity.c ****   *    software, must execute solely and exclusively on microcontroller or
   29:../../applications/temperature-humidity/src/temperature-humidity.c ****   *    microprocessor devices manufactured by or for STMicroelectronics.
   30:../../applications/temperature-humidity/src/temperature-humidity.c ****   * 5. Redistribution and use of this software other than as permitted under 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 2
 
 
   31:../../applications/temperature-humidity/src/temperature-humidity.c ****   *    this license is void and will automatically terminate your rights under 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
   85:../../applications/temperature-humidity/src/temperature-humidity.c **** int main(void)
   86:../../applications/temperature-humidity/src/temperature-humidity.c **** {
   87:../../applications/temperature-humidity/src/temperature-humidity.c ****   /* USER CODE BEGIN 1 */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 3
 
 
   88:../../applications/temperature-humidity/src/temperature-humidity.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  142:../../applications/temperature-humidity/src/temperature-humidity.c ****   osTimerStart(iwdgTimId, 5 * 1000);
  143:../../applications/temperature-humidity/src/temperature-humidity.c **** 
  144:../../applications/temperature-humidity/src/temperature-humidity.c ****   /* USER CODE END RTOS_TIMERS */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 4
 
 
  145:../../applications/temperature-humidity/src/temperature-humidity.c ****   osTimerDef(temp_hum_Tim, temp_hum_measurement);
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  199:../../applications/temperature-humidity/src/temperature-humidity.c **** /* USER CODE END 4 */
  200:../../applications/temperature-humidity/src/temperature-humidity.c **** 
  201:../../applications/temperature-humidity/src/temperature-humidity.c **** /* USER CODE BEGIN Header_StartDefaultTask */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 5
 
 
  202:../../applications/temperature-humidity/src/temperature-humidity.c **** /**
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
   70              		.cfi_offset 4, -12
   71              		.cfi_offset 5, -8
   72              		.cfi_offset 14, -4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 6
 
 
  176:../../applications/temperature-humidity/src/temperature-humidity.c ****   printf("*****************************************\r\n");
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  118 0050 000C0048 		.word	1207962624
  119              		.cfi_endproc
  120              	.LFE129:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 7
 
 
  122              		.section	.text.main,"ax",%progbits
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  168 0024 03AC     		add	r4, sp, #12
  169 0026 174D     		ldr	r5, .L11+8
  170 0028 0FCD     		ldmia	r5!, {r0, r1, r2, r3}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 8
 
 
  171 002a 0FC4     		stmia	r4!, {r0, r1, r2, r3}
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  213              	.LVL22:
  146:../../applications/temperature-humidity/src/temperature-humidity.c ****   osTimerStart(temp_hum_timer_id, temp_hum_timer * 1000);
  214              		.loc 1 146 21 view .LVU35
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 9
 
 
  215 006a 0B4B     		ldr	r3, .L11+28
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  265 0002 0C4C     		ldr	r4, .L15
  266 0004 2046     		mov	r0, r4
  267 0006 FFF7FEFF 		bl	puts
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 10
 
 
  268              	.LVL25:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  317              		.cfi_startproc
  318              		@ args = 0, pretend = 0, frame = 0
  319              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 11
 
 
  320 0000 08B5     		push	{r3, lr}
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  359              		.cfi_def_cfa_offset 8
  360              		.cfi_offset 3, -8
  361              		.cfi_offset 14, -4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 12
 
 
  230:../../applications/temperature-humidity/src/temperature-humidity.c ****   /* USER CODE BEGIN Callback 0 */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  399              		@ args = 0, pretend = 0, frame = 0
  400              		@ frame_needed = 0, uses_anonymous_args = 0
  401              		@ link register save eliminated.
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 13
 
 
  248:../../applications/temperature-humidity/src/temperature-humidity.c ****   /* USER CODE BEGIN Error_Handler_Debug */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  452              		.set	.LANCHOR0,. + 0
  453              	.LC6:
  454 0000 00000000 		.word	.LC0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 14
 
 
  455 0004 00000000 		.word	StartDefaultTask
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  487              	.Letext0:
  488              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
  489              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 15
 
 
  490              		.file 4 "../../core/ST/CMSIS/Include/core_cm4.h"
@@ -867,35 +867,35 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 1
  513              		.file 27 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
  514              		.file 28 "../../core/platform/octa/inc/sysclock.h"
  515              		.file 29 "../../core/platform/common/inc/platform.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 temperature-humidity.c
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:18     .text.StartDefaultTask:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:26     .text.StartDefaultTask:00000000 StartDefaultTask
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:53     .text.printWelcome:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:60     .text.printWelcome:00000000 printWelcome
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:115    .text.printWelcome:00000044 $d
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:123    .text.main:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:130    .text.main:00000000 main
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:231    .text.main:0000007c $d
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:18     .text.StartDefaultTask:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:26     .text.StartDefaultTask:00000000 StartDefaultTask
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:53     .text.printWelcome:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:60     .text.printWelcome:00000000 printWelcome
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:115    .text.printWelcome:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:123    .text.main:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:130    .text.main:00000000 main
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:231    .text.main:0000007c $d
                             *COM*:0000004c common_I2C
                             *COM*:00000004 defaultTaskHandle
                             *COM*:00000004 iwdgTimId
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:314    .text.temp_hum_measurement:00000000 temp_hum_measurement
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:314    .text.temp_hum_measurement:00000000 temp_hum_measurement
                             *COM*:00000004 temp_hum_timer_id
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:244    .text.print_temp_hum:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:251    .text.print_temp_hum:00000000 print_temp_hum
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:299    .text.print_temp_hum:00000034 $d
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:244    .text.print_temp_hum:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:251    .text.print_temp_hum:00000000 print_temp_hum
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:299    .text.print_temp_hum:00000034 $d
                             *COM*:00000008 SHTData
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:307    .text.temp_hum_measurement:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:337    .text.temp_hum_measurement:00000010 $d
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:342    .text.HAL_TIM_PeriodElapsedCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:349    .text.HAL_TIM_PeriodElapsedCallback:00000000 HAL_TIM_PeriodElapsedCallback
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:383    .text.HAL_TIM_PeriodElapsedCallback:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:388    .text.Error_Handler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:395    .text.Error_Handler:00000000 Error_Handler
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:307    .text.temp_hum_measurement:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:337    .text.temp_hum_measurement:00000010 $d
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:342    .text.HAL_TIM_PeriodElapsedCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:349    .text.HAL_TIM_PeriodElapsedCallback:00000000 HAL_TIM_PeriodElapsedCallback
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:383    .text.HAL_TIM_PeriodElapsedCallback:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:388    .text.Error_Handler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:395    .text.Error_Handler:00000000 Error_Handler
                             *COM*:00000004 temp
                             *COM*:00000004 humidity
                             *COM*:00000001 _i2caddr
@@ -927,7 +927,7 @@ C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:395    .text.Error_Handler:00000000
                             *COM*:00000008 P2_DIO4
                             *COM*:00000008 P2_DIO3
                             *COM*:00000008 P2_DIO2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s 			page 17
 
 
                             *COM*:00000008 P2_DIO1
@@ -937,11 +937,11 @@ C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:395    .text.Error_Handler:00000000
                             *COM*:00000008 P1_DIO3
                             *COM*:00000008 P1_DIO2
                             *COM*:00000008 P1_DIO1
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:451    .rodata:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:461    .rodata.main.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:465    .rodata.printWelcome.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:475    .rodata.print_temp_hum.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cc0OIAru.s:482    .rodata.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:451    .rodata:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:461    .rodata.main.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:465    .rodata.printWelcome.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:475    .rodata.print_temp_hum.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cci1cvGa.s:482    .rodata.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 osDelay
