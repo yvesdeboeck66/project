@@ -3,6 +3,8 @@
 
 uint8_t use_scheduler = 0;
 struct OCTA_header murataHeader;
+extern volatile uint8_t failureCounter;
+extern volatile uint8_t successCounter; 
 
 session_config_t session_config_lora =
     {
@@ -22,7 +24,7 @@ session_config_t session_config_d7 = {
   .interface_type = DASH7,
   .d7ap_session_config = {
     .qos = {
-        .qos_resp_mode = SESSION_RESP_MODE_PREFERRED, //SESSION_RESP_MODE_ALL,
+        .qos_resp_mode = SESSION_RESP_MODE_ALL, //SESSION_RESP_MODE_PREFERRED
         .qos_retry_mode = SESSION_RETRY_MODE_NO
     },
     .dormant_timeout = 0,
@@ -49,6 +51,12 @@ modem_callbacks_t modem_callbacks = {
 void on_modem_command_completed_callback(bool with_error, uint8_t tag_id)
 {
     printf("Murata modem command with tag %i completed (success = %i)\r\n", tag_id, !with_error);
+    if (with_error) {
+        failureCounter++;
+    } else {
+        failureCounter=0;
+        successCounter=1;
+    }   
 }
 
 void on_modem_return_file_data_callback(uint8_t file_id, uint32_t offset, uint32_t size, uint8_t *output_buffer)

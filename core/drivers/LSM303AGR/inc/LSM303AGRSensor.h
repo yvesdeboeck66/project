@@ -131,4 +131,6 @@ void LSM303AGR_ACC_readAccelerationData(int32_t *pData);
 void LSM303AGR_MAG_readMagneticData(int32_t *pData);
 void LSM303AGR_MAG_readMagneticRawData(uint16_t *pData);
 void LSM303AGR_ACC_readAccelerationRawData(uint16_t *pData);
+void LSM303AGR_initDefault();
+void LSM303AGR_initDouble();
 #endif /* LSM303AGRACCSENSOR_H_ */

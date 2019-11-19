@@ -77,6 +77,12 @@ void OCTA_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(Pin_13_GPIO_Port, &GPIO_InitStruct);
 
+   /*Configure GPIO pin : OCTA_BTN2_Pin */
+  GPIO_InitStruct.Pin = OCTA_BTN2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(OCTA_BTN2_GPIO_Port , &GPIO_InitStruct);
+
   /*Configure GPIO pins : P1_DIO3_Pin P1_DIO5_Pin P2_DIO5_Pin OCTA_STEPUP_Pin 
                            P3_DIO3_Pin */
   GPIO_InitStruct.Pin = P1_DIO3_Pin|P1_DIO5_Pin|P2_DIO5_Pin|OCTA_STEPUP_Pin 

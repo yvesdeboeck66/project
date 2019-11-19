@@ -152,6 +152,53 @@ void LSM303AGR_init() {
 
 }
 
+void LSM303AGR_initDouble(){
+	//Trigger interrupt whenever we double click
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG1, 0x2F, 0);  //enable/turn on xyz, ODR = 10Hz (normal mode), zodanig dat time limit groot genoeg kan worden gezet (zie verder)
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG2, 0x00 , 0); //highpass filter disable (got undesired effects otherwise)
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG3, 0x80 , 0); //put de click interrupt on int line 1
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG4, 0x00 , 0); //FS=2G, wil zeggen laagste treshold, alles voor derest disablen. 
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG5, 0x00 , 0); //no latching, alles disablen
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_CFG, 0x02 , 0); //enablen double click on x-axis
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_SRC, 0x20 , 0); //double click enable
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_THS, 0x20 , 0);	//set treshold  
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_LATENCY, 0x00 , 0);  //set how long the interrupt lasts, we set minimum duration. 
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_TIME, 0x7F , 0);  	 //time limiit = value * 1/ODR so maximum time limit = 127*0.1 = +/- 10 s = time to do rep
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_WINDOW, 0x0A , 0);  	 //max time in between 2 clicks. If the second click is later than the time window the interrupt won't be generated. 
+
+}
+
+void LSM303AGR_initDefault(){
+	//Trigger interrupt whenever the accelerometer has moved
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG1, 0xA7, 0);  //enable/turn on xyz, ODR = 100Hz (gegokt, normal mode)
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG2, 0x00 , 0); //highpass filter disable (got undesired effects otherwise)
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG3, 0x40 , 0); //gewone interrupt op int lijn 1 zetten (AOI).
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG4, 0x00 , 0); //FS=2G, wil zeggen laagste treshold, alles voor derest disablen. 
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG5, 0x00 , 0); //no latching, alles disablen
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_INT1_THS, 0x10 , 0);	//set treshold, maximum threshold en de eenheid dat 1 bit in dit register voorstelt is bepaald door de FS in REG4. 
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_INT1_DUR, 0x7F , 0);  //duration van de interrupt. Ook weer maximum en stapgrootte afhankelijk van ODR die werd configureerd in REG1.
+
+	LSM303AGR_writeRegister(LSM303AGR_ACC_INT1_CFG, 0x0A , 0);  //INT1_CFG_A enable xh & yH interrupt */
+}
+
 /**
  * Resets the LSM303AGR accelerometer
  */
