@@ -58,10 +58,10 @@ def WriteMongo():
         if(i==0):
             i=-1000
     location=raw_input("Give location plz")
-    dictmeasurement={"RSSI":measurement,"Location":location}
+    dictmeasurement={"RSSI":measurement,"location":location}
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")  # Connect met database
-    mydb = myclient["TestDatabase"]
-    mycol = mydb["RealMeasurement"]
+    mydb = myclient["IOT"]
+    mycol = mydb["TrainingDatabase"]
     mycol.insert_one(dictmeasurement)  # {} --> eerste doc in collection, measurementset is een list van docs eigenlijk dus neem de 1ste doc uit de lijst
     return 0
 
