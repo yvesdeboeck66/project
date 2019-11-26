@@ -49,16 +49,17 @@ def sendToDatabase(param):
     dictmeasurement = {"RSSI": param, "location": location}
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")  # Connect met database
     mydb = myclient["IOT"]
-    mycol = mydb["TrainingDatabase"]
+    mycol = mydb["Testdatabase"]
     mycol.insert_one(dictmeasurement)  # {} --> eerste doc in collection, measurementset is een list van docs eigenlijk dus neem de 1ste doc uit de lijst
+    print("Sent!")
     #To do: Check if dictmeasurement is created as intended
 
 msgCounter = 0
-initMinute = 0
+initSecond = 0
 measurement = [0,0,0,0]
 
 def on_message(client, userdata, message):
-    global msgCounter, initMinute, measurement
+    global msgCounter, initSecond, measurement
     msgCounter = msgCounter + 1
 
 
@@ -73,13 +74,16 @@ def on_message(client, userdata, message):
     payload_data = payload.actions[0].operand.data
     payload_linkBudget = payload.interface_status.operation.operand.interface_status.link_budget
     print("Message from " + gw_name)
-    print("Link budget: "+ str(payload_linkBudget) + "\n")
+    print("Link budget: "+ str(payload_linkBudget))
 
 
     # TIME
     then = datetime.datetime.now()
     timeStamp = str(time.mktime(then.timetuple())*1e3 + then.microsecond/1e3)
-    currentMinute = then.minute
+    currentSecond = then.second
+    if msgCounter == 1:
+        initSecond = currentSecond
+
 
     # We check if message have arrived in all four gateways by giving the broadcast a 2-second TTL
     # If the time difference from the initial message has not exceeded 2 seconds, check if message comes in
@@ -87,26 +91,20 @@ def on_message(client, userdata, message):
     # If after 2 seconds the counter is 3, send to mongoDB
 
     measurement[gateway_index(gw_name)] = payload_linkBudget
+    #print("Saved measurement from gateway " + str(gateway_index(gw_name)) + " with payload " + payload_linkBudget)
 
     # Debug#
-    print(currentMinute - initMinute)
+    #print("Time Diff: " + str(currentSecond - initSecond))
+    #print("Counter: " + str(msgCounter))
 
-    if msgCounter <= 1:
-        initMinute = currentMinute
-        msgCounter = msgCounter + 1
-
-    elif msgCounter < 4 & (currentMinute - initMinute) < 2:
-        msgCounter = msgCounter + 1
-        if msgCounter == 4 :
-            sendToDatabase(measurement)
-            msgCounter = 0
-            measurement = [0,0,0,0]
-
-    else:
+    #print("CurrentSec: " + str(currentSecond) + ". initSec: " + str(initSecond) + ". Diff: " + str(currentSecond-initSecond))
+    if(msgCounter == 4 or (currentSecond - initSecond) >= 10):
+        print("Pushing data to mongoDB.")
+        #print("Current info: ctr:"+str(msgCounter) + ". dt: " + str(currentSecond-initSecond)+ ".")
         sendToDatabase(measurement)
         msgCounter = 0
         measurement = [0,0,0,0]
-
+        print("\n")
 
 subscribe.callback(on_message, "/d7/4836383700470033/#", hostname="student-04.idlab.uantwerpen.be")
 
