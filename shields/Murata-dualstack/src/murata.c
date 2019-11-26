@@ -55,8 +55,11 @@ void on_modem_command_completed_callback(bool with_error, uint8_t tag_id)
         failureCounter++;
     } else {
         failureCounter=0;
-        successCounter=1;
+        successCounter++;
+        if (successCounter>1000) successCounter =2; 
     }   
+
+    
 }
 
 void on_modem_return_file_data_callback(uint8_t file_id, uint32_t offset, uint32_t size, uint8_t *output_buffer)

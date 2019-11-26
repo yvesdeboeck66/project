@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
   45              		.cfi_endproc
   46              	.LFE123:
   48              		.section	.text.LSM303AGR_readRegister,"ax",%progbits
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 2
 
 
   49              		.align	1
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
   88 001e 0B48     		ldr	r0, .L8
   89              	.LVL4:
   90              		.loc 1 27 3 view .LVU11
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 3
 
 
   91 0020 0068     		ldr	r0, [r0]
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  130              		.align	2
  131              	.L8:
  132 004c 00000000 		.word	LSM303AGR_hi2c
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 4
 
 
  133              		.cfi_endproc
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  173 001c 3221     		movs	r1, #50
  174              	.LVL13:
  175              		.loc 1 53 3 view .LVU25
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 5
 
 
  176 001e 0B48     		ldr	r0, .L14
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
   57:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 				LSM303AGR_reg, I2C_MEMADD_SIZE_8BIT, &LSM303AGR_data,
  215              		.loc 1 57 3 view .LVU33
  216 004a ECE7     		b	.L12
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 6
 
 
  217              	.L15:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
   95:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG5, 0x00 , 0); //no latching, alles disablen
   96:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
   97:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_INT1_THS, 0x10 , 0);	//set treshold, maximum threshold en de
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 7
 
 
   98:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  260              	.LVL23:
  135:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
  136:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CTRL_REG4, 0x00 , 0); //FS=2G, wil zeggen laagste treshold, 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 8
 
 
  261              		.loc 1 136 2 view .LVU38
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  149:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
  150:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_WINDOW, 0x0A , 0);  	 //max time in between 2 clicks. 
  303              		.loc 1 150 2 view .LVU45
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 9
 
 
  304 0066 0022     		movs	r2, #0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  348 001a 2220     		movs	r0, #34
  349 001c FFF7FEFF 		bl	LSM303AGR_writeRegister
  350              	.LVL34:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 10
 
 
  163:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  391 0062 FFF7FEFF 		bl	LSM303AGR_writeRegister
  392              	.LVL41:
  177:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 11
 
 
  178:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_WINDOW, 0x0A , 0);  	 //max time in between 2 clicks. 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  437 0018 4021     		movs	r1, #64
  438 001a 2220     		movs	r0, #34
  439 001c FFF7FEFF 		bl	LSM303AGR_writeRegister
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 12
 
 
  440              	.LVL45:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  485              	.LFB129:
  201:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
  202:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** /**
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 13
 
 
  203:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c ****  * Resets the LSM303AGR accelerometer
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  531              		.cfi_offset 3, -8
  532              		.cfi_offset 14, -4
  214:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 14
 
 
  215:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_setting = LSM303AGR_MAG_SOFT_RST;
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  576              		.loc 1 227 2 is_stmt 1 view .LVU83
  577 0008 0022     		movs	r2, #0
  578 000a 2020     		movs	r0, #32
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 15
 
 
  579 000c FFF7FEFF 		bl	LSM303AGR_writeRegister
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  623              	.L36:
  624 0014 00000000 		.word	LSM303AGR_setting
  625              		.cfi_endproc
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 16
 
 
  626              	.LFE132:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  672              		.fpu fpv4-sp-d16
  674              	LSM303AGR_wakeUpMagnetometer:
  675              	.LFB134:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 17
 
 
  251:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  715              		.loc 1 267 57 is_stmt 1 view -0
  716              		.cfi_startproc
  717              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 18
 
 
  718              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  761 0032 AA78     		ldrb	r2, [r5, #2]	@ zero_extendqisi2
  762              		.loc 1 278 43 view .LVU112
  763 0034 42EA0022 		orr	r2, r2, r0, lsl #8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 19
 
 
  764              		.loc 1 278 16 view .LVU113
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  811 0080 02FB03F2 		mul	r2, r2, r3
  812              		.loc 1 285 53 view .LVU136
  813 0084 02F5FA72 		add	r2, r2, #500
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 20
 
 
  814              		.loc 1 285 60 view .LVU137
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  862              		.cfi_def_cfa_offset 32
  863 0004 0446     		mov	r4, r0
  294:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	//magRegisterData[6];
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 21
 
 
  295:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 		//magRawData[3];
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  902 003a 6879     		ldrb	r0, [r5, #5]	@ zero_extendqisi2
  309:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			| magRegisterData[4];
  903              		.loc 1 309 21 view .LVU157
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 22
 
 
  904 003c 2979     		ldrb	r1, [r5, #4]	@ zero_extendqisi2
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  950              		.align	2
  951              	.L52:
  952 0090 00000000 		.word	magRegisterData
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 23
 
 
  953 0094 00000000 		.word	LSM303AGR_hi2c
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  998 001e FFF7FEFF 		bl	HAL_I2C_Mem_Read
  999              	.LVL67:
  328:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 	LSM303AGR_MAG_MULTI_READ, I2C_MEMADD_SIZE_8BIT, magRegisterData,
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 24
 
 
  329:../../core/drivers/LSM303AGR/src/LSM303AGRSensor.c **** 			sizeof(magRegisterData), HAL_MAX_DELAY);
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  1040              		.cfi_endproc
  1041              	.LFE137:
  1043              		.section	.text.LSM303AGR_ACC_readAccelerationRawData,"ax",%progbits
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 25
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 25
 
 
  1044              		.align	1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  1087 0022 6278     		ldrb	r2, [r4, #1]	@ zero_extendqisi2
  1088              		.loc 1 351 56 view .LVU203
  1089 0024 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 26
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 26
 
 
  1090              		.loc 1 351 39 view .LVU204
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  1135              	.Letext0:
  1136              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
  1137              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 27
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 27
 
 
  1138              		.file 4 "../../core/ST/CMSIS/Include/core_cm4.h"
@@ -1569,66 +1569,66 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 1
  1143              		.file 9 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_i2c.h"
  1144              		.file 10 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  1145              		.file 11 "../../core/drivers/LSM303AGR/inc/LSM303AGRSensor.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 28
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 28
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 LSM303AGRSensor.c
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:18     .text.LSM303AGR_setI2CInterface:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:26     .text.LSM303AGR_setI2CInterface:00000000 LSM303AGR_setI2CInterface
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:44     .text.LSM303AGR_setI2CInterface:00000008 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:18     .text.LSM303AGR_setI2CInterface:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:26     .text.LSM303AGR_setI2CInterface:00000000 LSM303AGR_setI2CInterface
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:44     .text.LSM303AGR_setI2CInterface:00000008 $d
                             *COM*:00000004 LSM303AGR_hi2c
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:49     .text.LSM303AGR_readRegister:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:56     .text.LSM303AGR_readRegister:00000000 LSM303AGR_readRegister
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:132    .text.LSM303AGR_readRegister:0000004c $d
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:137    .text.LSM303AGR_writeRegister:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:144    .text.LSM303AGR_writeRegister:00000000 LSM303AGR_writeRegister
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:220    .text.LSM303AGR_writeRegister:0000004c $d
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:225    .text.LSM303AGR_init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:232    .text.LSM303AGR_init:00000000 LSM303AGR_init
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:315    .text.LSM303AGR_initDouble:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:322    .text.LSM303AGR_initDouble:00000000 LSM303AGR_initDouble
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:405    .text.LSM303AGR_initDefault:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:412    .text.LSM303AGR_initDefault:00000000 LSM303AGR_initDefault
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:477    .text.LSM303AGR_ACC_reset:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:484    .text.LSM303AGR_ACC_reset:00000000 LSM303AGR_ACC_reset
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:510    .text.LSM303AGR_ACC_reset:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:49     .text.LSM303AGR_readRegister:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:56     .text.LSM303AGR_readRegister:00000000 LSM303AGR_readRegister
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:132    .text.LSM303AGR_readRegister:0000004c $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:137    .text.LSM303AGR_writeRegister:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:144    .text.LSM303AGR_writeRegister:00000000 LSM303AGR_writeRegister
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:220    .text.LSM303AGR_writeRegister:0000004c $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:225    .text.LSM303AGR_init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:232    .text.LSM303AGR_init:00000000 LSM303AGR_init
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:315    .text.LSM303AGR_initDouble:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:322    .text.LSM303AGR_initDouble:00000000 LSM303AGR_initDouble
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:405    .text.LSM303AGR_initDefault:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:412    .text.LSM303AGR_initDefault:00000000 LSM303AGR_initDefault
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:477    .text.LSM303AGR_ACC_reset:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:484    .text.LSM303AGR_ACC_reset:00000000 LSM303AGR_ACC_reset
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:510    .text.LSM303AGR_ACC_reset:00000014 $d
                             *COM*:00000001 LSM303AGR_setting
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:515    .text.LSM303AGR_MAG_reset:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:522    .text.LSM303AGR_MAG_reset:00000000 LSM303AGR_MAG_reset
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:548    .text.LSM303AGR_MAG_reset:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:553    .text.LSM303AGR_powerDownAccelerometer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:560    .text.LSM303AGR_powerDownAccelerometer:00000000 LSM303AGR_powerDownAccelerometer
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:586    .text.LSM303AGR_powerDownAccelerometer:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:591    .text.LSM303AGR_powerDownMagnetometer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:598    .text.LSM303AGR_powerDownMagnetometer:00000000 LSM303AGR_powerDownMagnetometer
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:624    .text.LSM303AGR_powerDownMagnetometer:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:629    .text.LSM303AGR_wakeUpAccelerometer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:636    .text.LSM303AGR_wakeUpAccelerometer:00000000 LSM303AGR_wakeUpAccelerometer
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:662    .text.LSM303AGR_wakeUpAccelerometer:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:667    .text.LSM303AGR_wakeUpMagnetometer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:674    .text.LSM303AGR_wakeUpMagnetometer:00000000 LSM303AGR_wakeUpMagnetometer
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:700    .text.LSM303AGR_wakeUpMagnetometer:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:705    .text.LSM303AGR_ACC_readAccelerationData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:712    .text.LSM303AGR_ACC_readAccelerationData:00000000 LSM303AGR_ACC_readAccelerationData
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:831    .text.LSM303AGR_ACC_readAccelerationData:00000098 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:515    .text.LSM303AGR_MAG_reset:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:522    .text.LSM303AGR_MAG_reset:00000000 LSM303AGR_MAG_reset
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:548    .text.LSM303AGR_MAG_reset:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:553    .text.LSM303AGR_powerDownAccelerometer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:560    .text.LSM303AGR_powerDownAccelerometer:00000000 LSM303AGR_powerDownAccelerometer
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:586    .text.LSM303AGR_powerDownAccelerometer:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:591    .text.LSM303AGR_powerDownMagnetometer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:598    .text.LSM303AGR_powerDownMagnetometer:00000000 LSM303AGR_powerDownMagnetometer
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:624    .text.LSM303AGR_powerDownMagnetometer:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:629    .text.LSM303AGR_wakeUpAccelerometer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:636    .text.LSM303AGR_wakeUpAccelerometer:00000000 LSM303AGR_wakeUpAccelerometer
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:662    .text.LSM303AGR_wakeUpAccelerometer:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:667    .text.LSM303AGR_wakeUpMagnetometer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:674    .text.LSM303AGR_wakeUpMagnetometer:00000000 LSM303AGR_wakeUpMagnetometer
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:700    .text.LSM303AGR_wakeUpMagnetometer:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:705    .text.LSM303AGR_ACC_readAccelerationData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:712    .text.LSM303AGR_ACC_readAccelerationData:00000000 LSM303AGR_ACC_readAccelerationData
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:831    .text.LSM303AGR_ACC_readAccelerationData:00000098 $d
                             *COM*:00000006 accRegisterData
                             *COM*:00000006 accRawData
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:839    .text.LSM303AGR_MAG_readMagneticData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:846    .text.LSM303AGR_MAG_readMagneticData:00000000 LSM303AGR_MAG_readMagneticData
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:952    .text.LSM303AGR_MAG_readMagneticData:00000090 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:839    .text.LSM303AGR_MAG_readMagneticData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:846    .text.LSM303AGR_MAG_readMagneticData:00000000 LSM303AGR_MAG_readMagneticData
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:952    .text.LSM303AGR_MAG_readMagneticData:00000090 $d
                             *COM*:00000006 magRegisterData
                             *COM*:00000006 magRawData
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:959    .text.LSM303AGR_MAG_readMagneticRawData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:966    .text.LSM303AGR_MAG_readMagneticRawData:00000000 LSM303AGR_MAG_readMagneticRawData
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:1038   .text.LSM303AGR_MAG_readMagneticRawData:00000044 $d
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:1044   .text.LSM303AGR_ACC_readAccelerationRawData:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:1051   .text.LSM303AGR_ACC_readAccelerationRawData:00000000 LSM303AGR_ACC_readAccelerationRawData
-C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s:1123   .text.LSM303AGR_ACC_readAccelerationRawData:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:959    .text.LSM303AGR_MAG_readMagneticRawData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:966    .text.LSM303AGR_MAG_readMagneticRawData:00000000 LSM303AGR_MAG_readMagneticRawData
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:1038   .text.LSM303AGR_MAG_readMagneticRawData:00000044 $d
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:1044   .text.LSM303AGR_ACC_readAccelerationRawData:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:1051   .text.LSM303AGR_ACC_readAccelerationRawData:00000000 LSM303AGR_ACC_readAccelerationRawData
+C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s:1123   .text.LSM303AGR_ACC_readAccelerationRawData:00000044 $d
 
 UNDEFINED SYMBOLS
 HAL_I2C_Mem_Read
 HAL_I2C_Mem_Write
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN9Lwg8.s 			page 29
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cctrlrm4.s 			page 29
 
 

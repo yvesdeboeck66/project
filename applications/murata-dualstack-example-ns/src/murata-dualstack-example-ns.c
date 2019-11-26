@@ -105,6 +105,7 @@ volatile _Bool repFlag=0;
 volatile _Bool repMode=0; 
 _Bool changeAcceleroMode=0; 
 _Bool volatile messageMode=0; 
+volatile _Bool timer3_first=0; 
 
 
 /* USER CODE END 0 */
@@ -127,11 +128,11 @@ void InitializeTimer2()
     localisation_timer.Init.Period = 60000;                                 //60000 steps of clockperiodxprescaler before the timer resets. we want 1min, but it always gives 1.07. 
     localisation_timer.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
     localisation_timer.Init.RepetitionCounter = 0;
-    HAL_TIM_Base_Init(&localisation_timer);
+   /*  HAL_TIM_Base_Init(&localisation_timer);
     HAL_TIM_Base_Start_IT(&localisation_timer);
     HAL_NVIC_SetPriority(TIM2_IRQn, 0, 0);                              //set de priority of the interrupt van timer2
-    HAL_NVIC_EnableIRQ(TIM2_IRQn);                                      //enable de interrupt van timer2
-}
+    HAL_NVIC_EnableIRQ(TIM2_IRQn);        */                               //enable de interrupt van timer2 
+} 
 
 void InitializeTimer3()
 {
@@ -141,10 +142,10 @@ void InitializeTimer3()
     inactive_timer.Init.Period = 60000;                                 //60000 steps of clockperiodxprescaler before the timer resets. we want 1min, but it always gives 1.07. 
     inactive_timer.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
     inactive_timer.Init.RepetitionCounter = 0;
-    HAL_TIM_Base_Init(&inactive_timer);
+    /* HAL_TIM_Base_Init(&inactive_timer);
     HAL_TIM_Base_Start_IT(&inactive_timer);
     HAL_NVIC_SetPriority(TIM3_IRQn, 0, 0); 
-    HAL_NVIC_EnableIRQ(TIM3_IRQn);
+    HAL_NVIC_EnableIRQ(TIM3_IRQn); */
 }
 
 /**
@@ -308,15 +309,25 @@ int main(void)
       rep_counter++; 
       printf("Rep counter: %d,\r\n\r\n",rep_counter);
 
-      }
+      } 
+        //reset de inactive timer want accelerometer interrupt
+        // HAL_TIM_Base_Stop_IT(&inactive_timer);    
+ 
+
+      //  __HAL_TIM_SET_COUNTER(&inactive_timer, 0);
+ 
+
+        //HAL_TIM_Base_Start_IT(&inactive_timer);         
+
+      
+      
           repFlag=0; 
     }  
 
 
 
     if(timer2flag==1) {
-       murata_init=Murata_Initialize(short_UID,0);
-
+       
       if (murata_init) {
         printf("Sending dash7 localisation message (once per minute)\r\n\r\n");
           temp_hum_measurement();
@@ -327,9 +338,9 @@ int main(void)
     }
  
      if(timer3flag==1) {
-       murata_init=Murata_Initialize(short_UID,0);
-
+      
       if (murata_init) {
+        
         printf("Sending dash7 go to sleep message (once per minute)\r\n\r\n");
         temp_hum_measurement();
         send_message(1); 
@@ -342,12 +353,16 @@ int main(void)
       printf("Going to LoRaWAN mode\r\n\r\n");
       messageMode=1;      //go to lorawanmode
       successCounter=0;
+      failureCounter=4; 
     }
 
-    if (successCounter==1) {
+     if (successCounter==1) {
       printf("Going to dash7 mode\r\n\r\n");
       messageMode=0;    //go to dash7mode
+      successCounter=2;     //step over the 1 value so that between messages this if isn't accessed with every iteration of the while loop
     }
+
+   
 
     // SEND 5 D7 messages, every 10 sec.
     // Afterwards, send 3 LoRaWAN messages, every minute
@@ -399,7 +414,8 @@ void goToSleep(void) {
 
       HAL_ResumeTick(); 
       SystemClock_Config(); 
-      printf(" came out of sleepmode \r\n");   
+      printf(" came out of sleepmode \r\n");  
+      timer3_first=0;  
 }
 
 void send_message(uint8_t type) {
@@ -419,6 +435,7 @@ void send_message(uint8_t type) {
     }
   } else {                               //lorawanmode
       LoRaWAN_send(NULL);  
+      Dash7_send_temphum(); 
       printf("sending out of reach lorawan message\r\n");
   }
 }
@@ -722,6 +739,7 @@ void TIM2_IRQHandler( void ) {
     printf("elapsed period \r\n");
     timer2flag = 1; 
     
+    
     }
   
   }
@@ -740,10 +758,12 @@ void TIM3_IRQHandler( void ) {
     
     __HAL_TIM_CLEAR_IT(&inactive_timer, TIM_IT_UPDATE);
     
-    
+    if (timer3_first>0) {
     printf("elapsed period \r\n");
     timer3flag = 1; 
     
+    }
+    timer3_first=1; 
     }
   
   }
