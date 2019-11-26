@@ -1,5 +1,6 @@
 
 import paho.mqtt.subscribe as subscribe
+import time
 import paho.mqtt.publish as publish
 import time, datetime
 import paho.mqtt.client as mqttclient
@@ -35,6 +36,10 @@ def gateway_name(param):
 
 def on_message(client, userdata, message):
 
+    if(flag==False):
+        start = time.time()
+    flag = True
+
     print("\nNEW MESSAGE")
     dataByteArray = bytearray(message.payload.decode("hex"))
     payload = AlpParser().parse(ConstBitStream(dataByteArray), len(dataByteArray))
@@ -45,11 +50,32 @@ def on_message(client, userdata, message):
     payload_data = payload.actions[0].operand.data
     payload_linkBudget = payload.interface_status.operation.operand.interface_status.link_budget
     print("Gateway : "+ gw_name+" Link budget: "+ str(payload_linkBudget))
-    cases={"Gateway1" : 1, "Gateway2" : 2}
+    cases={"Gateway1" : 0, "Gateway2" : 1, "Gateway3" : 2, "Gateway4": 3}
     measurement[cases.get(gw_name)] = payload_linkBudget
 
+def WriteMongo():
+    for i in measurement:
+        if(i==0):
+            i=-1000
+    location=raw_input("Give location plz")
+    dictmeasurement={"RSSI":measurement,"Location":location}
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")  # Connect met database
+    mydb = myclient["TestDatabase"]
+    mycol = mydb["RealMeasurement"]
+    mycol.insert_one(dictmeasurement)  # {} --> eerste doc in collection, measurementset is een list van docs eigenlijk dus neem de 1ste doc uit de lijst
+    return 0
 
 
-measurement=[]
+
+measurement=[0,0,0,0]
+flag = False
+start =0
 subscribe.callback(on_message, "/d7/4836383700470033/#", hostname="student-04.idlab.uantwerpen.be")
+while(1):
+    end =time.time()
+    if(end-start>3):
+        start=0
+        flag= False
+        WriteMongo()
+        measurement = [0, 0, 0, 0]
 
