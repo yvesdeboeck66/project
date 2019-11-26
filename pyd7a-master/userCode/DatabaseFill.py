@@ -32,18 +32,27 @@ def gateway_name(param):
     if param == "4337313400210032":
         return "Gateway4"
 
-
+flag=False
+start=0
+counter = 0
+initTime = datetime.datetime.now()
 
 def on_message(client, userdata, message):
-
-    if(flag==False):
+    print("in onmessage")
+    global flag,start, measurement, counter, initTime
+    if flag==False :
         start = time.time()
-    flag = True
+    flag=True
 
-    print("\nNEW MESSAGE")
+    # If the time difference from the initial message has not exceeded 2 seconds, check if message comes in
+    # If after 2 seconds the counter is not 3, do 'IncorrectMeasurement' function with data you have
+    # If after 2 seconds the counter is 3, send to mongoDB
+    timeDiff = initTime.timeDelta
+
+
+    print("NEW MESSAGE")
     dataByteArray = bytearray(message.payload.decode("hex"))
     payload = AlpParser().parse(ConstBitStream(dataByteArray), len(dataByteArray))
-
     gateway_id = message.topic.split("/")[3]
     gw_name = gateway_name(gateway_id)
     gw_access_id = gateway_access_id(gateway_id)
@@ -57,7 +66,7 @@ def WriteMongo():
     for i in measurement:
         if(i==0):
             i=-1000
-    location=raw_input("Give location plz")
+    location=input("Give location plz")
     dictmeasurement={"RSSI":measurement,"location":location}
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")  # Connect met database
     mydb = myclient["IOT"]
@@ -66,14 +75,15 @@ def WriteMongo():
     return 0
 
 
-
+print("begin")
 measurement=[0,0,0,0]
-flag = False
-start =0
 subscribe.callback(on_message, "/d7/4836383700470033/#", hostname="student-04.idlab.uantwerpen.be")
+
+
+print("na callback")
 while(1):
     print("In de while loop")
-    end =time.time()
+    end = time.time()
     if(end-start>3):
         start=0
         flag= False
