@@ -41,6 +41,8 @@ def sendToDatabase(param):
     for i in range(len(param)):
         if(param[i] == 0):
             param[i] = -1000
+        else:
+            param[i] = -1*param[i]
 
     #Get a location for the database
     location = input("What location did you test?")
