@@ -3,6 +3,7 @@ import paho.mqtt.subscribe as subscribe
 import paho.mqtt.publish as publish
 import time, datetime
 import paho.mqtt.client as mqttclient
+import pymongo
 from d7a.alp.parser import Parser as AlpParser
 from bitstring import ConstBitStream
 
@@ -44,6 +45,11 @@ def on_message(client, userdata, message):
     payload_data = payload.actions[0].operand.data
     payload_linkBudget = payload.interface_status.operation.operand.interface_status.link_budget
     print("Gateway : "+ gw_name+" Link budget: "+ str(payload_linkBudget))
+    cases={"Gateway1" : 1, "Gateway2" : 2}
+    measurement[cases.get(gw_name)] = payload_linkBudget
 
+
+
+measurement=[]
 subscribe.callback(on_message, "/d7/4836383700470033/#", hostname="student-04.idlab.uantwerpen.be")
 
