@@ -72,6 +72,7 @@ flag = False
 start =0
 subscribe.callback(on_message, "/d7/4836383700470033/#", hostname="student-04.idlab.uantwerpen.be")
 while(1):
+    print("In de while loop")
     end =time.time()
     if(end-start>3):
         start=0
