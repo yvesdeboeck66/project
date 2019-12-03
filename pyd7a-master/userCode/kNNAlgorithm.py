@@ -93,7 +93,7 @@ def estimation(neighbors,k):
 def main():
      trainingSet=getmongodata()
      testset=getmongoMeasurement()
-     k = 3                                                          #neem een k --> nodig voor betere estimation, k aanpassen (trial en error)
+     k = 5                                                          #neem een k --> nodig voor betere estimation, k aanpassen (trial en error)
      neighbors = getNeighborsDB(trainingSet, testset,k)
      location = estimation(neighbors,k)
      testset[0].update(location = location)
