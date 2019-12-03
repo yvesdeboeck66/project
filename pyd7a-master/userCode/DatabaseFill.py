@@ -56,56 +56,65 @@ def sendToDatabase(param):
     print("Sent!")
     #To do: Check if dictmeasurement is created as intended
 
-msgCounter = 0
-initSecond = 0
+
 measurement = [0,0,0,0]
+lastSentCounter = 0
+msgCounter = 0
 
 def on_message(client, userdata, message):
-    global msgCounter, initSecond, measurement
-    msgCounter = msgCounter + 1
+    global measurement, lastSentCounter, msgCounter
 
-
+    #
+    #   Parsing the Gateway & getting some information
+    #
     dataByteArray = bytearray(message.payload.decode("hex"))
     payload = AlpParser().parse(ConstBitStream(dataByteArray), len(dataByteArray))
+    payload_data = payload.actions[0].operand.data
+    payload_linkBudget = payload.interface_status.operation.operand.interface_status.link_budget
+    currentCounter = payload_data[3]
 
     gateway_id = message.topic.split("/")[3]
     gw_name = gateway_name(gateway_id)
     gw_access_id = gateway_access_id(gateway_id)
+    gw_index = gateway_index(gw_name)
 
 
-    payload_data = payload.actions[0].operand.data
-    payload_linkBudget = payload.interface_status.operation.operand.interface_status.link_budget
-    print("Message from " + gw_name)
+    #
+    #   Checking if this message is already receiving new payload
+    #   = If the current counter is not equal to the last sent counter +1, it means that not all four gateways
+    #     received the previous packet & it should be sent with -1000 for the gateway that did not receive packet
+    #
+    #   Example: Packet with counter "3" is received by all gateways. The database is updated and the lastSentCounter
+    #   is set to "3".
+    #   The following packet with counter "4" is only received by three gateways, the database is not yet sent.
+    #
+    #   A new packet with counter "5" comes in, but the lastSentCounter is only '3'. THe program knows it need to
+    #   send the information of packet "4" with the non-received gateway a RSSI of -1000. The
+    #
+    #
+
+
+
+    if(currentCounter > (lastSentCounter+1)):
+        print("Previous measurement (ctr "+str(lastSentCounter+1)+") not fully received. Only got "+str(msgCounter)+"messages. Pushing data to mongoDB!")
+        sendToDatabase(measurement)
+        lastSentCounter=lastSentCounter+1
+        measurement = [0,0,0,0]
+        msgCounter = 0
+        print("\n")
+
+    msgCounter = msgCounter + 1
+    print("Message from " + gw_name+"("+str(msgCounter)+"e gateway)")
     print("Link budget: "+ str(payload_linkBudget))
 
 
-    # TIME
-    then = datetime.datetime.now()
-    timeStamp = str(time.mktime(then.timetuple())*1e3 + then.microsecond/1e3)
-    currentSecond = then.second
-    if msgCounter == 1:
-        initSecond = currentSecond
-
-
-    # We check if message have arrived in all four gateways by giving the broadcast a 2-second TTL
-    # If the time difference from the initial message has not exceeded 2 seconds, check if message comes in
-    # If after 2 seconds the counter is not 3, do 'IncorrectMeasurement' function with data you have
-    # If after 2 seconds the counter is 3, send to mongoDB
-
-    measurement[gateway_index(gw_name)] = payload_linkBudget
-    #print("Saved measurement from gateway " + str(gateway_index(gw_name)) + " with payload " + payload_linkBudget)
-
-    # Debug#
-    #print("Time Diff: " + str(currentSecond - initSecond))
-    #print("Counter: " + str(msgCounter))
-
-    #print("CurrentSec: " + str(currentSecond) + ". initSec: " + str(initSecond) + ". Diff: " + str(currentSecond-initSecond))
-    if(msgCounter == 4 or (currentSecond - initSecond) >= 10):
-        print("Pushing data to mongoDB.")
-        #print("Current info: ctr:"+str(msgCounter) + ". dt: " + str(currentSecond-initSecond)+ ".")
+    measurement[gw_index] = payload_linkBudget
+    if(msgCounter >= 4):
+        print("Got message from all four gateways. Pushing data to mongoDB.")
         sendToDatabase(measurement)
-        msgCounter = 0
+        lastSentCounter = lastSentCounter + 1
         measurement = [0,0,0,0]
+        msgCounter = 0
         print("\n")
 
 subscribe.callback(on_message, "/d7/4836383700470033/#", hostname="student-04.idlab.uantwerpen.be")
