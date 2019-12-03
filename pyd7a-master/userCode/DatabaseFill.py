@@ -58,7 +58,7 @@ def sendToDatabase(param):
 
 
 measurement = [0,0,0,0]
-lastSentCounter = 0
+lastSentCounter = -1
 msgCounter = 0
 
 def on_message(client, userdata, message):
@@ -93,10 +93,15 @@ def on_message(client, userdata, message):
     #
     #
 
+    print(currentCounter)
 
+    if(lastSentCounter == -1):
+        lastSentCounter = currentCounter -1
+        counterOffset = currentCounter - 1
+        print("Initialized at counter "+str(currentCounter))
 
     if(currentCounter > (lastSentCounter+1)):
-        print("Previous measurement (ctr "+str(lastSentCounter+1)+") not fully received. Only got "+str(msgCounter)+"messages. Pushing data to mongoDB!")
+        print("Previous measurement ("+str(lastSentCounter+1)+") not fully received. Only got "+str(msgCounter)+"/4 messages. Pushing data to mongoDB!")
         sendToDatabase(measurement)
         lastSentCounter=lastSentCounter+1
         measurement = [0,0,0,0]
@@ -117,7 +122,7 @@ def on_message(client, userdata, message):
         msgCounter = 0
         print("\n")
 
-subscribe.callback(on_message, "/d7/4836383700470033/#", hostname="student-04.idlab.uantwerpen.be")
+subscribe.callback(on_message, "/d7/4836383700260037/#", hostname="student-04.idlab.uantwerpen.be")
 
 
 
