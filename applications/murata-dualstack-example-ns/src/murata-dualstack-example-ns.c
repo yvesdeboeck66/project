@@ -95,6 +95,7 @@ uint8_t murata_data_ready = 0;
 uint8_t rep_counter = 0; 
 extern volatile uint8_t failureCounter=0; 
 extern volatile uint8_t successCounter=0;
+extern volatile uint8_t messageCounter=0; 
 
 float SHTData[2];
 uint8_t data; 
@@ -266,37 +267,42 @@ int main(void)
     
     //LSM303AGR_readRegister(0x31, data, 0);
 
+    //als op de button wordt gedrukt zal in de interrupthandler de changeAcceleroMode op 1 worden gezet. 
     if(changeAcceleroMode==1){
 
       if(repMode==1){
-        LSM303AGR_initDouble();
+        // send dash7 message with all info when user starts repping
+        LSM303AGR_initDouble();         //vanaf laten we de accelorometer enkel interrupten bij een rep beweging
         printf("Started Repping\r\n");
         printf("LSM in double click mode \r\n");
         if (murata_init) {
           printf("Sending D7 Message with BLE info + temp + hum\r\n");
           temp_hum_measurement();
           send_message(1);
+          //LoRaWAN_send(NULL);
           printf("Failure counter = %d\r\n",failureCounter);
 
         //TODO: Send BLE info
         }
         
       }else{
-        LSM303AGR_initDefault();
+        // send dash7 message with all info when user stopped repping
+        LSM303AGR_initDefault();    //vanaf nu laten we de accelerometer interrupten bij elke beweging
         printf("Stopped Repping\nLSM in default mode \r\n\n");
         if (murata_init) {
           printf("Sending D7 Message with BLE info + temp + hum + amount of reps\r\n");
           temp_hum_measurement();
         //Dash7_send_temphum();
-          send_message(2);
+          send_message(2); 
+          //LoRaWAN_send(NULL);
 
         //TODO: Also send BLE info and reps
 
         //Set reps to zero again, for the next user
         }
-        rep_counter=0;
+        rep_counter=0;  //reset the rep counter
       }
-      changeAcceleroMode=0;
+      changeAcceleroMode=0; //set acceleromode flag back to zero
 
     }
 
@@ -327,7 +333,7 @@ int main(void)
 
 
     if(timer2flag==1) {
-       
+       //send dash7 localisation message
       if (murata_init) {
         printf("Sending dash7 localisation message (once per minute)\r\n\r\n");
           temp_hum_measurement();
@@ -336,7 +342,7 @@ int main(void)
       }
      timer2flag=0;
     }
- 
+    // go to sleep
      if(timer3flag==1) {
       
       if (murata_init) {
@@ -418,14 +424,18 @@ void goToSleep(void) {
       timer3_first=0;  
 }
 
+//----------------------------------------------------------start send message methods--------------------------------------------------------------------------------------------
+
 void send_message(uint8_t type) {
   if (messageMode==0) {                 //dash7mode
     switch (type) {
       case 1:
+      messageCounter++;
       Dash7_send_temphum();  
       printf("sending temphum message\r\n");
       break; 
       case 2:
+      messageCounter++;
       Dash7_send_allInfo();
       printf("sending allinfo message\r\n");
       break; 
@@ -440,37 +450,7 @@ void send_message(uint8_t type) {
   }
 }
 
-/* void LoRaWAN_send(void const *argument)
-{
-  if (murata_init)
-  {
-    uint8_t loraMessage[5];
-    uint8_t i = 0;
-    //uint16 counter to uint8 array (little endian)
-    //counter (large) type byte
-    loraMessage[i++] = 0x14;
-    loraMessage[i++] = LoRaWAN_Counter;
-    loraMessage[i++] = LoRaWAN_Counter >> 8;
-    //osMutexWait(txMutexId, osWaitForever);
-    if(!Murata_LoRaWAN_Send((uint8_t *)loraMessage, i))
-    {
-      murata_init++;
-      if(murata_init == 10)
-        murata_init == 0;
-    }
-    else
-    {
-      murata_init = 1;
-    }
-    //BLOCK TX MUTEX FOR 3s
-    //osDelay(3000);
-    //osMutexRelease(txMutexId);
-    LoRaWAN_Counter++;
-  }
-  else{
-    printf("murata not initialized, not sending\r\n");
-  }
-} */
+
 
 void LoRaWAN_send(void const *argument)
 {
@@ -498,6 +478,42 @@ void LoRaWAN_send(void const *argument)
     //BLOCK TX MUTEX FOR 3s
     //osDelay(3000);
     //osMutexRelease(txMutexId);
+    LoRaWAN_Counter++;
+  }
+  else{
+    printf("murata not initialized, not sending\r\n");
+  }
+}
+
+
+void LoRaWAN_send_self()
+{
+  if (murata_init)
+  {
+    uint8_t loraMessage[5];
+    uint8_t i = 0;
+    //uint16 counter to uint8 array (little endian)
+    //counter (large) type byte
+
+    //first data transfer works, but afterwards it stays in a kind of 'transmitted' loop. Find where we can reset the flag.
+    loraMessage[i++] = SHTData[0];
+    loraMessage[i++] = SHTData[1];
+    loraMessage[i++] = LoRaWAN_Counter >> 8;
+   // osMutexWait(txMutexId, osWaitForever);
+    if(!Murata_LoRaWAN_Send((uint8_t *)loraMessage, i))
+    {
+      printf("tis ni gelukt :( ");
+      murata_init++;
+      if(murata_init == 10)
+        murata_init == 0;
+    }
+    else
+    {
+      murata_init = 1;
+    }
+    //BLOCK TX MUTEX FOR 3s
+    // osDelay(3000);
+    // osMutexRelease(txMutexId);
     LoRaWAN_Counter++;
   }
   else{
@@ -552,7 +568,7 @@ void Dash7_send_temphum(void const *argument)
     dash7Message[i++] = SHTData[0];
     dash7Message[i++] = SHTData[1];
     dash7Message[i++] = 0x00;
-    dash7Message[i++] = 0x00;
+    dash7Message[i++] = messageCounter;
     dash7Message[i++] = 0x00;
     dash7Message[i++] = 0x00;
     //osMutexWait(txMutexId, osWaitForever);
@@ -588,7 +604,7 @@ void Dash7_send_allInfo(void const *argument)
     dash7Message[i++] = SHTData[0];
     dash7Message[i++] = SHTData[1];
     dash7Message[i++] = rep_counter;
-    dash7Message[i++] = 0x00;
+    dash7Message[i++] = messageCounter;
     dash7Message[i++] = 0x00;
     dash7Message[i++] = 0x00;
 
@@ -613,7 +629,7 @@ void Dash7_send_allInfo(void const *argument)
   }
 }
 
-
+//----------------------------------------------------------------------end send message methods---------------------------------------------------------------------------------------
 
 void print_temp_hum(void){
   printf("\r\n");
@@ -666,41 +682,7 @@ void printWelcome(void)
 
 /* USER CODE END 4 */
 
-
-void LoRaWAN_send_self()
-{
-  if (murata_init)
-  {
-    uint8_t loraMessage[5];
-    uint8_t i = 0;
-    //uint16 counter to uint8 array (little endian)
-    //counter (large) type byte
-
-    //first data transfer works, but afterwards it stays in a kind of 'transmitted' loop. Find where we can reset the flag.
-    loraMessage[i++] = SHTData[0];
-    loraMessage[i++] = SHTData[1];
-    loraMessage[i++] = LoRaWAN_Counter >> 8;
-   // osMutexWait(txMutexId, osWaitForever);
-    if(!Murata_LoRaWAN_Send((uint8_t *)loraMessage, i))
-    {
-      printf("tis ni gelukt :( ");
-      murata_init++;
-      if(murata_init == 10)
-        murata_init == 0;
-    }
-    else
-    {
-      murata_init = 1;
-    }
-    //BLOCK TX MUTEX FOR 3s
-    // osDelay(3000);
-    // osMutexRelease(txMutexId);
-    LoRaWAN_Counter++;
-  }
-  else{
-    printf("murata not initialized, not sending\r\n");
-  }
-}
+//-------------------------------------------------------start interrupt handlers -----------------------------------------------------------------------------------------------------
 
 //See platform>octa>stm32l4xx_it.c there we placed exti15_10 function to capture interrupts on one of the pins 10-15 on connector B,C,D
 // (see slides of Mr weyn for the exact function name). In this function we call the "HAL_GPIO_EXTI_IRQHandler" function in the stm32l4xx_hal_gpio.c
@@ -769,6 +751,9 @@ void TIM3_IRQHandler( void ) {
   }
  
 }
+
+
+//--------------------------------------------------------------------end interrupt handlers---------------------------------------------------------------------------------------------
 
 
 /**
