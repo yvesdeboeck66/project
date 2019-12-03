@@ -5,7 +5,7 @@ import pymongo
 def getmongodata():
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")    #Connect met database
     mydb = myclient["IOT"]
-    mycol = mydb["TrainingDatabase"]
+    mycol = mydb["TestDatabase"]
     myquery = {}                                                    #Lege query --> zoek alles
     mydoc = mycol.find(myquery)                                     #alle docs in collection
     set=[]
