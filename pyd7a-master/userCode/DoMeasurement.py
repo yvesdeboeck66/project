@@ -6,7 +6,7 @@ import paho.mqtt.client as mqttclient
 from d7a.alp.parser import Parser as AlpParser
 from bitstring import ConstBitStream
 import pymongo
-import kNNAlgorithm.py
+import kNNAlgorithm
 
 import logging
 

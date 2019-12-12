@@ -51,7 +51,7 @@ def sendToDatabase(param):
     dictmeasurement = {"RSSI": param, "location": location}
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")  # Connect met database
     mydb = myclient["IOT"]
-    mycol = mydb["Testdatabase"]
+    mycol = mydb["Data12December"]
     mycol.insert_one(dictmeasurement)  # {} --> eerste doc in collection, measurementset is een list van docs eigenlijk dus neem de 1ste doc uit de lijst
     print("Sent!")
     #To do: Check if dictmeasurement is created as intended
@@ -93,7 +93,7 @@ def on_message(client, userdata, message):
     #
     #
 
-    print(currentCounter)
+#    print(currentCounter)
 
     if(lastSentCounter == -1):
         lastSentCounter = currentCounter -1
