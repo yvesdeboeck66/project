@@ -6,7 +6,7 @@ import paho.mqtt.client as mqttclient
 from d7a.alp.parser import Parser as AlpParser
 from bitstring import ConstBitStream
 import pymongo
-import kNNAlgorithm.py
+import kNNAlgorithm
 
 import logging
 
@@ -55,7 +55,6 @@ def sendToDatabase(param):
     mycol.delete_many({})
     mycol.insert_one(dictmeasurement)  # {} --> eerste doc in collection, measurementset is een list van docs eigenlijk dus neem de 1ste doc uit de lijst
     print("Sent!")
-    kNNAlgorithm.main()
     #To do: Check if dictmeasurement is created as intended
 
 
