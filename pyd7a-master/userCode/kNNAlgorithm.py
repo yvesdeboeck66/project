@@ -1,6 +1,7 @@
 import math
 import operator
 import pymongo
+import time
 
 def getmongodata():
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")    #Connect met database
@@ -91,6 +92,7 @@ def estimation(neighbors,k):
     return num                                                      #locatie die het dichtst bij de fysieke positie ligt
 
 def main():
+<<<<<<< HEAD
      trainingSet=getmongodata()
      testset=getmongoMeasurement()
      k = 9                                                           #neem een k --> nodig voor betere estimation, k aanpassen (trial en error)
@@ -100,3 +102,17 @@ def main():
      writemongo(testset)
      print("Mobile node location: "+ str(location))
 main()
+=======
+    while (1):
+        trainingSet = getmongodata()
+        testset = getmongoMeasurement()
+        k = 5  # neem een k --> nodig voor betere estimation, k aanpassen (trial en error)
+        neighbors = getNeighborsDB(trainingSet, testset, k)
+        location = estimation(neighbors, k)
+        testset[0].update(location=location)
+        writemongo(testset)
+        print("Mobile node location: " + str(location))
+        time.sleep(5)
+
+main()
+>>>>>>> 5742dc7c164ea9b51597678c2b41ed4970642976

@@ -55,7 +55,6 @@ def sendToDatabase(param):
     mycol.delete_many({})
     mycol.insert_one(dictmeasurement)  # {} --> eerste doc in collection, measurementset is een list van docs eigenlijk dus neem de 1ste doc uit de lijst
     print("Sent!")
-    kNNAlgorithm.main()
     #To do: Check if dictmeasurement is created as intended
 
 
