@@ -6,6 +6,7 @@ import paho.mqtt.client as mqttclient
 from d7a.alp.parser import Parser as AlpParser
 from bitstring import ConstBitStream
 import pymongo
+import kNNAlgorithm.py
 
 import logging
 
@@ -46,6 +47,7 @@ def sendToDatabase(param):
 
 
     #make the entry & send it to the database
+    print("connecting with mongodb")
     dictmeasurement = {"RSSI": param}
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")  # Connect met database
     mydb = myclient["IOT"]
@@ -53,7 +55,7 @@ def sendToDatabase(param):
     mycol.delete_many({})
     mycol.insert_one(dictmeasurement)  # {} --> eerste doc in collection, measurementset is een list van docs eigenlijk dus neem de 1ste doc uit de lijst
     print("Sent!")
-    execfile("kNNAlgorithm.py")
+    kNNAlgorithm.main()
     #To do: Check if dictmeasurement is created as intended
 
 
