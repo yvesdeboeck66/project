@@ -89,7 +89,7 @@ void P2_UART_Init(uint32_t aBaudRate)
   P2_UART.Init.BaudRate = aBaudRate;
   P2_UART.Init.WordLength = UART_WORDLENGTH_8B;
   P2_UART.Init.StopBits = UART_STOPBITS_1;
-  P2_UART.Init.Parity = UART_PARITY_NONE;
+  P2_UART.Init.Parity = UART_PARITY_EVEN;
   P2_UART.Init.Mode = UART_MODE_TX_RX;
   P2_UART.Init.HwFlowCtl = UART_HWCONTROL_NONE;
   P2_UART.Init.OverSampling = UART_OVERSAMPLING_16;
