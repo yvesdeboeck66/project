@@ -107,7 +107,7 @@ def location():
     dictmeasurement = {"RSSI": measurement}
     neighbors = getNeighborsDB(trainingSet, dictmeasurement, k)
     location = estimation(neighbors, k)
-
+    print("Test")
     # Get information out of message
 
     then = datetime.datetime.now()
@@ -147,10 +147,10 @@ def location():
             reps = "0"
             ctr = ctr - 1
 
-
+    print("Test")
     tbMessage="{\""+gw_name+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"location\":"+location+ "}}]}"
 
-
+    
     #DEBUG prints
     print("---- Message is being sent ----")
     print("Amount of messages : " + str(msgCounter))
