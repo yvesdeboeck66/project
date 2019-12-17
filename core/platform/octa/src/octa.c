@@ -19,11 +19,11 @@ void OCTA_Initialize_Common_Peripherals(void)
     FLASH_SPI_Init();
     common_I2C_Init();
     USB_UART_Init(115200);
-    #if USE_BOOTLOADER
+    //#if USE_BOOTLOADER
         printf("\r\nusing bootloader, initializing BLE UART\r\n");
         BLE_UART_Init(115200); 
-        bootloader_initialize(&BLE_UART);     
-    #endif
+        //bootloader_initialize(&BLE_UART);     
+    //#endif
 }
 
 void OCTA_Initialize_P1_Peripherals(void)
@@ -43,12 +43,12 @@ void OCTA_Initialize_P1_Peripherals(void)
 void OCTA_Initialize_P2_Peripherals(void)
 {
     P2_header.number = 2;
-    #if USE_BOOTLOADER
+    //#if USE_BOOTLOADER
         printf("\r\nusing bootloader, P2 UART unavailable\r\n");
         P2_header.uartHandle = NULL;
-    #else
+    /* #else
         P2_header.uartHandle = &P2_UART;
-    #endif
+    #endif */
     P2_header.i2cHandle = &P2_I2C;
     P2_header.spiHandle = &P2_SPI;
     P2_header.DIO1 = &P2_DIO1;

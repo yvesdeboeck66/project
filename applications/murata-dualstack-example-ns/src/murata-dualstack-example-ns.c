@@ -98,6 +98,7 @@ extern volatile uint8_t successCounter=0;
 extern volatile uint8_t messageCounter=0; 
 
 float SHTData[2];
+uint8_t tmpbuf_ble[10];
 uint8_t data; 
 volatile _Bool temperatureflag=0; 
 volatile _Bool timer2flag=0; 
@@ -107,6 +108,7 @@ volatile _Bool repMode=0;
 _Bool changeAcceleroMode=0; 
 _Bool volatile messageMode=0; 
 volatile _Bool timer3_first=0; 
+volatile _Bool BLE_flag=0;
 
 
 /* USER CODE END 0 */
@@ -193,6 +195,8 @@ int main(void)
   SHT31_begin(); 
   LSM303AGR_initDefault();
 
+  //initialize BLE
+  HAL_UART_Receive_IT(&BLE_UART, (uint8_t *)tmpbuf_ble, 10); 
 
   /* EXTI interrupt init*/
   HAL_NVIC_SetPriority(EXTI1_IRQn, 0, 0);
@@ -350,7 +354,7 @@ int main(void)
         printf("Sending dash7 go to sleep message (once per minute)\r\n\r\n");
         temp_hum_measurement();
         send_message(1); 
-        //goToSleep(); 
+        goToSleep(); 
       }
      timer3flag=0;
     } 
@@ -368,7 +372,12 @@ int main(void)
       successCounter=2;     //step over the 1 value so that between messages this if isn't accessed with every iteration of the while loop
     }
 
-   
+
+    if (BLE_flag) {
+      ble_callback(); 
+      BLE_flag = 0; 
+      printf("callback flag \r\n");
+    }
 
     // SEND 5 D7 messages, every 10 sec.
     // Afterwards, send 3 LoRaWAN messages, every minute
@@ -644,15 +653,12 @@ void temp_hum_measurement(void){
   print_temp_hum();
 }
 
-// UART RX CALLBACK
-void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
-{
-  if (huart == &P1_UART)
-  {
-    Murata_rxCallback();
-    murata_data_ready = 1;
-  }
+void ble_callback() {
+printf(tmpbuf_ble[0]); 
+printf("callback 2 \r\n");
 }
+
+
 
 void vApplicationIdleHook(){
   #if LOW_POWER
@@ -750,6 +756,22 @@ void TIM3_IRQHandler( void ) {
   
   }
  
+}
+
+
+// UART RX CALLBACK
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+  if (huart == &P1_UART)
+  {
+    Murata_rxCallback();
+    murata_data_ready = 1;
+  }
+
+  if (huart == &BLE_UART) {
+    printf("in callback 1\r\n");
+    BLE_flag = 1; 
+  }
 }
 
 
