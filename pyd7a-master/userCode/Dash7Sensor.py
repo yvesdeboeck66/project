@@ -62,9 +62,9 @@ def euclideanDistance(instance1, instance2, length):                #Berekenen v
 
 def getNeighborsDB(trainingSet, testInstance, k):
     distances = []
-    length = len(testInstance[0]["RSSI"])
+    length = len(testInstance['RSSI'])
     for x in range(len(trainingSet)):
-        dist = euclideanDistance(testInstance[0]["RSSI"], trainingSet[x]["RSSI"], length)   #euclidische afstanden in een nieuwe lijst steken
+        dist = euclideanDistance(testInstance['RSSI'], trainingSet[x]["RSSI"], length)   #euclidische afstanden in een nieuwe lijst steken
         distances.append((trainingSet[x], dist))                                            #Sorteer de lijst op kleinste afstand
     distances.sort(key=operator.itemgetter(1))
     neighbors = []
@@ -187,11 +187,6 @@ def on_message(client, userdata, message):
     currentCounter = payload_data[3]
 
     print("Link budget: "+ str(payload_linkBudget))
-    print("--- Message Payload ---")
-    for i in range(len(payload_data)):
-        print("Byte "+str(i)+": "+str(payload_data[i]))
-    print("--- End of payload ---")
-
 
 
 
@@ -236,6 +231,8 @@ def on_message(client, userdata, message):
 
 
 trainingSet = getmongodata()
+print(trainingSet[0])
+print(trainingSet[0]['RSSI'])
 k = 9
 readyToSend = False
 lastSentCounter = -1
