@@ -148,9 +148,9 @@ def location():
             ctr = ctr - 1
 
     print("Test")
-    tbMessage="{\""+gw_name+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"location\":"+location+ "}}]}"
+    tbMessage="{\""+gw_name+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"location\":"+str(location)+ "}}]}"
 
-    
+
     #DEBUG prints
     print("---- Message is being sent ----")
     print("Amount of messages : " + str(msgCounter))
