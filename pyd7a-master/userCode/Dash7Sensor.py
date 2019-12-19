@@ -4,6 +4,9 @@ import time, datetime
 from d7a.alp.parser import Parser as AlpParser
 import paho.mqtt.publish as publish
 
+import ttn
+
+
 from bitstring import ConstBitStream
 import math
 import operator
@@ -12,8 +15,15 @@ import threading
 
 import logging
 
+app_id = "woutor_antenne_bzzt"
+access_key = "ttn-account-v2.a8uKxf524Yuc5cK5vE5Pp1sgVw_AXsAv8wxujwmObC8"
+
 logging.basicConfig(level=logging.DEBUG)
 
+gateway_access_id_D7 = "Dash7Gateway"
+gateway_access_id_LW = "LoRaWanGateway"
+gateway_name_LW = "LORAWANGATEWAY"
+gateway_name_D7 = "DASH7GATEWAY"
 def gateway_access_id(param):
     if param == "463230390032003e":
         return "RBgUaBO1TE9wwKO7uFSB"
@@ -201,7 +211,7 @@ def location():
             ctr = ctr - 1
 
     print("Test")
-    tbMessage="{\""+gw_name+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"x\":"+str(x)+",\"y\":"+ str(y)+ +"}}]}"
+    tbMessage="{\""+gateway_name_D7+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"x\":"+str(x)+",\"y\":"+ str(y)+"}}]}"
 
 
     #DEBUG prints
@@ -213,7 +223,7 @@ def location():
 
 
     # Send to thingsboard
-    publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': "RBgUaBO1TE9wwKO7uFSB"})
+    publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': gateway_access_id_D7})
 
     lastSentCounter = lastSentCounter + 1
     msgCounter = 0
@@ -222,7 +232,7 @@ def location():
 
 
 def on_message(client, userdata, message):
-    global measurement, lastSentCounter, msgCounter, debug, timer, readyToSend, payload_data, gw_name, gw_access_id
+    global measurement, lastSentCounter, msgCounter, debug, timer, readyToSend, payload_data, gw_name
 
     #
     #   Parsing the Gateway & getting some information
@@ -232,7 +242,6 @@ def on_message(client, userdata, message):
 
     gateway_id = message.topic.split("/")[3]
     gw_name = gateway_name(gateway_id)
-    gw_access_id = gateway_access_id(gateway_id)
     gw_index = gateway_index(gw_name)
 
     payload_data = payload.actions[0].operand.data
@@ -281,6 +290,19 @@ def on_message(client, userdata, message):
         timer.cancel()
         location()
 
+def on_message_lora(msg, client):
+    print("LoRaWAN msg received")
+    then = datetime.datetime.now()
+    timeStamp = str(time.mktime(then.timetuple())*1e3 + then.microsecond/1e3)
+    tbMessage = "{\"" + gateway_name_LW + "\":[{\"ts\":" + timeStamp + ",\"values\": {\"Stolen\": "+"1"+"}}]}"
+
+    publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': gateway_access_id_D7})
+
+#LoraWan
+handler = ttn.HandlerClient(app_id, access_key)
+mqtt_client_lora = handler.data()
+mqtt_client_lora.set_uplink_callback(on_message_lora)
+mqtt_client_lora.connect()
 
 
 trainingSet = getmongodata()
