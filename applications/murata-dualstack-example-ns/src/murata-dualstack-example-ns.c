@@ -96,10 +96,13 @@ uint8_t rep_counter = 0;
 extern volatile uint8_t failureCounter=0; 
 extern volatile uint8_t successCounter=0;
 extern volatile uint8_t messageCounter=0; 
+extern volatile _Bool isActiveSending=0; 
 
 float SHTData[2];
-uint8_t tmpbuf_ble[10];
+volatile uint8_t tmpbuf_ble[2];
+uint8_t gewicht=0;
 uint8_t data; 
+uint8_t val =0;
 volatile _Bool temperatureflag=0; 
 volatile _Bool timer2flag=0; 
 volatile _Bool timer3flag=0; 
@@ -196,7 +199,7 @@ int main(void)
   LSM303AGR_initDefault();
 
   //initialize BLE
-  HAL_UART_Receive_IT(&BLE_UART, (uint8_t *)tmpbuf_ble, 10); 
+  HAL_UART_Receive_IT(&BLE_UART, (uint8_t *)tmpbuf_ble,sizeof(tmpbuf_ble)); 
 
   /* EXTI interrupt init*/
   HAL_NVIC_SetPriority(EXTI1_IRQn, 0, 0);
@@ -257,6 +260,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   { 
+    while(isActiveSending) {
      IWDG_feed(NULL);
     //HAL_Delay(5000);
     if(murata_data_ready)
@@ -264,6 +268,8 @@ int main(void)
       printf("processing murata fifo\r\n");
       murata_data_ready = !Murata_process_fifo();
     }
+
+  }
 
 
     //------gekopieerd van no-scheduler-example------
@@ -375,42 +381,10 @@ int main(void)
 
     if (BLE_flag) {
       ble_callback(); 
+      HAL_UART_Receive_IT(&BLE_UART, (uint8_t *)tmpbuf_ble, sizeof(tmpbuf_ble)); 
       BLE_flag = 0; 
-      printf("callback flag \r\n");
     }
 
-    // SEND 5 D7 messages, every 10 sec.
-    // Afterwards, send 3 LoRaWAN messages, every minute
-   /*  if(DASH7_Counter<5)
-    {
-      if(counter==DASH7_INTERVAL)
-      {
-        Dash7_send(NULL);
-        counter = 0;
-      }
-    }
-    else
-    { 
-      if(LoRaWAN_Counter == 0)
-        Murata_LoRaWAN_Join();
-      if(LoRaWAN_Counter<3)
-      {
-        if (counter == LORAWAN_INTERVAL)
-        {
-          LoRaWAN_send(NULL);
-          counter = 0;
-        }
-      }
-      if(LoRaWAN_Counter == 3)
-      {
-        //reset counters to restart flow
-        DASH7_Counter = 0;
-        LoRaWAN_Counter = 0;
-      }
-    }
-   
-    counter++; */
-    //HAL_Delay(1000);
     
 
     /* USER CODE END WHILE */
@@ -436,6 +410,7 @@ void goToSleep(void) {
 //----------------------------------------------------------start send message methods--------------------------------------------------------------------------------------------
 
 void send_message(uint8_t type) {
+  isActiveSending = 1; 
   if (messageMode==0) {                 //dash7mode
     switch (type) {
       case 1:
@@ -578,7 +553,7 @@ void Dash7_send_temphum(void const *argument)
     dash7Message[i++] = SHTData[1];
     dash7Message[i++] = 0x00;
     dash7Message[i++] = messageCounter;
-    dash7Message[i++] = 0x00;
+    dash7Message[i++] = val;
     dash7Message[i++] = 0x00;
     //osMutexWait(txMutexId, osWaitForever);
     if(!Murata_Dash7_Send((uint8_t *)dash7Message, i))
@@ -614,7 +589,7 @@ void Dash7_send_allInfo(void const *argument)
     dash7Message[i++] = SHTData[1];
     dash7Message[i++] = rep_counter;
     dash7Message[i++] = messageCounter;
-    dash7Message[i++] = 0x00;
+    dash7Message[i++] = val;
     dash7Message[i++] = 0x00;
 
     //osMutexWait(txMutexId, osWaitForever);
@@ -654,8 +629,11 @@ void temp_hum_measurement(void){
 }
 
 void ble_callback() {
-printf(tmpbuf_ble[0]); 
-printf("callback 2 \r\n");
+//tmpbuf_ble[0] = tmpbuf_ble[0] - 48;
+//tmpbuf_ble[1] = tmpbuf_ble[1] - 48;
+val = ( 10 * (tmpbuf_ble[0] - '0')) + tmpbuf_ble[1] - '0'; 
+printf("%d\r\n",val); 
+//printf("callback 2 \r\n");
 }
 
 
@@ -762,6 +740,8 @@ void TIM3_IRQHandler( void ) {
 // UART RX CALLBACK
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
+   
+  //printf(" in callback maar niet in juiste \r\n ");
   if (huart == &P1_UART)
   {
     Murata_rxCallback();
@@ -769,8 +749,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
   }
 
   if (huart == &BLE_UART) {
-    printf("in callback 1\r\n");
-    BLE_flag = 1; 
+        BLE_flag = 1; 
   }
 }
 

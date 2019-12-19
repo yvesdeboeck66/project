@@ -391,7 +391,7 @@ void HAL_UART_MspInit(UART_HandleTypeDef* huart)
     __HAL_RCC_GPIOD_CLK_ENABLE(); 
   
     //#if USE_BOOTLOADER
-      __HAL_RCC_GPIOD_CLK_ENABLE();
+     // __HAL_RCC_GPIOD_CLK_ENABLE();
 
       /**USART2 BLE GPIO Configuration    
       PD5     ------> USART2_TX

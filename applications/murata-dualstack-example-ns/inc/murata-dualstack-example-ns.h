@@ -85,7 +85,7 @@ void LoRaWAN_send(void const *argument);
 void Dash7_send(void const *argument);
 void check_modules(void const *argument);
 void murata_process_rx_response(void const *argument);
-
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
 /* USER CODE END PFP */
 
 /* Private includes ----------------------------------------------------------*/

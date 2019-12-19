@@ -5,6 +5,7 @@ uint8_t use_scheduler = 0;
 struct OCTA_header murataHeader;
 extern volatile uint8_t failureCounter;
 extern volatile uint8_t successCounter; 
+extern volatile _Bool isActiveSending; 
 
 session_config_t session_config_lora =
     {
@@ -58,6 +59,7 @@ void on_modem_command_completed_callback(bool with_error, uint8_t tag_id)
         successCounter++;
         if (successCounter>1000) successCounter =2; 
     }   
+    isActiveSending=0;
 
     
 }
