@@ -211,7 +211,7 @@ def location():
             ctr = ctr - 1
 
     print("Test")
-    tbMessage="{\""+gateway_name_D7+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"x\":"+str(x)+",\"y\":"+ str(y)+",\"stolen\":"+str(0)+"}}]}"
+    tbMessage="{\""+gateway_name_D7+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"x\":"+str(x)+",\"y\":"+ str(y)+",\"stolen\":"+"False"+"}}]}"
 
 
     #DEBUG prints
@@ -294,10 +294,10 @@ def on_message_lora(msg, client):
     print("LoRaWAN msg received")
     then = datetime.datetime.now()
     timeStamp = str(time.mktime(then.timetuple())*1e3 + then.microsecond/1e3)
-    tbMessage = "{\"" + gateway_name_LW + "\":[{\"ts\":" + timeStamp + ",\"values\": {\"stolen\": "+str(1)+"}}]}"
+    tbMessage = "{\"" + gateway_name_LW + "\":[{\"ts\":" + timeStamp + ",\"values\": {\"stolen\": "+"True"+"}}]}"
 
     publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': gateway_access_id_D7})
-
+    print("LoRaWAN msg sent")
 #LoraWan
 handler = ttn.HandlerClient(app_id, access_key)
 mqtt_client_lora = handler.data()
