@@ -314,7 +314,7 @@ measurement = [0,0,0,0]
 msgCounter = 0
 timer = threading.Timer(5.0, location)
 
-subscribe.callback(on_message, "/d7/4836383700400043/#", hostname="student-04.idlab.uantwerpen.be")
+subscribe.callback(on_message, "/d7/4836383700260037/#", hostname="student-04.idlab.uantwerpen.be")
 
 
 
