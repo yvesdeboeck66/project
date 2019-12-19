@@ -85,6 +85,59 @@ def estimation(neighbors,k):
             num = i
     return num
 
+def locationConverter(param):
+    xy = []
+    cases = {
+        "1" : xy.append({0.183, 0.398}),
+        "2" : xy.append({0.183, 0.261}),
+        "3" : xy.append({0.183, 0.189}),
+        "4" : xy.append({0.259, 0.398}),
+        "5" : xy.append({0.259, 0.261}),
+        "6" : xy.append({0.259, 0.189}),
+        "7" : xy.append({0.335, 0.398}),
+        "8" : xy.append({0.335, 0.261}),
+        "9" : xy.append({0.335, 0.189}),
+        "10" : xy.append({0.423, 0.398}),
+        "11" : xy.append({0.423, 0.261}),
+        "12" : xy.append({0.423, 0.189}),
+        "13" : xy.append({0.509, 0.398}),
+        "14" : xy.append({0.509, 0.261}),
+        "15" : xy.append({0.509, 0.189}),
+        "16" : xy.append({0.585, 0.398}),
+        "17" : xy.append({0.585, 0.261}),
+        "18" : xy.append({0.585, 0.189}),
+        "19" : xy.append({0.665, 0.398}),
+        "20" : xy.append({0.665, 0.261}),
+        "21" : xy.append({0.665, 0.189}),
+        "22" : xy.append({0.183, 0.485}),
+        "23" : xy.append({0.183, 0.571}),
+        "24" : xy.append({0.183, 0.661}),
+        "25" : xy.append({0.250, 0.485}),
+        "26" : xy.append({0.250, 0.571}),
+        "27" : xy.append({0.250, 0.661}),
+        "28" : xy.append({0.317, 0.485}),
+        "29" : xy.append({0.317, 0.571}),
+        "30" : xy.append({0.317, 0.661}),
+        "31" : xy.append({0.384, 0.485}),
+        "32" : xy.append({0.384, 0.571}),
+        "33" : xy.append({0.384, 0.661}),
+        "34" : xy.append({0.452, 0.485}),
+        "35" : xy.append({0.452, 0.571}),
+        "36" : xy.append({0.452, 0.661}),
+        "37" : xy.append({0.523, 0.485}),
+        "38" : xy.append({0.523, 0.571}),
+        "39" : xy.append({0.523, 0.661}),
+        "40" : xy.append({0.592, 0.485}),
+        "41" : xy.append({0.592, 0.571}),
+        "42" : xy.append({0.592, 0.661}),
+
+
+    }
+    return xy
+
+
+
+
 # ---------------------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------------------
 # ---------------------------------------------------------------------------------------------
@@ -107,6 +160,8 @@ def location():
     dictmeasurement = {"RSSI": measurement}
     neighbors = getNeighborsDB(trainingSet, dictmeasurement, k)
     location = estimation(neighbors, k)
+    x, y = locationConverter(location)[0]
+
     print("Test")
     # Get information out of message
 
@@ -148,7 +203,7 @@ def location():
             ctr = ctr - 1
 
     print("Test")
-    tbMessage="{\""+gw_name+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"location\":"+str(location)+ "}}]}"
+    tbMessage="{\""+gw_name+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"x\":"+str(x)+",\"y\":"+ str(y)+ +"}}]}"
 
 
     #DEBUG prints
@@ -160,7 +215,7 @@ def location():
 
 
     # Send to thingsboard
-    publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': gw_access_id})
+    publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': "RBgUaBO1TE9wwKO7uFSB"})
 
     lastSentCounter = lastSentCounter + 1
     msgCounter = 0
