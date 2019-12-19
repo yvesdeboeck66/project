@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.DEBUG)
 gateway_access_id_D7 = "Dash7Gateway"
 gateway_access_id_LW = "LoRaWanGateway"
 gateway_name_LW = "LORAWANGATEWAY"
-gateway_name_D7 = "DASH7GATEWAY"
+gateway_name_D7 = "7P7BkK9ZDEHU805l4APK"
 def gateway_access_id(param):
     if param == "463230390032003e":
         return "RBgUaBO1TE9wwKO7uFSB"
@@ -211,7 +211,7 @@ def location():
             ctr = ctr - 1
 
     print("Test")
-    tbMessage="{\""+gateway_name_D7+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"x\":"+str(x)+",\"y\":"+ str(y)+"}}]}"
+    tbMessage="{\""+gateway_name_D7+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"x\":"+str(x)+",\"y\":"+ str(y)+",\"stolen\":"+str(0)+"}}]}"
 
 
     #DEBUG prints
@@ -294,7 +294,7 @@ def on_message_lora(msg, client):
     print("LoRaWAN msg received")
     then = datetime.datetime.now()
     timeStamp = str(time.mktime(then.timetuple())*1e3 + then.microsecond/1e3)
-    tbMessage = "{\"" + gateway_name_LW + "\":[{\"ts\":" + timeStamp + ",\"values\": {\"Stolen\": "+"1"+"}}]}"
+    tbMessage = "{\"" + gateway_name_LW + "\":[{\"ts\":" + timeStamp + ",\"values\": {\"stolen\": "+str(1)+"}}]}"
 
     publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': gateway_access_id_D7})
 
