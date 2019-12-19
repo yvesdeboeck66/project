@@ -20,10 +20,12 @@ access_key = "ttn-account-v2.a8uKxf524Yuc5cK5vE5Pp1sgVw_AXsAv8wxujwmObC8"
 
 logging.basicConfig(level=logging.DEBUG)
 
-gateway_access_id_D7 = "Dash7Gateway"
-gateway_access_id_LW = "LoRaWanGateway"
+gateway_access_id_D7 = "7P7BkK9ZDEHU805l4APK"
+gateway_access_id_LW = "YYXWy8ORvnm2WBPRGqi2"
 gateway_name_LW = "LORAWANGATEWAY"
-gateway_name_D7 = "7P7BkK9ZDEHU805l4APK"
+gateway_name_D7 = "DASH7GATEWAY"
+
+
 def gateway_access_id(param):
     if param == "463230390032003e":
         return "RBgUaBO1TE9wwKO7uFSB"
@@ -291,13 +293,10 @@ def on_message(client, userdata, message):
         location()
 
 def on_message_lora(msg, client):
-    print("LoRaWAN msg received")
     then = datetime.datetime.now()
     timeStamp = str(time.mktime(then.timetuple())*1e3 + then.microsecond/1e3)
-    tbMessage = "{\"" + gateway_name_LW + "\":[{\"ts\":" + timeStamp + ",\"values\": {\"stolen\": "+"True"+"}}]}"
-    print("TESTLORAWAN")
-    publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': gateway_access_id_D7})
-    print("LoRaWAN msg sent")
+    tbMessage = "{\"" + gateway_name_LW + "\":[{\"ts\":" + timeStamp + ",\"values\": {\"Stolen\": "+"True"+"}}]}"
+    publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': gateway_access_id_LW})
 #LoraWan
 handler = ttn.HandlerClient(app_id, access_key)
 mqtt_client_lora = handler.data()
