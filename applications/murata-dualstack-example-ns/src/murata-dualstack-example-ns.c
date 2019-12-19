@@ -106,11 +106,13 @@ uint8_t val =0;
 volatile _Bool temperatureflag=0; 
 volatile _Bool timer2flag=0; 
 volatile _Bool timer3flag=0; 
+volatile _Bool timer4flag=0;
 volatile _Bool repFlag=0;
 volatile _Bool repMode=0; 
 _Bool changeAcceleroMode=0; 
 _Bool volatile messageMode=0; 
 volatile _Bool timer3_first=0; 
+volatile _Bool timer4_first=0;
 volatile _Bool BLE_flag=0;
 
 
@@ -125,6 +127,10 @@ static TIM_HandleTypeDef localisation_timer = {
 static TIM_HandleTypeDef inactive_timer = { 
     .Instance = TIM3
 };
+
+static TIM_HandleTypeDef send_sleepmessage_timer = { 
+    .Instance = TIM4
+};
  
 void InitializeTimer2()
 {
@@ -134,10 +140,10 @@ void InitializeTimer2()
     localisation_timer.Init.Period = 60000;                                 //60000 steps of clockperiodxprescaler before the timer resets. we want 1min, but it always gives 1.07. 
     localisation_timer.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
     localisation_timer.Init.RepetitionCounter = 0;
-   /*  HAL_TIM_Base_Init(&localisation_timer);
+    HAL_TIM_Base_Init(&localisation_timer);
     HAL_TIM_Base_Start_IT(&localisation_timer);
     HAL_NVIC_SetPriority(TIM2_IRQn, 0, 0);                              //set de priority of the interrupt van timer2
-    HAL_NVIC_EnableIRQ(TIM2_IRQn);        */                               //enable de interrupt van timer2 
+    HAL_NVIC_EnableIRQ(TIM2_IRQn);                                     //enable de interrupt van timer2 
 } 
 
 void InitializeTimer3()
@@ -148,10 +154,24 @@ void InitializeTimer3()
     inactive_timer.Init.Period = 60000;                                 //60000 steps of clockperiodxprescaler before the timer resets. we want 1min, but it always gives 1.07. 
     inactive_timer.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
     inactive_timer.Init.RepetitionCounter = 0;
-    /* HAL_TIM_Base_Init(&inactive_timer);
+    HAL_TIM_Base_Init(&inactive_timer);
     HAL_TIM_Base_Start_IT(&inactive_timer);
     HAL_NVIC_SetPriority(TIM3_IRQn, 0, 0); 
-    HAL_NVIC_EnableIRQ(TIM3_IRQn); */
+    HAL_NVIC_EnableIRQ(TIM3_IRQn); 
+}
+
+void InitializeTimer4()
+{
+    __TIM4_CLK_ENABLE();
+    inactive_timer.Init.Prescaler = 16000;                            //1 step = clockperiod x prescaler
+    inactive_timer.Init.CounterMode = TIM_COUNTERMODE_UP;             //timer will count up
+    inactive_timer.Init.Period = 6000;                                 //6000 steps of clockperiodxprescaler before the timer resets. we want 6s.
+    inactive_timer.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+    inactive_timer.Init.RepetitionCounter = 0;
+    HAL_TIM_Base_Init(&send_sleepmessage_timer);
+    HAL_TIM_Base_Start_IT(&send_sleepmessage_timer);
+    HAL_NVIC_SetPriority(TIM4_IRQn, 0, 0); 
+    HAL_NVIC_EnableIRQ(TIM4_IRQn); 
 }
 
 /**
@@ -282,7 +302,7 @@ int main(void)
 
       if(repMode==1){
         // send dash7 message with all info when user starts repping
-        LSM303AGR_initDouble();         //vanaf laten we de accelorometer enkel interrupten bij een rep beweging
+        LSM303AGR_initDouble();         //vanaf nu laten we de accelorometer enkel interrupten bij een rep beweging
         printf("Started Repping\r\n");
         printf("LSM in double click mode \r\n");
         if (murata_init) {
@@ -316,7 +336,11 @@ int main(void)
 
     }
 
-    //de interrupt zal zorgen dat de flag op 1 staat, dan doen we een measurement van temp
+    //als er een rep wordt geregistreerd zal dit een double interrupt genereren en in de handler wordt dan de repflag op 1 gezet, 
+    //we sturen dan ff de localisationtimer value  en de rep counter naar putty maar we checken eerst of we wel effectief in repmode zitten
+    //en de repflag dus niet per ongeluk op 1 werd gezet door een random beweging van de dumbbel in normal mode. 
+    //we resetten dan ook de inactive timer zodat het device niet in sleep gaat (want er wordt nog gerept)
+    //
     if (repFlag==1) {
       if (repMode==1) {
       // Request to enter SLEEP mode
@@ -324,16 +348,16 @@ int main(void)
       printf("Timer value: %d,\r\n\r\n",timerValue);
       rep_counter++; 
       printf("Rep counter: %d,\r\n\r\n",rep_counter);
-
       } 
+
         //reset de inactive timer want accelerometer interrupt
-        // HAL_TIM_Base_Stop_IT(&inactive_timer);    
+        HAL_TIM_Base_Stop_IT(&inactive_timer);    
  
 
-      //  __HAL_TIM_SET_COUNTER(&inactive_timer, 0);
+        __HAL_TIM_SET_COUNTER(&inactive_timer, 0);
  
 
-        //HAL_TIM_Base_Start_IT(&inactive_timer);         
+        HAL_TIM_Base_Start_IT(&inactive_timer);         
 
       
       
@@ -341,7 +365,8 @@ int main(void)
     }  
 
 
-
+    //Als een periode van onze localisationtimer is verlopen genereert dit een interrupt en wordt de timer2flag gezet. 
+    //Dit wil zeggen dat we wakker moeten worden en een message moeten zenden. 
     if(timer2flag==1) {
        //send dash7 localisation message
       if (murata_init) {
@@ -356,15 +381,24 @@ int main(void)
      if(timer3flag==1) {
       
       if (murata_init) {
-        
-        printf("Sending dash7 go to sleep message (once per minute)\r\n\r\n");
+        printf("Inactive timer expired, sending last message\r\n\r\n");
         temp_hum_measurement();
         send_message(1); 
-        goToSleep(); 
+        __HAL_TIM_SET_COUNTER(&send_sleepmessage_timer, 0);
+        HAL_TIM_Base_Start_IT(&send_sleepmessage_timer);  
+        
       }
      timer3flag=0;
     } 
 
+    if (timer4flag==1) {
+    HAL_TIM_Base_Stop_IT(&inactive_timer);    
+    __HAL_TIM_SET_COUNTER(&inactive_timer, 0);
+    goToSleep(); 
+    }
+
+    //als drie keer geen gateways konden bereikt worden, zetten we de messagemode die in sendmessage() gebruikt wordt naar lorawan. 
+    //vanaf dan beginnen we het aantal succesvolle verzendingen via dash7 te zenden
     if (failureCounter==3) {
       printf("Going to LoRaWAN mode\r\n\r\n");
       messageMode=1;      //go to lorawanmode
@@ -372,9 +406,10 @@ int main(void)
       failureCounter=4; 
     }
 
+    //vanaf opnieuw 1 succesvolle dash7 verzendingen zijn gebeurt (?) zijn gaan we terug swichten naar dash7 mode
      if (successCounter==1) {
       printf("Going to dash7 mode\r\n\r\n");
-      messageMode=0;    //go to dash7mode
+      messageMode=0;        //go to dash7mode
       successCounter=2;     //step over the 1 value so that between messages this if isn't accessed with every iteration of the while loop
     }
 
@@ -416,12 +451,12 @@ void send_message(uint8_t type) {
       case 1:
       messageCounter++;
       Dash7_send_temphum();  
-      printf("sending temphum message\r\n");
+      //printf("sending temphum message\r\n");
       break; 
       case 2:
       messageCounter++;
       Dash7_send_allInfo();
-      printf("sending allinfo message\r\n");
+     //printf("sending allinfo message\r\n");
       break; 
       default:
       printf("No case was matched\r\n"); 
@@ -730,6 +765,31 @@ void TIM3_IRQHandler( void ) {
     
     }
     timer3_first=1; 
+    }
+  
+  }
+ 
+}
+
+
+void TIM4_IRQHandler( void ) {
+
+  //printf("elapsed period \r\n");
+ 
+  if (__HAL_TIM_GET_FLAG(&send_sleepmessage_timer, TIM_IT_UPDATE) != RESET) 
+  //In case other interrupts are also running
+  {
+  
+    if (__HAL_TIM_GET_IT_SOURCE(&send_sleepmessage_timer, TIM_IT_UPDATE) != RESET) {
+    
+    __HAL_TIM_CLEAR_IT(&send_sleepmessage_timer, TIM_IT_UPDATE);
+    
+    if (timer4_first>0) {
+    printf("elapsed sleepmessage period s \r\n");
+    timer4flag = 1; 
+    
+    }
+    timer4_first=1; 
     }
   
   }
