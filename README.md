@@ -49,7 +49,7 @@ Before going any further, we assume the necessary infrastructure such as Dash7 g
 Concerning server side implementation, the setup is rather easy. The Dash7Sensor.py file contains the code that initializes the connections, listens to the messages, estimates the location and sends the information to thingsboard. However, before running this code on your server, you must build your database for determining the reference locations where the user can be located. Therefore, download mongodb on your server and setup the collections that you will be using. For building your database, use the DatabaseFill.py file that will allow you to map Received Signal Strength values to a location in your gym.
 Don't forget to adjust the collection name in the DatabaseFill.py file.
 
-If you have built this database, you can use the Dash7Sensor.py code. Some further explanation considering this code follows beneath.
+If you have built this database, you can use the Dash7Sensor.py code which is to be found in pyd7a-master/userCode/ . Some further explanation considering this code follows beneath.
 Note: This file is compiled in python 2.7
 
 1. Subscribe to mqtt broker of the things network to listen to LoRaWAN messages.
