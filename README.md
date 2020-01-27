@@ -57,13 +57,13 @@ Note: This file is compiled in python 2.7
 3. Subscribe to the Dash7 devices you have.
 4. Wait until a message arrives.
    - On arrival of a Dash7 message:
-      Save the payload, check message counter and timer (if not first message).
-   - Start localisation if all messages have been received or when the time exceeded its limit 
-   or when the message counter indicates a new message.
+      - Save the payload, check message counter and timer (if not first message).
+      - Start localisation if all messages have been received or when the time exceeded its limit 
+         or when the message counter indicates a new message.
    
    - On arrival of a LoRaWAN message:
-      This indicates that the device couldn't receive any Dash7 acknowledges and thus swapped to LoRaWAN mode
-      to notify the device has been stolen. This notification is send to thingsboard.
+      - This indicates that the device couldn't receive any Dash7 acknowledges and thus swapped to LoRaWAN mode
+         to notify the device has been stolen. This notification is send to thingsboard.
 
 5. Localisation:
       - The RSSI values are used to determine the K Nearest Neighbours in the database using the euclidean distance.
