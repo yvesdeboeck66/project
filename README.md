@@ -1,7 +1,7 @@
 # _*Smart Dumbbell Deluxe*_
 
 ### _Dutch_
-Als frequent bezoeker van fitnesscentra, komt men vaak eenzelfde lastige situatie tegen. Je wilt graag oefeningen doen met een halter, maar deze blijkt niet op zijn plaats te liggen. De Smart Dumbbell Deluxe is een "smart" fitnessaparaat dat deze kwaal tegengaat. Door middel van draadloze communicatie (adhv. Dash7 en LoRa) wordt de locatie van de halter steeds bijgehouden. Meer nog, met de Smart Dumbbell kan ook het aantal halter-oefeningen bijgehouden worden.
+Als frequent bezoeker van fitnesscentra, komt men vaak eenzelfde lastige situatie tegen. Je wilt graag oefeningen doen met een halter, maar deze blijkt niet op zijn plaats te liggen. De Smart Dumbbell Deluxe is een "smart" fitnessaparaat dat deze kwaal tegengaat. Door middel van draadloze communicatie (adhv. Dash7 en LoRaWAN) wordt de locatie van de halter steeds bijgehouden. Meer nog, met de Smart Dumbbell kan ook het aantal halter-repetities bijgehouden worden. 
 
 Ook voor de fitness-eigenaar is de Smart Dumbbell een uitstekend staaltje techniek, zo houdt de halter de temperatuur en de luchtvochtigheid van de fitnessruimte overzichtelijk bij. De Smart Dumbbell komt nu ook met antidiefstal-functie. Zodra de halter zich buiten de directe omgeving van de fitness bevindt, wordt een bericht uitgezonden waarin wordt weergegeven dat de halter gestolen of verkeerdelijk meegepakt is.
 
@@ -9,6 +9,8 @@ Ook voor de fitness-eigenaar is de Smart Dumbbell een uitstekend staaltje techni
 As a frequent visitor to fitness centers, you often come across the same difficult situation. You would like to do exercises with a dumbbell, but it has not been placed back into the rack by the previous user. The Smart Dumbbell Deluxe is a "smart" fitness device that counteracts this problem. The location of the dumbbell is always kept up-to-date through wireless communication (using Dash7 and LoRa). Moreover, with the Smart Dumbbell you can also keep track of the of performed dumbbell exercises.
 
 The Smart Dumbbell is also an excellent piece of technology for the fitness owner, since it keeps track of the temperature and humidity of the fitness room. The Smart Dumbbell now also comes with an anti-theft feature. As soon as the dumbbell is outside the immediate vicinity of the fitness, a message is sent out, stating that the dumbbell has been stolen or improperly packed.
+
+![The Smart Dumbbell Deluxe](documentation/images/Smart-Dumbbell1.jpg)
 
 ## User Guide
 
@@ -36,22 +38,20 @@ An overview of this process can be examined under Documentation/Images/Programfl
 
 ## Embedded
 
-Smart Dumbbell is implemented using the Octa-Board (By IMec) for Nucleo-144, based on STM32L496-ZG. The device utilises Stop-mode in order to save battery life whenever it is not being used. To register the moment in which the Smart Dumbbell is picked up from the rack, an LSM303AGR accelerometer is used. In order to recognize the dumbbell-exercises, the accelerometer is configured for operation in double-click mode. 
+Smart Dumbbell is implemented using the Octa-Board (By IMec) for Nucleo-144, based on STM32L496-ZG. The device utilises the Stop-mode in order to save battery life whenever it is not being used. To register the moment in which the Smart Dumbbell is picked up from the rack, an LSM303AGR accelerometer is used in single-click mode. In order to recognize the dumbbell-repetitions, the accelerometer is configured for operation in double-click mode. 
 
-Wireless messages within the fitness area are sent through Dash7. If there is no connection to this network, a LoRa-WAN message (which has a longer range) is sent. If this message is received by a gateway, the device will be marked as "Stolen" on the Thingsboard.
-Temperature and humidity are measured using a HTS221-sensor. Bluetooth connection (through apps like nRF Toolbox) is made possible thanks to the integrated Bluetooth-chip on the octa-board.
-
-### Power Consumption
+Wireless messages within the fitness area are sent through Dash7. If there is no connection to this network, a LoRaWAN message (which has a longer range) is sent. If this message is received by a gateway, the device is assumed to be outside of the gym area and will be marked as "Stolen" on the Thingsboard.
+Temperature and humidity are measured using a HTS221-sensor. Bluetooth connection (through apps like nRF Toolbox) is made possible thanks to the integrated Bluetooth-chip on the octa-board and can be used by the user to identify himself.
 
 
 ## Server
 
 Before going any further, we assume the necessary infrastructure such as Dash7 gateways and LoRaWAN gateways have been setup correctly in your gym.
 
-Concerning server side implementation it is rather easy to setup. The Dash7Sensor.py file contains the code that initializes the connections, listens to the messages, estimates the location and sends the information to thingsboard. However, before running this code on your server, you must build your database for determining the reference locations where the user can be located. Therefore, download mongodb on your server and setup the collections that you will be using. For building your database, use the DatabaseFill.py file that will allow you to map Received Signal Strength values to a location in your gym.
+Concerning server side implementation, the setup is rather easy. The Dash7Sensor.py file contains the code that initializes the connections, listens to the messages, estimates the location and sends the information to thingsboard. However, before running this code on your server, you must build your database for determining the reference locations where the user can be located. Therefore, download mongodb on your server and setup the collections that you will be using. For building your database, use the DatabaseFill.py file that will allow you to map Received Signal Strength values to a location in your gym.
 Don't forget to adjust the collection name in the DatabaseFill.py file.
 
-If you have build this database, you can use the Dash7Sensor.py code. Some further explanation considering this code follows beneath.
+If you have built this database, you can use the Dash7Sensor.py code which is to be found in pyd7a-master/userCode/ . Some further explanation considering this code follows beneath.
 Note: This file is compiled in python 2.7
 
 1. Subscribe to mqtt broker of the things network to listen to LoRaWAN messages.
@@ -77,4 +77,10 @@ Quick overview:
 
 
 ![Server Flowchart](documentation/images/Software-flowchart.png)
+
+
+### Power Consumption
+The Smart dumbbell is designed to work as low power as possible. This is achieved by putting the device in a low power consuming sleep mode for most if its lifetime. The STM32L4x96 allows for different low power modes. The Smart Halter uses the so called "stop-mode", which achieves the lowest power consumption while still retaining the content of the SRAM and registers. Furthermore, all clocks in the VCORE domain are stopped and most oscillators are disabled. The LSE or LSI is kept running and also the RTC can remain active. An even lower power consumption mode is offered via the "standby-mode", but would not allow for wakeups triggered by interrupts, which is needed for the Smart Halter implementation.  
+
+The device is tested and validated for different use cases and shows to be very robust to changes in usage time with respect to power battery lifetime. A minimum lifetime of 150 hours is guaranteed. 
 
