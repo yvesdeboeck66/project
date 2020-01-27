@@ -293,7 +293,7 @@ def on_message_lora(msg, client):
     then = datetime.datetime.now()
     timeStamp = str(time.mktime(then.timetuple())*1e3 + then.microsecond/1e3)
     tbMessage = "{\"" + gateway_name_LW + "\":[{\"ts\":" + timeStamp + ",\"values\": {\"IsStolen\": "+"True"+"}}]}"
-    publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': gateway_access_id_LW})
+    publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': gateway_access_id_D7})
 #LoraWan
 handler = ttn.HandlerClient(app_id, access_key)
 mqtt_client_lora = handler.data()
