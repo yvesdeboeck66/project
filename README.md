@@ -10,6 +10,8 @@ As a frequent visitor to fitness centers, you often come across the same difficu
 
 The Smart Dumbbell is also an excellent piece of technology for the fitness owner, since it keeps track of the temperature and humidity of the fitness room. The Smart Dumbbell now also comes with an anti-theft feature. As soon as the dumbbell is outside the immediate vicinity of the fitness, a message is sent out, stating that the dumbbell has been stolen or improperly packed.
 
+![The Smart Dumbbell Deluxe](documentation/images/Smart Dumbbell1.jpg)
+
 ## User Guide
 
 1. Pick the Smart Dumbbell up from the rack 
