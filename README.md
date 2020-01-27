@@ -1,11 +1,11 @@
 # _*Smart Dumbbell Deluxe*_
 
-_Dutch_
+###_Dutch_
 Als frequent bezoeker van fitnesscentra, komt men vaak eenzelfde lastige situatie tegen. Je wilt graag oefeningen doen met een halter, maar deze blijkt niet op zijn plaats te liggen. De Smarthalter Deluxe is een "smart" fitnessaparaat dat deze kwaal tegengaat. Door middel van draadloze communicatie (adhv. Dash7 en LoRa) wordt de locatie van de halter steeds bijgehouden. Meer nog, met de Smart Dumbbell kan ook het aantal halter-oefeningen bijgehouden worden.
 
 Ook voor de fitness-eigenaar is de Smart Dumbbell een uitstekend staaltje techniek, zo houdt de halter de temperatuur en de luchtvochtigheid van de fitnessruimte overzichtelijk bij. De Smarthalter Deluxe komt nu ook met antidiefstal-functie. Zodra de halter zich buiten de directe omgeving van de fitness bevindt, wordt een bericht uitgezonden waarin wordt weergegeven dat de halter gestolen of verkeerdelijk meegepakt is.
 
-_English_
+###_English_
 As a frequent visitor to fitness centers, you often come across the same difficult situation. You would like to do exercises with a dumbbell, but it has not been placed back into the rack by the previous user. The Smart Dumbbell Deluxe is a "smart" fitness device that counteracts this problem. The location of the dumbbell is always kept up-to-date through wireless communication (using Dash7 and LoRa). Moreover, with the Smarthalter Deluxe you can also keep track of the of performed dumbbell exercises.
 
 The Smart Dumbbell is also an excellent piece of technology for the fitness owner, since it keeps track of the temperature and humidity of the fitness room. The Smart Dumbbell now also comes with an anti-theft feature. As soon as the dumbbell is outside the immediate vicinity of the fitness, a message is sent out, stating that the dumbbell has been stolen or improperly packed.
