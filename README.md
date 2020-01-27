@@ -73,3 +73,8 @@ Note: This file is compiled in python 2.7
 6. Send the location with the payload to thingsboard.
 7. Repeat by listening to new messages.
 
+Quick overview:
+
+
+![Server Flowchart](documentation/images/Software-flowchart.png)
+
