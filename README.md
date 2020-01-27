@@ -32,6 +32,8 @@ The Smart Dumbbell is also an excellent piece of technology for the fitness owne
 
 _Extra_: If the device is unable to connect to the Dash7-Network in the fitness, the device will send a "stolen" message which is displayed on the thingsboard.
 
+An overview of this process can be examined under Documentation/Images/Programflow.png
+
 ## Embedded
 
 Smart Dumbbell is implemented using the Octa-Board (By IMec) for Nucleo-144, based on STM32L496-ZG. The device utilises Stop-mode in order to save battery life whenever it is not being used. To register the moment in which the Smart Dumbbell is picked up from the rack, an LSM303AGR accelerometer is used. In order to recognize the dumbbell-exercises, the accelerometer is configured for operation in double-click mode. 
