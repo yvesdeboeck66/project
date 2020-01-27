@@ -210,7 +210,7 @@ def location():
             reps = "0"
             ctr = ctr - 1
 
-    tbMessage="{\""+gateway_name_D7+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"x\":"+str(x)+",\"y\":"+ str(y)+",\"stolen\":"+"False"+"}}]}"
+    tbMessage="{\""+gateway_name_D7+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"x\":"+str(x)+",\"y\":"+ str(y)+",\"Stolen\":"+"False"+"}}]}"
 
 
     #DEBUG prints
