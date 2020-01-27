@@ -15,6 +15,10 @@ import threading
 
 import logging
 
+
+# ----------------------------------
+# Constants
+# ----------------------------------
 app_id = "woutor_antenne_bzzt"
 access_key = "ttn-account-v2.a8uKxf524Yuc5cK5vE5Pp1sgVw_AXsAv8wxujwmObC8"
 
@@ -25,6 +29,11 @@ gateway_access_id_LW = "YYXWy8ORvnm2WBPRGqi2"
 gateway_name_LW = "LORAWANGATEWAY"
 gateway_name_D7 = "DASH7GATEWAY"
 
+# ----------------------------------
+# Conversion functions
+#
+# They map the gateway ID to the access ID or the name
+# ----------------------------------
 
 def gateway_access_id(param):
     if param == "463230390032003e":
@@ -49,53 +58,6 @@ def gateway_name(param):
 def gateway_index(param):
     cases={"Gateway1" : 0, "Gateway2" : 1, "Gateway3" : 2, "Gateway4": 3}
     return cases.get(param)
-
-
-# ---------------------------------------------------------------------------------------------
-# -------------------------------------------K N N---------------------------------------------
-# ---------------------------------------------------------------------------------------------
-
-def getmongodata():
-    myclient = pymongo.MongoClient("mongodb://localhost:27017/")    #Connect met database
-    mydb = myclient["IOT"]
-    mycol = mydb["MergedCollection"]
-    myquery = {}                                                    #Lege query --> zoek alles
-    mydoc = mycol.find(myquery)                                     #alle docs in collection
-    set=[]
-    for x in mydoc:
-        set.append(x)                                               #steek alle docs in een lijst
-    return set
-
-def euclideanDistance(instance1, instance2, length):                #Berekenen van euclidische afstand
-    distance = 0
-    for x in range(length):
-        distance += pow((int(instance1[x]) - int(instance2[x])), 2)
-    return int(math.sqrt(distance))
-
-def getNeighborsDB(trainingSet, testInstance, k):
-    distances = []
-    length = len(testInstance['RSSI'])
-    for x in range(len(trainingSet)):
-        dist = euclideanDistance(testInstance['RSSI'], trainingSet[x]["RSSI"], length)   #euclidische afstanden in een nieuwe lijst steken
-        distances.append((trainingSet[x], dist))                                            #Sorteer de lijst op kleinste afstand
-    distances.sort(key=operator.itemgetter(1))
-    neighbors = []
-    for x in range(k):
-        neighbors.append(distances[x])                                                      #steek de K kleinste afstanden in een nieuwe lijst
-    return neighbors
-
-def estimation(neighbors,k):
-    locations = []
-    for i in range(k):
-        locations.append(neighbors[i][0]["location"])               #Steek de locations in een apparte lijst
-    counter = 0
-    num = locations[0]
-    for i in locations:
-        currentcount=locations.count(i)                             #Tel het aantal keer dat het huidig getal voorkomt in de lijst
-        if(currentcount>counter):                                   #Als het aantal groter is dan het vorig aantal dan updaten
-            counter = currentcount
-            num = i
-    return num
 
 def locationConverter(param):
     xy = []
@@ -146,14 +108,63 @@ def locationConverter(param):
     a = cases.get(param, {0,0})
     return a
 
-
-
 # ---------------------------------------------------------------------------------------------
-# ---------------------------------------------------------------------------------------------
+# -------------------------------------------K N N---------------------------------------------
 # ---------------------------------------------------------------------------------------------
 
+def getmongodata():
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")    #Connect with database
+    mydb = myclient["IOT"]
+    mycol = mydb["MergedCollection"]
+    myquery = {}                                                    # Empty query --> Search everything
+    mydoc = mycol.find(myquery)                                     # All documents in collections
+    set=[]
+    for x in mydoc:
+        set.append(x)                                               # Convert to list
+    return set
+
+def euclideanDistance(instance1, instance2, length):
+    distance = 0
+    for x in range(length):
+        distance += pow((int(instance1[x]) - int(instance2[x])), 2)
+    return int(math.sqrt(distance))
+
+def getNeighborsDB(trainingSet, testInstance, k):
+    distances = []
+    length = len(testInstance['RSSI'])
+    for x in range(len(trainingSet)):
+        dist = euclideanDistance(testInstance['RSSI'], trainingSet[x]["RSSI"], length)   # Dist in new list
+        distances.append((trainingSet[x], dist))                                         # Sort on smallest dist
+    distances.sort(key=operator.itemgetter(1))
+    neighbors = []
+    for x in range(k):
+        neighbors.append(distances[x])                                                      # K smallest distances in new list
+    return neighbors
+
+def estimation(neighbors,k):
+    locations = []
+    for i in range(k):
+        locations.append(neighbors[i][0]["location"])               #Steek de locations in een apparte lijst
+    counter = 0
+    num = locations[0]
+    for i in locations:
+        currentcount=locations.count(i)                             #Tel het aantal keer dat het huidig getal voorkomt in de lijst
+        if(currentcount>counter):                                   #Als het aantal groter is dan het vorig aantal dan updaten
+            counter = currentcount
+            num = i
+    return num
 
 
+
+
+
+# --------------------------------------- Location --------------------------------------------
+# This function is called whenever the location of an incoming message has to be calculated.
+# It will change all non-received messages to "-1000 dB" and start to fill in the payload
+# It will then compose a tbMessage in JSON format with all the parameters as well as the
+# timestamp.
+# After doing this, it sends the message to thingsboard & resets the global variables
+# ---------------------------------------------------------------------------------------------
 
 def location():
     global lastSentCounter, msgCounter, measurement, readyToSend
@@ -229,7 +240,16 @@ def location():
     measurement=[0,0,0,0]
     readyToSend = False
 
+# --------------------------------------- Callbacks --------------------------------------------
+# on_message and on_message_lora are the callback functions that are called whenever the
+# D7 or lorawan (respectively) broker sends a message that we're subscribed to.
 
+# !!! On_message has 3 criteria to send the data to thingsboard !!!
+# 1) All 4 gateways received the message -> best case
+# 2) The 5 second timer, waiting for the 4 gateways, has passed
+# 3) A new message (with a higher message counter) comes in before the 4 messages are received and
+#    no 5 seconds have passed
+# ---------------------------------------------------------------------------------------------
 def on_message(client, userdata, message):
     global measurement, lastSentCounter, msgCounter, debug, timer, readyToSend, payload_data, gw_name
 
@@ -292,7 +312,7 @@ def on_message(client, userdata, message):
 def on_message_lora(msg, client):
     then = datetime.datetime.now()
     timeStamp = str(time.mktime(then.timetuple())*1e3 + then.microsecond/1e3)
-    tbMessage = "{\"" + gateway_name_LW + "\":[{\"ts\":" + timeStamp + ",\"values\": {\"IsStolen\": "+"True"+"}}]}"
+    tbMessage = "{\"" + gateway_name_D7 + "\":[{\"ts\":" + timeStamp + ",\"values\": {\"IsStolen\": "+"True"+"}}]}"
     publish.single("v1/gateway/telemetry", tbMessage, hostname="thingsboard.idlab.uantwerpen.be", port=1883, auth={'username': gateway_access_id_D7})
 #LoraWan
 handler = ttn.HandlerClient(app_id, access_key)
