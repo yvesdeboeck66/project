@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
   28:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       (##) DMA1 or DMA2: __HAL_RCC_DMA1_CLK_ENABLE() or  __HAL_RCC_DMA2_CLK_ENABLE() ;
   29:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       (##) DMAMUX1:      __HAL_RCC_DMAMUX1_CLK_ENABLE();
   30:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 2
 
 
   31:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****    (#) Use HAL_DMA_GetState() function to return the DMA state and HAL_DMA_GetError() in case of er
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
   85:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   *      this list of conditions and the following disclaimer in the documentation
   86:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   *      and/or other materials provided with the distribution.
   87:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   *   3. Neither the name of STMicroelectronics nor the names of its contributors
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 3
 
 
   88:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   *      may be used to endorse or promote products derived from this software
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  142:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  143:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** /** @defgroup DMA_Exported_Functions_Group1 Initialization and de-initialization functions
  144:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****  *  @brief   Initialization and de-initialization functions
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 4
 
 
  145:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****  *
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  199:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   {
  200:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     /* DMA2 */
  201:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     hdma->ChannelIndex = (((uint32_t)hdma->Instance - (uint32_t)DMA2_Channel1) / ((uint32_t)DMA2_Ch
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 5
 
 
  202:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     hdma->DmaBaseAddress = DMA2;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  256:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   }
  257:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   else
  258:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 6
 
 
  259:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     hdma->DMAmuxRequestGen = 0U;
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  313:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  314:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   /* Check the DMA handle allocation */
  315:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   if (NULL == hdma )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 7
 
 
  316:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   {
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  370:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   /* Reset the DMAMUX channel that corresponds to the DMA channel */
  371:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   hdma->DMAmuxChannel->CCR = 0;
  372:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 8
 
 
  373:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   /* Clear the DMAMUX synchro overrun flag */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  427:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       (+) Configure the source, destination address and data length and Start DMA transfer
  428:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       (+) Configure the source, destination address and data length and
  429:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****           Start DMA transfer with interrupt
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 9
 
 
  430:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       (+) Abort DMA transfer
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  484:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   *               the configuration information for the specified DMA Channel.
  485:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   * @param  SrcAddress The source memory Buffer address
  486:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   * @param  DstAddress The destination memory Buffer address
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 10
 
 
  487:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   * @param  DataLength The length of data to be transferred from source to destination
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  541:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** #endif /* DMAMUX1 */
  542:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  543:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     /* Enable the Peripheral */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 11
 
 
  544:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     __HAL_DMA_ENABLE(hdma);
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  598:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     hdma->DMAmuxRequestGenStatus->RGCFR = hdma->DMAmuxRequestGenStatusMask;
  599:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   }
  600:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 12
 
 
  601:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** #endif /* DMAMUX1 */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  655:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     }
  656:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  657:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** #else
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 13
 
 
  658:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     /* Clear all flags */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  712:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   {
  713:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     /* Half Transfer Complete flag */
  714:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     temp = DMA_FLAG_HT1 << (hdma->ChannelIndex & 0x1cU);
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 14
 
 
  715:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   }
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  769:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       /* Clear the DMAMUX request generator overrun flag */
  770:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       hdma->DMAmuxRequestGenStatus->RGCFR = hdma->DMAmuxRequestGenStatusMask;
  771:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 15
 
 
  772:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       /* Update error code */
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  826:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****         /* Disable the half transfer interrupt */
  827:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****         __HAL_DMA_DISABLE_IT(hdma, DMA_IT_HT);
  828:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 16
 
 
  829:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       /* Clear the half transfer complete flag */
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  883:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     /* Process Unlocked */
  884:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     __HAL_UNLOCK(hdma);
  885:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 17
 
 
  886:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     if (hdma->XferErrorCallback != NULL)
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  940:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   }
  941:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   else
  942:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 18
 
 
  943:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     status = HAL_ERROR;
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  997:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     }
  998:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   }
  999:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   else
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 19
 
 
 1000:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
 1054:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
 1055:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** /**
 1056:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   * @}
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 20
 
 
 1057:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   */
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
   49 000a 0124     		movs	r4, #1
   50 000c AC40     		lsls	r4, r4, r5
   51              		.loc 1 1090 30 view .LVU7
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 21
 
 
   52 000e 7460     		str	r4, [r6, #4]
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
   83              		.cfi_restore 4
   84              		.cfi_def_cfa_offset 0
   85 0024 7047     		bx	lr
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 22
 
 
   86              	.LVL3:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  131 0006 0346     		mov	r3, r0
  180:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   assert_param(IS_DMA_DIRECTION(hdma->Init.Direction));
  132              		.loc 1 180 3 is_stmt 1 view .LVU32
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 23
 
 
  181:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   assert_param(IS_DMA_PERIPHERAL_INC_STATE(hdma->Init.PeriphInc));
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  167              		.loc 1 206 15 is_stmt 0 view .LVU52
  168 0024 0222     		movs	r2, #2
  169 0026 83F82520 		strb	r2, [r3, #37]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 24
 
 
  209:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  220:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  206              		.loc 1 220 42 view .LVU71
  207 004c 2243     		orrs	r2, r2, r4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 25
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 25
 
 
  217:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****           hdma->Init.PeriphInc           | hdma->Init.MemInc           |
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  245 0076 1168     		ldr	r1, [r2]
  285:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     }
  246              		.loc 1 285 50 view .LVU89
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 26
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 26
 
 
  247 0078 5868     		ldr	r0, [r3, #4]
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  286 00a0 A1FB0212 		umull	r1, r2, r1, r2
  287 00a4 1209     		lsrs	r2, r2, #4
  201:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     hdma->DmaBaseAddress = DMA2;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 27
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 27
 
 
  288              		.loc 1 201 135 view .LVU105
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  326 00d0 0143     		orrs	r1, r1, r0
  327 00d2 1160     		str	r1, [r2]
  328 00d4 D7E7     		b	.L10
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 28
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 28
 
 
  329              	.LVL15:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  378              		.loc 1 321 3 is_stmt 1 view .LVU128
  324:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  379              		.loc 1 324 3 view .LVU129
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 29
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 29
 
 
  380 0008 0168     		ldr	r1, [r0]
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  418 0034 02F01C01 		and	r1, r2, #28
  344:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  419              		.loc 1 344 7 view .LVU146
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 30
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 30
 
 
  420 0038 186C     		ldr	r0, [r3, #64]
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  457 0062 5863     		str	r0, [r3, #52]
  401:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  458              		.loc 1 401 3 is_stmt 1 view .LVU164
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 31
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 31
 
 
  401:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  337:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   }
  497              		.loc 1 337 26 is_stmt 0 view .LVU181
  498 0086 0E4A     		ldr	r2, .L32+24
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 32
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 32
 
 
  499 0088 1A64     		str	r2, [r3, #64]
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  546              		.thumb_func
  547              		.fpu fpv4-sp-d16
  549              	HAL_DMA_Start:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 33
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 33
 
 
  550              	.LVL23:
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  476:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   }
  590              		.loc 1 476 12 is_stmt 0 view .LVU204
  591 0020 0220     		movs	r0, #2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 34
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 34
 
 
  592              	.LVL27:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  633 0050 E7E7     		b	.L35
  634              		.cfi_endproc
  635              	.LFE125:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 35
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 35
 
 
  637              		.section	.text.HAL_DMA_Start_IT,"ax",%progbits
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  680 001a 0023     		movs	r3, #0
  681              	.LVL35:
  549:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 36
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 36
 
 
  682              		.loc 1 549 5 is_stmt 0 view .LVU230
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  721 0044 2268     		ldr	r2, [r4]
  722 0046 1368     		ldr	r3, [r2]
  723 0048 43F00E03 		orr	r3, r3, #14
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 37
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 37
 
 
  724 004c 1360     		str	r3, [r2]
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  772              		.loc 1 565 3 view .LVU253
  568:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   {
  773              		.loc 1 568 3 view .LVU254
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 38
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 38
 
 
  568:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   {
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  812              		.loc 1 570 12 view .LVU270
  813 0034 0120     		movs	r0, #1
  814              	.LVL46:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 39
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 39
 
 
  610:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  674:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** }
  860              		.loc 1 674 3 is_stmt 1 view .LVU282
  675:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 40
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 40
 
 
  861              		.loc 1 675 1 is_stmt 0 view .LVU283
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  899              		.loc 1 671 7 is_stmt 1 view .LVU299
  900 0046 9847     		blx	r3
  901              	.LVL52:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 41
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 41
 
 
  620:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  948              		.loc 1 690 5 view .LVU309
  949 000a 022B     		cmp	r3, #2
  950 000c 07D0     		beq	.L57
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 42
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 42
 
 
  693:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     __HAL_UNLOCK(hdma);
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  988              	.L61:
  709:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   }
  989              		.loc 1 709 10 view .LVU327
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 43
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 43
 
 
  990 0036 1646     		mov	r6, r2
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  1027              		.loc 1 743 12 is_stmt 0 view .LVU344
  1028 0060 FFF7FEFF 		bl	HAL_GetTick
  1029              	.LVL61:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 44
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 44
 
 
  743:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       {
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  714:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   }
  1068              		.loc 1 714 5 is_stmt 1 view .LVU361
  714:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 45
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 45
 
 
  1069              		.loc 1 714 33 is_stmt 0 view .LVU362
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  791:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  1106              		.loc 1 791 56 is_stmt 0 view .LVU380
  1107 00b6 6B6C     		ldr	r3, [r5, #68]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 46
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 46
 
 
  791:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  1150              	HAL_DMA_IRQHandler:
  1151              	.LVL67:
  1152              	.LFB130:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 47
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 47
 
 
  816:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   uint32_t flag_it = hdma->DmaBaseAddress->ISR;
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  824:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       {
  1192              		.loc 1 824 25 is_stmt 0 view .LVU410
  1193 001e 2368     		ldr	r3, [r4]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 48
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 48
 
 
  824:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****       {
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  1232              		.loc 1 843 11 view .LVU426
  1233 0048 0A42     		tst	r2, r1
  1234 004a 1CD0     		beq	.L77
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 49
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 49
 
 
  843:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   {
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  1272 007c C36A     		ldr	r3, [r0, #44]
  859:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****     {
  1273              		.loc 1 859 7 view .LVU444
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 50
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 50
 
 
  1274 007e 002B     		cmp	r3, #0
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  881:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  1313              		.loc 1 881 5 is_stmt 1 view .LVU460
  881:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 51
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 51
 
 
  1314              		.loc 1 881 17 is_stmt 0 view .LVU461
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  1357              		.loc 1 914 3 discriminator 2 view .LVU474
  1358 0008 0123     		movs	r3, #1
  1359 000a 80F82430 		strb	r3, [r0, #36]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 52
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 52
 
 
  916:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c ****   {
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  922:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
  1401              		.loc 1 922 12 is_stmt 1 view .LVU488
  911:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 53
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 53
 
 
  1402              		.loc 1 911 21 is_stmt 0 view .LVU489
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  1440              		.section	.text.HAL_DMA_UnRegisterCallback,"ax",%progbits
  1441              		.align	1
  1442              		.global	HAL_DMA_UnRegisterCallback
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 54
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 54
 
 
  1443              		.syntax unified
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
 1007:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** }
  1485              		.loc 1 1007 10 is_stmt 0 view .LVU520
  1486 0022 7047     		bx	lr
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 55
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 55
 
 
  1487              	.LVL88:
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  1527 0046 0020     		movs	r0, #0
  1528 0048 9063     		str	r0, [r2, #56]
  985:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 56
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 56
 
 
  1529              		.loc 1 985 12 is_stmt 1 view .LVU535
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
 1041:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** }
  1573              		.loc 1 1041 3 view .LVU548
 1041:../../core/ST/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c **** }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 57
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 57
 
 
  1574              		.loc 1 1041 14 is_stmt 0 view .LVU549
@@ -3406,44 +3406,44 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 1
  1614              		.file 7 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_def.h"
  1615              		.file 8 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h"
  1616              		.file 9 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s 			page 58
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s 			page 58
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l4xx_hal_dma.c
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:18     .text.DMA_SetConfig:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:25     .text.DMA_SetConfig:00000000 DMA_SetConfig
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:106    .text.HAL_DMA_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:113    .text.HAL_DMA_Init:00000000 HAL_DMA_Init
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:342    .text.HAL_DMA_Init:000000dc $d
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:353    .text.HAL_DMA_DeInit:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:360    .text.HAL_DMA_DeInit:00000000 HAL_DMA_DeInit
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:530    .text.HAL_DMA_DeInit:000000a8 $d
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:542    .text.HAL_DMA_Start:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:549    .text.HAL_DMA_Start:00000000 HAL_DMA_Start
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:638    .text.HAL_DMA_Start_IT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:645    .text.HAL_DMA_Start_IT:00000000 HAL_DMA_Start_IT
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:757    .text.HAL_DMA_Abort:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:764    .text.HAL_DMA_Abort:00000000 HAL_DMA_Abort
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:821    .text.HAL_DMA_Abort_IT:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:828    .text.HAL_DMA_Abort_IT:00000000 HAL_DMA_Abort_IT
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:916    .text.HAL_DMA_PollForTransfer:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:923    .text.HAL_DMA_PollForTransfer:00000000 HAL_DMA_PollForTransfer
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1143   .text.HAL_DMA_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1150   .text.HAL_DMA_IRQHandler:00000000 HAL_DMA_IRQHandler
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1336   .text.HAL_DMA_RegisterCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1343   .text.HAL_DMA_RegisterCallback:00000000 HAL_DMA_RegisterCallback
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1392   .text.HAL_DMA_RegisterCallback:0000002c $d
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1396   .text.HAL_DMA_RegisterCallback:00000030 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1441   .text.HAL_DMA_UnRegisterCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1448   .text.HAL_DMA_UnRegisterCallback:00000000 HAL_DMA_UnRegisterCallback
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1494   .text.HAL_DMA_UnRegisterCallback:0000002c $d
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1558   .text.HAL_DMA_GetState:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1565   .text.HAL_DMA_GetState:00000000 HAL_DMA_GetState
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1583   .text.HAL_DMA_GetError:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1590   .text.HAL_DMA_GetError:00000000 HAL_DMA_GetError
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1499   .text.HAL_DMA_UnRegisterCallback:00000031 $d
-C:\Users\yvesk\AppData\Local\Temp\ccTJ8I08.s:1499   .text.HAL_DMA_UnRegisterCallback:00000032 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:18     .text.DMA_SetConfig:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:25     .text.DMA_SetConfig:00000000 DMA_SetConfig
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:106    .text.HAL_DMA_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:113    .text.HAL_DMA_Init:00000000 HAL_DMA_Init
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:342    .text.HAL_DMA_Init:000000dc $d
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:353    .text.HAL_DMA_DeInit:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:360    .text.HAL_DMA_DeInit:00000000 HAL_DMA_DeInit
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:530    .text.HAL_DMA_DeInit:000000a8 $d
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:542    .text.HAL_DMA_Start:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:549    .text.HAL_DMA_Start:00000000 HAL_DMA_Start
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:638    .text.HAL_DMA_Start_IT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:645    .text.HAL_DMA_Start_IT:00000000 HAL_DMA_Start_IT
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:757    .text.HAL_DMA_Abort:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:764    .text.HAL_DMA_Abort:00000000 HAL_DMA_Abort
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:821    .text.HAL_DMA_Abort_IT:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:828    .text.HAL_DMA_Abort_IT:00000000 HAL_DMA_Abort_IT
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:916    .text.HAL_DMA_PollForTransfer:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:923    .text.HAL_DMA_PollForTransfer:00000000 HAL_DMA_PollForTransfer
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1143   .text.HAL_DMA_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1150   .text.HAL_DMA_IRQHandler:00000000 HAL_DMA_IRQHandler
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1336   .text.HAL_DMA_RegisterCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1343   .text.HAL_DMA_RegisterCallback:00000000 HAL_DMA_RegisterCallback
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1392   .text.HAL_DMA_RegisterCallback:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1396   .text.HAL_DMA_RegisterCallback:00000030 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1441   .text.HAL_DMA_UnRegisterCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1448   .text.HAL_DMA_UnRegisterCallback:00000000 HAL_DMA_UnRegisterCallback
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1494   .text.HAL_DMA_UnRegisterCallback:0000002c $d
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1558   .text.HAL_DMA_GetState:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1565   .text.HAL_DMA_GetState:00000000 HAL_DMA_GetState
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1583   .text.HAL_DMA_GetError:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1590   .text.HAL_DMA_GetError:00000000 HAL_DMA_GetError
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1499   .text.HAL_DMA_UnRegisterCallback:00000031 $d
+C:\Users\yvesk\AppData\Local\Temp\ccRCH4sk.s:1499   .text.HAL_DMA_UnRegisterCallback:00000032 $t
 
 UNDEFINED SYMBOLS
 HAL_GetTick

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 1
   47              		.cfi_def_cfa_offset 88
   10:../../core/platform/octa/src/gpio.c ****   GPIO_InitTypeDef GPIO_InitStruct = {0};
   48              		.loc 1 10 3 view .LVU1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 2
 
 
   49              		.loc 1 10 20 is_stmt 0 view .LVU2
@@ -75,7 +75,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 1
   57              	.LBB2:
   58              		.loc 1 13 3 view .LVU4
   59              		.loc 1 13 3 view .LVU5
-  60 0012 AA4B     		ldr	r3, .L3
+  60 0012 B04B     		ldr	r3, .L3
   61 0014 DA6C     		ldr	r2, [r3, #76]
   62 0016 42F01002 		orr	r2, r2, #16
   63 001a DA64     		str	r2, [r3, #76]
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 1
   98              	.LBE4:
   16:../../core/platform/octa/src/gpio.c ****   __HAL_RCC_GPIOA_CLK_ENABLE();
   99              		.loc 1 16 3 view .LVU18
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 3
 
 
  100              	.LBB5:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 1
  151 008e 0693     		str	r3, [sp, #24]
  152              		.loc 1 19 3 view .LVU37
  153 0090 069B     		ldr	r3, [sp, #24]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 4
 
 
  154              	.LBE8:
@@ -192,7 +192,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 1
   24:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
   25:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(GPIOE, P2_DIO1_Pin|P2_DIO6_Pin|P2_DIO2_Pin|P2_DIO4_Pin 
  158              		.loc 1 25 3 view .LVU39
- 159 0096 8A4D     		ldr	r5, .L3+4
+ 159 0096 904D     		ldr	r5, .L3+4
  160 0098 0122     		movs	r2, #1
  161 009a 40F2FC71 		movw	r1, #2044
  162 009e 2846     		mov	r0, r5
@@ -204,7 +204,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 1
   29:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
   30:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(GPIOF, P1_DIO3_Pin|P1_DIO5_Pin|P2_DIO5_Pin|P3_DIO3_Pin , GPIO_PIN_SET);
  165              		.loc 1 30 3 view .LVU40
- 166 00a4 874E     		ldr	r6, .L3+8
+ 166 00a4 8D4E     		ldr	r6, .L3+8
  167 00a6 0122     		movs	r2, #1
  168 00a8 44F22811 		movw	r1, #16680
  169 00ac 3046     		mov	r0, r6
@@ -227,7 +227,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 1
   39:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
   40:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(GPIOC, P1_DIO6_Pin|P1_DIO2_Pin|P1_DIO1_Pin, GPIO_PIN_SET);
  178              		.loc 1 40 3 view .LVU42
- 179 00be DFF85882 		ldr	r8, .L3+92
+ 179 00be DFF87082 		ldr	r8, .L3+92
  180 00c2 0122     		movs	r2, #1
  181 00c4 4FF44271 		mov	r1, #776
  182 00c8 4046     		mov	r0, r8
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 1
   43:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(BLE_Reset_GPIO_Port, BLE_Reset_Pin, GPIO_PIN_SET);
  185              		.loc 1 43 3 view .LVU43
  186 00ce 0122     		movs	r2, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 5
 
 
  187 00d0 0221     		movs	r1, #2
@@ -258,614 +258,635 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 1
   48:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
   49:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(GPIOB, OCTA_GLED_Pin|P3_DIO6_Pin, GPIO_PIN_SET);
  197              		.loc 1 49 3 view .LVU45
- 198 00e6 DFF83492 		ldr	r9, .L3+96
- 199 00ea 0122     		movs	r2, #1
- 200 00ec 0321     		movs	r1, #3
- 201 00ee 4846     		mov	r0, r9
- 202 00f0 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 203              	.LVL7:
+ 198 00e6 0122     		movs	r2, #1
+ 199 00e8 0321     		movs	r1, #3
+ 200 00ea 7D48     		ldr	r0, .L3+12
+ 201 00ec FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 202              	.LVL7:
   50:../../core/platform/octa/src/gpio.c **** 
   51:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
   52:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(GPIOB, LD3_Pin|LD2_Pin, GPIO_PIN_RESET);
- 204              		.loc 1 52 3 view .LVU46
- 205 00f4 2246     		mov	r2, r4
- 206 00f6 4FF48141 		mov	r1, #16512
- 207 00fa 4846     		mov	r0, r9
- 208 00fc FFF7FEFF 		bl	HAL_GPIO_WritePin
- 209              	.LVL8:
+ 203              		.loc 1 52 3 view .LVU46
+ 204 00f0 2246     		mov	r2, r4
+ 205 00f2 4FF48141 		mov	r1, #16512
+ 206 00f6 7A48     		ldr	r0, .L3+12
+ 207 00f8 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 208              	.LVL8:
   53:../../core/platform/octa/src/gpio.c **** 
   54:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
   55:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(GPIOD, OCTA_RLED_Pin|OCTA_BLED_Pin, GPIO_PIN_SET);
- 210              		.loc 1 55 3 view .LVU47
- 211 0100 0122     		movs	r2, #1
- 212 0102 4FF44041 		mov	r1, #49152
- 213 0106 7048     		ldr	r0, .L3+12
- 214 0108 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 215              	.LVL9:
+ 209              		.loc 1 55 3 view .LVU47
+ 210 00fc 0122     		movs	r2, #1
+ 211 00fe 4FF44041 		mov	r1, #49152
+ 212 0102 7848     		ldr	r0, .L3+16
+ 213 0104 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 214              	.LVL9:
   56:../../core/platform/octa/src/gpio.c **** 
   57:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : P2_DIO1_Pin P2_DIO6_Pin P2_DIO2_Pin P2_DIO4_Pin 
   58:../../core/platform/octa/src/gpio.c ****                            P2_DIO3_Pin P3_DIO1_Pin P3_DIO4_Pin P3_DIO5_Pin 
   59:../../core/platform/octa/src/gpio.c ****                            P3_DIO2_Pin */
   60:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = P2_DIO1_Pin|P2_DIO6_Pin|P2_DIO2_Pin|P2_DIO4_Pin 
- 216              		.loc 1 60 3 view .LVU48
- 217              		.loc 1 60 23 is_stmt 0 view .LVU49
- 218 010c 40F2FC73 		movw	r3, #2044
- 219 0110 0793     		str	r3, [sp, #28]
+ 215              		.loc 1 60 3 view .LVU48
+ 216              		.loc 1 60 23 is_stmt 0 view .LVU49
+ 217 0108 40F2FC73 		movw	r3, #2044
+ 218 010c 0793     		str	r3, [sp, #28]
   61:../../core/platform/octa/src/gpio.c ****                           |P2_DIO3_Pin|P3_DIO1_Pin|P3_DIO4_Pin|P3_DIO5_Pin 
   62:../../core/platform/octa/src/gpio.c ****                           |P3_DIO2_Pin;
   63:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
- 220              		.loc 1 63 3 is_stmt 1 view .LVU50
- 221              		.loc 1 63 24 is_stmt 0 view .LVU51
- 222 0112 0127     		movs	r7, #1
- 223 0114 0897     		str	r7, [sp, #32]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 6
-
-
+ 219              		.loc 1 63 3 is_stmt 1 view .LVU50
+ 220              		.loc 1 63 24 is_stmt 0 view .LVU51
+ 221 010e 0127     		movs	r7, #1
+ 222 0110 0897     		str	r7, [sp, #32]
   64:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
- 224              		.loc 1 64 3 is_stmt 1 view .LVU52
- 225              		.loc 1 64 24 is_stmt 0 view .LVU53
- 226 0116 0994     		str	r4, [sp, #36]
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 6
+
+
+ 223              		.loc 1 64 3 is_stmt 1 view .LVU52
+ 224              		.loc 1 64 24 is_stmt 0 view .LVU53
+ 225 0112 0994     		str	r4, [sp, #36]
   65:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
- 227              		.loc 1 65 3 is_stmt 1 view .LVU54
- 228              		.loc 1 65 25 is_stmt 0 view .LVU55
- 229 0118 0A94     		str	r4, [sp, #40]
+ 226              		.loc 1 65 3 is_stmt 1 view .LVU54
+ 227              		.loc 1 65 25 is_stmt 0 view .LVU55
+ 228 0114 0A94     		str	r4, [sp, #40]
   66:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
- 230              		.loc 1 66 3 is_stmt 1 view .LVU56
- 231 011a 07A9     		add	r1, sp, #28
- 232 011c 2846     		mov	r0, r5
- 233 011e FFF7FEFF 		bl	HAL_GPIO_Init
- 234              	.LVL10:
+ 229              		.loc 1 66 3 is_stmt 1 view .LVU56
+ 230 0116 07A9     		add	r1, sp, #28
+ 231 0118 2846     		mov	r0, r5
+ 232 011a FFF7FEFF 		bl	HAL_GPIO_Init
+ 233              	.LVL10:
   67:../../core/platform/octa/src/gpio.c **** 
   68:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin : B1_Pin */
   69:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = B1_Pin;
- 235              		.loc 1 69 3 view .LVU57
- 236              		.loc 1 69 23 is_stmt 0 view .LVU58
- 237 0122 4FF4005A 		mov	r10, #8192
- 238 0126 CDF81CA0 		str	r10, [sp, #28]
+ 234              		.loc 1 69 3 view .LVU57
+ 235              		.loc 1 69 23 is_stmt 0 view .LVU58
+ 236 011e 4FF40059 		mov	r9, #8192
+ 237 0122 CDF81C90 		str	r9, [sp, #28]
   70:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
- 239              		.loc 1 70 3 is_stmt 1 view .LVU59
- 240              		.loc 1 70 24 is_stmt 0 view .LVU60
- 241 012a DFF8F4B1 		ldr	fp, .L3+100
- 242 012e CDF820B0 		str	fp, [sp, #32]
+ 238              		.loc 1 70 3 is_stmt 1 view .LVU59
+ 239              		.loc 1 70 24 is_stmt 0 view .LVU60
+ 240 0126 DFF80CA2 		ldr	r10, .L3+96
+ 241 012a CDF820A0 		str	r10, [sp, #32]
   71:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
- 243              		.loc 1 71 3 is_stmt 1 view .LVU61
- 244              		.loc 1 71 24 is_stmt 0 view .LVU62
- 245 0132 0994     		str	r4, [sp, #36]
+ 242              		.loc 1 71 3 is_stmt 1 view .LVU61
+ 243              		.loc 1 71 24 is_stmt 0 view .LVU62
+ 244 012e 0994     		str	r4, [sp, #36]
   72:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
- 246              		.loc 1 72 3 is_stmt 1 view .LVU63
- 247 0134 07A9     		add	r1, sp, #28
- 248 0136 4046     		mov	r0, r8
- 249 0138 FFF7FEFF 		bl	HAL_GPIO_Init
- 250              	.LVL11:
+ 245              		.loc 1 72 3 is_stmt 1 view .LVU63
+ 246 0130 07A9     		add	r1, sp, #28
+ 247 0132 4046     		mov	r0, r8
+ 248 0134 FFF7FEFF 		bl	HAL_GPIO_Init
+ 249              	.LVL11:
   73:../../core/platform/octa/src/gpio.c **** 
   74:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin : B13_Pin */
   75:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = GPIO_Pin_13;
- 251              		.loc 1 75 3 view .LVU64
- 252              		.loc 1 75 23 is_stmt 0 view .LVU65
- 253 013c CDF81CA0 		str	r10, [sp, #28]
+ 250              		.loc 1 75 3 view .LVU64
+ 251              		.loc 1 75 23 is_stmt 0 view .LVU65
+ 252 0138 CDF81C90 		str	r9, [sp, #28]
   76:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
- 254              		.loc 1 76 3 is_stmt 1 view .LVU66
- 255              		.loc 1 76 24 is_stmt 0 view .LVU67
- 256 0140 CDF820B0 		str	fp, [sp, #32]
+ 253              		.loc 1 76 3 is_stmt 1 view .LVU66
+ 254              		.loc 1 76 24 is_stmt 0 view .LVU67
+ 255 013c CDF820A0 		str	r10, [sp, #32]
   77:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
- 257              		.loc 1 77 3 is_stmt 1 view .LVU68
- 258              		.loc 1 77 24 is_stmt 0 view .LVU69
- 259 0144 0994     		str	r4, [sp, #36]
+ 256              		.loc 1 77 3 is_stmt 1 view .LVU68
+ 257              		.loc 1 77 24 is_stmt 0 view .LVU69
+ 258 0140 0994     		str	r4, [sp, #36]
   78:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(Pin_13_GPIO_Port, &GPIO_InitStruct);
- 260              		.loc 1 78 3 is_stmt 1 view .LVU70
- 261 0146 07A9     		add	r1, sp, #28
- 262 0148 4846     		mov	r0, r9
- 263 014a FFF7FEFF 		bl	HAL_GPIO_Init
- 264              	.LVL12:
+ 259              		.loc 1 78 3 is_stmt 1 view .LVU70
+ 260 0142 07A9     		add	r1, sp, #28
+ 261 0144 6648     		ldr	r0, .L3+12
+ 262 0146 FFF7FEFF 		bl	HAL_GPIO_Init
+ 263              	.LVL12:
   79:../../core/platform/octa/src/gpio.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 7
+  80:../../core/platform/octa/src/gpio.c ****    /*Configure GPIO pin : OCTA_BTN2_Pin */
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 7
 
 
-  80:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : P1_DIO3_Pin P1_DIO5_Pin P2_DIO5_Pin OCTA_STEPUP_Pin 
-  81:../../core/platform/octa/src/gpio.c ****                            P3_DIO3_Pin */
-  82:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = P1_DIO3_Pin|P1_DIO5_Pin|P2_DIO5_Pin|OCTA_STEPUP_Pin 
- 265              		.loc 1 82 3 view .LVU71
- 266              		.loc 1 82 23 is_stmt 0 view .LVU72
- 267 014e 44F2A833 		movw	r3, #17320
- 268 0152 0793     		str	r3, [sp, #28]
-  83:../../core/platform/octa/src/gpio.c ****                           |P3_DIO3_Pin|OCTA_LIGHTSENSORLED_Pin;
-  84:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
- 269              		.loc 1 84 3 is_stmt 1 view .LVU73
- 270              		.loc 1 84 24 is_stmt 0 view .LVU74
- 271 0154 0897     		str	r7, [sp, #32]
-  85:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
- 272              		.loc 1 85 3 is_stmt 1 view .LVU75
- 273              		.loc 1 85 24 is_stmt 0 view .LVU76
- 274 0156 0994     		str	r4, [sp, #36]
-  86:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
- 275              		.loc 1 86 3 is_stmt 1 view .LVU77
- 276              		.loc 1 86 25 is_stmt 0 view .LVU78
- 277 0158 0A94     		str	r4, [sp, #40]
-  87:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
- 278              		.loc 1 87 3 is_stmt 1 view .LVU79
- 279 015a 07A9     		add	r1, sp, #28
- 280 015c 3046     		mov	r0, r6
- 281 015e FFF7FEFF 		bl	HAL_GPIO_Init
- 282              	.LVL13:
-  88:../../core/platform/octa/src/gpio.c **** 
-  89:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : P1_DIO6_Pin P1_DIO2_Pin P1_DIO1_Pin */
-  90:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = P1_DIO6_Pin|P1_DIO2_Pin|P1_DIO1_Pin;
- 283              		.loc 1 90 3 view .LVU80
- 284              		.loc 1 90 23 is_stmt 0 view .LVU81
- 285 0162 4FF44273 		mov	r3, #776
- 286 0166 0793     		str	r3, [sp, #28]
-  91:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  81:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_BTN2_Pin;
+ 264              		.loc 1 81 3 view .LVU71
+ 265              		.loc 1 81 23 is_stmt 0 view .LVU72
+ 266 014a 4FF0020B 		mov	fp, #2
+ 267 014e CDF81CB0 		str	fp, [sp, #28]
+  82:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+ 268              		.loc 1 82 3 is_stmt 1 view .LVU73
+ 269              		.loc 1 82 24 is_stmt 0 view .LVU74
+ 270 0152 CDF820A0 		str	r10, [sp, #32]
+  83:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 271              		.loc 1 83 3 is_stmt 1 view .LVU75
+ 272              		.loc 1 83 24 is_stmt 0 view .LVU76
+ 273 0156 0994     		str	r4, [sp, #36]
+  84:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(OCTA_BTN2_GPIO_Port , &GPIO_InitStruct);
+ 274              		.loc 1 84 3 is_stmt 1 view .LVU77
+ 275 0158 DFF8DCA1 		ldr	r10, .L3+100
+ 276 015c 07A9     		add	r1, sp, #28
+ 277 015e 5046     		mov	r0, r10
+ 278 0160 FFF7FEFF 		bl	HAL_GPIO_Init
+ 279              	.LVL13:
+  85:../../core/platform/octa/src/gpio.c **** 
+  86:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : P1_DIO3_Pin P1_DIO5_Pin P2_DIO5_Pin OCTA_STEPUP_Pin 
+  87:../../core/platform/octa/src/gpio.c ****                            P3_DIO3_Pin */
+  88:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = P1_DIO3_Pin|P1_DIO5_Pin|P2_DIO5_Pin|OCTA_STEPUP_Pin 
+ 280              		.loc 1 88 3 view .LVU78
+ 281              		.loc 1 88 23 is_stmt 0 view .LVU79
+ 282 0164 44F2A833 		movw	r3, #17320
+ 283 0168 0793     		str	r3, [sp, #28]
+  89:../../core/platform/octa/src/gpio.c ****                           |P3_DIO3_Pin|OCTA_LIGHTSENSORLED_Pin;
+  90:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 284              		.loc 1 90 3 is_stmt 1 view .LVU80
+ 285              		.loc 1 90 24 is_stmt 0 view .LVU81
+ 286 016a 0897     		str	r7, [sp, #32]
+  91:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  287              		.loc 1 91 3 is_stmt 1 view .LVU82
  288              		.loc 1 91 24 is_stmt 0 view .LVU83
- 289 0168 0897     		str	r7, [sp, #32]
-  92:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 289 016c 0994     		str	r4, [sp, #36]
+  92:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  290              		.loc 1 92 3 is_stmt 1 view .LVU84
- 291              		.loc 1 92 24 is_stmt 0 view .LVU85
- 292 016a 0994     		str	r4, [sp, #36]
-  93:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 291              		.loc 1 92 25 is_stmt 0 view .LVU85
+ 292 016e 0A94     		str	r4, [sp, #40]
+  93:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
  293              		.loc 1 93 3 is_stmt 1 view .LVU86
- 294              		.loc 1 93 25 is_stmt 0 view .LVU87
- 295 016c 0A94     		str	r4, [sp, #40]
-  94:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
- 296              		.loc 1 94 3 is_stmt 1 view .LVU88
- 297 016e 07A9     		add	r1, sp, #28
- 298 0170 4046     		mov	r0, r8
- 299 0172 FFF7FEFF 		bl	HAL_GPIO_Init
- 300              	.LVL14:
-  95:../../core/platform/octa/src/gpio.c **** 
-  96:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : BLE_Reset_Pin P1_DIO4_Pin */
-  97:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = BLE_Reset_Pin|P1_DIO4_Pin;
- 301              		.loc 1 97 3 view .LVU89
- 302              		.loc 1 97 23 is_stmt 0 view .LVU90
- 303 0176 8223     		movs	r3, #130
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 8
+ 294 0170 07A9     		add	r1, sp, #28
+ 295 0172 3046     		mov	r0, r6
+ 296 0174 FFF7FEFF 		bl	HAL_GPIO_Init
+ 297              	.LVL14:
+  94:../../core/platform/octa/src/gpio.c **** 
+  95:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : P1_DIO6_Pin P1_DIO2_Pin P1_DIO1_Pin */
+  96:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = P1_DIO6_Pin|P1_DIO2_Pin|P1_DIO1_Pin;
+ 298              		.loc 1 96 3 view .LVU87
+ 299              		.loc 1 96 23 is_stmt 0 view .LVU88
+ 300 0178 4FF44273 		mov	r3, #776
+ 301 017c 0793     		str	r3, [sp, #28]
+  97:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 302              		.loc 1 97 3 is_stmt 1 view .LVU89
+ 303              		.loc 1 97 24 is_stmt 0 view .LVU90
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 8
 
 
- 304 0178 0793     		str	r3, [sp, #28]
-  98:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 304 017e 0897     		str	r7, [sp, #32]
+  98:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  305              		.loc 1 98 3 is_stmt 1 view .LVU91
  306              		.loc 1 98 24 is_stmt 0 view .LVU92
- 307 017a 0897     		str	r7, [sp, #32]
-  99:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 307 0180 0994     		str	r4, [sp, #36]
+  99:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  308              		.loc 1 99 3 is_stmt 1 view .LVU93
- 309              		.loc 1 99 24 is_stmt 0 view .LVU94
- 310 017c 0994     		str	r4, [sp, #36]
- 100:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 309              		.loc 1 99 25 is_stmt 0 view .LVU94
+ 310 0182 0A94     		str	r4, [sp, #40]
+ 100:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
  311              		.loc 1 100 3 is_stmt 1 view .LVU95
- 312              		.loc 1 100 25 is_stmt 0 view .LVU96
- 313 017e 0A94     		str	r4, [sp, #40]
- 101:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
- 314              		.loc 1 101 3 is_stmt 1 view .LVU97
- 315 0180 07A9     		add	r1, sp, #28
- 316 0182 4FF09040 		mov	r0, #1207959552
- 317 0186 FFF7FEFF 		bl	HAL_GPIO_Init
- 318              	.LVL15:
- 102:../../core/platform/octa/src/gpio.c **** 
- 103:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : OCTA_GLED_Pin P3_DIO6_Pin LD3_Pin LD2_Pin */
- 104:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_GLED_Pin|P3_DIO6_Pin|LD3_Pin|LD2_Pin;
- 319              		.loc 1 104 3 view .LVU98
- 320              		.loc 1 104 23 is_stmt 0 view .LVU99
- 321 018a 44F28303 		movw	r3, #16515
- 322 018e 0793     		str	r3, [sp, #28]
- 105:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 312 0184 07A9     		add	r1, sp, #28
+ 313 0186 4046     		mov	r0, r8
+ 314 0188 FFF7FEFF 		bl	HAL_GPIO_Init
+ 315              	.LVL15:
+ 101:../../core/platform/octa/src/gpio.c **** 
+ 102:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : BLE_Reset_Pin P1_DIO4_Pin */
+ 103:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = BLE_Reset_Pin|P1_DIO4_Pin;
+ 316              		.loc 1 103 3 view .LVU96
+ 317              		.loc 1 103 23 is_stmt 0 view .LVU97
+ 318 018c 8223     		movs	r3, #130
+ 319 018e 0793     		str	r3, [sp, #28]
+ 104:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 320              		.loc 1 104 3 is_stmt 1 view .LVU98
+ 321              		.loc 1 104 24 is_stmt 0 view .LVU99
+ 322 0190 0897     		str	r7, [sp, #32]
+ 105:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  323              		.loc 1 105 3 is_stmt 1 view .LVU100
  324              		.loc 1 105 24 is_stmt 0 view .LVU101
- 325 0190 0897     		str	r7, [sp, #32]
- 106:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 325 0192 0994     		str	r4, [sp, #36]
+ 106:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  326              		.loc 1 106 3 is_stmt 1 view .LVU102
- 327              		.loc 1 106 24 is_stmt 0 view .LVU103
- 328 0192 0994     		str	r4, [sp, #36]
- 107:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 327              		.loc 1 106 25 is_stmt 0 view .LVU103
+ 328 0194 0A94     		str	r4, [sp, #40]
+ 107:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
  329              		.loc 1 107 3 is_stmt 1 view .LVU104
- 330              		.loc 1 107 25 is_stmt 0 view .LVU105
- 331 0194 0A94     		str	r4, [sp, #40]
- 108:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
- 332              		.loc 1 108 3 is_stmt 1 view .LVU106
- 333 0196 07A9     		add	r1, sp, #28
- 334 0198 4846     		mov	r0, r9
- 335 019a FFF7FEFF 		bl	HAL_GPIO_Init
- 336              	.LVL16:
- 109:../../core/platform/octa/src/gpio.c **** 
- 110:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : OCTA_BTN1_Pin OCTA_BTN2_Pin */
- 111:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_BTN1_Pin|OCTA_BTN2_Pin;
- 337              		.loc 1 111 3 view .LVU107
- 338              		.loc 1 111 23 is_stmt 0 view .LVU108
- 339 019e 0323     		movs	r3, #3
- 340 01a0 0793     		str	r3, [sp, #28]
- 112:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+ 330 0196 07A9     		add	r1, sp, #28
+ 331 0198 4FF09040 		mov	r0, #1207959552
+ 332 019c FFF7FEFF 		bl	HAL_GPIO_Init
+ 333              	.LVL16:
+ 108:../../core/platform/octa/src/gpio.c **** 
+ 109:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : OCTA_GLED_Pin P3_DIO6_Pin LD3_Pin LD2_Pin */
+ 110:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_GLED_Pin|P3_DIO6_Pin|LD3_Pin|LD2_Pin;
+ 334              		.loc 1 110 3 view .LVU105
+ 335              		.loc 1 110 23 is_stmt 0 view .LVU106
+ 336 01a0 44F28303 		movw	r3, #16515
+ 337 01a4 0793     		str	r3, [sp, #28]
+ 111:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 338              		.loc 1 111 3 is_stmt 1 view .LVU107
+ 339              		.loc 1 111 24 is_stmt 0 view .LVU108
+ 340 01a6 0897     		str	r7, [sp, #32]
+ 112:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  341              		.loc 1 112 3 is_stmt 1 view .LVU109
  342              		.loc 1 112 24 is_stmt 0 view .LVU110
- 343 01a2 0894     		str	r4, [sp, #32]
- 113:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 343 01a8 0994     		str	r4, [sp, #36]
+ 113:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  344              		.loc 1 113 3 is_stmt 1 view .LVU111
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 9
 
 
- 345              		.loc 1 113 24 is_stmt 0 view .LVU112
- 346 01a4 0994     		str	r4, [sp, #36]
- 114:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
+ 345              		.loc 1 113 25 is_stmt 0 view .LVU112
+ 346 01aa 0A94     		str	r4, [sp, #40]
+ 114:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
  347              		.loc 1 114 3 is_stmt 1 view .LVU113
- 348 01a6 07A9     		add	r1, sp, #28
- 349 01a8 4848     		ldr	r0, .L3+16
- 350 01aa FFF7FEFF 		bl	HAL_GPIO_Init
+ 348 01ac 07A9     		add	r1, sp, #28
+ 349 01ae 4C48     		ldr	r0, .L3+12
+ 350 01b0 FFF7FEFF 		bl	HAL_GPIO_Init
  351              	.LVL17:
  115:../../core/platform/octa/src/gpio.c **** 
- 116:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : OCTA_RLED_Pin OCTA_BLED_Pin */
- 117:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_RLED_Pin|OCTA_BLED_Pin;
+ 116:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : OCTA_BTN1_Pin OCTA_BTN2_Pin */
+ 117:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_BTN1_Pin|OCTA_BTN2_Pin;
  352              		.loc 1 117 3 view .LVU114
  353              		.loc 1 117 23 is_stmt 0 view .LVU115
- 354 01ae 4FF44043 		mov	r3, #49152
- 355 01b2 0793     		str	r3, [sp, #28]
- 118:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 354 01b4 0323     		movs	r3, #3
+ 355 01b6 0793     		str	r3, [sp, #28]
+ 118:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
  356              		.loc 1 118 3 is_stmt 1 view .LVU116
  357              		.loc 1 118 24 is_stmt 0 view .LVU117
- 358 01b4 0897     		str	r7, [sp, #32]
+ 358 01b8 0894     		str	r4, [sp, #32]
  119:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  359              		.loc 1 119 3 is_stmt 1 view .LVU118
  360              		.loc 1 119 24 is_stmt 0 view .LVU119
- 361 01b6 0994     		str	r4, [sp, #36]
- 120:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 361 01ba 0994     		str	r4, [sp, #36]
+ 120:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
  362              		.loc 1 120 3 is_stmt 1 view .LVU120
- 363              		.loc 1 120 25 is_stmt 0 view .LVU121
- 364 01b8 0A94     		str	r4, [sp, #40]
- 121:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
- 365              		.loc 1 121 3 is_stmt 1 view .LVU122
- 366 01ba 07A9     		add	r1, sp, #28
- 367 01bc 4248     		ldr	r0, .L3+12
- 368 01be FFF7FEFF 		bl	HAL_GPIO_Init
- 369              	.LVL18:
- 122:../../core/platform/octa/src/gpio.c **** 
- 123:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin : PF13 (OCTA-FLASH CS)*/
- 124:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_FLASH_CS_Pin;
- 370              		.loc 1 124 3 view .LVU123
- 371              		.loc 1 124 23 is_stmt 0 view .LVU124
- 372 01c2 CDF81CA0 		str	r10, [sp, #28]
- 125:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
- 373              		.loc 1 125 3 is_stmt 1 view .LVU125
- 374              		.loc 1 125 24 is_stmt 0 view .LVU126
- 375 01c6 0897     		str	r7, [sp, #32]
- 126:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
- 376              		.loc 1 126 3 is_stmt 1 view .LVU127
- 377              		.loc 1 126 24 is_stmt 0 view .LVU128
- 378 01c8 0994     		str	r4, [sp, #36]
- 127:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
- 379              		.loc 1 127 3 is_stmt 1 view .LVU129
- 380              		.loc 1 127 25 is_stmt 0 view .LVU130
- 381 01ca 0A94     		str	r4, [sp, #40]
- 128:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(OCTA_FLASH_CS_Port, &GPIO_InitStruct);
- 382              		.loc 1 128 3 is_stmt 1 view .LVU131
- 383 01cc 07A9     		add	r1, sp, #28
- 384 01ce 3046     		mov	r0, r6
- 385 01d0 FFF7FEFF 		bl	HAL_GPIO_Init
- 386              	.LVL19:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 10
+ 363 01bc 07A9     		add	r1, sp, #28
+ 364 01be 5046     		mov	r0, r10
+ 365 01c0 FFF7FEFF 		bl	HAL_GPIO_Init
+ 366              	.LVL18:
+ 121:../../core/platform/octa/src/gpio.c **** 
+ 122:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : OCTA_RLED_Pin OCTA_BLED_Pin */
+ 123:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_RLED_Pin|OCTA_BLED_Pin;
+ 367              		.loc 1 123 3 view .LVU121
+ 368              		.loc 1 123 23 is_stmt 0 view .LVU122
+ 369 01c4 4FF44043 		mov	r3, #49152
+ 370 01c8 0793     		str	r3, [sp, #28]
+ 124:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 371              		.loc 1 124 3 is_stmt 1 view .LVU123
+ 372              		.loc 1 124 24 is_stmt 0 view .LVU124
+ 373 01ca 0897     		str	r7, [sp, #32]
+ 125:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 374              		.loc 1 125 3 is_stmt 1 view .LVU125
+ 375              		.loc 1 125 24 is_stmt 0 view .LVU126
+ 376 01cc 0994     		str	r4, [sp, #36]
+ 126:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 377              		.loc 1 126 3 is_stmt 1 view .LVU127
+ 378              		.loc 1 126 25 is_stmt 0 view .LVU128
+ 379 01ce 0A94     		str	r4, [sp, #40]
+ 127:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+ 380              		.loc 1 127 3 is_stmt 1 view .LVU129
+ 381 01d0 07A9     		add	r1, sp, #28
+ 382 01d2 4448     		ldr	r0, .L3+16
+ 383 01d4 FFF7FEFF 		bl	HAL_GPIO_Init
+ 384              	.LVL19:
+ 128:../../core/platform/octa/src/gpio.c **** 
+ 129:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin : PF13 (OCTA-FLASH CS)*/
+ 130:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_FLASH_CS_Pin;
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 10
 
 
- 129:../../core/platform/octa/src/gpio.c **** 
- 130:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : PE11 (OCTA-FLASH WP) PE0 (OCTA-FLASH HOLD) */
- 131:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_FLASH_WP_Pin|OCTA_FLASH_HOLD_Pin;
- 387              		.loc 1 131 3 view .LVU132
- 388              		.loc 1 131 23 is_stmt 0 view .LVU133
- 389 01d4 40F6010B 		movw	fp, #2049
- 390 01d8 CDF81CB0 		str	fp, [sp, #28]
- 132:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 385              		.loc 1 130 3 view .LVU130
+ 386              		.loc 1 130 23 is_stmt 0 view .LVU131
+ 387 01d8 CDF81C90 		str	r9, [sp, #28]
+ 131:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 388              		.loc 1 131 3 is_stmt 1 view .LVU132
+ 389              		.loc 1 131 24 is_stmt 0 view .LVU133
+ 390 01dc 0897     		str	r7, [sp, #32]
+ 132:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
  391              		.loc 1 132 3 is_stmt 1 view .LVU134
  392              		.loc 1 132 24 is_stmt 0 view .LVU135
- 393 01dc 0897     		str	r7, [sp, #32]
- 133:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 393 01de 0994     		str	r4, [sp, #36]
+ 133:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  394              		.loc 1 133 3 is_stmt 1 view .LVU136
- 395              		.loc 1 133 24 is_stmt 0 view .LVU137
- 396 01de 0994     		str	r4, [sp, #36]
- 134:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 395              		.loc 1 133 25 is_stmt 0 view .LVU137
+ 396 01e0 0A94     		str	r4, [sp, #40]
+ 134:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(OCTA_FLASH_CS_Port, &GPIO_InitStruct);
  397              		.loc 1 134 3 is_stmt 1 view .LVU138
- 398              		.loc 1 134 25 is_stmt 0 view .LVU139
- 399 01e0 0A94     		str	r4, [sp, #40]
- 135:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
- 400              		.loc 1 135 3 is_stmt 1 view .LVU140
- 401 01e2 07A9     		add	r1, sp, #28
- 402 01e4 2846     		mov	r0, r5
- 403 01e6 FFF7FEFF 		bl	HAL_GPIO_Init
- 404              	.LVL20:
- 136:../../core/platform/octa/src/gpio.c **** 
- 137:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
- 138:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(OCTA_FLASH_CS_Port, OCTA_FLASH_CS_Pin, GPIO_PIN_SET);
- 405              		.loc 1 138 3 view .LVU141
- 406 01ea 3A46     		mov	r2, r7
- 407 01ec 5146     		mov	r1, r10
- 408 01ee 3046     		mov	r0, r6
- 409 01f0 FFF7FEFF 		bl	HAL_GPIO_WritePin
- 410              	.LVL21:
- 139:../../core/platform/octa/src/gpio.c **** 
- 140:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
- 141:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(GPIOE, OCTA_FLASH_WP_Pin|OCTA_FLASH_HOLD_Pin, GPIO_PIN_RESET);
- 411              		.loc 1 141 3 view .LVU142
- 412 01f4 2246     		mov	r2, r4
- 413 01f6 5946     		mov	r1, fp
- 414 01f8 2846     		mov	r0, r5
- 415 01fa FFF7FEFF 		bl	HAL_GPIO_WritePin
- 416              	.LVL22:
+ 398 01e2 07A9     		add	r1, sp, #28
+ 399 01e4 3046     		mov	r0, r6
+ 400 01e6 FFF7FEFF 		bl	HAL_GPIO_Init
+ 401              	.LVL20:
+ 135:../../core/platform/octa/src/gpio.c **** 
+ 136:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pins : PE11 (OCTA-FLASH WP) PE0 (OCTA-FLASH HOLD) */
+ 137:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_FLASH_WP_Pin|OCTA_FLASH_HOLD_Pin;
+ 402              		.loc 1 137 3 view .LVU139
+ 403              		.loc 1 137 23 is_stmt 0 view .LVU140
+ 404 01ea 40F6010A 		movw	r10, #2049
+ 405 01ee CDF81CA0 		str	r10, [sp, #28]
+ 138:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+ 406              		.loc 1 138 3 is_stmt 1 view .LVU141
+ 407              		.loc 1 138 24 is_stmt 0 view .LVU142
+ 408 01f2 0897     		str	r7, [sp, #32]
+ 139:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 409              		.loc 1 139 3 is_stmt 1 view .LVU143
+ 410              		.loc 1 139 24 is_stmt 0 view .LVU144
+ 411 01f4 0994     		str	r4, [sp, #36]
+ 140:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+ 412              		.loc 1 140 3 is_stmt 1 view .LVU145
+ 413              		.loc 1 140 25 is_stmt 0 view .LVU146
+ 414 01f6 0A94     		str	r4, [sp, #40]
+ 141:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
+ 415              		.loc 1 141 3 is_stmt 1 view .LVU147
+ 416 01f8 07A9     		add	r1, sp, #28
+ 417 01fa 2846     		mov	r0, r5
+ 418 01fc FFF7FEFF 		bl	HAL_GPIO_Init
+ 419              	.LVL21:
  142:../../core/platform/octa/src/gpio.c **** 
- 143:../../core/platform/octa/src/gpio.c ****   P1_DIO1.PORT = P1_DIO1_GPIO_Port;
- 417              		.loc 1 143 3 view .LVU143
- 418              		.loc 1 143 16 is_stmt 0 view .LVU144
- 419 01fe 344B     		ldr	r3, .L3+20
- 420 0200 C3F80080 		str	r8, [r3]
- 144:../../core/platform/octa/src/gpio.c ****   P1_DIO1.PIN =  P1_DIO1_Pin;
- 421              		.loc 1 144 3 is_stmt 1 view .LVU145
- 422              		.loc 1 144 15 is_stmt 0 view .LVU146
- 423 0204 4FF40071 		mov	r1, #512
- 424 0208 9980     		strh	r1, [r3, #4]	@ movhi
- 145:../../core/platform/octa/src/gpio.c ****   P1_DIO2.PORT = P1_DIO2_GPIO_Port;
- 425              		.loc 1 145 3 is_stmt 1 view .LVU147
- 426              		.loc 1 145 16 is_stmt 0 view .LVU148
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 11
+ 143:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
+ 144:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(OCTA_FLASH_CS_Port, OCTA_FLASH_CS_Pin, GPIO_PIN_SET);
+ 420              		.loc 1 144 3 view .LVU148
+ 421 0200 3A46     		mov	r2, r7
+ 422 0202 4946     		mov	r1, r9
+ 423 0204 3046     		mov	r0, r6
+ 424 0206 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 425              	.LVL22:
+ 145:../../core/platform/octa/src/gpio.c **** 
+ 146:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 11
 
 
- 427 020a 324A     		ldr	r2, .L3+24
- 428 020c C2F80080 		str	r8, [r2]
- 146:../../core/platform/octa/src/gpio.c ****   P1_DIO2.PIN = P1_DIO2_Pin;
- 429              		.loc 1 146 3 is_stmt 1 view .LVU149
- 430              		.loc 1 146 15 is_stmt 0 view .LVU150
- 431 0210 4FF48073 		mov	r3, #256
- 432 0214 9380     		strh	r3, [r2, #4]	@ movhi
- 147:../../core/platform/octa/src/gpio.c ****   P1_DIO3.PORT = P1_DIO3_GPIO_Port;
- 433              		.loc 1 147 3 is_stmt 1 view .LVU151
- 434              		.loc 1 147 16 is_stmt 0 view .LVU152
- 435 0216 3048     		ldr	r0, .L3+28
- 436 0218 0660     		str	r6, [r0]
- 148:../../core/platform/octa/src/gpio.c ****   P1_DIO3.PIN = P1_DIO3_Pin;
- 437              		.loc 1 148 3 is_stmt 1 view .LVU153
- 438              		.loc 1 148 15 is_stmt 0 view .LVU154
- 439 021a 0822     		movs	r2, #8
- 440 021c 8280     		strh	r2, [r0, #4]	@ movhi
- 149:../../core/platform/octa/src/gpio.c ****   P1_DIO4.PORT = P1_DIO4_GPIO_Port;
- 441              		.loc 1 149 3 is_stmt 1 view .LVU155
- 442              		.loc 1 149 16 is_stmt 0 view .LVU156
- 443 021e 2F4F     		ldr	r7, .L3+32
- 444 0220 4FF09040 		mov	r0, #1207959552
- 445 0224 3860     		str	r0, [r7]
- 150:../../core/platform/octa/src/gpio.c ****   P1_DIO4.PIN = P1_DIO4_Pin;
- 446              		.loc 1 150 3 is_stmt 1 view .LVU157
- 447              		.loc 1 150 15 is_stmt 0 view .LVU158
- 448 0226 8020     		movs	r0, #128
- 449 0228 B880     		strh	r0, [r7, #4]	@ movhi
- 151:../../core/platform/octa/src/gpio.c ****   P1_DIO5.PORT = P1_DIO5_GPIO_Port;
- 450              		.loc 1 151 3 is_stmt 1 view .LVU159
- 451              		.loc 1 151 16 is_stmt 0 view .LVU160
- 452 022a 2D4F     		ldr	r7, .L3+36
- 453 022c 3E60     		str	r6, [r7]
- 152:../../core/platform/octa/src/gpio.c ****   P1_DIO5.PIN = P1_DIO5_Pin;
- 454              		.loc 1 152 3 is_stmt 1 view .LVU161
- 455              		.loc 1 152 15 is_stmt 0 view .LVU162
- 456 022e 4FF0200C 		mov	ip, #32
- 457 0232 A7F804C0 		strh	ip, [r7, #4]	@ movhi
- 153:../../core/platform/octa/src/gpio.c ****   P1_DIO6.PORT = P1_DIO6_GPIO_Port;
- 458              		.loc 1 153 3 is_stmt 1 view .LVU163
- 459              		.loc 1 153 16 is_stmt 0 view .LVU164
- 460 0236 2B4F     		ldr	r7, .L3+40
- 461 0238 C7F80080 		str	r8, [r7]
- 154:../../core/platform/octa/src/gpio.c ****   P1_DIO6.PIN = P1_DIO6_Pin;
- 462              		.loc 1 154 3 is_stmt 1 view .LVU165
- 463              		.loc 1 154 15 is_stmt 0 view .LVU166
- 464 023c BA80     		strh	r2, [r7, #4]	@ movhi
- 155:../../core/platform/octa/src/gpio.c **** 
- 156:../../core/platform/octa/src/gpio.c ****   P2_DIO1.PORT = P2_DIO1_GPIO_Port;
- 465              		.loc 1 156 3 is_stmt 1 view .LVU167
- 466              		.loc 1 156 16 is_stmt 0 view .LVU168
- 467 023e 2A4F     		ldr	r7, .L3+44
- 468 0240 3D60     		str	r5, [r7]
- 157:../../core/platform/octa/src/gpio.c ****   P2_DIO1.PIN =  P2_DIO1_Pin;
- 469              		.loc 1 157 3 is_stmt 1 view .LVU169
- 470              		.loc 1 157 15 is_stmt 0 view .LVU170
- 471 0242 4FF0040E 		mov	lr, #4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 12
+ 147:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(GPIOE, OCTA_FLASH_WP_Pin|OCTA_FLASH_HOLD_Pin, GPIO_PIN_RESET);
+ 426              		.loc 1 147 3 view .LVU149
+ 427 020a 2246     		mov	r2, r4
+ 428 020c 5146     		mov	r1, r10
+ 429 020e 2846     		mov	r0, r5
+ 430 0210 FFF7FEFF 		bl	HAL_GPIO_WritePin
+ 431              	.LVL23:
+ 148:../../core/platform/octa/src/gpio.c **** 
+ 149:../../core/platform/octa/src/gpio.c ****   P1_DIO1.PORT = P1_DIO1_GPIO_Port;
+ 432              		.loc 1 149 3 view .LVU150
+ 433              		.loc 1 149 16 is_stmt 0 view .LVU151
+ 434 0214 344B     		ldr	r3, .L3+20
+ 435 0216 C3F80080 		str	r8, [r3]
+ 150:../../core/platform/octa/src/gpio.c ****   P1_DIO1.PIN =  P1_DIO1_Pin;
+ 436              		.loc 1 150 3 is_stmt 1 view .LVU152
+ 437              		.loc 1 150 15 is_stmt 0 view .LVU153
+ 438 021a 4FF40071 		mov	r1, #512
+ 439 021e 9980     		strh	r1, [r3, #4]	@ movhi
+ 151:../../core/platform/octa/src/gpio.c ****   P1_DIO2.PORT = P1_DIO2_GPIO_Port;
+ 440              		.loc 1 151 3 is_stmt 1 view .LVU154
+ 441              		.loc 1 151 16 is_stmt 0 view .LVU155
+ 442 0220 324A     		ldr	r2, .L3+24
+ 443 0222 C2F80080 		str	r8, [r2]
+ 152:../../core/platform/octa/src/gpio.c ****   P1_DIO2.PIN = P1_DIO2_Pin;
+ 444              		.loc 1 152 3 is_stmt 1 view .LVU156
+ 445              		.loc 1 152 15 is_stmt 0 view .LVU157
+ 446 0226 4FF48073 		mov	r3, #256
+ 447 022a 9380     		strh	r3, [r2, #4]	@ movhi
+ 153:../../core/platform/octa/src/gpio.c ****   P1_DIO3.PORT = P1_DIO3_GPIO_Port;
+ 448              		.loc 1 153 3 is_stmt 1 view .LVU158
+ 449              		.loc 1 153 16 is_stmt 0 view .LVU159
+ 450 022c 3048     		ldr	r0, .L3+28
+ 451 022e 0660     		str	r6, [r0]
+ 154:../../core/platform/octa/src/gpio.c ****   P1_DIO3.PIN = P1_DIO3_Pin;
+ 452              		.loc 1 154 3 is_stmt 1 view .LVU160
+ 453              		.loc 1 154 15 is_stmt 0 view .LVU161
+ 454 0230 0822     		movs	r2, #8
+ 455 0232 8280     		strh	r2, [r0, #4]	@ movhi
+ 155:../../core/platform/octa/src/gpio.c ****   P1_DIO4.PORT = P1_DIO4_GPIO_Port;
+ 456              		.loc 1 155 3 is_stmt 1 view .LVU162
+ 457              		.loc 1 155 16 is_stmt 0 view .LVU163
+ 458 0234 2F4F     		ldr	r7, .L3+32
+ 459 0236 4FF09040 		mov	r0, #1207959552
+ 460 023a 3860     		str	r0, [r7]
+ 156:../../core/platform/octa/src/gpio.c ****   P1_DIO4.PIN = P1_DIO4_Pin;
+ 461              		.loc 1 156 3 is_stmt 1 view .LVU164
+ 462              		.loc 1 156 15 is_stmt 0 view .LVU165
+ 463 023c 8020     		movs	r0, #128
+ 464 023e B880     		strh	r0, [r7, #4]	@ movhi
+ 157:../../core/platform/octa/src/gpio.c ****   P1_DIO5.PORT = P1_DIO5_GPIO_Port;
+ 465              		.loc 1 157 3 is_stmt 1 view .LVU166
+ 466              		.loc 1 157 16 is_stmt 0 view .LVU167
+ 467 0240 2D4F     		ldr	r7, .L3+36
+ 468 0242 3E60     		str	r6, [r7]
+ 158:../../core/platform/octa/src/gpio.c ****   P1_DIO5.PIN = P1_DIO5_Pin;
+ 469              		.loc 1 158 3 is_stmt 1 view .LVU168
+ 470              		.loc 1 158 15 is_stmt 0 view .LVU169
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 12
 
 
- 472 0246 A7F804E0 		strh	lr, [r7, #4]	@ movhi
- 158:../../core/platform/octa/src/gpio.c ****   P2_DIO2.PORT = P2_DIO2_GPIO_Port;
- 473              		.loc 1 158 3 is_stmt 1 view .LVU171
- 474              		.loc 1 158 16 is_stmt 0 view .LVU172
- 475 024a 284F     		ldr	r7, .L3+48
- 476 024c 3D60     		str	r5, [r7]
- 159:../../core/platform/octa/src/gpio.c ****   P2_DIO2.PIN = P2_DIO2_Pin;
- 477              		.loc 1 159 3 is_stmt 1 view .LVU173
- 478              		.loc 1 159 15 is_stmt 0 view .LVU174
- 479 024e 4FF0100E 		mov	lr, #16
- 480 0252 A7F804E0 		strh	lr, [r7, #4]	@ movhi
- 160:../../core/platform/octa/src/gpio.c ****   P2_DIO3.PORT = P2_DIO3_GPIO_Port;
- 481              		.loc 1 160 3 is_stmt 1 view .LVU175
- 482              		.loc 1 160 16 is_stmt 0 view .LVU176
- 483 0256 264F     		ldr	r7, .L3+52
- 484 0258 3D60     		str	r5, [r7]
- 161:../../core/platform/octa/src/gpio.c ****   P2_DIO3.PIN = P2_DIO3_Pin;
- 485              		.loc 1 161 3 is_stmt 1 view .LVU177
- 486              		.loc 1 161 15 is_stmt 0 view .LVU178
- 487 025a 4FF0400E 		mov	lr, #64
- 488 025e A7F804E0 		strh	lr, [r7, #4]	@ movhi
- 162:../../core/platform/octa/src/gpio.c ****   P2_DIO4.PORT = P2_DIO4_GPIO_Port;
- 489              		.loc 1 162 3 is_stmt 1 view .LVU179
- 490              		.loc 1 162 16 is_stmt 0 view .LVU180
- 491 0262 244F     		ldr	r7, .L3+56
- 492 0264 3D60     		str	r5, [r7]
- 163:../../core/platform/octa/src/gpio.c ****   P2_DIO4.PIN = P2_DIO4_Pin;
- 493              		.loc 1 163 3 is_stmt 1 view .LVU181
- 494              		.loc 1 163 15 is_stmt 0 view .LVU182
- 495 0266 A7F804C0 		strh	ip, [r7, #4]	@ movhi
- 164:../../core/platform/octa/src/gpio.c ****   P2_DIO5.PORT = P2_DIO5_GPIO_Port;
- 496              		.loc 1 164 3 is_stmt 1 view .LVU183
- 497              		.loc 1 164 16 is_stmt 0 view .LVU184
- 498 026a 234F     		ldr	r7, .L3+60
- 499 026c 3E60     		str	r6, [r7]
- 165:../../core/platform/octa/src/gpio.c ****   P2_DIO5.PIN = P2_DIO5_Pin;
- 500              		.loc 1 165 3 is_stmt 1 view .LVU185
- 501              		.loc 1 165 15 is_stmt 0 view .LVU186
- 502 026e BB80     		strh	r3, [r7, #4]	@ movhi
- 166:../../core/platform/octa/src/gpio.c ****   P2_DIO6.PORT = P2_DIO6_GPIO_Port;
- 503              		.loc 1 166 3 is_stmt 1 view .LVU187
- 504              		.loc 1 166 16 is_stmt 0 view .LVU188
- 505 0270 224F     		ldr	r7, .L3+64
- 506 0272 3D60     		str	r5, [r7]
- 167:../../core/platform/octa/src/gpio.c ****   P2_DIO6.PIN = P2_DIO6_Pin;
- 507              		.loc 1 167 3 is_stmt 1 view .LVU189
- 508              		.loc 1 167 15 is_stmt 0 view .LVU190
- 509 0274 BA80     		strh	r2, [r7, #4]	@ movhi
- 168:../../core/platform/octa/src/gpio.c **** 
- 169:../../core/platform/octa/src/gpio.c ****   P3_DIO1.PORT = P3_DIO1_GPIO_Port;
- 510              		.loc 1 169 3 is_stmt 1 view .LVU191
- 511              		.loc 1 169 16 is_stmt 0 view .LVU192
- 512 0276 224A     		ldr	r2, .L3+68
- 513 0278 1560     		str	r5, [r2]
- 170:../../core/platform/octa/src/gpio.c ****   P3_DIO1.PIN =  P3_DIO1_Pin;
- 514              		.loc 1 170 3 is_stmt 1 view .LVU193
- 515              		.loc 1 170 15 is_stmt 0 view .LVU194
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 13
+ 471 0244 4FF0200C 		mov	ip, #32
+ 472 0248 A7F804C0 		strh	ip, [r7, #4]	@ movhi
+ 159:../../core/platform/octa/src/gpio.c ****   P1_DIO6.PORT = P1_DIO6_GPIO_Port;
+ 473              		.loc 1 159 3 is_stmt 1 view .LVU170
+ 474              		.loc 1 159 16 is_stmt 0 view .LVU171
+ 475 024c 2B4F     		ldr	r7, .L3+40
+ 476 024e C7F80080 		str	r8, [r7]
+ 160:../../core/platform/octa/src/gpio.c ****   P1_DIO6.PIN = P1_DIO6_Pin;
+ 477              		.loc 1 160 3 is_stmt 1 view .LVU172
+ 478              		.loc 1 160 15 is_stmt 0 view .LVU173
+ 479 0252 BA80     		strh	r2, [r7, #4]	@ movhi
+ 161:../../core/platform/octa/src/gpio.c **** 
+ 162:../../core/platform/octa/src/gpio.c ****   P2_DIO1.PORT = P2_DIO1_GPIO_Port;
+ 480              		.loc 1 162 3 is_stmt 1 view .LVU174
+ 481              		.loc 1 162 16 is_stmt 0 view .LVU175
+ 482 0254 2A4F     		ldr	r7, .L3+44
+ 483 0256 3D60     		str	r5, [r7]
+ 163:../../core/platform/octa/src/gpio.c ****   P2_DIO1.PIN =  P2_DIO1_Pin;
+ 484              		.loc 1 163 3 is_stmt 1 view .LVU176
+ 485              		.loc 1 163 15 is_stmt 0 view .LVU177
+ 486 0258 4FF0040E 		mov	lr, #4
+ 487 025c A7F804E0 		strh	lr, [r7, #4]	@ movhi
+ 164:../../core/platform/octa/src/gpio.c ****   P2_DIO2.PORT = P2_DIO2_GPIO_Port;
+ 488              		.loc 1 164 3 is_stmt 1 view .LVU178
+ 489              		.loc 1 164 16 is_stmt 0 view .LVU179
+ 490 0260 284F     		ldr	r7, .L3+48
+ 491 0262 3D60     		str	r5, [r7]
+ 165:../../core/platform/octa/src/gpio.c ****   P2_DIO2.PIN = P2_DIO2_Pin;
+ 492              		.loc 1 165 3 is_stmt 1 view .LVU180
+ 493              		.loc 1 165 15 is_stmt 0 view .LVU181
+ 494 0264 4FF0100E 		mov	lr, #16
+ 495 0268 A7F804E0 		strh	lr, [r7, #4]	@ movhi
+ 166:../../core/platform/octa/src/gpio.c ****   P2_DIO3.PORT = P2_DIO3_GPIO_Port;
+ 496              		.loc 1 166 3 is_stmt 1 view .LVU182
+ 497              		.loc 1 166 16 is_stmt 0 view .LVU183
+ 498 026c 264F     		ldr	r7, .L3+52
+ 499 026e 3D60     		str	r5, [r7]
+ 167:../../core/platform/octa/src/gpio.c ****   P2_DIO3.PIN = P2_DIO3_Pin;
+ 500              		.loc 1 167 3 is_stmt 1 view .LVU184
+ 501              		.loc 1 167 15 is_stmt 0 view .LVU185
+ 502 0270 4FF0400E 		mov	lr, #64
+ 503 0274 A7F804E0 		strh	lr, [r7, #4]	@ movhi
+ 168:../../core/platform/octa/src/gpio.c ****   P2_DIO4.PORT = P2_DIO4_GPIO_Port;
+ 504              		.loc 1 168 3 is_stmt 1 view .LVU186
+ 505              		.loc 1 168 16 is_stmt 0 view .LVU187
+ 506 0278 244F     		ldr	r7, .L3+56
+ 507 027a 3D60     		str	r5, [r7]
+ 169:../../core/platform/octa/src/gpio.c ****   P2_DIO4.PIN = P2_DIO4_Pin;
+ 508              		.loc 1 169 3 is_stmt 1 view .LVU188
+ 509              		.loc 1 169 15 is_stmt 0 view .LVU189
+ 510 027c A7F804C0 		strh	ip, [r7, #4]	@ movhi
+ 170:../../core/platform/octa/src/gpio.c ****   P2_DIO5.PORT = P2_DIO5_GPIO_Port;
+ 511              		.loc 1 170 3 is_stmt 1 view .LVU190
+ 512              		.loc 1 170 16 is_stmt 0 view .LVU191
+ 513 0280 234F     		ldr	r7, .L3+60
+ 514 0282 3E60     		str	r6, [r7]
+ 171:../../core/platform/octa/src/gpio.c ****   P2_DIO5.PIN = P2_DIO5_Pin;
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 13
 
 
- 516 027a 9080     		strh	r0, [r2, #4]	@ movhi
- 171:../../core/platform/octa/src/gpio.c ****   P3_DIO2.PORT = P3_DIO2_GPIO_Port;
- 517              		.loc 1 171 3 is_stmt 1 view .LVU195
- 518              		.loc 1 171 16 is_stmt 0 view .LVU196
- 519 027c 214A     		ldr	r2, .L3+72
- 520 027e 1560     		str	r5, [r2]
- 172:../../core/platform/octa/src/gpio.c ****   P3_DIO2.PIN = P3_DIO2_Pin;
- 521              		.loc 1 172 3 is_stmt 1 view .LVU197
- 522              		.loc 1 172 15 is_stmt 0 view .LVU198
- 523 0280 4FF48060 		mov	r0, #1024
- 524 0284 9080     		strh	r0, [r2, #4]	@ movhi
- 173:../../core/platform/octa/src/gpio.c ****   P3_DIO3.PORT = P3_DIO3_GPIO_Port;
- 525              		.loc 1 173 3 is_stmt 1 view .LVU199
- 526              		.loc 1 173 16 is_stmt 0 view .LVU200
- 527 0286 204A     		ldr	r2, .L3+76
- 528 0288 1660     		str	r6, [r2]
- 174:../../core/platform/octa/src/gpio.c ****   P3_DIO3.PIN = P3_DIO3_Pin;
- 529              		.loc 1 174 3 is_stmt 1 view .LVU201
- 530              		.loc 1 174 15 is_stmt 0 view .LVU202
- 531 028a 4FF48040 		mov	r0, #16384
- 532 028e 9080     		strh	r0, [r2, #4]	@ movhi
- 175:../../core/platform/octa/src/gpio.c ****   P3_DIO4.PORT = P3_DIO4_GPIO_Port;
- 533              		.loc 1 175 3 is_stmt 1 view .LVU203
- 534              		.loc 1 175 16 is_stmt 0 view .LVU204
- 535 0290 1E4A     		ldr	r2, .L3+80
- 536 0292 1560     		str	r5, [r2]
- 176:../../core/platform/octa/src/gpio.c ****   P3_DIO4.PIN = P3_DIO4_Pin;
- 537              		.loc 1 176 3 is_stmt 1 view .LVU205
- 538              		.loc 1 176 15 is_stmt 0 view .LVU206
- 539 0294 9380     		strh	r3, [r2, #4]	@ movhi
- 177:../../core/platform/octa/src/gpio.c ****   P3_DIO5.PORT = P3_DIO5_GPIO_Port;
- 540              		.loc 1 177 3 is_stmt 1 view .LVU207
- 541              		.loc 1 177 16 is_stmt 0 view .LVU208
- 542 0296 1E4B     		ldr	r3, .L3+84
- 543 0298 1D60     		str	r5, [r3]
- 178:../../core/platform/octa/src/gpio.c ****   P3_DIO5.PIN = P3_DIO5_Pin;
- 544              		.loc 1 178 3 is_stmt 1 view .LVU209
- 545              		.loc 1 178 15 is_stmt 0 view .LVU210
- 546 029a 9980     		strh	r1, [r3, #4]	@ movhi
- 179:../../core/platform/octa/src/gpio.c ****   P3_DIO6.PORT = P3_DIO6_GPIO_Port;
- 547              		.loc 1 179 3 is_stmt 1 view .LVU211
- 548              		.loc 1 179 16 is_stmt 0 view .LVU212
- 549 029c 1D4B     		ldr	r3, .L3+88
- 550 029e C3F80090 		str	r9, [r3]
- 180:../../core/platform/octa/src/gpio.c ****   P3_DIO6.PIN = P3_DIO6_Pin;
- 551              		.loc 1 180 3 is_stmt 1 view .LVU213
- 552              		.loc 1 180 15 is_stmt 0 view .LVU214
- 553 02a2 0222     		movs	r2, #2
- 554 02a4 9A80     		strh	r2, [r3, #4]	@ movhi
- 181:../../core/platform/octa/src/gpio.c **** 
- 182:../../core/platform/octa/src/gpio.c **** 
- 183:../../core/platform/octa/src/gpio.c ****  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
- 555              		.loc 1 183 2 is_stmt 1 view .LVU215
- 556 02a6 2246     		mov	r2, r4
- 557 02a8 2146     		mov	r1, r4
- 558 02aa 2820     		movs	r0, #40
- 559 02ac FFF7FEFF 		bl	HAL_NVIC_SetPriority
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 14
+ 515              		.loc 1 171 3 is_stmt 1 view .LVU192
+ 516              		.loc 1 171 15 is_stmt 0 view .LVU193
+ 517 0284 BB80     		strh	r3, [r7, #4]	@ movhi
+ 172:../../core/platform/octa/src/gpio.c ****   P2_DIO6.PORT = P2_DIO6_GPIO_Port;
+ 518              		.loc 1 172 3 is_stmt 1 view .LVU194
+ 519              		.loc 1 172 16 is_stmt 0 view .LVU195
+ 520 0286 234F     		ldr	r7, .L3+64
+ 521 0288 3D60     		str	r5, [r7]
+ 173:../../core/platform/octa/src/gpio.c ****   P2_DIO6.PIN = P2_DIO6_Pin;
+ 522              		.loc 1 173 3 is_stmt 1 view .LVU196
+ 523              		.loc 1 173 15 is_stmt 0 view .LVU197
+ 524 028a BA80     		strh	r2, [r7, #4]	@ movhi
+ 174:../../core/platform/octa/src/gpio.c **** 
+ 175:../../core/platform/octa/src/gpio.c ****   P3_DIO1.PORT = P3_DIO1_GPIO_Port;
+ 525              		.loc 1 175 3 is_stmt 1 view .LVU198
+ 526              		.loc 1 175 16 is_stmt 0 view .LVU199
+ 527 028c 224A     		ldr	r2, .L3+68
+ 528 028e 1560     		str	r5, [r2]
+ 176:../../core/platform/octa/src/gpio.c ****   P3_DIO1.PIN =  P3_DIO1_Pin;
+ 529              		.loc 1 176 3 is_stmt 1 view .LVU200
+ 530              		.loc 1 176 15 is_stmt 0 view .LVU201
+ 531 0290 9080     		strh	r0, [r2, #4]	@ movhi
+ 177:../../core/platform/octa/src/gpio.c ****   P3_DIO2.PORT = P3_DIO2_GPIO_Port;
+ 532              		.loc 1 177 3 is_stmt 1 view .LVU202
+ 533              		.loc 1 177 16 is_stmt 0 view .LVU203
+ 534 0292 224A     		ldr	r2, .L3+72
+ 535 0294 1560     		str	r5, [r2]
+ 178:../../core/platform/octa/src/gpio.c ****   P3_DIO2.PIN = P3_DIO2_Pin;
+ 536              		.loc 1 178 3 is_stmt 1 view .LVU204
+ 537              		.loc 1 178 15 is_stmt 0 view .LVU205
+ 538 0296 4FF48060 		mov	r0, #1024
+ 539 029a 9080     		strh	r0, [r2, #4]	@ movhi
+ 179:../../core/platform/octa/src/gpio.c ****   P3_DIO3.PORT = P3_DIO3_GPIO_Port;
+ 540              		.loc 1 179 3 is_stmt 1 view .LVU206
+ 541              		.loc 1 179 16 is_stmt 0 view .LVU207
+ 542 029c 204A     		ldr	r2, .L3+76
+ 543 029e 1660     		str	r6, [r2]
+ 180:../../core/platform/octa/src/gpio.c ****   P3_DIO3.PIN = P3_DIO3_Pin;
+ 544              		.loc 1 180 3 is_stmt 1 view .LVU208
+ 545              		.loc 1 180 15 is_stmt 0 view .LVU209
+ 546 02a0 4FF48040 		mov	r0, #16384
+ 547 02a4 9080     		strh	r0, [r2, #4]	@ movhi
+ 181:../../core/platform/octa/src/gpio.c ****   P3_DIO4.PORT = P3_DIO4_GPIO_Port;
+ 548              		.loc 1 181 3 is_stmt 1 view .LVU210
+ 549              		.loc 1 181 16 is_stmt 0 view .LVU211
+ 550 02a6 1F4A     		ldr	r2, .L3+80
+ 551 02a8 1560     		str	r5, [r2]
+ 182:../../core/platform/octa/src/gpio.c ****   P3_DIO4.PIN = P3_DIO4_Pin;
+ 552              		.loc 1 182 3 is_stmt 1 view .LVU212
+ 553              		.loc 1 182 15 is_stmt 0 view .LVU213
+ 554 02aa 9380     		strh	r3, [r2, #4]	@ movhi
+ 183:../../core/platform/octa/src/gpio.c ****   P3_DIO5.PORT = P3_DIO5_GPIO_Port;
+ 555              		.loc 1 183 3 is_stmt 1 view .LVU214
+ 556              		.loc 1 183 16 is_stmt 0 view .LVU215
+ 557 02ac 1E4B     		ldr	r3, .L3+84
+ 558 02ae 1D60     		str	r5, [r3]
+ 184:../../core/platform/octa/src/gpio.c ****   P3_DIO5.PIN = P3_DIO5_Pin;
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 14
 
 
- 560              	.LVL23:
- 184:../../core/platform/octa/src/gpio.c ****   HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
- 561              		.loc 1 184 3 view .LVU216
- 562 02b0 2820     		movs	r0, #40
- 563 02b2 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
- 564              	.LVL24:
- 185:../../core/platform/octa/src/gpio.c **** }...
- 565              		.loc 1 185 1 is_stmt 0 view .LVU217
- 566 02b6 0DB0     		add	sp, sp, #52
- 567              	.LCFI2:
- 568              		.cfi_def_cfa_offset 36
- 569              		@ sp needed
- 570 02b8 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
- 571              	.L4:
- 572              		.align	2
- 573              	.L3:
- 574 02bc 00100240 		.word	1073876992
- 575 02c0 00100048 		.word	1207963648
- 576 02c4 00140048 		.word	1207964672
- 577 02c8 000C0048 		.word	1207962624
- 578 02cc 00180048 		.word	1207965696
- 579 02d0 00000000 		.word	P1_DIO1
- 580 02d4 00000000 		.word	P1_DIO2
- 581 02d8 00000000 		.word	P1_DIO3
- 582 02dc 00000000 		.word	P1_DIO4
- 583 02e0 00000000 		.word	P1_DIO5
- 584 02e4 00000000 		.word	P1_DIO6
- 585 02e8 00000000 		.word	P2_DIO1
- 586 02ec 00000000 		.word	P2_DIO2
- 587 02f0 00000000 		.word	P2_DIO3
- 588 02f4 00000000 		.word	P2_DIO4
- 589 02f8 00000000 		.word	P2_DIO5
- 590 02fc 00000000 		.word	P2_DIO6
- 591 0300 00000000 		.word	P3_DIO1
- 592 0304 00000000 		.word	P3_DIO2
- 593 0308 00000000 		.word	P3_DIO3
- 594 030c 00000000 		.word	P3_DIO4
- 595 0310 00000000 		.word	P3_DIO5
- 596 0314 00000000 		.word	P3_DIO6
- 597 0318 00080048 		.word	1207961600
- 598 031c 00040048 		.word	1207960576
- 599 0320 00001110 		.word	269549568
- 600              		.cfi_endproc
- 601              	.LFE123:
- 603              		.comm	P3_DIO6,8,4
- 604              		.comm	P3_DIO5,8,4
- 605              		.comm	P3_DIO4,8,4
- 606              		.comm	P3_DIO3,8,4
- 607              		.comm	P3_DIO2,8,4
- 608              		.comm	P3_DIO1,8,4
- 609              		.comm	P2_DIO6,8,4
- 610              		.comm	P2_DIO5,8,4
- 611              		.comm	P2_DIO4,8,4
- 612              		.comm	P2_DIO3,8,4
- 613              		.comm	P2_DIO2,8,4
- 614              		.comm	P2_DIO1,8,4
- 615              		.comm	P1_DIO6,8,4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 15
+ 559              		.loc 1 184 3 is_stmt 1 view .LVU216
+ 560              		.loc 1 184 15 is_stmt 0 view .LVU217
+ 561 02b0 9980     		strh	r1, [r3, #4]	@ movhi
+ 185:../../core/platform/octa/src/gpio.c ****   P3_DIO6.PORT = P3_DIO6_GPIO_Port;
+ 562              		.loc 1 185 3 is_stmt 1 view .LVU218
+ 563              		.loc 1 185 16 is_stmt 0 view .LVU219
+ 564 02b2 1E4B     		ldr	r3, .L3+88
+ 565 02b4 0A4A     		ldr	r2, .L3+12
+ 566 02b6 1A60     		str	r2, [r3]
+ 186:../../core/platform/octa/src/gpio.c ****   P3_DIO6.PIN = P3_DIO6_Pin;
+ 567              		.loc 1 186 3 is_stmt 1 view .LVU220
+ 568              		.loc 1 186 15 is_stmt 0 view .LVU221
+ 569 02b8 A3F804B0 		strh	fp, [r3, #4]	@ movhi
+ 187:../../core/platform/octa/src/gpio.c **** 
+ 188:../../core/platform/octa/src/gpio.c **** 
+ 189:../../core/platform/octa/src/gpio.c ****  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
+ 570              		.loc 1 189 2 is_stmt 1 view .LVU222
+ 571 02bc 2246     		mov	r2, r4
+ 572 02be 2146     		mov	r1, r4
+ 573 02c0 2820     		movs	r0, #40
+ 574 02c2 FFF7FEFF 		bl	HAL_NVIC_SetPriority
+ 575              	.LVL24:
+ 190:../../core/platform/octa/src/gpio.c ****   HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
+ 576              		.loc 1 190 3 view .LVU223
+ 577 02c6 2820     		movs	r0, #40
+ 578 02c8 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
+ 579              	.LVL25:
+ 191:../../core/platform/octa/src/gpio.c **** }...
+ 580              		.loc 1 191 1 is_stmt 0 view .LVU224
+ 581 02cc 0DB0     		add	sp, sp, #52
+ 582              	.LCFI2:
+ 583              		.cfi_def_cfa_offset 36
+ 584              		@ sp needed
+ 585 02ce BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
+ 586              	.L4:
+ 587 02d2 00BF     		.align	2
+ 588              	.L3:
+ 589 02d4 00100240 		.word	1073876992
+ 590 02d8 00100048 		.word	1207963648
+ 591 02dc 00140048 		.word	1207964672
+ 592 02e0 00040048 		.word	1207960576
+ 593 02e4 000C0048 		.word	1207962624
+ 594 02e8 00000000 		.word	P1_DIO1
+ 595 02ec 00000000 		.word	P1_DIO2
+ 596 02f0 00000000 		.word	P1_DIO3
+ 597 02f4 00000000 		.word	P1_DIO4
+ 598 02f8 00000000 		.word	P1_DIO5
+ 599 02fc 00000000 		.word	P1_DIO6
+ 600 0300 00000000 		.word	P2_DIO1
+ 601 0304 00000000 		.word	P2_DIO2
+ 602 0308 00000000 		.word	P2_DIO3
+ 603 030c 00000000 		.word	P2_DIO4
+ 604 0310 00000000 		.word	P2_DIO5
+ 605 0314 00000000 		.word	P2_DIO6
+ 606 0318 00000000 		.word	P3_DIO1
+ 607 031c 00000000 		.word	P3_DIO2
+ 608 0320 00000000 		.word	P3_DIO3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 15
 
 
- 616              		.comm	P1_DIO5,8,4
- 617              		.comm	P1_DIO4,8,4
- 618              		.comm	P1_DIO3,8,4
- 619              		.comm	P1_DIO2,8,4
- 620              		.comm	P1_DIO1,8,4
- 621              		.text
- 622              	.Letext0:
- 623              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
- 624              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
- 625              		.file 4 "../../core/ST/CMSIS/Include/core_cm4.h"
- 626              		.file 5 "../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
- 627              		.file 6 "../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/stm32l496xx.h"
- 628              		.file 7 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
- 629              		.file 8 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
- 630              		.file 9 "../../core/platform/octa/inc/gpio.h"
- 631              		.file 10 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h"
- 632              		.file 11 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s 			page 16
+ 609 0324 00000000 		.word	P3_DIO4
+ 610 0328 00000000 		.word	P3_DIO5
+ 611 032c 00000000 		.word	P3_DIO6
+ 612 0330 00080048 		.word	1207961600
+ 613 0334 00001110 		.word	269549568
+ 614 0338 00180048 		.word	1207965696
+ 615              		.cfi_endproc
+ 616              	.LFE123:
+ 618              		.comm	P3_DIO6,8,4
+ 619              		.comm	P3_DIO5,8,4
+ 620              		.comm	P3_DIO4,8,4
+ 621              		.comm	P3_DIO3,8,4
+ 622              		.comm	P3_DIO2,8,4
+ 623              		.comm	P3_DIO1,8,4
+ 624              		.comm	P2_DIO6,8,4
+ 625              		.comm	P2_DIO5,8,4
+ 626              		.comm	P2_DIO4,8,4
+ 627              		.comm	P2_DIO3,8,4
+ 628              		.comm	P2_DIO2,8,4
+ 629              		.comm	P2_DIO1,8,4
+ 630              		.comm	P1_DIO6,8,4
+ 631              		.comm	P1_DIO5,8,4
+ 632              		.comm	P1_DIO4,8,4
+ 633              		.comm	P1_DIO3,8,4
+ 634              		.comm	P1_DIO2,8,4
+ 635              		.comm	P1_DIO1,8,4
+ 636              		.text
+ 637              	.Letext0:
+ 638              		.file 2 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
+ 639              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
+ 640              		.file 4 "../../core/ST/CMSIS/Include/core_cm4.h"
+ 641              		.file 5 "../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h"
+ 642              		.file 6 "../../core/ST/CMSIS/Device/ST/STM32L4xx/Include/stm32l496xx.h"
+ 643              		.file 7 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
+ 644              		.file 8 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
+ 645              		.file 9 "../../core/platform/octa/inc/gpio.h"
+ 646              		.file 10 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h"
+ 647              		.file 11 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h"
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 gpio.c
-C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s:18     .text.OCTA_GPIO_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s:26     .text.OCTA_GPIO_Init:00000000 OCTA_GPIO_Init
-C:\Users\yvesk\AppData\Local\Temp\ccVEPZga.s:574    .text.OCTA_GPIO_Init:000002bc $d
+C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s:18     .text.OCTA_GPIO_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s:26     .text.OCTA_GPIO_Init:00000000 OCTA_GPIO_Init
+C:\Users\yvesk\AppData\Local\Temp\ccXfBMu0.s:589    .text.OCTA_GPIO_Init:000002d4 $d
                             *COM*:00000008 P1_DIO1
                             *COM*:00000008 P1_DIO2
                             *COM*:00000008 P1_DIO3

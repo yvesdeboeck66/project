@@ -9,7 +9,7 @@ PRINT_FLOATS = 1
 # Murata
 SHIELDS += Murata-dualstack
 MURATA_CONNECTOR = 1
-LORAWAN_APPLICATION = project
+LORAWAN_APPLICATION = devicedatabase
 
 # Path to the octa-stack base directory:
 STACKBASE ?= ../..

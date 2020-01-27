@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
   28:../../core/platform/octa/src/stm32l4xx_it.c ****   * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
   29:../../core/platform/octa/src/stm32l4xx_it.c ****   * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
   30:../../core/platform/octa/src/stm32l4xx_it.c ****   * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 2
 
 
   31:../../core/platform/octa/src/stm32l4xx_it.c ****   *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
   85:../../core/platform/octa/src/stm32l4xx_it.c ****   * @brief This function handles Non maskable interrupt.
   86:../../core/platform/octa/src/stm32l4xx_it.c ****   */
   87:../../core/platform/octa/src/stm32l4xx_it.c **** void NMI_Handler(void)
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 3
 
 
   88:../../core/platform/octa/src/stm32l4xx_it.c **** {
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
   64              		.global	MemManage_Handler
   65              		.syntax unified
   66              		.thumb
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 4
 
 
   67              		.thumb_func
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  132:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN BusFault_IRQn 0 */
  133:../../core/platform/octa/src/stm32l4xx_it.c **** 
  134:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END BusFault_IRQn 0 */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 5
 
 
  135:../../core/platform/octa/src/stm32l4xx_it.c ****   while (1)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  140              	.LFB133:
  155:../../core/platform/octa/src/stm32l4xx_it.c **** }
  156:../../core/platform/octa/src/stm32l4xx_it.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 6
 
 
  157:../../core/platform/octa/src/stm32l4xx_it.c **** /**
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  184:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END TIM1_UP_TIM16_IRQn 0 */
  185:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_TIM_IRQHandler(&htim1);
  170              		.loc 1 185 3 view .LVU17
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 7
 
 
  171 0002 0248     		ldr	r0, .L13
@@ -401,31 +401,32 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  199              		.cfi_def_cfa_offset 8
  200              		.cfi_offset 3, -8
  201              		.cfi_offset 14, -4
- 197:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN USART2_IRQn 0 */
- 198:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 199:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END USART2_IRQn 0 */
- 200:../../core/platform/octa/src/stm32l4xx_it.c ****   #if USE_BOOTLOADER
- 201:../../core/platform/octa/src/stm32l4xx_it.c ****     HAL_UART_IRQHandler(&BLE_UART);
- 202:../../core/platform/octa/src/stm32l4xx_it.c ****   #else
- 203:../../core/platform/octa/src/stm32l4xx_it.c ****     HAL_UART_IRQHandler(&P2_UART);
- 202              		.loc 1 203 5 view .LVU20
+ 197:../../core/platform/octa/src/stm32l4xx_it.c ****   
+ 198:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN USART2_IRQn 0 */
+ 199:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 200:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END USART2_IRQn 0 */
+ 201:../../core/platform/octa/src/stm32l4xx_it.c ****   //#if USE_BOOTLOADER
+ 202:../../core/platform/octa/src/stm32l4xx_it.c ****     HAL_UART_IRQHandler(&BLE_UART);
+ 202              		.loc 1 202 5 view .LVU20
  203 0002 0248     		ldr	r0, .L17
  204 0004 FFF7FEFF 		bl	HAL_UART_IRQHandler
  205              	.LVL1:
- 204:../../core/platform/octa/src/stm32l4xx_it.c ****   #endif
- 205:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN USART2_IRQn 1 */
- 206:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 207:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END USART2_IRQn 1 */
- 208:../../core/platform/octa/src/stm32l4xx_it.c **** }
- 206              		.loc 1 208 1 is_stmt 0 view .LVU21
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 8
+ 203:../../core/platform/octa/src/stm32l4xx_it.c ****   /* #else
+ 204:../../core/platform/octa/src/stm32l4xx_it.c ****     HAL_UART_IRQHandler(&P2_UART);
+ 205:../../core/platform/octa/src/stm32l4xx_it.c ****   #endif */
+ 206:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN USART2_IRQn 1 */
+ 207:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 208:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END USART2_IRQn 1 */
+ 209:../../core/platform/octa/src/stm32l4xx_it.c **** }
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 8
 
 
+ 206              		.loc 1 209 1 is_stmt 0 view .LVU21
  207 0008 08BD     		pop	{r3, pc}
  208              	.L18:
  209 000a 00BF     		.align	2
  210              	.L17:
- 211 000c 00000000 		.word	P2_UART
+ 211 000c 00000000 		.word	BLE_UART
  212              		.cfi_endproc
  213              	.LFE135:
  215              		.section	.text.USART3_IRQHandler,"ax",%progbits
@@ -437,13 +438,13 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  221              		.fpu fpv4-sp-d16
  223              	USART3_IRQHandler:
  224              	.LFB136:
- 209:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 210:../../core/platform/octa/src/stm32l4xx_it.c **** /**
- 211:../../core/platform/octa/src/stm32l4xx_it.c **** * @brief This function handles USART3 global interrupt.
- 212:../../core/platform/octa/src/stm32l4xx_it.c **** */
- 213:../../core/platform/octa/src/stm32l4xx_it.c **** void USART3_IRQHandler(void)
- 214:../../core/platform/octa/src/stm32l4xx_it.c **** {
- 225              		.loc 1 214 1 is_stmt 1 view -0
+ 210:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 211:../../core/platform/octa/src/stm32l4xx_it.c **** /**
+ 212:../../core/platform/octa/src/stm32l4xx_it.c **** * @brief This function handles USART3 global interrupt.
+ 213:../../core/platform/octa/src/stm32l4xx_it.c **** */
+ 214:../../core/platform/octa/src/stm32l4xx_it.c **** void USART3_IRQHandler(void)
+ 215:../../core/platform/octa/src/stm32l4xx_it.c **** {
+ 225              		.loc 1 215 1 is_stmt 1 view -0
  226              		.cfi_startproc
  227              		@ args = 0, pretend = 0, frame = 0
  228              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -452,19 +453,19 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  231              		.cfi_def_cfa_offset 8
  232              		.cfi_offset 3, -8
  233              		.cfi_offset 14, -4
- 215:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN USART2_IRQn 0 */
- 216:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 217:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END USART2_IRQn 0 */
- 218:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_UART_IRQHandler(&P3_UART);
- 234              		.loc 1 218 3 view .LVU23
+ 216:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN USART2_IRQn 0 */
+ 217:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 218:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END USART2_IRQn 0 */
+ 219:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_UART_IRQHandler(&P3_UART);
+ 234              		.loc 1 219 3 view .LVU23
  235 0002 0248     		ldr	r0, .L21
  236 0004 FFF7FEFF 		bl	HAL_UART_IRQHandler
  237              	.LVL2:
- 219:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN USART2_IRQn 1 */
- 220:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 221:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END USART2_IRQn 1 */
- 222:../../core/platform/octa/src/stm32l4xx_it.c **** }
- 238              		.loc 1 222 1 is_stmt 0 view .LVU24
+ 220:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN USART2_IRQn 1 */
+ 221:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 222:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END USART2_IRQn 1 */
+ 223:../../core/platform/octa/src/stm32l4xx_it.c **** }
+ 238              		.loc 1 223 1 is_stmt 0 view .LVU24
  239 0008 08BD     		pop	{r3, pc}
  240              	.L22:
  241 000a 00BF     		.align	2
@@ -477,20 +478,20 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  249              		.global	UART5_IRQHandler
  250              		.syntax unified
  251              		.thumb
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 9
+
+
  252              		.thumb_func
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 9
-
-
  253              		.fpu fpv4-sp-d16
  255              	UART5_IRQHandler:
  256              	.LFB137:
- 223:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 224:../../core/platform/octa/src/stm32l4xx_it.c **** /**
- 225:../../core/platform/octa/src/stm32l4xx_it.c **** * @brief This function handles UART5 global interrupt.
- 226:../../core/platform/octa/src/stm32l4xx_it.c **** */
- 227:../../core/platform/octa/src/stm32l4xx_it.c **** void UART5_IRQHandler(void)
- 228:../../core/platform/octa/src/stm32l4xx_it.c **** {
- 257              		.loc 1 228 1 is_stmt 1 view -0
+ 224:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 225:../../core/platform/octa/src/stm32l4xx_it.c **** /**
+ 226:../../core/platform/octa/src/stm32l4xx_it.c **** * @brief This function handles UART5 global interrupt.
+ 227:../../core/platform/octa/src/stm32l4xx_it.c **** */
+ 228:../../core/platform/octa/src/stm32l4xx_it.c **** void UART5_IRQHandler(void)
+ 229:../../core/platform/octa/src/stm32l4xx_it.c **** {
+ 257              		.loc 1 229 1 is_stmt 1 view -0
  258              		.cfi_startproc
  259              		@ args = 0, pretend = 0, frame = 0
  260              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -499,19 +500,19 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  263              		.cfi_def_cfa_offset 8
  264              		.cfi_offset 3, -8
  265              		.cfi_offset 14, -4
- 229:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN UART5 0 */
- 230:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 231:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END UART5 0 */
- 232:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_UART_IRQHandler(&P1_UART);
- 266              		.loc 1 232 3 view .LVU26
+ 230:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN UART5 0 */
+ 231:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 232:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END UART5 0 */
+ 233:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_UART_IRQHandler(&P1_UART);
+ 266              		.loc 1 233 3 view .LVU26
  267 0002 0248     		ldr	r0, .L25
  268 0004 FFF7FEFF 		bl	HAL_UART_IRQHandler
  269              	.LVL3:
- 233:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN UART5 1 */
- 234:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 235:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END UART5 1 */
- 236:../../core/platform/octa/src/stm32l4xx_it.c **** }
- 270              		.loc 1 236 1 is_stmt 0 view .LVU27
+ 234:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN UART5 1 */
+ 235:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 236:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END UART5 1 */
+ 237:../../core/platform/octa/src/stm32l4xx_it.c **** }
+ 270              		.loc 1 237 1 is_stmt 0 view .LVU27
  271 0008 08BD     		pop	{r3, pc}
  272              	.L26:
  273 000a 00BF     		.align	2
@@ -528,37 +529,37 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  285              		.fpu fpv4-sp-d16
  287              	SPI1_IRQHandler:
  288              	.LFB138:
- 237:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 238:../../core/platform/octa/src/stm32l4xx_it.c **** /**
- 239:../../core/platform/octa/src/stm32l4xx_it.c ****   * @brief This function handles SPI1 global interrupt.
- 240:../../core/platform/octa/src/stm32l4xx_it.c ****   */
- 241:../../core/platform/octa/src/stm32l4xx_it.c **** void SPI1_IRQHandler(void)
- 242:../../core/platform/octa/src/stm32l4xx_it.c **** {
- 289              		.loc 1 242 1 is_stmt 1 view -0
+ 238:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 239:../../core/platform/octa/src/stm32l4xx_it.c **** /**
+ 240:../../core/platform/octa/src/stm32l4xx_it.c ****   * @brief This function handles SPI1 global interrupt.
+ 241:../../core/platform/octa/src/stm32l4xx_it.c ****   */
+ 242:../../core/platform/octa/src/stm32l4xx_it.c **** void SPI1_IRQHandler(void)
+ 243:../../core/platform/octa/src/stm32l4xx_it.c **** {
+ 289              		.loc 1 243 1 is_stmt 1 view -0
  290              		.cfi_startproc
  291              		@ args = 0, pretend = 0, frame = 0
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 10
+
+
  292              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 10
-
-
  293 0000 08B5     		push	{r3, lr}
  294              	.LCFI4:
  295              		.cfi_def_cfa_offset 8
  296              		.cfi_offset 3, -8
  297              		.cfi_offset 14, -4
- 243:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI1_IRQn 0 */
- 244:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 245:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI1_IRQn 0 */
- 246:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_SPI_IRQHandler(&P3_SPI);
- 298              		.loc 1 246 3 view .LVU29
+ 244:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI1_IRQn 0 */
+ 245:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 246:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI1_IRQn 0 */
+ 247:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_SPI_IRQHandler(&P3_SPI);
+ 298              		.loc 1 247 3 view .LVU29
  299 0002 0248     		ldr	r0, .L29
  300 0004 FFF7FEFF 		bl	HAL_SPI_IRQHandler
  301              	.LVL4:
- 247:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI1_IRQn 1 */
- 248:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 249:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI1_IRQn 1 */
- 250:../../core/platform/octa/src/stm32l4xx_it.c **** }
- 302              		.loc 1 250 1 is_stmt 0 view .LVU30
+ 248:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI1_IRQn 1 */
+ 249:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 250:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI1_IRQn 1 */
+ 251:../../core/platform/octa/src/stm32l4xx_it.c **** }
+ 302              		.loc 1 251 1 is_stmt 0 view .LVU30
  303 0008 08BD     		pop	{r3, pc}
  304              	.L30:
  305 000a 00BF     		.align	2
@@ -575,13 +576,13 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  317              		.fpu fpv4-sp-d16
  319              	SPI2_IRQHandler:
  320              	.LFB139:
- 251:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 252:../../core/platform/octa/src/stm32l4xx_it.c **** /**
- 253:../../core/platform/octa/src/stm32l4xx_it.c ****   * @brief This function handles SPI2 global interrupt.
- 254:../../core/platform/octa/src/stm32l4xx_it.c ****   */
- 255:../../core/platform/octa/src/stm32l4xx_it.c **** void SPI2_IRQHandler(void)
- 256:../../core/platform/octa/src/stm32l4xx_it.c **** {
- 321              		.loc 1 256 1 is_stmt 1 view -0
+ 252:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 253:../../core/platform/octa/src/stm32l4xx_it.c **** /**
+ 254:../../core/platform/octa/src/stm32l4xx_it.c ****   * @brief This function handles SPI2 global interrupt.
+ 255:../../core/platform/octa/src/stm32l4xx_it.c ****   */
+ 256:../../core/platform/octa/src/stm32l4xx_it.c **** void SPI2_IRQHandler(void)
+ 257:../../core/platform/octa/src/stm32l4xx_it.c **** {
+ 321              		.loc 1 257 1 is_stmt 1 view -0
  322              		.cfi_startproc
  323              		@ args = 0, pretend = 0, frame = 0
  324              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -590,22 +591,22 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  327              		.cfi_def_cfa_offset 8
  328              		.cfi_offset 3, -8
  329              		.cfi_offset 14, -4
- 257:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI2_IRQn 0 */
- 258:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 259:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI2_IRQn 0 */
- 260:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_SPI_IRQHandler(&P2_SPI);
- 330              		.loc 1 260 3 view .LVU32
+ 258:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI2_IRQn 0 */
+ 259:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 260:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI2_IRQn 0 */
+ 261:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_SPI_IRQHandler(&P2_SPI);
+ 330              		.loc 1 261 3 view .LVU32
  331 0002 0248     		ldr	r0, .L33
  332 0004 FFF7FEFF 		bl	HAL_SPI_IRQHandler
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 11
+
+
  333              	.LVL5:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 11
-
-
- 261:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI2_IRQn 1 */
- 262:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 263:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI2_IRQn 1 */
- 264:../../core/platform/octa/src/stm32l4xx_it.c **** }
- 334              		.loc 1 264 1 is_stmt 0 view .LVU33
+ 262:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI2_IRQn 1 */
+ 263:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 264:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI2_IRQn 1 */
+ 265:../../core/platform/octa/src/stm32l4xx_it.c **** }
+ 334              		.loc 1 265 1 is_stmt 0 view .LVU33
  335 0008 08BD     		pop	{r3, pc}
  336              	.L34:
  337 000a 00BF     		.align	2
@@ -622,13 +623,13 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  349              		.fpu fpv4-sp-d16
  351              	SPI3_IRQHandler:
  352              	.LFB140:
- 265:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 266:../../core/platform/octa/src/stm32l4xx_it.c **** /**
- 267:../../core/platform/octa/src/stm32l4xx_it.c ****   * @brief This function handles SPI3 global interrupt.
- 268:../../core/platform/octa/src/stm32l4xx_it.c ****   */
- 269:../../core/platform/octa/src/stm32l4xx_it.c **** void SPI3_IRQHandler(void)
- 270:../../core/platform/octa/src/stm32l4xx_it.c **** {
- 353              		.loc 1 270 1 is_stmt 1 view -0
+ 266:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 267:../../core/platform/octa/src/stm32l4xx_it.c **** /**
+ 268:../../core/platform/octa/src/stm32l4xx_it.c ****   * @brief This function handles SPI3 global interrupt.
+ 269:../../core/platform/octa/src/stm32l4xx_it.c ****   */
+ 270:../../core/platform/octa/src/stm32l4xx_it.c **** void SPI3_IRQHandler(void)
+ 271:../../core/platform/octa/src/stm32l4xx_it.c **** {
+ 353              		.loc 1 271 1 is_stmt 1 view -0
  354              		.cfi_startproc
  355              		@ args = 0, pretend = 0, frame = 0
  356              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -637,19 +638,19 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  359              		.cfi_def_cfa_offset 8
  360              		.cfi_offset 3, -8
  361              		.cfi_offset 14, -4
- 271:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI3_IRQn 0 */
- 272:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 273:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI3_IRQn 0 */
- 274:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_SPI_IRQHandler(&P1_SPI);
- 362              		.loc 1 274 3 view .LVU35
+ 272:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI3_IRQn 0 */
+ 273:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 274:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI3_IRQn 0 */
+ 275:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_SPI_IRQHandler(&P1_SPI);
+ 362              		.loc 1 275 3 view .LVU35
  363 0002 0248     		ldr	r0, .L37
  364 0004 FFF7FEFF 		bl	HAL_SPI_IRQHandler
  365              	.LVL6:
- 275:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI3_IRQn 1 */
- 276:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 277:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI3_IRQn 1 */
- 278:../../core/platform/octa/src/stm32l4xx_it.c **** }
- 366              		.loc 1 278 1 is_stmt 0 view .LVU36
+ 276:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE BEGIN SPI3_IRQn 1 */
+ 277:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 278:../../core/platform/octa/src/stm32l4xx_it.c ****   /* USER CODE END SPI3_IRQn 1 */
+ 279:../../core/platform/octa/src/stm32l4xx_it.c **** }
+ 366              		.loc 1 279 1 is_stmt 0 view .LVU36
  367 0008 08BD     		pop	{r3, pc}
  368              	.L38:
  369 000a 00BF     		.align	2
@@ -657,10 +658,10 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  371 000c 00000000 		.word	P1_SPI
  372              		.cfi_endproc
  373              	.LFE140:
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 12
+
+
  375              		.section	.text.EXTI15_10_IRQHandler,"ax",%progbits
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 12
-
-
  376              		.align	1
  377              		.global	EXTI15_10_IRQHandler
  378              		.syntax unified
@@ -669,10 +670,10 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  381              		.fpu fpv4-sp-d16
  383              	EXTI15_10_IRQHandler:
  384              	.LFB141:
- 279:../../core/platform/octa/src/stm32l4xx_it.c **** 
- 280:../../core/platform/octa/src/stm32l4xx_it.c **** //we gebruiken hier de vaste functie voor het opvangen van interrupts op pinnen 10 tot 15 op poorte
- 281:../../core/platform/octa/src/stm32l4xx_it.c **** void EXTI15_10_IRQHandler(void) {
- 385              		.loc 1 281 33 is_stmt 1 view -0
+ 280:../../core/platform/octa/src/stm32l4xx_it.c **** 
+ 281:../../core/platform/octa/src/stm32l4xx_it.c **** //we gebruiken hier de vaste functie voor het opvangen van interrupts op pinnen 10 tot 15 op poorte
+ 282:../../core/platform/octa/src/stm32l4xx_it.c **** void EXTI15_10_IRQHandler(void) {
+ 385              		.loc 1 282 33 is_stmt 1 view -0
  386              		.cfi_startproc
  387              		@ args = 0, pretend = 0, frame = 0
  388              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -681,14 +682,14 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  391              		.cfi_def_cfa_offset 8
  392              		.cfi_offset 3, -8
  393              		.cfi_offset 14, -4
- 282:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_13);
- 394              		.loc 1 282 3 view .LVU38
+ 283:../../core/platform/octa/src/stm32l4xx_it.c ****   HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_13);
+ 394              		.loc 1 283 3 view .LVU38
  395 0002 4FF40050 		mov	r0, #8192
  396 0006 FFF7FEFF 		bl	HAL_GPIO_EXTI_IRQHandler
  397              	.LVL7:
- 283:../../core/platform/octa/src/stm32l4xx_it.c ****   //we zeggen hier dat als interrupt zich op een van de pinnen voordoet, dan roepen we onze handler
- 284:../../core/platform/octa/src/stm32l4xx_it.c **** }
- 398              		.loc 1 284 1 is_stmt 0 view .LVU39
+ 284:../../core/platform/octa/src/stm32l4xx_it.c ****   //we zeggen hier dat als interrupt zich op een van de pinnen voordoet, dan roepen we onze handler
+ 285:../../core/platform/octa/src/stm32l4xx_it.c **** }
+ 398              		.loc 1 285 1 is_stmt 0 view .LVU39
  399 000a 08BD     		pop	{r3, pc}
  400              		.cfi_endproc
  401              	.LFE141:
@@ -717,58 +718,58 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 1
  425              		.file 13 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h"
  426              		.file 14 "../../core/platform/octa/inc/uart.h"
  427              		.file 15 "../../core/platform/octa/inc/spi.h"
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 13
+
+
  428              		.file 16 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 13
-
-
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l4xx_it.c
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:18     .text.NMI_Handler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:26     .text.NMI_Handler:00000000 NMI_Handler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:40     .text.HardFault_Handler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:47     .text.HardFault_Handler:00000000 HardFault_Handler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:63     .text.MemManage_Handler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:70     .text.MemManage_Handler:00000000 MemManage_Handler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:86     .text.BusFault_Handler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:93     .text.BusFault_Handler:00000000 BusFault_Handler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:109    .text.UsageFault_Handler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:116    .text.UsageFault_Handler:00000000 UsageFault_Handler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:132    .text.DebugMon_Handler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:139    .text.DebugMon_Handler:00000000 DebugMon_Handler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:152    .text.TIM1_UP_TIM16_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:159    .text.TIM1_UP_TIM16_IRQHandler:00000000 TIM1_UP_TIM16_IRQHandler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:179    .text.TIM1_UP_TIM16_IRQHandler:0000000c $d
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:184    .text.USART2_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:191    .text.USART2_IRQHandler:00000000 USART2_IRQHandler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:211    .text.USART2_IRQHandler:0000000c $d
-                            *COM*:00000078 P2_UART
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:216    .text.USART3_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:223    .text.USART3_IRQHandler:00000000 USART3_IRQHandler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:243    .text.USART3_IRQHandler:0000000c $d
-                            *COM*:00000078 P3_UART
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:248    .text.UART5_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:255    .text.UART5_IRQHandler:00000000 UART5_IRQHandler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:275    .text.UART5_IRQHandler:0000000c $d
-                            *COM*:00000078 P1_UART
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:280    .text.SPI1_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:287    .text.SPI1_IRQHandler:00000000 SPI1_IRQHandler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:307    .text.SPI1_IRQHandler:0000000c $d
-                            *COM*:00000064 P3_SPI
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:312    .text.SPI2_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:319    .text.SPI2_IRQHandler:00000000 SPI2_IRQHandler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:339    .text.SPI2_IRQHandler:0000000c $d
-                            *COM*:00000064 P2_SPI
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:344    .text.SPI3_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:351    .text.SPI3_IRQHandler:00000000 SPI3_IRQHandler
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:371    .text.SPI3_IRQHandler:0000000c $d
-                            *COM*:00000064 P1_SPI
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:376    .text.EXTI15_10_IRQHandler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cc78awu6.s:383    .text.EXTI15_10_IRQHandler:00000000 EXTI15_10_IRQHandler
-                            *COM*:00000064 FLASH_SPI
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:18     .text.NMI_Handler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:26     .text.NMI_Handler:00000000 NMI_Handler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:40     .text.HardFault_Handler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:47     .text.HardFault_Handler:00000000 HardFault_Handler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:63     .text.MemManage_Handler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:70     .text.MemManage_Handler:00000000 MemManage_Handler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:86     .text.BusFault_Handler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:93     .text.BusFault_Handler:00000000 BusFault_Handler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:109    .text.UsageFault_Handler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:116    .text.UsageFault_Handler:00000000 UsageFault_Handler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:132    .text.DebugMon_Handler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:139    .text.DebugMon_Handler:00000000 DebugMon_Handler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:152    .text.TIM1_UP_TIM16_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:159    .text.TIM1_UP_TIM16_IRQHandler:00000000 TIM1_UP_TIM16_IRQHandler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:179    .text.TIM1_UP_TIM16_IRQHandler:0000000c $d
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:184    .text.USART2_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:191    .text.USART2_IRQHandler:00000000 USART2_IRQHandler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:211    .text.USART2_IRQHandler:0000000c $d
                             *COM*:00000078 BLE_UART
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:216    .text.USART3_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:223    .text.USART3_IRQHandler:00000000 USART3_IRQHandler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:243    .text.USART3_IRQHandler:0000000c $d
+                            *COM*:00000078 P3_UART
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:248    .text.UART5_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:255    .text.UART5_IRQHandler:00000000 UART5_IRQHandler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:275    .text.UART5_IRQHandler:0000000c $d
+                            *COM*:00000078 P1_UART
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:280    .text.SPI1_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:287    .text.SPI1_IRQHandler:00000000 SPI1_IRQHandler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:307    .text.SPI1_IRQHandler:0000000c $d
+                            *COM*:00000064 P3_SPI
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:312    .text.SPI2_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:319    .text.SPI2_IRQHandler:00000000 SPI2_IRQHandler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:339    .text.SPI2_IRQHandler:0000000c $d
+                            *COM*:00000064 P2_SPI
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:344    .text.SPI3_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:351    .text.SPI3_IRQHandler:00000000 SPI3_IRQHandler
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:371    .text.SPI3_IRQHandler:0000000c $d
+                            *COM*:00000064 P1_SPI
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:376    .text.EXTI15_10_IRQHandler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccb2RABh.s:383    .text.EXTI15_10_IRQHandler:00000000 EXTI15_10_IRQHandler
+                            *COM*:00000064 FLASH_SPI
+                            *COM*:00000078 P2_UART
                             *COM*:00000078 USB_UART
 
 UNDEFINED SYMBOLS

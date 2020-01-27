@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
   27:../../applications/lorawan-example/src/lorawan-example.c ****   * 4. This software, including modifications and/or derivative works of this 
   28:../../applications/lorawan-example/src/lorawan-example.c ****   *    software, must execute solely and exclusively on microcontroller or
   29:../../applications/lorawan-example/src/lorawan-example.c ****   *    microprocessor devices manufactured by or for STMicroelectronics.
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 2
 
 
   30:../../applications/lorawan-example/src/lorawan-example.c ****   * 5. Redistribution and use of this software other than as permitted under 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
   84:../../applications/lorawan-example/src/lorawan-example.c **** /**
   85:../../applications/lorawan-example/src/lorawan-example.c ****   * @brief  The application entry point.
   86:../../applications/lorawan-example/src/lorawan-example.c ****   * @retval int
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 3
 
 
   87:../../applications/lorawan-example/src/lorawan-example.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  141:../../applications/lorawan-example/src/lorawan-example.c **** 
  142:../../applications/lorawan-example/src/lorawan-example.c ****   /* Create the thread(s) */
  143:../../applications/lorawan-example/src/lorawan-example.c **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 4
 
 
  144:../../applications/lorawan-example/src/lorawan-example.c ****   osThreadDef(murata_rx_processing, murata_process_rx_response, osPriorityNormal, 0, 512);
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
   30              		.loc 1 197 1 view -0
   31              		.cfi_startproc
   32              		@ args = 0, pretend = 0, frame = 8
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 5
 
 
   33              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
   76              		.loc 1 208 5 is_stmt 1 view .LVU16
   77              		.loc 1 208 9 is_stmt 0 view .LVU17
   78 002a 0321     		movs	r1, #3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 6
 
 
   79 002c 6846     		mov	r0, sp
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  115              		.cfi_def_cfa_offset 4
  116              		@ sp needed
  117 0056 5DF804FB 		ldr	pc, [sp], #4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 7
 
 
  118              	.LVL10:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  166              		@ args = 0, pretend = 0, frame = 0
  167              		@ frame_needed = 0, uses_anonymous_args = 0
  168              		.loc 1 229 1 is_stmt 0 view .LVU35
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 8
 
 
  169 0000 08B5     		push	{r3, lr}
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  211              	.LFE131:
  213              		.section	.text.murata_process_rx_response,"ax",%progbits
  214              		.align	1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 9
 
 
  215              		.global	murata_process_rx_response
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  246              		.loc 1 248 23 is_stmt 0 view .LVU54
  247 000a 4FF0FF31 		mov	r1, #-1
  248 000e 0120     		movs	r0, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 10
 
 
  249 0010 FFF7FEFF 		bl	ulTaskNotifyTake
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  268:../../applications/lorawan-example/src/lorawan-example.c ****   }
  269:../../applications/lorawan-example/src/lorawan-example.c **** }
  291              		.loc 1 269 1 view .LVU63
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 11
 
 
  292 0008 08BD     		pop	{r3, pc}
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  340              		@ frame_needed = 0, uses_anonymous_args = 0
  341 0000 30B5     		push	{r4, r5, lr}
  342              	.LCFI7:
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 12
 
 
  343              		.cfi_def_cfa_offset 12
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  388              		.loc 1 287 3 discriminator 1 view .LVU80
  389 003a 21B1     		cbz	r1, .L30
  288:../../applications/lorawan-example/src/lorawan-example.c ****     {
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 13
 
 
  289:../../applications/lorawan-example/src/lorawan-example.c ****         printf("%02x", *p);
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  434 0078 30000000 		.word	.LC6
  435 007c 00000000 		.word	short_UID
  436 0080 44000000 		.word	.LC7
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 14
 
 
  437 0084 50000000 		.word	.LC8
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  484              		.loc 1 121 3 view .LVU99
  121:../../applications/lorawan-example/src/lorawan-example.c **** 
  485              		.loc 1 121 15 is_stmt 0 view .LVU100
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 15
 
 
  486 001e D4E90001 		ldrd	r0, [r4]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  527              		.loc 1 154 3 view .LVU113
  528 0058 3046     		mov	r0, r6
  529 005a FFF7FEFF 		bl	IWDG_feed
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 16
 
 
  530              	.LVL50:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  571 0098 0121     		movs	r1, #1
  572 009a 01A8     		add	r0, sp, #4
  573 009c FFF7FEFF 		bl	osTimerCreate
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 17
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 17
 
 
  574              	.LVL55:
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  622              		.align	1
  623              		.global	HAL_TIM_PeriodElapsedCallback
  624              		.syntax unified
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 18
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 18
 
 
  625              		.thumb
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  653              	.LVL62:
  654              	.L43:
  317:../../applications/lorawan-example/src/lorawan-example.c ****   }
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 19
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 19
 
 
  655              		.loc 1 317 5 is_stmt 1 view .LVU140
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  700              		.comm	P3_header,44,4
  701              		.comm	P2_header,44,4
  702              		.comm	P1_header,44,4
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 20
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 20
 
 
  703              		.comm	FLASH_SPI,100,4
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  761 0000 6D757261 		.ascii	"murata not initialized, not sending\015\000"
  761      7461206E 
  761      6F742069 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 21
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 21
 
 
  761      6E697469 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  791 0058 0D0A0D00 		.ascii	"\015\012\015\000"
  792              		.section	.rodata.str1.4,"aMS",%progbits,1
  793              		.align	2
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 22
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 22
 
 
  794              	.LC0:
@@ -1301,44 +1301,44 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 1
  827              		.file 30 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_gpio.h"
  828              		.file 31 "../../core/platform/octa/inc/sysclock.h"
  829              		.file 32 "../../core/platform/common/inc/platform.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 23
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 23
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 lorawan-example.c
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:18     .text.LoRaWAN_send:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:26     .text.LoRaWAN_send:00000000 LoRaWAN_send
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:146    .text.LoRaWAN_send:0000006c $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:18     .text.LoRaWAN_send:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:26     .text.LoRaWAN_send:00000000 LoRaWAN_send
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:146    .text.LoRaWAN_send:0000006c $d
                             *COM*:00000004 txMutexId
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:154    .text.check_modules:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:161    .text.check_modules:00000000 check_modules
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:207    .text.check_modules:00000024 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:154    .text.check_modules:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:161    .text.check_modules:00000000 check_modules
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:207    .text.check_modules:00000024 $d
                             *COM*:00000008 short_UID
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:214    .text.murata_process_rx_response:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:221    .text.murata_process_rx_response:00000000 murata_process_rx_response
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:264    .text.HAL_UART_RxCpltCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:271    .text.HAL_UART_RxCpltCallback:00000000 HAL_UART_RxCpltCallback
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:303    .text.HAL_UART_RxCpltCallback:00000010 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:214    .text.murata_process_rx_response:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:221    .text.murata_process_rx_response:00000000 murata_process_rx_response
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:264    .text.HAL_UART_RxCpltCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:271    .text.HAL_UART_RxCpltCallback:00000000 HAL_UART_RxCpltCallback
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:303    .text.HAL_UART_RxCpltCallback:00000010 $d
                             *COM*:00000078 P3_UART
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:308    .text.vApplicationIdleHook:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:315    .text.vApplicationIdleHook:00000000 vApplicationIdleHook
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:328    .text.printWelcome:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:335    .text.printWelcome:00000000 printWelcome
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:432    .text.printWelcome:00000070 $d
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:444    .text.main:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:451    .text.main:00000000 main
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:603    .text.main:000000c0 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:308    .text.vApplicationIdleHook:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:315    .text.vApplicationIdleHook:00000000 vApplicationIdleHook
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:328    .text.printWelcome:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:335    .text.printWelcome:00000000 printWelcome
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:432    .text.printWelcome:00000070 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:444    .text.main:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:451    .text.main:00000000 main
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:603    .text.main:000000c0 $d
                             *COM*:00000004 murata_rx_processing_handle
                             *COM*:00000004 iwdgTimId
                             *COM*:00000004 loraWANTimId
                             *COM*:00000004 moduleCheckTimId
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:622    .text.HAL_TIM_PeriodElapsedCallback:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:629    .text.HAL_TIM_PeriodElapsedCallback:00000000 HAL_TIM_PeriodElapsedCallback
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:663    .text.HAL_TIM_PeriodElapsedCallback:00000014 $d
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:668    .text.Error_Handler:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:675    .text.Error_Handler:00000000 Error_Handler
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:756    .bss.lora_init:00000000 lora_init
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:750    .bss.LoRaWAN_Counter:00000000 LoRaWAN_Counter
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:622    .text.HAL_TIM_PeriodElapsedCallback:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:629    .text.HAL_TIM_PeriodElapsedCallback:00000000 HAL_TIM_PeriodElapsedCallback
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:663    .text.HAL_TIM_PeriodElapsedCallback:00000014 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:668    .text.Error_Handler:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:675    .text.Error_Handler:00000000 Error_Handler
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:756    .bss.lora_init:00000000 lora_init
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:750    .bss.LoRaWAN_Counter:00000000 LoRaWAN_Counter
                             *COM*:00000004 threadToNotify
                             *COM*:00000004 murata_reset_pin
                             *COM*:00000004 murata_wakeup_pin
@@ -1361,7 +1361,7 @@ C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:750    .bss.LoRaWAN_Counter:0000000
                             *COM*:00000078 USB_UART
                             *COM*:00000010 hiwdg
                             *COM*:00000008 P3_DIO6
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s 			page 24
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s 			page 24
 
 
                             *COM*:00000008 P3_DIO5
@@ -1381,14 +1381,14 @@ C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:750    .bss.LoRaWAN_Counter:0000000
                             *COM*:00000008 P1_DIO3
                             *COM*:00000008 P1_DIO2
                             *COM*:00000008 P1_DIO1
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:736    .rodata:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:746    .bss.LoRaWAN_Counter:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:757    .bss.lora_init:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:759    .rodata.LoRaWAN_send.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:763    .rodata.check_modules.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:767    .rodata.main.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:774    .rodata.printWelcome.str1.4:00000000 $d
-C:\Users\yvesk\AppData\Local\Temp\cceRc7Pe.s:793    .rodata.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:736    .rodata:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:746    .bss.LoRaWAN_Counter:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:757    .bss.lora_init:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:759    .rodata.LoRaWAN_send.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:763    .rodata.check_modules.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:767    .rodata.main.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:774    .rodata.printWelcome.str1.4:00000000 $d
+C:\Users\yvesk\AppData\Local\Temp\cc4TBZwN.s:793    .rodata.str1.4:00000000 $d
 
 UNDEFINED SYMBOLS
 osMutexWait

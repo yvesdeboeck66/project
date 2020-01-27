@@ -169,7 +169,7 @@ void LSM303AGR_initDouble(){
 
 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_SRC, 0x20 , 0); //double click enable
 
-	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_THS, 0x20 , 0);	//set treshold  
+	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_THS, 0x1A , 0);	//set treshold  
 
 	LSM303AGR_writeRegister(LSM303AGR_ACC_CLICK_LATENCY, 0x00 , 0);  //set how long the interrupt lasts, we set minimum duration. 
 

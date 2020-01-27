@@ -48,7 +48,10 @@
   */
 /* USER CODE END Header */
 
-/* Includes ------------------------------------------------------------------*/
+
+/* ---------------------------------------------------------------------------*/
+/* -----------------------------Includes and defines--------------------------------------*/
+/* ---------------------------------------------------------------------------*/
 #include "murata-dualstack-example-ns.h"
 
 /* Private includes ----------------------------------------------------------*/
@@ -83,6 +86,10 @@
 
 /* USER CODE END PM */
 
+/* ---------------------------------------------------------------------------*/
+/* ----------------------------- Variables-----------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 uint16_t LoRaWAN_Counter = 0;
@@ -97,12 +104,15 @@ extern volatile uint8_t failureCounter=0;
 extern volatile uint8_t successCounter=0;
 extern volatile uint8_t messageCounter=0; 
 extern volatile _Bool isActiveSending=0; 
+extern volatile _Bool succes=0;
+volatile _Bool about_to_sleep= 0; 
 
 float SHTData[2];
 volatile uint8_t tmpbuf_ble[2];
 uint8_t gewicht=0;
 uint8_t data; 
 uint8_t val =0;
+uint8_t loracounter=0; 
 volatile _Bool temperatureflag=0; 
 volatile _Bool timer2flag=0; 
 volatile _Bool timer3flag=0; 
@@ -114,6 +124,7 @@ _Bool volatile messageMode=0;
 volatile _Bool timer3_first=0; 
 volatile _Bool timer4_first=0;
 volatile _Bool BLE_flag=0;
+volatile _Bool lorawanflag=0;
 
 
 /* USER CODE END 0 */
@@ -128,9 +139,9 @@ static TIM_HandleTypeDef inactive_timer = {
     .Instance = TIM3
 };
 
-static TIM_HandleTypeDef send_sleepmessage_timer = { 
+/* static TIM_HandleTypeDef send_sleepmessage_timer = { 
     .Instance = TIM4
-};
+}; */
  
 void InitializeTimer2()
 {
@@ -151,7 +162,7 @@ void InitializeTimer3()
     __TIM3_CLK_ENABLE();
     inactive_timer.Init.Prescaler = 16000;                            //1 step = clockperiod x prescaler
     inactive_timer.Init.CounterMode = TIM_COUNTERMODE_UP;             //timer will count up
-    inactive_timer.Init.Period = 60000;                                 //60000 steps of clockperiodxprescaler before the timer resets. we want 1min, but it always gives 1.07. 
+    inactive_timer.Init.Period = 30000;                                 //60000 steps of clockperiodxprescaler before the timer resets. we want 1min, but it always gives 1.07. 
     inactive_timer.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
     inactive_timer.Init.RepetitionCounter = 0;
     HAL_TIM_Base_Init(&inactive_timer);
@@ -160,7 +171,7 @@ void InitializeTimer3()
     HAL_NVIC_EnableIRQ(TIM3_IRQn); 
 }
 
-void InitializeTimer4()
+/* void InitializeTimer4()
 {
     __TIM4_CLK_ENABLE();
     inactive_timer.Init.Prescaler = 16000;                            //1 step = clockperiod x prescaler
@@ -173,6 +184,12 @@ void InitializeTimer4()
     HAL_NVIC_SetPriority(TIM4_IRQn, 0, 0); 
     HAL_NVIC_EnableIRQ(TIM4_IRQn); 
 }
+
+
+
+/* ---------------------------------------------------------------------------*/
+/* ----------------------------- Main -----------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
 
 /**
   * @brief  The application entry point.
@@ -225,6 +242,11 @@ int main(void)
   HAL_NVIC_SetPriority(EXTI1_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(EXTI1_IRQn);
 
+  HAL_NVIC_SetPriority(EXTI0_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI0_IRQn);
+
+
+
   // Print Welcome Message
   printWelcome();
   
@@ -238,68 +260,46 @@ int main(void)
 
 
   /* USER CODE END 2 */
+HAL_Delay(2000);
+quickBlink(); 
 
-  /* USER CODE BEGIN RTOS_MUTEX */
-  /* add mutexes, ... */
-
-  // TX MUTEX ensuring no transmits are happening at the same time
-
-  /* USER CODE END RTOS_MUTEX */
-
-  /* USER CODE BEGIN RTOS_SEMAPHORES */
-  /* add semaphores, ... */
-  /* USER CODE END RTOS_SEMAPHORES */
-
-  /* Create the thread(s) */
-
-  /* USER CODE BEGIN RTOS_TIMERS */
-  /* start timers, add new ones, ... */
-
-  //feed IWDG every 5 seconds
-  //IWDG_feed(NULL);
-
-  /* USER CODE END RTOS_TIMERS */
-
-  /* USER CODE BEGIN RTOS_THREADS */
-  /* add threads, ... */
-
-  /* USER CODE END RTOS_THREADS */
-
-  /* USER CODE BEGIN RTOS_QUEUES */
-  /* add queues, ... */
-  /* USER CODE END RTOS_QUEUES */
-
-  /* Start scheduler */
-
-  /* We should never get here as control is now taken by the scheduler */
-  //HAL_Delay(10000);
-  /* Infinite loop */
+ 
   uint8_t counter = 0;
   uint8_t use_lora = 1;
   uint8_t timerValue = 0; 
   /* USER CODE BEGIN WHILE */
+
+  /* while(1) {
+    LoRaWAN_send(NULL); 
+    HAL_Delay(5000);
+    IWDG_feed(NULL);
+  } */
+
   while (1)
   { 
     while(isActiveSending) {
-     IWDG_feed(NULL);
-    //HAL_Delay(5000);
-    if(murata_data_ready)
-    {
-      printf("processing murata fifo\r\n");
-      murata_data_ready = !Murata_process_fifo();
+    IWDG_feed(NULL);
+    HAL_Delay(5000);
+      if(murata_data_ready)
+        {
+          //printf("processing murata fifo\r\n");
+          murata_data_ready = !Murata_process_fifo();
+        }
+
     }
 
-  }
 
-
-    //------gekopieerd van no-scheduler-example------
      IWDG_feed(NULL); 
     
-    //LSM303AGR_readRegister(0x31, data, 0);
-
-    //als op de button wordt gedrukt zal in de interrupthandler de changeAcceleroMode op 1 worden gezet. 
+    //In standaard modus staat de changeAcceleroMode op 0, dit zorgt ervoor dat voor de minste beweging
+    //het toestel wakker wordt en het zijn locatie begint te verzenden.
+    //als op de button wordt gedrukt door de gebruiker zal in de interrupthandler de changeAcceleroMode
+    // op 1 worden gezet. Ook wordt de repMode vlag getoggled. Elke keer als er op de knop wordt gedrukt
+    //zijn er dus twee mogelijkheden: 
+    //1) changeAcceleroMode=1 + repMode=1 : gebruiker wil starten met reppen, de acc zal nu enkel rep bewegingen detecteren
+    //2) changeAcceleroMode=1 + repMode=0 : gebruiker wil stoppen met reppen, de default changeAcceleroMode (=0) wordt hersteld.
     if(changeAcceleroMode==1){
-
+    
       if(repMode==1){
         // send dash7 message with all info when user starts repping
         LSM303AGR_initDouble();         //vanaf nu laten we de accelorometer enkel interrupten bij een rep beweging
@@ -310,8 +310,7 @@ int main(void)
           temp_hum_measurement();
           send_message(1);
           //LoRaWAN_send(NULL);
-          printf("Failure counter = %d\r\n",failureCounter);
-
+         
         //TODO: Send BLE info
         }
         
@@ -344,8 +343,8 @@ int main(void)
     if (repFlag==1) {
       if (repMode==1) {
       // Request to enter SLEEP mode
-      timerValue = __HAL_TIM_GET_COUNTER(&localisation_timer);
-      printf("Timer value: %d,\r\n\r\n",timerValue);
+      //timerValue = __HAL_TIM_GET_COUNTER(&localisation_timer);
+      //printf("Timer value: %d,\r\n\r\n",timerValue);
       rep_counter++; 
       printf("Rep counter: %d,\r\n\r\n",rep_counter);
       } 
@@ -359,8 +358,6 @@ int main(void)
 
         HAL_TIM_Base_Start_IT(&inactive_timer);         
 
-      
-      
           repFlag=0; 
     }  
 
@@ -368,52 +365,89 @@ int main(void)
     //Als een periode van onze localisationtimer is verlopen genereert dit een interrupt en wordt de timer2flag gezet. 
     //Dit wil zeggen dat we wakker moeten worden en een message moeten zenden. 
     if(timer2flag==1) {
+      printf("Localisation timer elapsed\r\n");
        //send dash7 localisation message
-      if (murata_init) {
-        printf("Sending dash7 localisation message (once per minute)\r\n\r\n");
-          temp_hum_measurement();
-        send_message(1);
-         
+      if (!repMode) {
+        if (murata_init) {
+          printf("Sending dash7 localisation message (once per minute)\r\n\r\n");
+            temp_hum_measurement();
+          send_message(1);
+          
+        }
       }
      timer2flag=0;
     }
-    // go to sleep
-     if(timer3flag==1) {
-      
+
+    // Als het device een bepaalde periode inactief is (er wordt geen beweging gedetecteerd), maakt hij zich klaar
+    // om naar slaapstand te gaan. Hij stuurt nog eerst een laatste localisatie bericht.    
+    if(timer3flag==1) {
       if (murata_init) {
         printf("Inactive timer expired, sending last message\r\n\r\n");
         temp_hum_measurement();
         send_message(1); 
-        __HAL_TIM_SET_COUNTER(&send_sleepmessage_timer, 0);
-        HAL_TIM_Base_Start_IT(&send_sleepmessage_timer);  
-        
+        about_to_sleep = 1; 
+        //__HAL_TIM_SET_COUNTER(&send_sleepmessage_timer, 0);
+        //HAL_TIM_Base_Start_IT(&send_sleepmessage_timer);  
+        //timerValue = __HAL_TIM_GET_COUNTER(&localisation_timer);
+        //printf("Timer value: %d,\r\n\r\n",timerValue);
       }
      timer3flag=0;
     } 
 
-    if (timer4flag==1) {
-    HAL_TIM_Base_Stop_IT(&inactive_timer);    
-    __HAL_TIM_SET_COUNTER(&inactive_timer, 0);
+    // Bij het verzenden van het dash7 bericht wordt gecheckt of het versturen een succes was, indien dit het geval is
+    // maar het toestel is niet van plan naar slaapstand te gaan, wordt de succes vlag gewoon terug op 0 gezet. 
+    if (succes && !about_to_sleep) {
+      if (failureCounter > 0) {
+        printf("Failure counter = %d\r\n",failureCounter);
+      }
+      succes = 0; 
+    }
+
+
+    // Als het verzenden van een bericht een succes was én dit was het laatste bericht dat de aankomende slaapstand aangeeft,
+    // dan gaan we effectief naar slaapstand. Op vergewissen we ons dat ook het laatste bericht nog is verstuurd alvorens te gaan slapen. 
+
+    if (  about_to_sleep) { //succes && weggedaan
+    //HAL_TIM_Base_Stop_IT(&inactive_timer);    
+    //__HAL_TIM_SET_COUNTER(&inactive_timer, 0);
+    repMode = 0;
+    rep_counter = 0; 
     goToSleep(); 
+    send_message(1);
+    about_to_sleep = 0;
     }
 
     //als drie keer geen gateways konden bereikt worden, zetten we de messagemode die in sendmessage() gebruikt wordt naar lorawan. 
-    //vanaf dan beginnen we het aantal succesvolle verzendingen via dash7 te zenden
+    //vanaf dan beginnen we het aantal succesvolle verzendingen via lorawan te zenden
     if (failureCounter==3) {
       printf("Going to LoRaWAN mode\r\n\r\n");
       messageMode=1;      //go to lorawanmode
-      successCounter=0;
-      failureCounter=4; 
+      successCounter=0;   //we zetten de dash7 succescounter terug op 0
+      failureCounter=4;   //we zetten de failure counter op een andere waarde dan 3 zodat dit blok niet constant herhaald wordt in de while-loop
+                          
     }
 
-    //vanaf opnieuw 1 succesvolle dash7 verzendingen zijn gebeurt (?) zijn gaan we terug swichten naar dash7 mode
+      
+    // als we drie lorawan messages hebben verzonden checken we nogmaals of de dash7 gateways niet terug bereikbaar zijn door 
+    // terug naar dash7 mode te gaan. 
+    if (loracounter==3) {
+      printf("Check again for dash7 \r\n\r\n");
+      messageMode=0;      //ga naar dash7 mode
+      loracounter=0;      //zet de lorawan message counter terug op 0
+      failureCounter=0;   // NOG TOEGEVOEGD
+    }
+
+    //vanaf opnieuw 1 succesvolle dash7 verzendingen zijn gebeurd (?)  gaan we terug swichten naar dash7 mode
      if (successCounter==1) {
-      printf("Going to dash7 mode\r\n\r\n");
+      printf("\nGoing to dash7 mode\r\n\r\n");
       messageMode=0;        //go to dash7mode
       successCounter=2;     //step over the 1 value so that between messages this if isn't accessed with every iteration of the while loop
+                            // deze counter wordt terug op 0 gezet vanaf er terug 3 keer gefailed wordt een gateway te bereiken
     }
 
 
+    // als de bluetooth module iets aankrijgt wordt een interrupt gegenereerd die de BLE_flag zet, vervolgens zal hier 
+    // de data ontvangen worden via de receive functie en wordt de data in de tmpbuf_ble geplaatst worden voor verdere verwerking.
     if (BLE_flag) {
       ble_callback(); 
       HAL_UART_Receive_IT(&BLE_UART, (uint8_t *)tmpbuf_ble, sizeof(tmpbuf_ble)); 
@@ -421,6 +455,10 @@ int main(void)
     }
 
     
+    if (lorawanflag) {
+      LoRaWAN_send(NULL);
+      lorawanflag=0; 
+    }
 
     /* USER CODE END WHILE */
     
@@ -445,8 +483,12 @@ void goToSleep(void) {
 //----------------------------------------------------------start send message methods--------------------------------------------------------------------------------------------
 
 void send_message(uint8_t type) {
-  isActiveSending = 1; 
-  if (messageMode==0) {                 //dash7mode
+
+   quickBlink();
+   //messageMode = 1 ; 
+   isActiveSending = 1;
+   if (messageMode==0) {  //dash7mode    
+   printf("dlskfjmdfms")   ;
     switch (type) {
       case 1:
       messageCounter++;
@@ -464,9 +506,10 @@ void send_message(uint8_t type) {
     }
   } else {                               //lorawanmode
       LoRaWAN_send(NULL);  
-      Dash7_send_temphum(); 
-      printf("sending out of reach lorawan message\r\n");
-  }
+      loracounter++;
+      //Dash7_send_temphum(); 
+      printf("sending lorawan message\r\n");
+  }  
 }
 
 
@@ -504,80 +547,9 @@ void LoRaWAN_send(void const *argument)
   }
 }
 
-
-void LoRaWAN_send_self()
-{
-  if (murata_init)
-  {
-    uint8_t loraMessage[5];
-    uint8_t i = 0;
-    //uint16 counter to uint8 array (little endian)
-    //counter (large) type byte
-
-    //first data transfer works, but afterwards it stays in a kind of 'transmitted' loop. Find where we can reset the flag.
-    loraMessage[i++] = SHTData[0];
-    loraMessage[i++] = SHTData[1];
-    loraMessage[i++] = LoRaWAN_Counter >> 8;
-   // osMutexWait(txMutexId, osWaitForever);
-    if(!Murata_LoRaWAN_Send((uint8_t *)loraMessage, i))
-    {
-      printf("tis ni gelukt :( ");
-      murata_init++;
-      if(murata_init == 10)
-        murata_init == 0;
-    }
-    else
-    {
-      murata_init = 1;
-    }
-    //BLOCK TX MUTEX FOR 3s
-    // osDelay(3000);
-    // osMutexRelease(txMutexId);
-    LoRaWAN_Counter++;
-  }
-  else{
-    printf("murata not initialized, not sending\r\n");
-  }
-}
-
-
-void Dash7_send(void const *argument)
-{
-  if (murata_init)
-  {
-    uint8_t dash7Message[5];
-    uint8_t i = 0;
-    //uint16 counter to uint8 array (little endian)
-    //counter (large) type byte
-    dash7Message[i++] = 0x14;
-    dash7Message[i++] = DASH7_Counter;
-    dash7Message[i++] = DASH7_Counter >> 8;
-    dash7Message[i++] = 0x00;
-    dash7Message[i++] = 0x00;
-    dash7Message[i++] = 0x00;
-    //osMutexWait(txMutexId, osWaitForever);
-    if(!Murata_Dash7_Send((uint8_t *)dash7Message, i))
-    {
-      murata_init++;
-      if(murata_init == 10)
-        murata_init == 0;
-    }
-    else
-    {
-      murata_init = 1;
-    }
-    //BLOCK TX MUTEX FOR 3s
-    //osDelay(3000);
-    //osMutexRelease(txMutexId);
-    DASH7_Counter++;
-  }
-  else{
-    printf("murata not initialized, not sending\r\n");
-  }
-}
-
 void Dash7_send_temphum(void const *argument)
 {
+
   if (murata_init)
   {
     uint8_t dash7Message[5];
@@ -648,7 +620,10 @@ void Dash7_send_allInfo(void const *argument)
   }
 }
 
+
 //----------------------------------------------------------------------end send message methods---------------------------------------------------------------------------------------
+
+//----------------------------------------------------------------------  start extra methods   ---------------------------------------------------------------------------------------
 
 void print_temp_hum(void){
   printf("\r\n");
@@ -668,9 +643,11 @@ void ble_callback() {
 //tmpbuf_ble[1] = tmpbuf_ble[1] - 48;
 val = ( 10 * (tmpbuf_ble[0] - '0')) + tmpbuf_ble[1] - '0'; 
 printf("%d\r\n",val); 
+if (val == 0) {
+  LoRaWAN_send(NULL); 
+}
 //printf("callback 2 \r\n");
 }
-
 
 
 void vApplicationIdleHook(){
@@ -683,7 +660,7 @@ void printWelcome(void)
 {
   printf("\r\n");
   printf("*****************************************\r\n");
-  printf("Murata Dual Stack example without scheduler\r\n");
+  printf("DE SMARTHALTER DELUXE\r\n");
   printf("*****************************************\r\n");
   printf("\r\n");
   char UIDString[sizeof(short_UID)];
@@ -699,6 +676,14 @@ void printWelcome(void)
   HAL_GPIO_TogglePin(OCTA_BLED_GPIO_Port, OCTA_BLED_Pin);
 }
 
+void quickBlink(void){
+  HAL_GPIO_TogglePin(OCTA_RLED_GPIO_Port, OCTA_RLED_Pin);
+    HAL_Delay(500);
+    HAL_GPIO_TogglePin(OCTA_RLED_GPIO_Port, OCTA_RLED_Pin);
+}
+
+//----------------------------------------------------------------------  end extra methods   ---------------------------------------------------------------------------------------
+
 /* USER CODE END 4 */
 
 //-------------------------------------------------------start interrupt handlers -----------------------------------------------------------------------------------------------------
@@ -709,20 +694,31 @@ void printWelcome(void)
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
   if (GPIO_Pin==GPIO_Pin_13) {
   repFlag = 1; 
-  printf("interrupt accelerometer! \r\n");
+  printf("movement detected! \r\n");
   // we work with a flag so as to make sure that we don't stay in the callback for too long. This will cause disruption. 
   // the flag will call the measurement function in de while loop
   } 
 }
 
 void EXTI1_IRQHandler(void){
+  printf("INTERRUPT BUTTON! \r\n");
+
+ 
     //Start reps
     __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_1);
-    printf("INTERRUPT BUTTON! \r\n");
+    //printf("INTERRUPT BUTTON! \r\n");
     repMode= !repMode;
     changeAcceleroMode=1;
     //Change registers of accelero
 }
+
+void EXTI0_IRQHandler(void){
+    
+    __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_0);
+    lorawanflag = 1; 
+    printf("INTERRUPT BUTTON! \r\n");
+}
+
 
 void TIM2_IRQHandler( void ) {
 
@@ -737,7 +733,7 @@ void TIM2_IRQHandler( void ) {
     __HAL_TIM_CLEAR_IT(&localisation_timer, TIM_IT_UPDATE);
     
     
-    printf("elapsed period \r\n");
+    //printf("elapsed period \r\n");
     timer2flag = 1; 
     
     
@@ -772,7 +768,7 @@ void TIM3_IRQHandler( void ) {
 }
 
 
-void TIM4_IRQHandler( void ) {
+/* void TIM4_IRQHandler( void ) {
 
   //printf("elapsed period \r\n");
  
@@ -784,17 +780,17 @@ void TIM4_IRQHandler( void ) {
     
     __HAL_TIM_CLEAR_IT(&send_sleepmessage_timer, TIM_IT_UPDATE);
     
-    if (timer4_first>0) {
+    //if (timer4_first>0) {
     printf("elapsed sleepmessage period s \r\n");
     timer4flag = 1; 
     
-    }
-    timer4_first=1; 
+    //}
+    //timer4_first=1; 
     }
   
   }
  
-}
+} */
 
 
 // UART RX CALLBACK

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 1
    9:../../core/platform/octa/src/rtosmacros.c ****     configASSERT(xTaskToNotify != NULL);
   48              		.loc 1 9 5 view .LVU5
   49 0008 78B1     		cbz	r0, .L6
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s 			page 2
 
 
   50              		.loc 1 9 40 discriminator 2 view .LVU6
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 1
   90              		.file 2 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h"
    1:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** /*
    2:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h ****  * FreeRTOS Kernel V10.0.1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s 			page 3
 
 
    3:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h ****  * Copyright (C) 2017 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 1
   57:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** typedef unsigned long UBaseType_t;
   58:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
   59:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #if( configUSE_16_BIT_TICKS == 1 )
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s 			page 4
 
 
   60:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	typedef uint16_t TickType_t;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 1
  114:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
  115:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** /* Tickless idle/low power functionality. */
  116:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** #ifndef portSUPPRESS_TICKS_AND_SLEEP
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s 			page 5
 
 
  117:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	extern void vPortSuppressTicksAndSleep( TickType_t xExpectedIdleTime );
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 1
  171:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** uint32_t ulCurrentInterrupt;
  172:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** BaseType_t xReturn;
  173:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s 			page 6
 
 
  174:../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h **** 	/* Obtain the number of the currently executing interrupt. */
@@ -358,19 +358,19 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 1
  122              		.file 3 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
  123              		.file 4 "c:\\program files (x86)\\gnu tools arm embedded\\8 2019-q3-update\\arm-none-eabi\\include
  124              		.file 5 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/include/task.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s 			page 7
 
 
  125              		.file 6 "../../core/ST/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h"
  126              		.file 7 "../../core/platform/octa/inc/FreeRTOSConfig.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s 			page 8
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 rtosmacros.c
-C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s:18     .text.RTOS_Send_Notification:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s:26     .text.RTOS_Send_Notification:00000000 RTOS_Send_Notification
-C:\Users\yvesk\AppData\Local\Temp\ccyDWMyC.s:116    .text.RTOS_Send_Notification:0000003c $d
+C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s:18     .text.RTOS_Send_Notification:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s:26     .text.RTOS_Send_Notification:00000000 RTOS_Send_Notification
+C:\Users\yvesk\AppData\Local\Temp\cc3coCsh.s:116    .text.RTOS_Send_Notification:0000003c $d
 
 UNDEFINED SYMBOLS
 vTaskNotifyGiveFromISR

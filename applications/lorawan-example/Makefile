@@ -7,7 +7,7 @@ PLATFORM ?= octa
 # Add shields used in application
 # Murata
 SHIELDS += Murata
-MURATA_CONNECTOR = 3
+MURATA_CONNECTOR = 1
 LORAWAN_APPLICATION = iowttn
 
 # Path to the octa-stack base directory:

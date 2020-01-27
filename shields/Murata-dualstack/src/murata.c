@@ -6,6 +6,7 @@ struct OCTA_header murataHeader;
 extern volatile uint8_t failureCounter;
 extern volatile uint8_t successCounter; 
 extern volatile _Bool isActiveSending; 
+extern volatile _Bool succes; 
 
 session_config_t session_config_lora =
     {
@@ -51,6 +52,7 @@ modem_callbacks_t modem_callbacks = {
 
 void on_modem_command_completed_callback(bool with_error, uint8_t tag_id)
 {
+    HAL_Delay(20);
     printf("Murata modem command with tag %i completed (success = %i)\r\n", tag_id, !with_error);
     if (with_error) {
         failureCounter++;
@@ -58,7 +60,9 @@ void on_modem_command_completed_callback(bool with_error, uint8_t tag_id)
         failureCounter=0;
         successCounter++;
         if (successCounter>1000) successCounter =2; 
-    }   
+         
+    }
+    succes=1;   
     isActiveSending=0;
 
     
@@ -86,7 +90,7 @@ void on_modem_interface_status_callback(alp_itf_id_t interface_type, uint8_t* da
     else if(interface_type==ALP_ITF_ID_D7ASP)
     {
         d7ap_session_result_t interface_status = *((d7ap_session_result_t*)data);
-        printf("Dash7 interface status: channel.header =  %d, channel.center_freq_index = %d, rx_level = %d, link_budget = %d, link_quality = %d, target_rx_level = %d, fifo_token = %d, seqnr = %d, response_to = %d, response_expected = %d \r\n",
+        /* printf("Dash7 interface status: channel.header =  %d, channel.center_freq_index = %d, rx_level = %d, link_budget = %d, link_quality = %d, target_rx_level = %d, fifo_token = %d, seqnr = %d, response_to = %d, response_expected = %d \r\n",
                                 interface_status.channel.channel_header, 
                                 interface_status.channel.center_freq_index, 
                                 interface_status.rx_level,
@@ -96,8 +100,16 @@ void on_modem_interface_status_callback(alp_itf_id_t interface_type, uint8_t* da
                                 interface_status.fifo_token,
                                 interface_status.seqnr,
                                 interface_status.response_to,
-                                interface_status.response_expected);
+                                interface_status.response_expected); */
+
+
+        printf("Dash7 interface status: link_budget = %d \r\n",
+                                interface_status.link_budget);
     }
+
+   
+
+
 
 
 }

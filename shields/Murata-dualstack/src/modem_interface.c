@@ -303,7 +303,7 @@ bool process_rx_fifo(void *arg)
         parsed_header = true;
         fifo_skip(&rx_fifo, SERIAL_FRAME_HEADER_SIZE);
         payload_len = header[SERIAL_FRAME_SIZE];
-        printf("UART RX, payload size = %i\r\n", payload_len);
+        //printf("UART RX, payload size = %i\r\n", payload_len);
         return false;
     }
   }
