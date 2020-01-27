@@ -84,3 +84,5 @@ The Smart dumbbell is designed to work as low power as possible. This is achieve
 
 The device is tested and validated for different use cases and shows to be very robust to changes in usage time with respect to power battery lifetime. A minimum lifetime of 150 hours is guaranteed. 
 
+![The Smart Dumbbell Deluxe](documentation/images/SmartDumbbell2.jpg)
+
