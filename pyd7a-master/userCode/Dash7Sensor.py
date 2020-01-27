@@ -157,7 +157,6 @@ def locationConverter(param):
 
 def location():
     global lastSentCounter, msgCounter, measurement, readyToSend
-    print("Test")
 
     for i in range(len(measurement)):
         if(measurement[i] == 0):
@@ -172,7 +171,6 @@ def location():
     location = estimation(neighbors, k)
     x, y = locationConverter(str(location))
 
-    print("Test")
     # Get information out of message
 
     then = datetime.datetime.now()
@@ -212,7 +210,6 @@ def location():
             reps = "0"
             ctr = ctr - 1
 
-    print("Test")
     tbMessage="{\""+gateway_name_D7+"\":[{\"ts\":"+timeStamp+",\"values\": {\"Temperature\": "+temp+",\"Humidity\":"+hum+",\"Reps\":"+reps+",\"Name\":"+name+",\"Weight\":"+weight+",\"goToSleep\":"+goToSleep+",\"x\":"+str(x)+",\"y\":"+ str(y)+",\"stolen\":"+"False"+"}}]}"
 
 
@@ -262,7 +259,7 @@ def on_message(client, userdata, message):
     # Condition : New Message came in before previous was correctly handled & before timer: Stop timer & send to mongoDB
     if(currentCounter > (lastSentCounter+1)):
         if(msgCounter > 0):
-            print("Previous measurement ("+str(lastSentCounter+1)+") not fully received. Only got "+str(msgCounter)+"/4 messages. Pushing data to mongoDB!")
+            print("Previous measurement ("+str(lastSentCounter+1)+") not fully received. Only got "+str(msgCounter)+"/4 messages.")
             timer.cancel()
             location()
         else:
@@ -278,7 +275,7 @@ def on_message(client, userdata, message):
         print("Starting timer")
         timer = threading.Timer(5.0, location)
         timer.start()
-        print("...")
+
 
     msgCounter = msgCounter + 1
     print("Message from " + gw_name)
@@ -305,8 +302,7 @@ mqtt_client_lora.connect()
 
 
 trainingSet = getmongodata()
-print(trainingSet[0])
-print(trainingSet[0]['RSSI'])
+
 k = 9
 readyToSend = False
 lastSentCounter = -1
