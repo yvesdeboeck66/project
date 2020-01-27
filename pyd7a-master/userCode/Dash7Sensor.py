@@ -141,7 +141,7 @@ def locationConverter(param):
         "39" : [0.523, 0.661],
         "40" : [0.592, 0.485],
         "41" : [0.592, 0.571],
-        "42" : [0.592, 0.661],
+        "42" : [0.592, 0.661]
     }
     a = cases.get(param, {0,0})
     return a
@@ -170,7 +170,7 @@ def location():
     dictmeasurement = {"RSSI": measurement}
     neighbors = getNeighborsDB(trainingSet, dictmeasurement, k)
     location = estimation(neighbors, k)
-    x, y = locationConverter(location)
+    x, y = locationConverter(str(location))
 
     print("Test")
     # Get information out of message
@@ -250,7 +250,6 @@ def on_message(client, userdata, message):
     payload_linkBudget = payload.interface_status.operation.operand.interface_status.link_budget
     currentCounter = payload_data[3]
 
-    print("Link budget: "+ str(payload_linkBudget))
 
 
 
@@ -291,6 +290,7 @@ def on_message(client, userdata, message):
         print("Got message from all four gateways. Pushing data to mongoDB.")
         timer.cancel()
         location()
+
 
 def on_message_lora(msg, client):
     then = datetime.datetime.now()
