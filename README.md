@@ -43,3 +43,31 @@ Temperature and humidity are measured using a HTS221-sensor. Bluetooth connectio
 
 
 ## Server
+
+Before going any further, we assume the necessary infrastructure such as Dash7 gateways and LoRaWAN gateways have been setup correctly in your gym.
+
+Concerning server side implementation it is rather easy to setup. The Dash7Sensor.py file contains the code that initializes the connections, listens to the messages, estimates the location and sends the information to thingsboard. However, before running this code on your server, you must build your database for determining the reference locations where the user can be located. Therefore, download mongodb on your server and setup the collections that you will be using. For building your database, use the DatabaseFill.py file that will allow you to map Received Signal Strength values to a location in your gym.
+Don't forget to adjust the collection name in the DatabaseFill.py file.
+
+If you have build this database, you can use the Dash7Sensor.py code. Some further explanation considering this code follows beneath.
+Note: This file is compiled in python 2.7
+
+1. Subscribe to mqtt broker of the things network to listen to LoRaWAN messages.
+2. Load the data from your database.
+3. Subscribe to the Dash7 devices you have.
+4. Wait until a message arrives.
+   On arrival of a Dash7 message:
+      Save the payload, check message counter and timer (if not first message).
+   Start localisation if all messages have been received or when the time exceeded its limit 
+   or when the message counter indicates a new message.
+   
+   On arrival of a LoRaWAN message:
+      This indicates that the device couldn't receive any Dash7 acknowledges and thus swapped to LoRaWAN mode
+      to notify the device has been stolen. This notification is send to thingsboard.
+
+5. Localisation:
+      The RSSI values are used to determine the K Nearest Neighbours in the database using the euclidean distance.
+      Through Classification, the location is estimated.
+6. Send the location with the payload to thingsboard.
+7. Repeat by listening to new messages.
+
