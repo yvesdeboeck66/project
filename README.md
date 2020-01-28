@@ -102,6 +102,3 @@ Gauthier de Borrekens
 
 ### Thingsboard
 Gauthier de Borrekens
-
-### Special thanks 
-Satish 'Satishfier' Singh 
