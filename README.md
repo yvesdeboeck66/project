@@ -86,22 +86,22 @@ The device is tested and validated for different use cases and shows to be very 
 
 ![The Smart Dumbbell Deluxe](documentation/images/SmartDumbbell2.jpg)
 
-### Responsabilities
-## Embedded & Low Power
+## Responsabilities
+### Embedded & Low Power
 Yves de Boeck
 Wouter Jacobin
 
-## kNN Localization
+### kNN Localization
 Mohammad Amir 
 
-## Database 
+### Database 
 Mohammad Amir
 
-## Software
+### Software
 Gauthier de Borrekens
 
-## Thingsboard
+### Thingsboard
 Gauthier de Borrekens
 
-## Special thanks 
+### Special thanks 
 Satish 'Satishfier' Singh 
