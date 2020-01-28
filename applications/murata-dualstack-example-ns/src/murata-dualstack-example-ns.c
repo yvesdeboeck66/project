@@ -125,6 +125,7 @@ volatile _Bool timer3_first=0;
 volatile _Bool timer4_first=0;
 volatile _Bool BLE_flag=0;
 volatile _Bool lorawanflag=0;
+extern volatile _Bool rebooted=0;
 
 
 /* USER CODE END 0 */
@@ -242,8 +243,8 @@ int main(void)
   HAL_NVIC_SetPriority(EXTI1_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(EXTI1_IRQn);
 
-  HAL_NVIC_SetPriority(EXTI0_IRQn, 0, 0);
-  HAL_NVIC_EnableIRQ(EXTI0_IRQn);
+  /* HAL_NVIC_SetPriority(EXTI0_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI0_IRQn); */
 
 
 
@@ -279,13 +280,19 @@ quickBlink();
   { 
     while(isActiveSending) {
     IWDG_feed(NULL);
-    HAL_Delay(5000);
+    
       if(murata_data_ready)
         {
           //printf("processing murata fifo\r\n");
           murata_data_ready = !Murata_process_fifo();
         }
-
+        //HAL_Delay(5000);
+        if (rebooted)
+        {
+          rebooted=0;  
+          messageMode = 0; 
+          send_message(0);  
+        } 
     }
 
 
@@ -455,10 +462,10 @@ quickBlink();
     }
 
     
-    if (lorawanflag) {
+    /* if (lorawanflag) {
       LoRaWAN_send(NULL);
       lorawanflag=0; 
-    }
+    } */
 
     /* USER CODE END WHILE */
     
@@ -485,10 +492,10 @@ void goToSleep(void) {
 void send_message(uint8_t type) {
 
    quickBlink();
-   //messageMode = 1 ; 
+  /*  //messageMode = 1 ; 
    isActiveSending = 1;
    if (messageMode==0) {  //dash7mode    
-   printf("dlskfjmdfms")   ;
+   //printf("dlskfjmdfms");
     switch (type) {
       case 1:
       messageCounter++;
@@ -505,11 +512,12 @@ void send_message(uint8_t type) {
       break;  
     }
   } else {                               //lorawanmode
-      LoRaWAN_send(NULL);  
+      LoRaWAN_send(NULL); 
+      //HAL_Delay(10000); 
       loracounter++;
       //Dash7_send_temphum(); 
-      printf("sending lorawan message\r\n");
-  }  
+      //printf("sending lorawan message\r\n");
+  }    */
 }
 
 
@@ -643,7 +651,8 @@ void ble_callback() {
 //tmpbuf_ble[1] = tmpbuf_ble[1] - 48;
 val = ( 10 * (tmpbuf_ble[0] - '0')) + tmpbuf_ble[1] - '0'; 
 printf("%d\r\n",val); 
-if (val == 0) {
+printf("bluetooth callback");
+if (val == 1) {
   LoRaWAN_send(NULL); 
 }
 //printf("callback 2 \r\n");
@@ -712,12 +721,12 @@ void EXTI1_IRQHandler(void){
     //Change registers of accelero
 }
 
-void EXTI0_IRQHandler(void){
+/* void EXTI0_IRQHandler(void){
     
     __HAL_GPIO_EXTI_CLEAR_IT(GPIO_PIN_0);
     lorawanflag = 1; 
     printf("INTERRUPT BUTTON! \r\n");
-}
+} */
 
 
 void TIM2_IRQHandler( void ) {
@@ -756,7 +765,7 @@ void TIM3_IRQHandler( void ) {
     __HAL_TIM_CLEAR_IT(&inactive_timer, TIM_IT_UPDATE);
     
     if (timer3_first>0) {
-    printf("elapsed period \r\n");
+    //printf("elapsed period \r\n");
     timer3flag = 1; 
     
     }

@@ -7,6 +7,8 @@ extern volatile uint8_t failureCounter;
 extern volatile uint8_t successCounter; 
 extern volatile _Bool isActiveSending; 
 extern volatile _Bool succes; 
+extern volatile _Bool rebooted; 
+
 
 session_config_t session_config_lora =
     {
@@ -118,6 +120,7 @@ void on_modem_reboot_callback(void)
 {
     printf("Murata murata-dual modem has rebooted \r\n");
     modem_reinit();
+    rebooted=1; 
 }
 
 //TODO: use_scheduler in makefiles

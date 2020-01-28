@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
   47              		.cfi_def_cfa_offset 88
   10:../../core/platform/octa/src/gpio.c ****   GPIO_InitTypeDef GPIO_InitStruct = {0};
   48              		.loc 1 10 3 view .LVU1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 2
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 2
 
 
   49              		.loc 1 10 20 is_stmt 0 view .LVU2
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
   98              	.LBE4:
   16:../../core/platform/octa/src/gpio.c ****   __HAL_RCC_GPIOA_CLK_ENABLE();
   99              		.loc 1 16 3 view .LVU18
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 3
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 3
 
 
  100              	.LBB5:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  151 008e 0693     		str	r3, [sp, #24]
  152              		.loc 1 19 3 view .LVU37
  153 0090 069B     		ldr	r3, [sp, #24]
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 4
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 4
 
 
  154              	.LBE8:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
   43:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(BLE_Reset_GPIO_Port, BLE_Reset_Pin, GPIO_PIN_SET);
  185              		.loc 1 43 3 view .LVU43
  186 00ce 0122     		movs	r2, #1
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 5
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 5
 
 
  187 00d0 0221     		movs	r1, #2
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  221 010e 0127     		movs	r7, #1
  222 0110 0897     		str	r7, [sp, #32]
   64:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pull = GPIO_NOPULL;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 6
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 6
 
 
  223              		.loc 1 64 3 is_stmt 1 view .LVU52
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  263              	.LVL12:
   79:../../core/platform/octa/src/gpio.c **** 
   80:../../core/platform/octa/src/gpio.c ****    /*Configure GPIO pin : OCTA_BTN2_Pin */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 7
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 7
 
 
   81:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_BTN2_Pin;
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
   97:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
  302              		.loc 1 97 3 is_stmt 1 view .LVU89
  303              		.loc 1 97 24 is_stmt 0 view .LVU90
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 8
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 8
 
 
  304 017e 0897     		str	r7, [sp, #32]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  343 01a8 0994     		str	r4, [sp, #36]
  113:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  344              		.loc 1 113 3 is_stmt 1 view .LVU111
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 9
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 9
 
 
  345              		.loc 1 113 25 is_stmt 0 view .LVU112
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  128:../../core/platform/octa/src/gpio.c **** 
  129:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin : PF13 (OCTA-FLASH CS)*/
  130:../../core/platform/octa/src/gpio.c ****   GPIO_InitStruct.Pin = OCTA_FLASH_CS_Pin;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 10
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 10
 
 
  385              		.loc 1 130 3 view .LVU130
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  425              	.LVL22:
  145:../../core/platform/octa/src/gpio.c **** 
  146:../../core/platform/octa/src/gpio.c ****   /*Configure GPIO pin Output Level */
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 11
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 11
 
 
  147:../../core/platform/octa/src/gpio.c ****   HAL_GPIO_WritePin(GPIOE, OCTA_FLASH_WP_Pin|OCTA_FLASH_HOLD_Pin, GPIO_PIN_RESET);
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  158:../../core/platform/octa/src/gpio.c ****   P1_DIO5.PIN = P1_DIO5_Pin;
  469              		.loc 1 158 3 is_stmt 1 view .LVU168
  470              		.loc 1 158 15 is_stmt 0 view .LVU169
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 12
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 12
 
 
  471 0244 4FF0200C 		mov	ip, #32
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  513 0280 234F     		ldr	r7, .L3+60
  514 0282 3E60     		str	r6, [r7]
  171:../../core/platform/octa/src/gpio.c ****   P2_DIO5.PIN = P2_DIO5_Pin;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 13
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 13
 
 
  515              		.loc 1 171 3 is_stmt 1 view .LVU192
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  557 02ac 1E4B     		ldr	r3, .L3+84
  558 02ae 1D60     		str	r5, [r3]
  184:../../core/platform/octa/src/gpio.c ****   P3_DIO5.PIN = P3_DIO5_Pin;
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 14
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 14
 
 
  559              		.loc 1 184 3 is_stmt 1 view .LVU216
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  606 0318 00000000 		.word	P3_DIO1
  607 031c 00000000 		.word	P3_DIO2
  608 0320 00000000 		.word	P3_DIO3
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 15
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 15
 
 
  609 0324 00000000 		.word	P3_DIO4
@@ -879,14 +879,14 @@ ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 1
  645              		.file 9 "../../core/platform/octa/inc/gpio.h"
  646              		.file 10 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_pwr_ex.h"
  647              		.file 11 "../../core/ST/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_cortex.h"
-ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s 			page 16
+ARM GAS  C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 gpio.c
-C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s:18     .text.OCTA_GPIO_Init:00000000 $t
-C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s:26     .text.OCTA_GPIO_Init:00000000 OCTA_GPIO_Init
-C:\Users\yvesk\AppData\Local\Temp\ccbG15Mu.s:589    .text.OCTA_GPIO_Init:000002d4 $d
+C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s:18     .text.OCTA_GPIO_Init:00000000 $t
+C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s:26     .text.OCTA_GPIO_Init:00000000 OCTA_GPIO_Init
+C:\Users\yvesk\AppData\Local\Temp\ccN2QAww.s:589    .text.OCTA_GPIO_Init:000002d4 $d
                             *COM*:00000008 P1_DIO1
                             *COM*:00000008 P1_DIO2
                             *COM*:00000008 P1_DIO3
