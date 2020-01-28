@@ -88,7 +88,7 @@ The device is tested and validated for different use cases and shows to be very 
 
 ## Responsabilities
 ### Embedded & Low Power
-Yves de Boeck
+Yves de Boeck  
 Wouter Jacobin
 
 ### kNN Localization
